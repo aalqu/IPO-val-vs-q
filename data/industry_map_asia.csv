@@ -1,0 +1,16 @@
+id,benchmark_region,industry,alternative_industry,benchmark_file_year,rationale
+XIAOMI,China,Electronics (Consumer & Office),Telecom. Equipment,2017,Damodaran China January dataset of the IPO year (file suffix = year-1); business is based in mainland China
+CHINATOWER,China,Telecom. Services,Telecom (Wireless),2017,Damodaran China January dataset of the IPO year (file suffix = year-1); business is based in mainland China
+HAIDILAO,China,Restaurant/Dining,Restaurant,2017,Damodaran China January dataset of the IPO year (file suffix = year-1); business is based in mainland China
+SMOORE,China,Electronics (General),Tobacco,2019,Damodaran China January dataset of the IPO year (file suffix = year-1); business is based in mainland China
+NONGFU,China,Beverage (Soft),Beverage,2019,Damodaran China January dataset of the IPO year (file suffix = year-1); business is based in mainland China
+CNNP,Emerging,Power,Utility (General),2014,China file for 2014 not published; Emerging-markets file of the IPO year
+FII,China,Computers/Peripherals,Electronics (General),2017,Damodaran January dataset of the IPO year (file suffix = year-1); contract maker of servers and network equipment
+CATL_A,China,Electrical Equipment,Auto Parts,2017,Damodaran January dataset of the IPO year (file suffix = year-1); batteries
+MINDRAY,China,Healthcare Products,Medical Supplies,2017,Damodaran January dataset of the IPO year (file suffix = year-1)
+BJSHRAIL,China,Transportation (Railroads),Transportation,2019,Damodaran January dataset of the IPO year (file suffix = year-1)
+COALINDIA,US,Coal,Coal & Related Energy,2009,"No India or Emerging-markets file before the 2011 edition (published Jan 2012, after the IPO), so the US January 2010 file (suffix 09) is used: complete and pre-IPO, but US multiples"
+HAL,India,Aerospace/Defense,Machinery,2017,Damodaran January dataset of the IPO year (file suffix = year-1)
+ZOMATO,India,Retail (Online),Software (Internet),2020,Damodaran January dataset of the IPO year (file suffix = year-1); food-delivery marketplace
+NYKAA,India,Retail (Online),Retail (Special Lines),2020,Damodaran January dataset of the IPO year (file suffix = year-1)
+PAYTM,India,Software (Internet),Information Services,2020,"Damodaran January dataset of the IPO year (file suffix = year-1); payments platform treated as non-financial, as in the deal list"

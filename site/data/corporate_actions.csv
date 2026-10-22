@@ -1,0 +1,9 @@
+ticker,event,ratio,effective,explains,source_url
+CRWD,stock split,4-for-1,2026-07-02,close/adj_close factor of 4.0,https://app.sentisense.ai/stories/crowdstrike-completes-4-for-1-stock-split-surges-over-1-100-percent-since-ipo-07022026
+MQ,reverse split,1-for-4,2026-06-30,close/adj_close factor of 0.25,https://www.nasdaq.com/press-release/marqeta-announces-reverse-stock-split-2026-06-29
+OTLY,ADR ratio change (reverse ADR split),1-for-20,2025-02-18,close/adj_close factor of 0.05,https://www.tipranks.com/news/company-announcements/oatly-announces-adr-ratio-change-to-enhance-market-positioning
+LICI.NS,bonus issue,1:1,2026-05-29,close/adj_close factor of about 2.1 (bonus plus dividends),https://www.businesstoday.in/amp/markets/stocks/story/lic-11-bonus-issue-last-chance-to-buy-shares-today-to-qualify-check-record-date-533470-2026-05-27
+GRPN,reverse split,1-for-20,2020-06,close/adj_close factor of 0.05,
+HLT,reverse split,1-for-3,2017-01,close/adj_close factor of about 0.51 (split plus Park/HGV spin-off adjustment),
+2222.SR,bonus share,1-for-10,2023,close/adj_close factor 1.24-1.67 (bonus plus large dividends; first row also see corrections.csv),
+KMI,dividends,n/a,2011-2026,close/adj_close factor of about 2.0 from 15 years of high dividends,

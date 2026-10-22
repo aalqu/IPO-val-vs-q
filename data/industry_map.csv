@@ -1,0 +1,21 @@
+id,benchmark_region,industry,alternative_industry,benchmark_file_year,rationale
+HCA,US,Medical Services,,2010,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based; pre-2014 files use Damodaran's older industry names
+ZTS,US,Drug,,2012,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based; pre-2014 files use Damodaran's older industry names
+HLT,US,Hotel/Gaming,,2012,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+META,US,Internet,Advertising,2011,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based; pre-2014 files use Damodaran's older industry names
+TWTR,US,Internet,Advertising,2012,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based; pre-2014 files use Damodaran's older industry names
+BABA,Emerging,Retail (Internet),Internet software and services,2013,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based; pre-2014 files use Damodaran's older industry names
+SYF,US,Financial Svcs. (Non-bank & Insurance),Banks (Regional),2013,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+RACE,Europe,Auto & Truck,Retail (Special Lines),2014,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+SNAP,US,Software (Internet),Advertising,2016,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+ZM,US,Software (System & Application),,2018,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+UBER,US,Transportation,Software (Internet),2018,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+WMG,US,Entertainment,,2019,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+SNOW,US,Software (System & Application),,2019,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+ABNB,US,Retail (Online),Hotel/Gaming,2019,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+CPNG,Emerging,Retail (Online),,2020,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+RIVN,US,Auto & Truck,,2020,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+KVUE,US,Household Products,Drugs (Pharmaceutical),2022,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+ARM,Europe,Semiconductor,,2022,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+ARAMCO,Emerging,Oil/Gas (Integrated),,2018,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based
+PORSCHE,Europe,Auto & Truck,,2021,Damodaran January dataset of the IPO year (file suffix = year-1); region = where the business is based

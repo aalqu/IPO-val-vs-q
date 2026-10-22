@@ -1,0 +1,40 @@
+name: reproduce
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install -e ".[test]"
+      - run: make test
+      - run: make results robustness site
+      - name: Results must match the committed files
+        run: git diff --exit-code -- results/headline.json results/robustness.md
+      - uses: actions/upload-artifact@v4
+        if: matrix.python == '3.12'
+        with:
+          name: results-and-site
+          path: |
+            results/
+            site/
+  crosscheck:
+    # Independent rebuild of prices from a second source. Informational: it reports differences, it does not fail the build.
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[fetch]"
+      - run: make crosscheck
+      - uses: actions/upload-artifact@v4
+        with:
+          name: crosscheck
+          path: results/crosscheck.csv

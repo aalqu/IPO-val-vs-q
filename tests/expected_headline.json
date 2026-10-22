@@ -1,0 +1,19 @@
+{
+ "n_deals": 96,
+ "entry_premium_median": 0.1404545454545454,
+ "entry_premium_hit": 0.7582417582417582,
+ "after_median_6m": -0.18993533136868174,
+ "after_median_12m": -0.284746852820366,
+ "after_median_36m": -0.4919118801945196,
+ "after_hit_36m": 0.23809523809523808,
+ "offer_median_36m": -0.3835970048635637,
+ "since_5y_excess_cagr_median": -0.08805751385921357,
+ "since_5y_beat_share": 0.22580645161290322,
+ "profitable_median_36m": -0.09313373253493018,
+ "loss_making_median_36m": -0.5959205334976528,
+ "spearman_ps_36m": 0.038072242781990326,
+ "short_hot_mean_36m": 0.6014535401957215,
+ "short_hot_hit_36m": 0.8846153846153846,
+ "short_basket_hit_36m": 0.7619047619047619,
+ "wait_lockup_mean_12m": 0.06403400501490822
+}

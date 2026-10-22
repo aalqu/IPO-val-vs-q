@@ -1,0 +1,10 @@
+ticker,field,month,source_value,used_value,reason
+KMI,close,2011-02 to 2014-02,"305, 282.30, 258.50 ...",value / 10,Source page showed unadjusted closes 10x too high (KMI priced at $30 and traded near $30); adjusted closes unaffected
+2222.SR,entry price (first month-end close),2019-12,38.78,35.20,Source unadjusted close inconsistent with Aramco's reported first closes; SAR 35.20 used (Argaam: https://www.argaam.com/en/article/articledetail/id/1334668)
+GLEN.L,offer_price units,2011-05,5.30 GBP,530 GBp,Source prices are quoted in pence
+LINE,all prices,2024-07 to 2026-10,no monthly closes,midpoint of monthly high/low,Approximate; dividends excluded; replace with true month-end closes
+LICI.NS,latest month,,labelled current,2026-08,Source's latest row is August 2026
+1876.HK,latest month,,labelled current,2026-09,Source's latest row is September 2026
+TWTR ZNGA NLSN SC WORK XM DIDI HCP GTLB IQ,latest row,,carried forward,dropped,Acquired/delisted or stale; excluded from since-listing returns
+HAL.NS,entry month,2018-03,missing in source,2018-04,"Listed 28 Mar 2018; Yahoo history starts April, so the first month-end used is April"
+0300.HK,entry month,2024-09,missing in source,2024-10,"Midea H listed 17 Sep 2024; code reused from an earlier issuer and no Sep 2024 bar, so the first month-end used is October"

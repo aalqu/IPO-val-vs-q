@@ -1,0 +1,1327 @@
+{
+ "deals_valued": 15,
+ "problems": [],
+ "comparison": [
+  {
+   "family": "Traditional",
+   "strategy": "Dividend yield above industry",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 2,
+   "mean": -0.13398715552121127,
+   "median": -0.13398715552121127,
+   "hit": 0.5,
+   "t": -0.6209146865976714,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Dividend yield above industry",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 2,
+   "mean": -0.30428108815776167,
+   "median": -0.30428108815776167,
+   "hit": 0.0,
+   "t": -61.15699508273325,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Dividend yield above industry",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 2,
+   "mean": -0.39377868353121365,
+   "median": -0.39377868353121365,
+   "hit": 0.0,
+   "t": -2.598735240788873,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Dividend yield above industry",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 2,
+   "mean": -0.5424182997216414,
+   "median": -0.5424182997216414,
+   "hit": 0.0,
+   "t": -12.718400625546373,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Dividend yield above industry",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 2,
+   "mean": -0.2893542682115484,
+   "median": -0.2893542682115484,
+   "hit": 0.0,
+   "t": -1.2274057623979446,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Dividend yield above industry",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 2,
+   "mean": -0.41275071218391535,
+   "median": -0.41275071218391535,
+   "hit": 0.0,
+   "t": -10.11148677717847,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "P/E below industry",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 7,
+   "mean": 1.5848588244467459,
+   "median": 1.6475325529840523,
+   "hit": 0.7142857142857143,
+   "t": 2.337137438839586,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "P/E below industry",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 7,
+   "mean": 0.10611552437488125,
+   "median": 0.16168901616865083,
+   "hit": 0.5714285714285714,
+   "t": 0.8006101845566443,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "P/E below industry",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 7,
+   "mean": 0.961750898558051,
+   "median": 1.2985962591718407,
+   "hit": 0.7142857142857143,
+   "t": 2.3578659984749777,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "P/E below industry",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 7,
+   "mean": -0.11325619911172251,
+   "median": -0.1935786944863327,
+   "hit": 0.2857142857142857,
+   "t": -0.7932991539035451,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "P/E below industry",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 7,
+   "mean": 3.675536957449986,
+   "median": 0.16449882385734305,
+   "hit": 0.5714285714285714,
+   "t": 1.297220102763954,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "P/E below industry",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 7,
+   "mean": 0.8065869690360702,
+   "median": -0.38002712572448627,
+   "hit": 0.2857142857142857,
+   "t": 0.8612130166956901,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/EBITDA below industry",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 4,
+   "mean": 0.8368102363581253,
+   "median": 0.8126702558015814,
+   "hit": 0.5,
+   "t": 1.3933873168588207,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/EBITDA below industry",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 4,
+   "mean": -0.04721775454966892,
+   "median": -0.0368317678558896,
+   "hit": 0.5,
+   "t": -0.3693736149146364,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/EBITDA below industry",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 4,
+   "mean": 0.8199249740238956,
+   "median": 0.7033516886489906,
+   "hit": 0.5,
+   "t": 1.1437792844094798,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/EBITDA below industry",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 4,
+   "mean": -0.13591304404747148,
+   "median": -0.300007989954399,
+   "hit": 0.25,
+   "t": -0.5590953032479274,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/EBITDA below industry",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 4,
+   "mean": 6.210968823393445,
+   "median": 2.8437946202033246,
+   "hit": 0.5,
+   "t": 1.2936695690390223,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/EBITDA below industry",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 4,
+   "mean": 1.7040170291733645,
+   "median": 0.8911878435458757,
+   "hit": 0.5,
+   "t": 1.0930685858417182,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/Sales below industry",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 4,
+   "mean": 0.8368102363581253,
+   "median": 0.8126702558015814,
+   "hit": 0.5,
+   "t": 1.3933873168588207,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/Sales below industry",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 4,
+   "mean": -0.04721775454966892,
+   "median": -0.0368317678558896,
+   "hit": 0.5,
+   "t": -0.3693736149146364,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/Sales below industry",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 4,
+   "mean": 0.8199249740238956,
+   "median": 0.7033516886489906,
+   "hit": 0.5,
+   "t": 1.1437792844094798,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/Sales below industry",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 4,
+   "mean": -0.13591304404747148,
+   "median": -0.300007989954399,
+   "hit": 0.25,
+   "t": -0.5590953032479274,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/Sales below industry",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 4,
+   "mean": 6.210968823393445,
+   "median": 2.8437946202033246,
+   "hit": 0.5,
+   "t": 1.2936695690390223,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "EV/Sales below industry",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 4,
+   "mean": 1.7040170291733645,
+   "median": 0.8911878435458757,
+   "hit": 0.5,
+   "t": 1.0930685858417182,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps value above offer",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 4,
+   "mean": 0.8368102363581253,
+   "median": 0.8126702558015814,
+   "hit": 0.5,
+   "t": 1.3933873168588207,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps value above offer",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 4,
+   "mean": -0.04721775454966892,
+   "median": -0.0368317678558896,
+   "hit": 0.5,
+   "t": -0.3693736149146364,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps value above offer",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 4,
+   "mean": 0.8199249740238956,
+   "median": 0.7033516886489906,
+   "hit": 0.5,
+   "t": 1.1437792844094798,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps value above offer",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 4,
+   "mean": -0.13591304404747148,
+   "median": -0.300007989954399,
+   "hit": 0.25,
+   "t": -0.5590953032479274,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps value above offer",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 4,
+   "mean": 6.210968823393445,
+   "median": 2.8437946202033246,
+   "hit": 0.5,
+   "t": 1.2936695690390223,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps value above offer",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 4,
+   "mean": 1.7040170291733645,
+   "median": 0.8911878435458757,
+   "hit": 0.5,
+   "t": 1.0930685858417182,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "DCF value above offer",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 2,
+   "mean": 3.5522122076638123,
+   "median": 3.5522122076638123,
+   "hit": 1.0,
+   "t": 2.399276631753902,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "DCF value above offer",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 2,
+   "mean": 0.42383057940388535,
+   "median": 0.42383057940388535,
+   "hit": 1.0,
+   "t": 1.6168003813403604,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "DCF value above offer",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 2,
+   "mean": 1.6279601468479035,
+   "median": 1.6279601468479035,
+   "hit": 1.0,
+   "t": 551.0247823443468,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "DCF value above offer",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 2,
+   "mean": -0.21415766120415675,
+   "median": -0.21415766120415675,
+   "hit": 0.0,
+   "t": -3.4312313729901476,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "DCF value above offer",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 2,
+   "mean": 9.811154895354452,
+   "median": 9.811154895354452,
+   "hit": 0.5,
+   "t": 0.9832285145047235,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "DCF value above offer",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 2,
+   "mean": 2.6112141832648312,
+   "median": 2.6112141832648312,
+   "hit": 0.5,
+   "t": 0.7937582150379501,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps and DCF both above offer",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 1,
+   "mean": 2.0716775495710107,
+   "median": 2.0716775495710107,
+   "hit": 1.0,
+   "t": null,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps and DCF both above offer",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 1,
+   "mean": 0.16168901616865083,
+   "median": 0.16168901616865083,
+   "hit": 1.0,
+   "t": null,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps and DCF both above offer",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 1,
+   "mean": 1.6309145695871525,
+   "median": 1.6309145695871525,
+   "hit": 1.0,
+   "t": null,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps and DCF both above offer",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 1,
+   "mean": -0.15174343204725527,
+   "median": -0.15174343204725527,
+   "hit": 0.0,
+   "t": null,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps and DCF both above offer",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 1,
+   "mean": 19.789664215028296,
+   "median": 19.789664215028296,
+   "hit": 1.0,
+   "t": null,
+   "note": ""
+  },
+  {
+   "family": "Traditional",
+   "strategy": "Comps and DCF both above offer",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 1,
+   "mean": 5.9008987922486735,
+   "median": 5.9008987922486735,
+   "hit": 1.0,
+   "t": null,
+   "note": ""
+  },
+  {
+   "family": "Benchmark",
+   "strategy": "Buy every IPO",
+   "entry": "offer",
+   "horizon_m": 6,
+   "trades": 15,
+   "mean": 0.7931965147639052,
+   "median": 0.35125553198106596,
+   "hit": 0.7333333333333333,
+   "t": 2.138824200415258,
+   "note": ""
+  },
+  {
+   "family": "Benchmark",
+   "strategy": "Buy every IPO",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 15,
+   "mean": -0.04222270744928962,
+   "median": -0.11263941270009192,
+   "hit": 0.4,
+   "t": -0.41844130285414655,
+   "note": ""
+  },
+  {
+   "family": "Quant",
+   "strategy": "Short hottest third",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 8,
+   "mean": 0.03627668029165314,
+   "median": 0.10870236735070898,
+   "hit": 0.625,
+   "t": 0.2774234384937322,
+   "note": "short"
+  },
+  {
+   "family": "Quant",
+   "strategy": "Short new-issue basket",
+   "entry": "first month-end",
+   "horizon_m": 6,
+   "trades": 15,
+   "mean": 0.04222270744928962,
+   "median": 0.11263941270009192,
+   "hit": 0.6,
+   "t": 0.41844130285414655,
+   "note": "short"
+  },
+  {
+   "family": "Benchmark",
+   "strategy": "Buy every IPO",
+   "entry": "offer",
+   "horizon_m": 12,
+   "trades": 15,
+   "mean": 0.44010022153049494,
+   "median": 0.46314541558645184,
+   "hit": 0.5333333333333333,
+   "t": 1.7316275441422808,
+   "note": ""
+  },
+  {
+   "family": "Benchmark",
+   "strategy": "Buy every IPO",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 15,
+   "mean": -0.1753008760100868,
+   "median": -0.2765718903610582,
+   "hit": 0.3333333333333333,
+   "t": -1.2829606606166921,
+   "note": ""
+  },
+  {
+   "family": "Quant",
+   "strategy": "Short hottest third",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 8,
+   "mean": 0.2528556845214366,
+   "median": 0.23507529242369546,
+   "hit": 0.75,
+   "t": 1.6473722405525013,
+   "note": "short"
+  },
+  {
+   "family": "Quant",
+   "strategy": "Short new-issue basket",
+   "entry": "first month-end",
+   "horizon_m": 12,
+   "trades": 15,
+   "mean": 0.1753008760100868,
+   "median": 0.2765718903610582,
+   "hit": 0.6666666666666666,
+   "t": 1.2829606606166921,
+   "note": "short"
+  },
+  {
+   "family": "Benchmark",
+   "strategy": "Buy every IPO",
+   "entry": "offer",
+   "horizon_m": 36,
+   "trades": 15,
+   "mean": 1.8542990389756173,
+   "median": 0.16449882385734305,
+   "hit": 0.5333333333333333,
+   "t": 1.3676226896086126,
+   "note": ""
+  },
+  {
+   "family": "Benchmark",
+   "strategy": "Buy every IPO",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 15,
+   "mean": 0.3255653489048411,
+   "median": -0.13699158388589538,
+   "hit": 0.4,
+   "t": 0.7203823181926381,
+   "note": ""
+  },
+  {
+   "family": "Quant",
+   "strategy": "Short hottest third",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 8,
+   "mean": -0.7799634529342597,
+   "median": 0.1450062177584941,
+   "hit": 0.5,
+   "t": -0.9589671724686025,
+   "note": "short"
+  },
+  {
+   "family": "Quant",
+   "strategy": "Short new-issue basket",
+   "entry": "first month-end",
+   "horizon_m": 36,
+   "trades": 15,
+   "mean": -0.3255653489048411,
+   "median": 0.13699158388589538,
+   "hit": 0.6,
+   "t": -0.7203823181926381,
+   "note": "short"
+  },
+  {
+   "family": "Quant",
+   "strategy": "Flip allocation",
+   "entry": "offer",
+   "horizon_m": 1,
+   "trades": 15,
+   "mean": 0.7627635370546441,
+   "median": 0.444672131147541,
+   "hit": 0.7333333333333333,
+   "t": 3.1512023824340267,
+   "note": "raw return, sold at first month-end"
+  },
+  {
+   "family": "Quant",
+   "strategy": "Wait for lock-up, then buy",
+   "entry": "month 6",
+   "horizon_m": 12,
+   "trades": 15,
+   "mean": -0.013993723165580644,
+   "median": -0.06426310826548254,
+   "hit": 0.4666666666666667,
+   "t": -0.14758163556674264,
+   "note": ""
+  }
+ ],
+ "signal_tests": {
+  "comps_gap": {
+   "h6": {
+    "rank_corr_from_offer": {
+     "rho": 0.3678571428571429,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.32857142857142857,
+     "n": 15
+    }
+   },
+   "h12": {
+    "rank_corr_from_offer": {
+     "rho": 0.375,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.22142857142857142,
+     "n": 15
+    }
+   },
+   "h36": {
+    "rank_corr_from_offer": {
+     "rho": 0.28214285714285714,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.22857142857142856,
+     "n": 15
+    }
+   }
+  },
+  "dcf_gap": {
+   "h6": {
+    "rank_corr_from_offer": {
+     "rho": 0.4857142857142857,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.5107142857142857,
+     "n": 15
+    }
+   },
+   "h12": {
+    "rank_corr_from_offer": {
+     "rho": 0.4607142857142857,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.3964285714285714,
+     "n": 15
+    }
+   },
+   "h36": {
+    "rank_corr_from_offer": {
+     "rho": 0.4714285714285714,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.5678571428571428,
+     "n": 15
+    }
+   }
+  },
+  "blended_gap": {
+   "h6": {
+    "rank_corr_from_offer": {
+     "rho": 0.2857142857142857,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.4,
+     "n": 15
+    }
+   },
+   "h12": {
+    "rank_corr_from_offer": {
+     "rho": 0.35714285714285715,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.31785714285714284,
+     "n": 15
+    }
+   },
+   "h36": {
+    "rank_corr_from_offer": {
+     "rho": 0.26785714285714285,
+     "n": 15
+    },
+    "rank_corr_after_listing": {
+     "rho": 0.3892857142857143,
+     "n": 15
+    }
+   }
+  }
+ },
+ "median_gap": {
+  "comps_gap": -0.31555610293210423,
+  "dcf_gap": -0.3652287812394227,
+  "blended_gap": -0.4463922920154039
+ },
+ "deals": [
+  {
+   "id": "COALINDIA",
+   "industry": "Coal",
+   "comps_gap": -0.19117976910003143,
+   "dcf_gap": -0.0399155673311099,
+   "blended_gap": -0.11554766821557066,
+   "multiples": {
+    "equity_value": 1547518.0,
+    "enterprise_value": 1177845.0,
+    "ev_ebitda": 11.47643610739772,
+    "ev_sales": 2.6400053793265754,
+    "pe": 15.736884387361828,
+    "div_yield": 0.012708995953520413,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 8.608835027472367,
+    "ev_sales": 1.9734131696184194,
+    "pe": 16.300694311040367,
+    "div_yield": 0.055465511172094514,
+    "pbv": 4.47591668801712,
+    "wacc": 0.10303254731107453,
+    "op_margin": 0.1601126915551513
+   },
+   "comps_implied": {
+    "ev_ebitda": 1253211.513005533,
+    "ev_sales": 1250116.219158182,
+    "pe": 1602961.3764647765,
+    "div_yield": 354587.91570454236
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.1486636487627363,
+    "wacc_-1pt": 0.10235714191215073,
+    "margin_industry": -0.12440762015977325,
+    "margin_hold": 0.044576485497553
+   }
+  },
+  {
+   "id": "HAL",
+   "industry": "Aerospace/Defense (Emerging file: under 10 India firms)",
+   "comps_gap": 0.6350201335707204,
+   "dcf_gap": -0.3496341839478254,
+   "blended_gap": 0.1426929748114475,
+   "multiples": {
+    "equity_value": 439222.5,
+    "enterprise_value": 322230.5,
+    "ev_ebitda": 9.84571315081887,
+    "ev_sales": 1.7366329109830827,
+    "pe": 16.734198194079323,
+    "div_yield": 0.01792736027867425,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 18.64395135115751,
+    "ev_sales": 1.9182498032263875,
+    "pe": 35.942377515165376,
+    "div_yield": 0.011104294662298222,
+    "pbv": 2.522401873202975,
+    "wacc": 0.09081139843281466,
+    "op_margin": 0.06763244266562408
+   },
+   "comps_implied": {
+    "ev_ebitda": 727171.239820683,
+    "ev_sales": 472921.332738853,
+    "pe": 943379.5826405456,
+    "div_yield": 709104.0214138484
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.40785559307360175,
+    "wacc_-1pt": -0.27328675720985096,
+    "margin_industry": -0.4937553876941474,
+    "margin_hold": -0.20551298020150344
+   }
+  },
+  {
+   "id": "ZOMATO",
+   "industry": "Retail (Online)",
+   "comps_gap": -0.580055284884196,
+   "dcf_gap": -0.8746234636969871,
+   "blended_gap": -0.7273393742905916,
+   "multiples": {
+    "equity_value": 596235.2,
+    "enterprise_value": 463966.49999999994,
+    "ev_ebitda": null,
+    "ev_sales": 23.270580151369998,
+    "pe": null,
+    "div_yield": null,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 12.949867828209774,
+    "ev_sales": 5.924250859218592,
+    "pe": null,
+    "div_yield": 3.0781240188479693e-07,
+    "pbv": 3.388889700221772,
+    "wacc": 0.11348108880138727,
+    "op_margin": -0.24627878871321826
+   },
+   "comps_implied": {
+    "ev_sales": 250385.82120601437
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.8637469977616736,
+    "wacc_-1pt": -0.8893847804976334,
+    "margin_industry": -0.8746234636969871,
+    "margin_hold": -0.8746234636969871
+   }
+  },
+  {
+   "id": "NYKAA",
+   "industry": "Retail (Online)",
+   "comps_gap": -0.8309432477077647,
+   "dcf_gap": -1.874112120929453,
+   "blended_gap": -1.3525276843186087,
+   "multiples": {
+    "equity_value": 532012.5,
+    "enterprise_value": 524827.2,
+    "ev_ebitda": 325.11131759895926,
+    "ev_sales": 21.501380638289152,
+    "pe": 860.1657235246564,
+    "div_yield": null,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 12.949867828209774,
+    "ev_sales": 5.924250859218592,
+    "pe": null,
+    "div_yield": 3.0781240188479693e-07,
+    "pbv": 3.388889700221772,
+    "wacc": 0.11348108880138727,
+    "op_margin": -0.24627878871321826
+   },
+   "comps_implied": {
+    "ev_ebitda": 28090.271635079036,
+    "ev_sales": 151790.3392226666
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -1.792781148793338,
+    "wacc_-1pt": -1.97917445984129,
+    "margin_industry": -2.320019971527434,
+    "margin_hold": -1.4405131785327292
+   }
+  },
+  {
+   "id": "PAYTM",
+   "industry": "Software (Internet) (Emerging file: under 10 India firms)",
+   "comps_gap": -0.8416528284896736,
+   "dcf_gap": -0.9690532578092641,
+   "blended_gap": -0.9053530431494689,
+   "multiples": {
+    "equity_value": 1393845.0,
+    "enterprise_value": 1285936.0,
+    "ev_ebitda": null,
+    "ev_sales": 45.8869540393948,
+    "pe": null,
+    "div_yield": null,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 38.22491798894026,
+    "ev_sales": 4.025207439116862,
+    "pe": null,
+    "div_yield": 0.00379400269840209,
+    "pbv": 6.261352718017626,
+    "wacc": 0.0659933069435047,
+    "op_margin": 0.0192
+   },
+   "comps_implied": {
+    "ev_sales": 220711.41327381093
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.968134900978537,
+    "wacc_-1pt": -0.9698025661456339,
+    "margin_industry": -0.9690532578092641,
+    "margin_hold": -0.9690532578092641
+   }
+  },
+  {
+   "id": "XIAOMI",
+   "industry": "Electronics (Consumer & Office)",
+   "comps_gap": -0.585457286969582,
+   "dcf_gap": -0.8016338413380151,
+   "blended_gap": -0.6935455641537985,
+   "multiples": {
+    "equity_value": 311645.14659899997,
+    "enterprise_value": 292060.24659899995,
+    "ev_ebitda": 47.06474040754169,
+    "ev_sales": 2.5479695615255697,
+    "pe": 57.66721190907072,
+    "div_yield": null,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 17.662609712982324,
+    "ev_sales": 0.8966600138402224,
+    "pe": 40.509967077075714,
+    "div_yield": 0.01742839369758776,
+    "pbv": 1.8613413598027222,
+    "wacc": 0.09824158426690835,
+    "op_margin": 0.02255044457422354
+   },
+   "comps_implied": {
+    "ev_ebitda": 129190.22457391181,
+    "ev_sales": 122364.28508843135,
+    "pe": 218923.96407793256
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.8899707852662341,
+    "wacc_-1pt": -0.6800020148826715,
+    "margin_industry": -1.1163717997234384,
+    "margin_hold": -0.486895882952592
+   }
+  },
+  {
+   "id": "CHINATOWER",
+   "industry": "Telecom. Services (Emerging file: under 10 China firms)",
+   "comps_gap": -0.7875677824863505,
+   "dcf_gap": -0.8762483969532724,
+   "blended_gap": -0.8319080897198114,
+   "multiples": {
+    "equity_value": 185256.600984,
+    "enterprise_value": 274856.500984,
+    "ev_ebitda": 6.81062767262185,
+    "ev_sales": 4.002861734275103,
+    "pe": 95.34565156150282,
+    "div_yield": 0.005244077646031653,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 6.0479426489295784,
+    "ev_sales": 1.8697216859764578,
+    "pe": 20.547813455775305,
+    "div_yield": 0.0381706634739462,
+    "pbv": 1.6707388949888158,
+    "wacc": 0.07760141637986123,
+    "op_margin": 0.1140120277199737
+   },
+   "comps_implied": {
+    "ev_ebitda": 154476.921482851,
+    "ev_sales": 38784.539567573476,
+    "pe": 39924.40154457142,
+    "div_yield": 25451.48319633238
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -1.0283512212138808,
+    "wacc_-1pt": -0.6714575040718437,
+    "margin_industry": -0.8675560751735891,
+    "margin_hold": -0.8849407187329555
+   }
+  },
+  {
+   "id": "HAIDILAO",
+   "industry": "Restaurant/Dining (Emerging file: under 10 China firms)",
+   "comps_gap": -0.6778648158050103,
+   "dcf_gap": -0.3652287812394227,
+   "blended_gap": -0.5215467985222165,
+   "multiples": {
+    "equity_value": 82150.3286,
+    "enterprise_value": 76388.02859999999,
+    "ev_ebitda": 38.318549586155,
+    "ev_sales": 7.181215789869513,
+    "pe": 68.78533751988613,
+    "div_yield": null,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 10.384354770624494,
+    "ev_sales": 1.9381280465664958,
+    "pe": 35.971771567959614,
+    "div_yield": 0.04497730583623935,
+    "pbv": 4.295603830500604,
+    "wacc": 0.09646645857934624,
+    "op_margin": 0.07588118794115467
+   },
+   "comps_implied": {
+    "ev_ebitda": 26463.511235239926,
+    "ev_sales": 26378.55565693713,
+    "pe": 42961.08678361416
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.4728789475706596,
+    "wacc_-1pt": -0.22222993133377644,
+    "margin_industry": -0.6279516433354486,
+    "margin_hold": -0.10250591914339668
+   }
+  },
+  {
+   "id": "SMOORE",
+   "industry": "Electronics (General)",
+   "comps_gap": -0.11404974773647147,
+   "dcf_gap": 0.2934666856335515,
+   "blended_gap": 0.08970846894854001,
+   "multiples": {
+    "equity_value": 65115.89742000001,
+    "enterprise_value": 58316.39742000001,
+    "ev_ebitda": 21.139086316018417,
+    "ev_sales": 7.662522983733215,
+    "pe": 29.954870466464257,
+    "div_yield": 0.010014451552344128,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 20.797258733680774,
+    "ev_sales": 2.2537378248797273,
+    "pe": 49.36473261433322,
+    "div_yield": 0.012734837297735932,
+    "pbv": 3.2691325731628984,
+    "wacc": 0.10669224483950336,
+    "op_margin": 0.05646957815713751
+   },
+   "comps_implied": {
+    "ev_ebitda": 64172.89766860515,
+    "ev_sales": 23951.797090029653,
+    "pe": 107309.05575703757,
+    "div_yield": 51205.99382262496
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": 0.0922067328955889,
+    "wacc_-1pt": 0.5595909879139802,
+    "margin_industry": -0.689756048058303,
+    "margin_hold": 1.276689419325407
+   }
+  },
+  {
+   "id": "NONGFU",
+   "industry": "Beverage (Soft) (Emerging file: under 10 China firms)",
+   "comps_gap": -0.5569065782705231,
+   "dcf_gap": -0.3358780057602847,
+   "blended_gap": -0.4463922920154039,
+   "multiples": {
+    "equity_value": 215409.21165,
+    "enterprise_value": 212504.61165,
+    "ev_ebitda": 26.141544058309755,
+    "ev_sales": 8.846618027975522,
+    "pe": 43.48187558538555,
+    "div_yield": null,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 11.384156066188655,
+    "ev_sales": 1.8792075061316538,
+    "pe": 32.6099504109992,
+    "div_yield": 0.02060138703083511,
+    "pbv": 2.072549921914914,
+    "wacc": 0.04293781137541704,
+    "op_margin": 0.1097245505064724
+   },
+   "comps_implied": {
+    "ev_ebitda": 95446.40466204759,
+    "ev_sales": 48045.04350478845,
+    "pe": 161549.69433609003
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.44425613313299817,
+    "wacc_-1pt": -0.18747750453500034,
+    "margin_industry": -0.6079240464433938,
+    "margin_hold": -0.06383196507717548
+   }
+  },
+  {
+   "id": "CNNP",
+   "industry": "Power",
+   "comps_gap": -0.31555610293210423,
+   "dcf_gap": -2.6256524450697922,
+   "blended_gap": -1.4706042740009482,
+   "multiples": {
+    "equity_value": 52766.706,
+    "enterprise_value": 212770.806,
+    "ev_ebitda": 17.665831354510885,
+    "ev_sales": 11.317174679666183,
+    "pe": 21.34834567301857,
+    "div_yield": 0.014052421616009156,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 8.313627969627495,
+    "ev_sales": 1.9756060598016,
+    "pe": 22.0963062248694,
+    "div_yield": 0.0420917954943345,
+    "pbv": 1.20254330852362,
+    "wacc": 0.06523888859331184,
+    "op_margin": 0.142760698820047
+   },
+   "comps_implied": {
+    "ev_ebitda": -59873.10200821252,
+    "ev_sales": -122861.32315148806,
+    "pe": 54615.4400960097,
+    "div_yield": 17616.259684142125
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -2.7926217423005437,
+    "wacc_-1pt": -2.4097326694979415,
+    "margin_industry": -3.180339821784361,
+    "margin_hold": -2.070965068355223
+   }
+  },
+  {
+   "id": "FII",
+   "industry": "Computers/Peripherals",
+   "comps_gap": 0.9545764960941705,
+   "dcf_gap": -1.044658311534189,
+   "blended_gap": -0.04504090772000924,
+   "multiples": {
+    "equity_value": 271204.28099999996,
+    "enterprise_value": 235947.18099999995,
+    "ev_ebitda": 9.89993710454324,
+    "ev_sales": 0.6654949669138291,
+    "pe": 17.091701391514782,
+    "div_yield": 0.005850940088958257,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 17.71785919230763,
+    "ev_sales": 1.6003421434223835,
+    "pe": 87.5891509724748,
+    "div_yield": 0.015211699753153519,
+    "pbv": 2.6389810781946514,
+    "wacc": 0.10343406145552425,
+    "op_margin": 0.031425992843919996
+   },
+   "comps_implied": {
+    "ev_ebitda": 457530.3817021062,
+    "ev_sales": 602648.6448633312,
+    "pe": 1389829.6119708412,
+    "div_yield": 104314.44386555436
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -1.2395142413795186,
+    "wacc_-1pt": -0.7705956243420744,
+    "margin_industry": -1.622667279462473,
+    "margin_hold": -0.4666493436059047
+   }
+  },
+  {
+   "id": "CATL_A",
+   "industry": "Electrical Equipment",
+   "comps_gap": 0.9818714706800136,
+   "dcf_gap": 1.22342050816748,
+   "blended_gap": 1.1026459894237468,
+   "multiples": {
+    "equity_value": 54614.136000000006,
+    "enterprise_value": 41690.03600000001,
+    "ev_ebitda": 6.561640015109545,
+    "ev_sales": 2.0848249478669194,
+    "pe": 14.083067560598248,
+    "div_yield": 0.0071007257168730084,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 22.35741077412343,
+    "ev_sales": 2.4292840877338957,
+    "pe": 48.36543578450462,
+    "div_yield": 0.011175328331264828,
+    "pbv": 2.6690053176777147,
+    "wacc": 0.10697914130495241,
+    "op_margin": 0.07109354045349156
+   },
+   "comps_implied": {
+    "ev_ebitda": 154974.14509447064,
+    "ev_sales": 61502.25097400594,
+    "pe": 187561.1599723089,
+    "div_yield": 34701.441291444244
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": 0.880976977631722,
+    "wacc_-1pt": 1.6717766843645712,
+    "margin_industry": -0.16216371195638168,
+    "margin_hold": 2.609004728291341
+   }
+  },
+  {
+   "id": "MINDRAY",
+   "industry": "Healthcare Products",
+   "comps_gap": 0.4280488930573634,
+   "dcf_gap": -0.07116329889573347,
+   "blended_gap": 0.17844279708081495,
+   "multiples": {
+    "equity_value": 59326.159999999996,
+    "enterprise_value": 50182.159999999996,
+    "ev_ebitda": 15.069265187231615,
+    "ev_sales": 4.491055862821958,
+    "pe": 22.912930634945155,
+    "div_yield": 0.004364010750063716,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 26.343916015217587,
+    "ev_sales": 5.676264074210382,
+    "pe": 53.81927298602263,
+    "div_yield": 0.008235765969365432,
+    "pbv": 4.133291707422232,
+    "wacc": 0.11818676708533182,
+    "op_margin": 0.1644736369045066
+   },
+   "comps_implied": {
+    "ev_ebitda": 96871.87472227609,
+    "ev_sales": 72569.43951241195,
+    "pe": 139348.86161540978,
+    "div_yield": 31436.055973789196
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.19696402517379685,
+    "wacc_-1pt": 0.09278672598367654,
+    "margin_industry": -0.29540993575262264,
+    "margin_hold": 0.15308333796115559
+   }
+  },
+  {
+   "id": "BJSHRAIL",
+   "industry": "Transportation (Railroads) (Emerging file: under 10 China firms)",
+   "comps_gap": -0.1983603857210149,
+   "dcf_gap": -0.348624884786488,
+   "blended_gap": -0.27349263525375145,
+   "multiples": {
+    "equity_value": 239639.72,
+    "enterprise_value": 220556.52,
+    "ev_ebitda": 12.250689862027595,
+    "ev_sales": 7.0785573071788015,
+    "pe": 23.384047619047617,
+    "div_yield": 0.02138209809292049,
+    "pbv": null
+   },
+   "industry_multiples": {
+    "ev_ebitda": 10.328011693427786,
+    "ev_sales": 3.2407106314064267,
+    "pe": 17.484855004844995,
+    "div_yield": 0.020897960430237728,
+    "pbv": 1.564885452909428,
+    "wacc": 0.09248225905306895,
+    "op_margin": 0.2012366387259528
+   },
+   "comps_implied": {
+    "ev_ebitda": 205024.59132379649,
+    "ev_sales": 120058.558137614,
+    "pe": 179184.79408965152,
+    "div_yield": 245191.39162432184
+   },
+   "dcf_sensitivity": {
+    "wacc_+1pt": -0.4276012437763136,
+    "wacc_-1pt": -0.2417519735916982,
+    "margin_industry": -0.5429943167163924,
+    "margin_hold": -0.1542554528565836
+   }
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+id,name,ticker,region,exchange_ccy,ipo_date,listing_type,offer_price,offer_price_unit_note,mcap_usd_bn_at_offer,ltm_revenue_usd_bn,operating_profit_positive,sector,financial,price_unit_divisor,entry_close_override,note,offer_price_source,valuation_inputs_source,verified
+GM,General Motors,GM,US,USD,2010-11-18,IPO,33,,50,135,1,Autos,0,1,,,,,no
+KMI,Kinder Morgan,KMI,US,USD,2011-02-11,IPO,30,,21,8.2,1,Energy,0,1,,,,,no
+HCA,HCA Healthcare,HCA,US,USD,2011-03-10,IPO,30,,15.6,30.7,1,Healthcare,0,1,,,,,no
+NLSN,Nielsen,NLSN,US,USD,2011-01-26,IPO,23,,8.2,5.1,1,Media/Data,0,1,,,,,no
+GRPN,Groupon,GRPN,US,USD,2011-11-04,IPO,20,,12.7,1.4,0,Internet,0,1,,1-for-20 reverse split 2020,,,no
+ZNGA,Zynga,ZNGA,US,USD,2011-12-16,IPO,10,,7,1.1,1,Internet,0,1,,,,,no
+META,Facebook (Meta),META,US,USD,2012-05-18,IPO,38,,104,3.9,1,Internet,0,1,,,,,no
+ZTS,Zoetis,ZTS,US,USD,2013-02-01,IPO,26,,13,4.3,1,Healthcare,0,1,,,,,no
+TWTR,Twitter,TWTR,US,USD,2013-11-07,IPO,26,,14.2,0.53,0,Internet,0,1,,taken private Oct 2022 at 54.20,,,no
+HLT,Hilton,HLT,US,USD,2013-12-12,IPO,20,,19.7,9.5,1,Leisure,0,1,,1-for-3 reverse split Jan 2017,,,no
+SC,Santander Consumer,SC,US,USD,2014-01-23,IPO,24,,8.3,,1,Financials,1,1,,,,,no
+ALLY,Ally Financial,ALLY,US,USD,2014-04-10,IPO,25,,12,,1,Financials,1,1,,,,,no
+SYF,Synchrony,SYF,US,USD,2014-07-31,IPO,23,,19,,1,Financials,1,1,,,,,no
+BABA,Alibaba,BABA,US,USD,2014-09-19,IPO,68,,168,8.5,1,Internet,0,1,,,,,no
+CFG,Citizens Financial,CFG,US,USD,2014-09-24,IPO,21.5,,12,,1,Financials,1,1,,,,,no
+RACE,Ferrari,RACE,US,USD,2015-10-21,IPO,52,,9.8,3.2,1,Autos,0,1,,,,,no
+SNAP,Snap,SNAP,US,USD,2017-03-02,IPO,17,,24,0.4,0,Internet,0,1,,,,,no
+ATUS,Altice USA,ATUS,US,USD,2017-06-22,IPO,30,,22,9.3,1,Telecom/Media,0,1,,,,,no
+DBX,Dropbox,DBX,US,USD,2018-03-23,IPO,21,,9.2,1.1,0,Software,0,1,,,,,no
+IQ,iQiyi,IQ,US,USD,2018-03-29,IPO,18,,12.7,2.7,0,Internet,0,1,,,,,no
+SPOT,Spotify,SPOT,US,USD,2018-04-03,Direct,132,reference price (direct listing),26.5,5,0,Internet,0,1,,direct listing reference price,,,no
+EQH,AXA Equitable,EQH,US,USD,2018-05-10,IPO,20,,11,,1,Financials,1,1,,,,,no
+PDD,Pinduoduo,PDD,US,USD,2018-07-26,IPO,19,,24,1.3,0,Internet,0,1,,,,,no
+NIO,Nio,NIO,US,USD,2018-09-12,IPO,6.26,,6.4,0.05,0,EV,0,1,,,,,no
+TME,Tencent Music,TME,US,USD,2018-12-12,IPO,13,,21,2.7,1,Internet,0,1,,,,,no
+LYFT,Lyft,LYFT,US,USD,2019-03-29,IPO,72,,24.3,2.2,0,Internet,0,1,,,,,no
+PINS,Pinterest,PINS,US,USD,2019-04-18,IPO,19,,12.7,1,0,Internet,0,1,,,,,no
+ZM,Zoom,ZM,US,USD,2019-04-18,IPO,36,,9.2,0.33,1,Software,0,1,,,,,no
+UBER,Uber,UBER,US,USD,2019-05-10,IPO,45,,82,11.3,0,Internet,0,1,,,,,no
+CRWD,CrowdStrike,CRWD,US,USD,2019-06-12,IPO,34,,6.6,0.25,0,Software,0,1,,,,,no
+CHWY,Chewy,CHWY,US,USD,2019-06-14,IPO,22,,8.8,3.5,0,Internet,0,1,,,,,no
+WORK,Slack,WORK,US,USD,2019-06-20,Direct,26,reference price (direct listing),15.7,0.4,0,Software,0,1,,direct listing; acquired Jul 2021,,,no
+DDOG,Datadog,DDOG,US,USD,2019-09-19,IPO,27,,7.8,0.29,0,Software,0,1,,,,,no
+PTON,Peloton,PTON,US,USD,2019-09-26,IPO,29,,8.1,0.92,0,Consumer,0,1,,,,,no
+WMG,Warner Music,WMG,US,USD,2020-06-03,IPO,25,,12.8,4.5,1,Media/Data,0,1,,,,,no
+RPRX,Royalty Pharma,RPRX,US,USD,2020-06-16,IPO,28,,17,1.8,1,Healthcare,0,1,,,,,no
+LI,Li Auto,LI,US,USD,2020-07-30,IPO,11.5,,10,0.2,0,EV,0,1,,,,,no
+BEKE,Beike (KE Holdings),BEKE,US,USD,2020-08-13,IPO,20,,23.6,6,0,Internet,0,1,,,,,no
+XPEV,XPeng,XPEV,US,USD,2020-08-27,IPO,15,,11,0.1,0,EV,0,1,,,,,no
+SNOW,Snowflake,SNOW,US,USD,2020-09-16,IPO,120,,33,0.4,0,Software,0,1,,,,,no
+U,Unity,U,US,USD,2020-09-18,IPO,52,,13.7,0.7,0,Software,0,1,,,,,no
+PLTR,Palantir,PLTR,US,USD,2020-09-30,Direct,7.25,reference price (direct listing),16,0.9,0,Software,0,1,,direct listing reference price,,,no
+DASH,DoorDash,DASH,US,USD,2020-12-09,IPO,102,,39,2.3,0,Internet,0,1,,,,,no
+ABNB,Airbnb,ABNB,US,USD,2020-12-10,IPO,68,,47,3.6,0,Internet,0,1,,,,,no
+AFRM,Affirm,AFRM,US,USD,2021-01-13,IPO,49,,11.9,0.5,0,Fintech,0,1,,,,,no
+XM,Qualtrics,XM,US,USD,2021-01-28,IPO,30,,15,0.76,0,Software,0,1,,acquired Jun 2023 at 18.15,,,no
+BMBL,Bumble,BMBL,US,USD,2021-02-11,IPO,43,,7.7,0.58,0,Internet,0,1,,,,,no
+RBLX,Roblox,RBLX,US,USD,2021-03-10,Direct,45,reference price (direct listing),29.5,0.92,0,Internet,0,1,,direct listing reference price,,,no
+CPNG,Coupang,CPNG,US,USD,2021-03-11,IPO,35,,60,12,0,Internet,0,1,,,,,no
+COIN,Coinbase,COIN,US,USD,2021-04-14,Direct,250,reference price (direct listing),65,2.9,1,Fintech,0,1,,direct listing reference price,,,no
+APP,AppLovin,APP,US,USD,2021-04-15,IPO,80,,28.6,1.5,1,Software,0,1,,,,,no
+PATH,UiPath,PATH,US,USD,2021-04-21,IPO,56,,29,0.6,0,Software,0,1,,,,,no
+OTLY,Oatly,OTLY,US,USD,2021-05-20,IPO,17,,10,0.45,0,Consumer,0,1,,check reverse split,,,no
+MQ,Marqeta,MQ,US,USD,2021-06-09,IPO,27,,14,0.3,0,Fintech,0,1,,,,,no
+DIDI,Didi Global,DIDI,US,USD,2021-06-30,IPO,14,,68,22,0,Internet,0,1,,delisted NYSE Jun 2022,,,no
+HOOD,Robinhood,HOOD,US,USD,2021-07-29,IPO,38,,32,1.8,0,Fintech,0,1,,,,,no
+TOST,Toast,TOST,US,USD,2021-09-22,IPO,40,,20,1.2,0,Fintech,0,1,,,,,no
+FRSH,Freshworks,FRSH,US,USD,2021-09-22,IPO,36,,10,0.3,0,Software,0,1,,,,,no
+GTLB,GitLab,GTLB,US,USD,2021-10-14,IPO,77,,11,0.2,0,Software,0,1,,,,,no
+RIVN,Rivian,RIVN,US,USD,2021-11-10,IPO,78,,66.5,0.01,0,EV,0,1,,,,,no
+NU,Nubank,NU,US,USD,2021-12-09,IPO,9,,41.5,1.7,0,Fintech,0,1,,,,,no
+HCP,HashiCorp,HCP,US,USD,2021-12-09,IPO,80,,14,0.3,0,Software,0,1,,acquired by IBM Feb 2025,,,no
+IOT,Samsara,IOT,US,USD,2021-12-15,IPO,23,,11.5,0.25,0,Software,0,1,,,,,no
+TPG,TPG,TPG,US,USD,2022-01-13,IPO,29.5,,9,,1,Financials,1,1,,,,,no
+CRBG,Corebridge,CRBG,US,USD,2022-09-15,IPO,21,,13.6,,1,Financials,1,1,,,,,no
+MBLY,Mobileye,MBLY,US,USD,2022-10-26,IPO,21,,17,1.7,0,Autos,0,1,,,,,no
+KVUE,Kenvue,KVUE,US,USD,2023-05-04,IPO,22,,41,15,1,Consumer,0,1,,,,,no
+ARM,Arm Holdings,ARM,US,USD,2023-09-14,IPO,51,,54.5,2.7,1,Semis,0,1,,,,,no
+CART,Instacart,CART,US,USD,2023-09-19,IPO,30,,9.9,2.8,1,Internet,0,1,,,,,no
+KVYO,Klaviyo,KVYO,US,USD,2023-09-20,IPO,30,,9.2,0.6,0,Software,0,1,,,,,no
+BIRK,Birkenstock,BIRK,US,USD,2023-10-11,IPO,46,,8.6,1.6,1,Consumer,0,1,,,,,no
+RDDT,Reddit,RDDT,US,USD,2024-03-21,IPO,34,,6.4,0.8,0,Internet,0,1,,,,,no
+VIK,Viking Holdings,VIK,US,USD,2024-05-01,IPO,24,,10.4,4.7,1,Leisure,0,1,,,,,no
+LINE,Lineage,LINE,US,USD,2024-07-25,IPO,78,,18,5.3,1,Real Estate,0,1,,approx month-end prices (midpoint of monthly range; dividends excluded),,,no
+CRWV,CoreWeave,CRWV,US,USD,2025-03-28,IPO,40,,19,1.9,1,AI Infra,0,1,,,,,no
+CRCL,Circle,CRCL,US,USD,2025-06-05,IPO,31,,6.9,1.7,1,Fintech,0,1,,,,,no
+CHYM,Chime,CHYM,US,USD,2025-06-12,IPO,27,,9.8,1.7,0,Fintech,0,1,,,,,no
+FIG,Figma,FIG,US,USD,2025-07-31,IPO,33,,19.3,0.82,0,Software,0,1,,,,,no
+KLAR,Klarna,KLAR,US,USD,2025-09-10,IPO,40,,15.1,2.8,0,Fintech,0,1,,,,,no
+AIA,AIA Group,1299.HK,Global,HKD,2010-10-29,IPO,19.68,,30.5,,1,Financials,1,1,,,,,no
+GLEN,Glencore,GLEN.L,Global,GBp,2011-05-24,IPO,530,pence,60,145,1,Materials,0,1,,,,,no
+JPH,Japan Post Holdings,6178.T,Global,JPY,2015-11-04,IPO,1400,,52,,1,Financials,1,1,,,,,no
+SHL,Siemens Healthineers,SHL.DE,Global,EUR,2018-03-16,IPO,28,,34.5,16.5,1,Healthcare,0,1,,,,,no
+XIAOMI,Xiaomi,1810.HK,Global,HKD,2018-07-09,IPO,17,,54,17.6,1,Hardware,0,1,,,,,no
+MEITUAN,Meituan,3690.HK,Global,HKD,2018-09-20,IPO,69,,55,6.2,0,Internet,0,1,,,,,no
+SBK,SoftBank Corp,9434.T,Global,JPY,2018-12-19,IPO,1500,,64,33,1,Telecom/Media,0,10,,10-for-1 split Oct 2024,,,no
+ARAMCO,Saudi Aramco,2222.SR,Global,SAR,2019-12-11,IPO,32,,1700,330,1,Energy,0,1,35.20,1-for-10 bonus share 2023,,,no
+BUDAPAC,Budweiser APAC,1876.HK,Global,HKD,2019-09-30,IPO,27,,46,6.5,1,Consumer,0,1,,,,,no
+NONGFU,Nongfu Spring,9633.HK,Global,HKD,2020-09-08,IPO,21.5,,31,3.4,1,Consumer,0,1,,,,,no
+JDH,JD Health,6618.HK,Global,HKD,2020-12-08,IPO,70.58,,29,2.5,1,Internet,0,1,,,,,no
+KUAISHOU,Kuaishou,1024.HK,Global,HKD,2021-02-05,IPO,115,,61,8.8,0,Internet,0,1,,,,,no
+LGES,LG Energy Solution,373220.KS,Global,KRW,2022-01-27,IPO,300000,,59,15,1,Batteries,0,1,,,,,no
+DEWA,Dubai Electricity & Water,DEWA.AE,Global,AED,2022-04-12,IPO,2.48,,34,6,1,Utilities,0,1,,,,,no
+LIC,Life Insurance Corp of India,LICI.NS,Global,INR,2022-05-17,IPO,949,,78,,1,Financials,1,1,,,,,no
+PORSCHE,Porsche AG,P911.DE,Global,EUR,2022-09-29,IPO,82.5,,73,35,1,Autos,0,1,,,,,no
+HYUNDAIIN,Hyundai Motor India,HYUNDAI.NS,Global,INR,2024-10-22,IPO,1960,,19,8.3,1,Autos,0,1,,,,,no

@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Large-Cap IPOs: Valuation vs Quant</title>
+<meta name="description" content="An open, reproducible test of whether traditional valuation or systematic rules better predicted how large-cap IPOs (2010–2025) in the US, global markets, Korea, India, Hong Kong and China performed after listing.">
+<style>
+:root {
+  --bg: #fbfaf7; --panel: #ffffff; --fg: #1d1c1a; --muted: #6b6862; --line: #e4e1da;
+  --accent: #2f6fd6; --grey: #b9b5ac; --neg: #b3402f; --pos: #2e7d4f; --ref: #8a867e;
+  --font: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --serif: ui-serif, Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #171614; --panel: #201f1c; --fg: #ece9e3; --muted: #a29e96; --line: #36332e;
+    --accent: #6b9cf0; --grey: #5e5a53; --neg: #e07a68; --pos: #6cc08f; --ref: #8d897f; }
+}
+:root[data-theme="dark"] { --bg: #171614; --panel: #201f1c; --fg: #ece9e3; --muted: #a29e96; --line: #36332e;
+  --accent: #6b9cf0; --grey: #5e5a53; --neg: #e07a68; --pos: #6cc08f; --ref: #8d897f; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 16px; line-height: 1.55; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; }
+header .kicker { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(28px, 5vw, 44px); line-height: 1.12; margin: 8px 0 12px; }
+.lede { font-size: 18px; color: var(--fg); max-width: 46rem; margin: 0 0 8px; }
+.meta { font-size: 13px; color: var(--muted); margin-bottom: 28px; }
+.meta a { color: inherit; }
+h2 { font-family: var(--serif); font-weight: 400; font-size: 26px; margin: 48px 0 8px; }
+h3 { font-size: 16px; margin: 0 0 4px; }
+p.note, .note { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px; min-width: 0; position: relative; }
+.kpi .v { font-family: var(--serif); font-size: 40px; line-height: 1.1; margin: 6px 0; font-variant-numeric: tabular-nums; }
+.kpi .l { font-size: 13px; color: var(--muted); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 12px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.sw { display: inline-block; width: 11px; height: 11px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+svg text { font-family: var(--font); }
+.callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; margin: 16px 0; max-width: 48rem; }
+.tbl-wrap { overflow: auto; max-height: 560px; border: 1px solid var(--line); border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 10px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+#asia-mk th, #avd th { white-space: normal; vertical-align: bottom; }
+th { position: sticky; top: 0; background: var(--panel); font-weight: 600; z-index: 1; }
+th button { all: unset; cursor: pointer; }
+th:first-child, td:first-child, .l { text-align: left; }
+td.wrapcell { white-space: normal; min-width: 13rem; max-width: 20rem; }
+td.neg { color: var(--neg); } td.pos { color: var(--pos); }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; font-size: 13px; align-items: center; }
+select, input { font: inherit; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg); }
+.tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,.12); padding: 6px 9px; font-size: 12px; display: none; max-width: 260px; z-index: 5; }
+.tip .t1 { color: var(--muted); }
+ol.steps { padding-left: 20px; } ol.steps li { margin: 6px 0; }
+code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
+pre { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; overflow: auto; }
+footer { margin-top: 56px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+a { color: var(--accent); }
+@media print {
+  :root { --bg: #fff; --panel: #fff; --fg: #111; --muted: #555; --line: #ddd; --accent: #2f6fd6; --grey: #b9b5ac; --neg: #a33a2a; --pos: #2a7347; --ref: #888; }
+  body { font-size: 11pt; } .wrap { max-width: none; padding: 0; }
+  .controls, input, select, .tip, .noprint { display: none !important; }
+  .tbl-wrap { max-height: none; overflow: visible; border: none; }
+  th { position: static; } table { font-size: 8.5pt; } th, td { padding: 3px 6px; }
+  .card, .callout, tr { break-inside: avoid; } h2, h3 { break-after: avoid; }
+  .grid2 { grid-template-columns: 1fr; } .kpis { grid-template-columns: repeat(4, 1fr); }
+  a { color: inherit; text-decoration: none; }
+  @page { size: A4; margin: 14mm 12mm; }
+}
+@media (max-width: 640px) { .hide-narrow { display: none; } .kpi .v { font-size: 32px; } #rob th, #rob td, #val th, #vd th, #asia-mk th, #avd th { white-space: normal; padding: 6px; font-size: 12px; } #rob td:first-child { min-width: 9rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">Open research · reproducible</div>
+  <h1>Large-cap IPOs: does valuation or a quant rule tell you more?</h1>
+  <p class="lede" id="lede"></p>
+  <div class="meta">Data snapshot <span id="snap"></span> · version <span id="ver"></span> · <a href="__REPO__">code, data and tests</a> · <a href="data/deal_returns.csv">download results (CSV)</a></div>
+</header>
+
+<section class="kpis" id="kpis"></section>
+
+<h2>What happened after listing</h2>
+<div class="grid2">
+  <div class="card"><h3>The typical deal trailed the index at every horizon</h3>
+    <p class="note">Median return minus benchmark (S&amp;P 500 for US deals, MSCI ACWI for global). Label below each bar: share of deals that beat the index.</p>
+    <div class="legend" id="lg-hz"></div><div id="ch-hz"></div></div>
+  <div class="card"><h3>Systematic rules beat every valuation screen</h3>
+    <p class="note">Share of deals where the rule beat the index (flipping: share above the offer price). Mean excess return at right. Before trading and borrowing costs.</p>
+    <div class="legend" id="lg-rules"></div><div id="ch-rules"></div></div>
+</div>
+
+<h2>Does it survive other specifications?</h2>
+<p class="note">Each row reruns the whole study with one change. Anyone can rerun these with <code>make robustness</code>.</p>
+<div class="callout" id="rob-callout"></div>
+<div class="tbl-wrap"><table id="rob"><thead><tr>
+  <th class="l">Variant</th><th>Deals</th><th>Median 3y excess, after listing</th><th>Beat index, 3y</th><th class="hide-narrow">Median 3y excess, from offer</th><th>Short hottest third: mean 3y</th><th>Right</th><th class="hide-narrow">P/S rank corr.</th>
+</tr></thead><tbody></tbody></table></div>
+
+<h2 id="valuation">Traditional valuation vs quant strategies</h2>
+<p class="note" id="val-note"></p>
+<div class="tbl-wrap" id="val-wrap"><table id="val"><thead><tr>
+  <th class="l">Strategy</th><th class="l">Type</th><th class="l">Entry</th><th>Trades</th>
+  <th>1 month</th><th>6 months</th><th>1 year</th><th>3 years</th>
+</tr></thead><tbody></tbody></table></div>
+<p class="note" style="margin-top:8px">Each cell: mean excess return vs the index (share of trades that beat it). Short positions earn the index return minus the stock's. Flipping is the raw gain from the offer to the first month-end. Before costs.</p>
+<div class="callout" id="val-findings"></div>
+<h3 style="margin-top:24px">How each IPO was valued at its offer price</h3>
+<p class="note">The IPO's multiple at the offer price against its industry (Damodaran, January of the IPO year). Comps and DCF gaps: fair value ÷ offer value − 1; positive = priced cheap.</p>
+<div class="tbl-wrap" id="vd-wrap"><table id="vd"><thead><tr>
+  <th class="l">Deal</th><th>EV/EBITDA (ind.)</th><th>EV/Sales (ind.)</th><th>P/E (ind.)</th><th>Div. yield (ind.)</th><th>Comps gap</th><th>DCF gap</th><th class="l">Traditional rules that buy</th><th>3y vs index</th>
+</tr></thead><tbody></tbody></table></div>
+
+<h2 id="asia">Asia: Korea, India, Hong Kong and China A-shares</h2>
+<p class="note" id="asia-note"></p>
+<div class="callout" id="asia-callout"></div>
+<div class="tbl-wrap"><table id="asia-mk"><thead><tr>
+  <th class="l">Market or variant</th><th>Deals</th><th>1st-month gain</th><th class="hide-narrow">1y excess after listing</th><th>3y excess after listing</th><th>Beat index 3y</th><th class="hide-narrow">3y excess from offer</th><th>Short hottest third, mean 3y</th><th>Right</th>
+</tr></thead><tbody></tbody></table></div>
+<p class="note" style="margin-top:8px">Benchmarks: KOSPI 200 (KODEX 200 ETF) for Korea, Nifty 50 (Nifty BeES) for India, Hang Seng (Tracker Fund) for Hong Kong, CSI 300 for China A-shares; total return in local currency. Market rows re-rank the hottest third within that market.</p>
+<div style="display:grid;gap:12px;margin-top:12px">
+  <div class="card"><h3>Rules across all Asian deals</h3>
+    <p class="note">Share of deals where the rule beat the local index (flipping: share above the offer price). Mean excess at right.</p>
+    <div class="legend" id="lg-arules"></div><div id="ch-arules"></div></div>
+  <div class="card"><h3 id="asia-val-title">Asian valuation pilot: Hong Kong, China A and India</h3>
+    <p class="note" id="asia-val-note"></p>
+    <div class="tbl-wrap"><table id="avd"><thead><tr>
+      <th class="l">Deal</th><th class="l">Market</th><th>EV/EBITDA (ind.)</th><th>P/E (ind.)</th><th>Comps gap</th><th>DCF gap</th><th>1y vs index</th><th>3y vs index</th>
+    </tr></thead><tbody></tbody></table></div></div>
+</div>
+<h3 style="margin-top:20px">Traditional rules vs quant rules on the Asian pilot deals</h3>
+<div class="tbl-wrap" id="aval-wrap"><table id="aval"><thead><tr>
+  <th class="l">Strategy</th><th class="l">Type</th><th class="l">Entry</th><th>Trades</th>
+  <th>1 month</th><th>6 months</th><th>1 year</th><th>3 years</th>
+</tr></thead><tbody></tbody></table></div>
+<p class="note" style="margin-top:8px">Mean excess return vs each deal's local index (share of trades that beat it). Means are dominated by CATL, which beat the CSI 300 by about 20 times its offer price over 3 years; read the share column and treat the whole table as indicative.</p>
+
+<h2>Deal by deal</h2>
+<div class="card"><h3 id="sc-title"></h3>
+  <p class="note">Each dot is one deal: gain from offer to first month-end (x, log-like scale) against excess return over the following 3 years (y).</p>
+  <div class="legend" id="lg-sc"></div><div id="ch-sc"></div></div>
+<div class="controls">
+  <label>Study <select id="f-u"><option value="core">US + global</option><option value="asia">Asia</option><option value="">Both</option></select></label>
+  <label>Region <select id="f-region"><option value="">All</option><option>US</option><option>Global</option><option>Korea</option><option>India</option><option>HK</option><option>ChinaA</option></select></label>
+  <label>Cohort <select id="f-cohort"><option value="">All</option><option>2010-14</option><option>2015-19</option><option>2020-21</option><option>2022-25</option></select></label>
+  <label>Profitable at IPO <select id="f-prof"><option value="">All</option><option value="1">Yes</option><option value="0">No</option></select></label>
+  <input id="f-q" type="search" placeholder="Search deals or sectors" aria-label="Search deals">
+</div>
+<div class="tbl-wrap"><table id="deals"><thead><tr>
+  <th class="l"><button data-k="name">Deal</button></th><th class="l"><button data-k="region">Region</button></th>
+  <th class="l hide-narrow"><button data-k="listed">Listed</button></th><th class="hide-narrow"><button data-k="mcap">Value $bn</button></th>
+  <th class="hide-narrow"><button data-k="ps">P/S</button></th><th><button data-k="prem">1st month</button></th>
+  <th><button data-k="o12">1y vs index</button></th><th><button data-k="o36">3y vs index</button></th>
+  <th class="hide-narrow"><button data-k="a36">3y after listing</button></th>
+</tr></thead><tbody></tbody></table></div>
+<p class="note" style="margin-top:8px">Excess in percentage points vs the index; "1y" and "3y" measured from the offer price (reference price for direct listings, marked DL). Blank = horizon not reached or company acquired.</p>
+
+<h2>Check it yourself</h2>
+<ol class="steps">
+  <li>Get the code and data: <a href="__REPO__">__REPO__</a></li>
+  <li>Run the tests and rebuild every number on this page:
+<pre>pip install -e ".[test]"
+make test        # unit, data-integrity and regression tests
+make results     # writes results/results.json and deal_returns.csv
+make robustness  # the table above
+ipo-study run --universe asia          # Korea, India, Hong Kong, China A
+ipo-study valuation --universe asia    # Hong Kong comps/DCF pilot</pre></li>
+  <li>Rebuild prices from a second source and compare: <code>make crosscheck</code> (downloads from Yahoo Finance).</li>
+  <li>Change an assumption: <code>ipo-study run --min-mcap 10 --region US --exclude-cohort 2020-21 --bootstrap 2000</code></li>
+  <li>Found an error? Open an issue with the deal, the field, the correct value and a source link. Corrections are logged in <code>data/corrections.csv</code>.</li>
+</ol>
+
+<h2>Method and limits</h2>
+<ul>
+  <li><strong>Universe:</strong> 96 listings worth $5bn or more at the offer price, 2010–2025: 79 US (including 5 direct listings) and 17 global. Five deals excluded for lack of monthly prices.</li>
+  <li><strong>Returns:</strong> buy-and-hold total return from month-end closes (adjusted for splits and dividends), minus the benchmark's total return over the same months.</li>
+  <li><strong>Traditional valuation (pilot):</strong> each IPO's EV/EBITDA, EV/Sales, P/E and dividend yield at the offer price (P/B for financials) against Damodaran's industry multiples for the IPO year and region, and a 10-year DCF with the same rules for every deal. Inputs come from the final prospectus (424B4) and SEC XBRL data; every row links to its filing.</li>
+  <li><strong>Simple screens (all 96 deals):</strong> profitability at IPO, price-to-sales against the sample median.</li>
+  <li><strong>Quant rules:</strong> reconstructed from published research (long-run underperformance, hot-issue fade, lock-up expiry, post-lock-up momentum). They are not any fund's actual strategy.</li>
+  <li><strong>Limits of the valuation pilot:</strong> 19 deals (Porsche excluded for lack of sourceable accounts), so each rule trades only a handful; trailing multiples, not the forward multiples bankers emphasise; basic post-IPO share counts (excluding options and RSUs), which flatter Facebook, Snap, Uber and Airbnb.</li>
+  <li><strong>Not yet verified:</strong> for the other 77 deals, offer prices and valuation inputs are approximate and not yet linked to prospectuses. Prices come from one aggregator; the cross-check against a second source has not yet been run.</li>
+  <li><strong>Asia extension (v1.2):</strong> 131 listings worth $5bn+ in Korea, India, Hong Kong (including mainland companies' H-shares; A+H dual listings tagged) and mainland China A-shares, with monthly prices from Yahoo Finance and local index benchmarks. Offer prices, sizes and revenues are approximate and not yet tied to prospectuses. Three deals have no price history (Haitong H merged, ESR taken private, Sinovel delisted); dropping delisted Sinovel flatters China A results slightly.</li>
+  <li><strong>Asian valuation pilot (15 deals):</strong> Hong Kong (Xiaomi, China Tower, Haidilao, Smoore, Nongfu Spring; HKEX prospectuses), China A (CNNP, Foxconn Industrial Internet, CATL, Mindray, Beijing–Shanghai High-Speed Railway; CNINFO prospectuses, Mindray from its annual report because the prospectus is a scanned image) and India (Coal India, HAL, Zomato, Nykaa, Paytm; prospectuses via SEBI, NSE and the lead managers). Industry benchmarks from Damodaran's China and India files, the Emerging-markets file where a country has fewer than 10 firms in the industry, and the US January 2010 file for Coal India (no earlier India file exists). Korea is not yet valued: DART's search blocks automated access, so it needs an OpenDART API key.</li>
+  <li><strong>Not investment advice.</strong> In-sample results, small groups, no costs.</li>
+</ul>
+
+<footer>Code MIT licence; text and results CC BY 4.0. Price data © its providers; see the repository's DATA.md. Cite as: <span id="cite"></span></footer>
+</div>
+<script>
+const D = /*__DATA__*/null;
+(function () {
+  const $ = s => document.querySelector(s);
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const sgn = v => v == null ? '' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(0);
+  const NS = 'http://www.w3.org/2000/svg';
+  const el = (tag, attrs, parent, text) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; if (parent) parent.appendChild(e); return e; };
+  const H = D.headline, pct = v => Math.round(v * 100);
+
+  $('#snap').textContent = D.snapshot; $('#ver').textContent = D.version;
+  $('#cite').textContent = `Large-cap IPOs: traditional valuation vs quant rules, v${D.version} (${D.snapshot}).`;
+  const nv = D.valuation && D.valuation.deals_valued;
+  $('#lede').textContent = `Across ${H.n_deals} IPOs worth $5bn+ (2010–2025), buying after listing lagged the index at every horizon, and simple rules that bet against new issues beat valuation-based buying — though the strongest of them depends heavily on the 2020–21 boom.` +
+    (nv ? ` In a pilot of ${nv} deals valued from their prospectuses with comps (EV/EBITDA, EV/Sales, P/E, dividend yield) and a DCF, the IPOs that traditional valuation rated attractive did not outperform.` : '') +
+    (D.asia ? ` The same lag shows up across ${D.asia.headline.n_deals} large listings in Korea, India, Hong Kong and China.` : '');
+
+  const kpis = [
+    [`+${pct(H.entry_premium_median)}%`, 'Median gain for allocation buyers, offer to first month-end'],
+    [`${sgn(H.after_median_36m * 100)} pts`, 'Median 3-year excess return, bought at first month-end'],
+    [`${pct(H.after_hit_36m)}%`, 'Deals that beat the index over 3 years after listing'],
+    [`${H.spearman_ps_36m >= 0 ? '+' : '−'}${Math.abs(H.spearman_ps_36m).toFixed(2)}`, 'Rank correlation of price-to-sales at offer with 3-year excess (0 = no signal)'],
+  ];
+  kpis.forEach(([v, l]) => { const c = document.createElement('div'); c.className = 'card kpi'; const a = document.createElement('div'); a.className = 'v'; a.textContent = v; const b = document.createElement('div'); b.className = 'l'; b.textContent = l; c.append(a, b); $('#kpis').appendChild(c); });
+
+  function legend(sel, items) { const L = $(sel); L.replaceChildren(); items.forEach(([c, t]) => { const s = document.createElement('span'); const w = document.createElement('span'); w.className = 'sw'; w.style.background = c; s.append(w, document.createTextNode(t)); L.appendChild(s); }); }
+  function tip(box) { box.style.position = 'relative'; let t = box.querySelector('.tip'); if (!t) { t = document.createElement('div'); t.className = 'tip'; box.appendChild(t); }
+    return { show(ev, a, b) { t.replaceChildren(); const x = document.createElement('div'); x.className = 't1'; x.textContent = a; const y = document.createElement('div'); y.textContent = b; t.append(x, y); t.style.display = 'block';
+      const r = box.getBoundingClientRect(); let px = ev.clientX - r.left + 12, py = ev.clientY - r.top + 12; if (px + t.offsetWidth > r.width) px = Math.max(0, px - t.offsetWidth - 24); t.style.left = px + 'px'; t.style.top = py + 'px'; }, hide() { t.style.display = 'none'; } }; }
+
+  function drawHz() {
+    const box = $('#ch-hz'); box.replaceChildren();
+    const rows = D.horizons, hs = [...new Set(rows.map(r => r.horizon))], es = [...new Set(rows.map(r => r.entry))];
+    const col = e => e === es[1] ? css('--accent') : css('--grey');
+    legend('#lg-hz', es.map(e => [col(e), e]));
+    const W = Math.max(300, box.clientWidth), Hh = 300, zero = 34, min = Math.min(...rows.map(r => r.median));
+    const y = v => zero + (v / min) * (Hh - zero - 44);
+    const gw = W / hs.length, bw = Math.min(70, gw * 0.36);
+    const svg = el('svg', { viewBox: `0 0 ${W} ${Hh}`, width: '100%', role: 'img', 'aria-label': 'Median excess return by horizon' }, box);
+    el('line', { x1: 0, x2: W, y1: zero, y2: zero, stroke: css('--ref') }, svg);
+    const T = tip(box);
+    hs.forEach((h, i) => {
+      const cx = gw * i + gw / 2;
+      el('text', { x: cx, y: zero - 10, 'text-anchor': 'middle', 'font-size': 13, 'font-weight': 600, fill: css('--fg') }, svg, h);
+      es.forEach((e, j) => {
+        const r = rows.find(q => q.horizon === h && q.entry === e); const x = cx + (j ? 6 : -6 - bw);
+        const rect = el('rect', { x, y: zero, width: bw, height: Math.max(1, y(r.median) - zero), rx: 3, fill: col(e) }, svg);
+        rect.addEventListener('mousemove', ev => T.show(ev, `${h} · ${e}`, `Median ${sgn(r.median)} pts; ${r.hit}% of ${r.n} deals beat the index`)); rect.addEventListener('mouseleave', T.hide);
+        el('text', { x: x + bw / 2, y: y(r.median) + 16, 'text-anchor': 'middle', 'font-size': 12, 'font-weight': 600, fill: css('--fg') }, svg, sgn(r.median));
+        el('text', { x: x + bw / 2, y: y(r.median) + 31, 'text-anchor': 'middle', 'font-size': 11, fill: css('--muted') }, svg, `beat ${r.hit}%`);
+      });
+    });
+  }
+
+  function drawRules(bsel = '#ch-rules', lsel = '#lg-rules') {
+    const box = $(bsel); box.replaceChildren();
+    const rows = D.rules, col = f => f === 'Quant rule' ? css('--accent') : css('--grey');
+    legend(lsel, [[col('Quant rule'), 'Quant rule'], [col('Traditional'), 'Traditional valuation']]);
+    const W = Math.max(300, box.clientWidth), narrow = W < 560, rh = narrow ? 40 : 28, H = rows.length * rh + 26;
+    const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, width: '100%', role: 'img', 'aria-label': 'Hit rate by rule' }, box);
+    const probe = el('text', { 'font-size': 12 }, svg); let lw = 0;
+    if (!narrow) rows.forEach(r => { probe.textContent = `${r.rule} (${r.horizon})`; lw = Math.max(lw, probe.getComputedTextLength()); }); probe.remove();
+    const x0 = narrow ? 0 : lw + 12, x1 = W - 80, x = v => x0 + v / 100 * (x1 - x0);
+    el('text', { x: x(50), y: 11, 'text-anchor': 'middle', 'font-size': 11, fill: css('--muted') }, svg, '50% = coin flip');
+    el('text', { x: W, y: 11, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }, svg, 'Mean');
+    const T = tip(box);
+    rows.forEach((r, i) => {
+      const top = 20 + i * rh, by = narrow ? top + 16 : top + 4, bh = narrow ? 16 : rh - 9;
+      el('text', narrow ? { x: 0, y: top + 11, 'font-size': 12, fill: css('--fg') } : { x: x0 - 8, y: by + bh / 2 + 4, 'text-anchor': 'end', 'font-size': 12, fill: css('--fg') }, svg, `${r.rule} (${r.horizon})`);
+      const rect = el('rect', { x: x0, y: by, width: x(r.hit) - x0, height: bh, rx: 3, fill: col(r.family) }, svg);
+      el('line', { x1: x(50), x2: x(50), y1: by - 3, y2: by + bh + 3, stroke: css('--ref'), 'stroke-dasharray': '3 2' }, svg);
+      rect.addEventListener('mousemove', ev => T.show(ev, `${r.rule} · ${r.horizon}`, `${r.hit}% of ${r.n} deals; mean ${sgn(r.mean)} pts, median ${sgn(r.median)} pts`)); rect.addEventListener('mouseleave', T.hide);
+      el('text', { x: x(r.hit) + 5, y: by + bh / 2 + 4, 'font-size': 12, 'font-weight': 600, fill: css('--fg') }, svg, `${r.hit}%`);
+      el('text', { x: W, y: by + bh / 2 + 4, 'text-anchor': 'end', 'font-size': 12, fill: css('--muted') }, svg, sgn(r.mean));
+    });
+  }
+
+  function drawRob() {
+    const tb = $('#rob tbody'); tb.replaceChildren();
+    D.robustness.forEach(r => { const tr = document.createElement('tr');
+      [[r.variant, 'l'], [r.n], [sgn(r.after36), r.after36 < 0 ? 'neg' : 'pos'], [r.beat36 + '%'], [sgn(r.offer36), (r.offer36 < 0 ? 'neg' : 'pos') + ' hide-narrow'], [sgn(r.hot_mean), r.hot_mean < 0 ? 'neg' : 'pos'], [r.hot_hit + '%'], [r.rho == null ? '' : (r.rho >= 0 ? '+' : '−') + Math.abs(r.rho).toFixed(2), 'hide-narrow']]
+        .forEach(([t, c]) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); }); tb.appendChild(tr); });
+    const ex = D.robustness.find(r => r.variant.startsWith('Excluding the 2020')), first = D.robustness.find(r => r.variant.startsWith('First half'));
+    $('#rob-callout').textContent = `Robust: buying after listing lagged the index in every variant. Not robust: the hot-deal short. Without the 2020–21 boom it earned ${sgn(ex.hot_mean)} pts on average and was right ${ex.hot_hit}% of the time; for 2010–2018 listings, ${sgn(first.hot_mean)} pts and ${first.hot_hit}%.`;
+  }
+
+  const st = { k: 'listed', dir: -1, u: 'core', region: '', cohort: '', prof: '', q: '' };
+  const filtered = () => D.deals.filter(d => (!st.u || d.u === st.u) && (!st.region || d.region === st.region) && (!st.cohort || d.cohort === st.cohort) && (!st.prof || String(+d.profitable) === st.prof) && (!st.q || (d.name + ' ' + d.sector).toLowerCase().includes(st.q.toLowerCase())));
+
+  function drawScatter() {
+    const box = $('#ch-sc'); box.replaceChildren();
+    legend('#lg-sc', [[css('--accent'), 'Hottest third of priced IPOs'], [css('--grey'), 'Other deals']]);
+    const pts = filtered().filter(d => d.prem != null && d.a36 != null);
+    const hot = pts.filter(d => d.hot).map(d => d.a36).sort((a, b) => a - b), oth = pts.filter(d => !d.hot).map(d => d.a36).sort((a, b) => a - b);
+    const med = a => a.length ? (a.length % 2 ? a[(a.length - 1) / 2] : (a[a.length / 2 - 1] + a[a.length / 2]) / 2) : null;
+    $('#sc-title').textContent = hot.length && oth.length ? `Hottest third: median ${sgn(med(hot))} pts over 3 years, vs ${sgn(med(oth))} for the rest` : 'First-month gain against 3-year excess return';
+    const W = Math.max(300, box.clientWidth), Hh = 360, m = { l: 44, r: 10, t: 10, b: 34 };
+    if (!pts.length) { const p = document.createElement('p'); p.className = 'note'; p.textContent = 'No deals with a 3-year result match these filters.'; box.appendChild(p); return; }
+    const sl = v => Math.sign(v) * Math.log1p(Math.abs(v) / 20);
+    const xs = pts.map(d => d.prem), ys = pts.map(d => d.a36);
+    const xmin = sl(Math.min(-30, ...xs)), xmax = sl(Math.max(100, ...xs)), ymin = Math.min(-160, ...ys) * 1.04, ymax = Math.max(100, ...ys) * 1.06;
+    const X = v => m.l + (sl(v) - xmin) / (xmax - xmin) * (W - m.l - m.r), Y = v => m.t + (ymax - v) / (ymax - ymin) * (Hh - m.t - m.b);
+    const svg = el('svg', { viewBox: `0 0 ${W} ${Hh}`, width: '100%', role: 'img', 'aria-label': 'First-month gain vs 3-year excess return' }, box);
+    [-150, -100, -50, 0, 50, 100, 200, 300, 400].filter(v => v >= ymin && v <= ymax).forEach(v => { el('line', { x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v), stroke: v === 0 ? css('--ref') : css('--line') }, svg); el('text', { x: m.l - 6, y: Y(v) + 4, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }, svg, (v > 0 ? '+' : '') + v); });
+    [-25, 0, 25, 50, 100, 200, 400].filter(v => sl(v) >= xmin && sl(v) <= xmax).forEach(v => el('text', { x: X(v), y: Hh - 16, 'text-anchor': 'middle', 'font-size': 11, fill: css('--muted') }, svg, v + '%'));
+    el('text', { x: W - m.r, y: Hh - 2, 'text-anchor': 'end', 'font-size': 11, fill: css('--muted') }, svg, 'Gain from offer to first month-end →');
+    el('text', { x: m.l + 4, y: Y(0) - 6, 'font-size': 11, fill: css('--muted') }, svg, 'Index');
+    const T = tip(box);
+    pts.sort((a, b) => a.hot - b.hot).forEach(d => { const c = el('circle', { cx: X(d.prem), cy: Y(d.a36), r: 5, fill: d.hot ? css('--accent') : css('--grey'), 'fill-opacity': .88, stroke: css('--panel') }, svg);
+      c.addEventListener('mousemove', ev => T.show(ev, `${d.name} · ${d.listed}`, `First month ${sgn(d.prem)}%; 3-year excess ${sgn(d.a36)} pts`)); c.addEventListener('mouseleave', T.hide); });
+  }
+
+  function drawTable() {
+    const tb = $('#deals tbody'); tb.replaceChildren();
+    const rows = filtered().slice().sort((a, b) => { const va = a[st.k], vb = b[st.k]; if (typeof va === 'string') return va.localeCompare(vb) * st.dir; if (va == null) return 1; if (vb == null) return -1; return (va - vb) * st.dir; });
+    rows.forEach(d => { const tr = document.createElement('tr');
+      const c = v => v == null ? '' : v < 0 ? 'neg' : 'pos';
+      [[d.name + (d.type === 'Direct' ? ' (DL)' : ''), 'l'], [d.region, 'l'], [d.listed, 'l hide-narrow'], [d.mcap >= 10 ? Math.round(d.mcap).toLocaleString('en') : d.mcap.toFixed(1), 'hide-narrow'], [d.ps == null ? '' : d.ps.toFixed(1) + 'x', 'hide-narrow'],
+       [d.prem == null ? '' : sgn(d.prem) + '%'], [sgn(d.o12), c(d.o12)], [sgn(d.o36), c(d.o36)], [sgn(d.a36), c(d.a36) + ' hide-narrow']]
+        .forEach(([t, k]) => { const td = document.createElement('td'); td.textContent = t; if (k) td.className = k; tr.appendChild(td); }); tb.appendChild(tr); });
+    document.querySelectorAll('#deals th').forEach(th => { const k = th.querySelector('button').dataset.k; th.setAttribute('aria-sort', k === st.k ? (st.dir > 0 ? 'ascending' : 'descending') : 'none'); });
+  }
+  document.querySelectorAll('#deals th button').forEach(b => b.addEventListener('click', () => { const k = b.dataset.k; if (st.k === k) st.dir *= -1; else { st.k = k; st.dir = ['name', 'region'].includes(k) ? 1 : -1; } drawTable(); }));
+  [['#f-u', 'u', 'change'], ['#f-region', 'region', 'change'], ['#f-cohort', 'cohort', 'change'], ['#f-prof', 'prof', 'change'], ['#f-q', 'q', 'input']].forEach(([s, k, ev]) => $(s).addEventListener(ev, e => { st[k] = e.target.value; drawScatter(); drawTable(); }));
+
+  const all = () => { drawHz(); drawRules(); if (D.asia) { const keep = D.rules; D.rules = D.asia.rules; drawRules('#ch-arules', '#lg-arules'); D.rules = keep; } drawScatter(); drawTable(); };
+  const pc = v => v == null ? '' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v * 100).toFixed(0) + '%';
+  function compTable(comparison, sel) {
+    const tb = $(sel); tb.replaceChildren(); const groups = {};
+    comparison.forEach(r => { const k = r.strategy + '|' + r.entry; (groups[k] = groups[k] || { ...r, h: {} }).h[r.horizon_m] = r; });
+    Object.values(groups).forEach(g => { const tr = document.createElement('tr');
+      const cell = (t, c) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); return td; };
+      cell(g.strategy, 'l'); cell(g.family, 'l'); cell(g.entry, 'l'); cell(Math.max(...Object.values(g.h).map(r => r.trades)));
+      [1, 6, 12, 36].forEach(h => { const r = g.h[h]; if (!r) { cell(''); return; } cell(`${pc(r.mean)} (${Math.round(r.hit * 100)}%)`, r.mean < 0 ? 'neg' : 'pos'); });
+      tb.appendChild(tr); });
+  }
+  function drawVal() {
+    const V = D.valuation;
+    if (!V || !V.comparison || !V.comparison.length) {
+      $('#val-note').textContent = 'Pending: the comps and DCF valuation runs once prospectus financials and industry data are loaded.';
+      ['#val-wrap', '#vd-wrap'].forEach(s => $(s).style.display = 'none'); return;
+    }
+    $('#val-note').textContent = `Pilot: ${V.deals_valued} IPOs valued from their prospectuses with comparable multiples (EV/EBITDA, EV/Sales, P/E, dividend yield; P/B for the one financial) and a standard 10-year DCF. Each traditional rule buys the IPOs it rates attractive; the quant rules run on the same ${V.deals_valued} deals.`;
+    compTable(V.comparison, '#val tbody');
+    const sig = V.signal || {}, rho = (k, h) => sig[k] && sig[k][h] != null ? (sig[k][h] >= 0 ? '+' : '−') + Math.abs(sig[k][h]).toFixed(2) : 'n/a';
+    $('#val-findings').textContent = `Traditional valuation rarely called an IPO cheap, and its picks did not beat the index: most rules bought 1–4 of the ${V.deals_valued} deals. The size of the valuation gap did not predict returns either — rank correlation of the comps gap with 1-year excess return ${rho('comps_gap', 'h12')}, DCF gap ${rho('dcf_gap', 'h12')} (positive would mean cheap IPOs did better). Over the same deals, flipping allocations and shorting the hottest third did better. Pilot sample: treat as indicative.`;
+    const vb = $('#vd tbody'), x = v => v == null ? '–' : v.toFixed(1) + 'x', y = v => v == null ? '–' : (v * 100).toFixed(1) + '%';
+    V.deals.slice().sort((a, b) => (b.comps_gap ?? -9) - (a.comps_gap ?? -9)).forEach(d => { const tr = document.createElement('tr');
+      const cell = (t, c) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); };
+      cell(d.name, 'l');
+      cell(`${x(d.ev_ebitda)} (${x(d.ind_ev_ebitda)})`); cell(`${x(d.ev_sales)} (${x(d.ind_ev_sales)})`);
+      cell(`${x(d.pe)} (${x(d.ind_pe)})`); cell(`${y(d.dy)} (${y(d.ind_dy)})`);
+      cell(pc(d.comps_gap), d.comps_gap == null ? '' : d.comps_gap > 0 ? 'pos' : 'neg'); cell(pc(d.dcf_gap), d.dcf_gap == null ? '' : d.dcf_gap > 0 ? 'pos' : 'neg');
+      cell(d.buys.length ? d.buys.join('; ') : 'none', 'l wrapcell'); cell(d.xs36 == null ? '' : sgn(d.xs36 * 100), d.xs36 == null ? '' : d.xs36 < 0 ? 'neg' : 'pos');
+      vb.appendChild(tr); });
+  }
+  function drawAsia() {
+    const A = D.asia; if (!A) { $('#asia').style.display = 'none'; return; }
+    const mk = A.markets, all = mk[0], f = v => v == null ? '' : sgn(v), cl = v => v == null ? '' : v < 0 ? 'neg' : 'pos';
+    const tb = $('#asia-mk tbody');
+    mk.forEach(r => { const tr = document.createElement('tr');
+      [[r.variant, 'l'], [r.n], [r.prem == null ? '' : sgn(r.prem) + '%'], [f(r.after12), cl(r.after12) + ' hide-narrow'], [f(r.after36), cl(r.after36)], [r.beat36 == null ? '' : r.beat36 + '%'],
+       [f(r.offer36), cl(r.offer36) + ' hide-narrow'], [f(r.hot_mean), cl(r.hot_mean)], [r.hot_hit == null ? '' : r.hot_hit + '%']]
+        .forEach(([t, c]) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); }); tb.appendChild(tr); });
+    const by = n => mk.find(r => r.variant.startsWith(n)) || {};
+    const cps = A.rules.find(r => r.rule.startsWith('Cheap on P/S')) || {};
+    const k = by('Korea'), i = by('India'), hk = by('Hong Kong'), ca = by('China A'), ex = by('Excluding the 2020');
+    $('#asia-note').textContent = `${all.n} listings worth $5bn+ at the offer, 2010–2025: Korea ${k.n}, India ${i.n}, Hong Kong ${hk.n}, China A-shares ${ca.n}. Same returns, rules and statistics as the US + global study.`;
+    $('#asia-callout').textContent = `The same pattern holds in Asia: allocations made money (median first-month gain +${all.prem}%), but buying after listing lagged the local index — median ${sgn(all.after36)} pts over 3 years, with ${all.beat36}% of deals ahead. The lag was worst in India (${sgn(i.after36)}) and Korea (${sgn(k.after36)}), mildest in China A (${sgn(ca.after36)}), where regulators long held offer prices down and first-month gains are largest (median +${ca.prem}%). Shorting the hottest third was right ${all.hot_hit}% of the time (${ex.hot_hit}% outside 2020–21) but its mean is ${sgn(all.hot_mean)} pts: a few China A deals that kept soaring (mean ${sgn(ca.hot_mean)} pts within China A) wipe out the gains, so the rule needs position limits there. One difference from the US + global study: IPOs that were cheap on price-to-sales did better here (${cps.hit}% beat the index over 3 years from the offer, median ${sgn(cps.median)} pts), though Asian revenues are approximate.`;
+    // rules chart reuses the main renderer with Asia rows
+    const keep = D.rules; D.rules = A.rules; drawRules('#ch-arules', '#lg-arules'); D.rules = keep;
+    const V = A.valuation; if (!V || !V.deals_valued) { $('#asia-val-note').textContent = 'Pending.'; return; }
+    $('#asia-val-note').textContent = (() => {
+      const n = r => V.deals.filter(d => d.region === r).length, rho = (k, h) => { const v = (V.signal || {})[k] && V.signal[k][h]; return v == null ? 'n/a' : (v >= 0 ? '+' : '−') + Math.abs(v).toFixed(2); };
+      const cheap = V.deals.filter(d => d.comps_gap > 0).map(d => d.name).join(', ');
+      return `${V.deals_valued} prospectuses (Hong Kong ${n('HK')}, China A ${n('ChinaA')}, India ${n('India')}), valued with the same comps and DCF rules as the US pilot. Most were priced rich (median comps gap ${pc(V.median_gap.comps_gap)}, DCF gap ${pc(V.median_gap.dcf_gap)}). Unlike the US pilot, the gap pointed the right way here: rank correlation with 3-year excess from the offer ${rho('comps_gap', 'h36')} for comps and ${rho('dcf_gap', 'h36')} for DCF. Comps called ${cheap || 'none'} cheap; three of these are China A listings, whose offer prices regulators held below market multiples.`;
+    })();
+    const vb = $('#avd tbody'), x = v => v == null ? '–' : v.toFixed(1) + 'x';
+    V.deals.slice().sort((a, b) => (b.comps_gap ?? -9) - (a.comps_gap ?? -9)).forEach(d => { const tr = document.createElement('tr');
+      const cell = (t, c) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); };
+      cell(d.name, 'l'); cell({HK: 'Hong Kong', ChinaA: 'China A', India: 'India', Korea: 'Korea'}[d.region] || d.region, 'l'); cell(`${x(d.ev_ebitda)} (${x(d.ind_ev_ebitda)})`); cell(`${x(d.pe)} (${x(d.ind_pe)})`);
+      cell(pc(d.comps_gap), cl(d.comps_gap)); cell(pc(d.dcf_gap), cl(d.dcf_gap));
+      cell(d.xs12 == null ? '' : sgn(d.xs12 * 100), cl(d.xs12)); cell(d.xs36 == null ? '' : sgn(d.xs36 * 100), cl(d.xs36)); vb.appendChild(tr); });
+    compTable(V.comparison, '#aval tbody');
+  }
+  drawRob(); drawVal(); drawAsia(); all();
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(all, 120); });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', all);
+})();
+</script>
+</body>
+</html>

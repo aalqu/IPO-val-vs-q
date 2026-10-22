@@ -1,0 +1,132 @@
+id,name,ticker,region,exchange_ccy,ipo_date,entry_month,listing_type,offer_price,offer_price_unit_note,mcap_usd_bn_at_offer,ltm_revenue_usd_bn,operating_profit_positive,sector,financial,price_unit_divisor,entry_close_override,dual_ah,note,offer_price_source,valuation_inputs_source,verified
+HANWHALIFE,Hanwha Life,088350.KS,Korea,KRW,2010-03-17,,IPO,8200,,6.3,,1,Financials,1,1,,0,,,,no
+SAMSUNGLIFE,Samsung Life Insurance,032830.KS,Korea,KRW,2010-05-12,,IPO,110000,,19.4,,1,Financials,1,1,,0,,,,no
+SAMSUNGSDS,Samsung SDS,018260.KS,Korea,KRW,2014-11-14,,IPO,190000,,13.4,7.3,1,IT services,0,1,,0,,,,no
+SAMSUNGBIO,Samsung Biologics,207940.KS,Korea,KRW,2016-11-10,,IPO,136000,,7.7,0.08,0,Biotech,0,1,,0,,,,no
+NETMARBLE,Netmarble,251270.KS,Korea,KRW,2017-05-12,,IPO,157000,,11.8,1.3,1,Games,0,1,,0,,,,no
+SKIET,SK IE Technology,361610.KS,Korea,KRW,2021-05-11,,IPO,105000,,6.7,0.42,1,Batteries,0,1,,0,,,,no
+KAKAOBANK,KakaoBank,323410.KS,Korea,KRW,2021-08-06,,IPO,39000,,16.2,,1,Financials,1,1,,0,,,,no
+KRAFTON,Krafton,259960.KS,Korea,KRW,2021-08-10,,IPO,498000,,21.3,1.5,1,Games,0,1,,0,,,,no
+KAKAOPAY,Kakao Pay,377300.KS,Korea,KRW,2021-11-03,,IPO,90000,,9.9,0.24,0,Fintech,0,1,,0,,,,no
+LGES,LG Energy Solution,373220.KS,Korea,KRW,2022-01-27,,IPO,300000,,59,15,1,Batteries,0,1,,0,also in core study,,,no
+COALINDIA,Coal India,COALINDIA.NS,India,INR,2010-11-04,,IPO,245,,34.8,10.0,1,Mining,0,1,,0,,,,no
+ICICIPRU,ICICI Prudential Life,ICICIPRULI.NS,India,INR,2016-09-29,,IPO,334,,7.2,,1,Financials,1,1,,0,,,,no
+SBILIFE,SBI Life Insurance,SBILIFE.NS,India,INR,2017-10-03,,IPO,700,,10.7,,1,Financials,1,1,,0,,,,no
+GICRE,General Insurance Corp of India,GICRE.NS,India,INR,2017-10-25,,IPO,912,,12.3,,1,Financials,1,1,,0,,,,no
+NIACL,New India Assurance,NIACL.NS,India,INR,2017-11-13,,IPO,800,,10.1,,1,Financials,1,1,,0,,,,no
+HDFCLIFE,HDFC Life,HDFCLIFE.NS,India,INR,2017-11-17,,IPO,290,,9.0,,1,Financials,1,1,,0,,,,no
+BANDHAN,Bandhan Bank,BANDHANBNK.NS,India,INR,2018-03-27,,IPO,375,,6.9,,1,Financials,1,1,,0,,,,no
+HAL,Hindustan Aeronautics,HAL.NS,India,INR,2018-03-28,2018-04,IPO,1215,,6.2,2.8,1,Defence,0,1,,0,offer for sale by the government,,,no
+SBICARD,SBI Cards,SBICARD.NS,India,INR,2020-03-16,,IPO,755,,9.6,,1,Financials,1,1,,0,,,,no
+ZOMATO,Zomato (Eternal),ETERNAL.NS,India,INR,2021-07-23,,IPO,76,,8.0,0.27,0,Internet,0,1,,0,,,,no
+NYKAA,Nykaa (FSN E-Commerce),NYKAA.NS,India,INR,2021-11-10,,IPO,1125,,7.2,0.33,1,Internet,0,1,,0,,,,no
+POLICYBZR,PB Fintech (Policybazaar),POLICYBZR.NS,India,INR,2021-11-15,,IPO,980,,5.9,0.13,0,Fintech,0,1,,0,,,,no
+PAYTM,Paytm (One 97 Communications),PAYTM.NS,India,INR,2021-11-18,,IPO,2150,,18.7,0.38,0,Fintech,0,1,,0,,,,no
+STARHEALTH,Star Health Insurance,STARHEALTH.NS,India,INR,2021-12-10,,IPO,900,,6.9,,0,Financials,1,1,,0,,,,no
+LIC,Life Insurance Corp of India,LICI.NS,India,INR,2022-05-17,,IPO,949,,78,,1,Financials,1,1,,0,also in core study,,,no
+MANKIND,Mankind Pharma,MANKIND.NS,India,INR,2023-05-09,,IPO,1080,,5.3,1.0,1,Pharma,0,1,,0,,,,no
+BAJAJHFL,Bajaj Housing Finance,BAJAJHFL.NS,India,INR,2024-09-16,,IPO,70,,7.0,,1,Financials,1,1,,0,,,,no
+HYUNDAIIN,Hyundai Motor India,HYUNDAI.NS,India,INR,2024-10-22,,IPO,1960,,19,8.3,1,Autos,0,1,,0,also in core study,,,no
+WAAREE,Waaree Energies,WAAREEENER.NS,India,INR,2024-10-28,,IPO,1503,,5.2,1.4,1,Solar,0,1,,0,,,,no
+SWIGGY,Swiggy,SWIGGY.NS,India,INR,2024-11-13,,IPO,390,,10.4,1.4,0,Internet,0,1,,0,,,,no
+NTPCGREEN,NTPC Green Energy,NTPCGREEN.NS,India,INR,2024-11-27,,IPO,108,,10.8,0.24,1,Utilities,0,1,,0,,,,no
+HDBFS,HDB Financial Services,HDBFS.NS,India,INR,2025-07-02,,IPO,740,,7.2,,1,Financials,1,1,,0,,,,no
+TATACAP,Tata Capital,TATACAP.NS,India,INR,2025-10-13,,IPO,326,,15.6,,1,Financials,1,1,,0,,,,no
+LGEIND,LG Electronics India,LGEINDIA.NS,India,INR,2025-10-14,,IPO,1140,,8.7,2.6,1,Consumer electronics,0,1,,0,,,,no
+LENSKART,Lenskart,LENSKART.NS,India,INR,2025-11-10,,IPO,402,,7.9,0.77,1,Retail,0,1,,0,,,,no
+GROWW,Groww (Billionbrains Garage Ventures),GROWW.NS,India,INR,2025-11-12,,IPO,100,,7.0,0.45,1,Fintech,0,1,,0,,,,no
+MEESHO,Meesho,MEESHO.NS,India,INR,2025-12-10,,IPO,111,,5.6,1.1,0,Internet,0,1,,0,,,,no
+ICICIAMC,ICICI Prudential AMC,ICICIAMC.NS,India,INR,2025-12-19,,IPO,2165,,12.0,0.53,1,Financials,1,1,,0,,,,no
+ABC_H,Agricultural Bank of China (H),1288.HK,HK,HKD,2010-07-16,,IPO,3.20,,127,,1,Financials,1,1,,1,A+H dual listing,,,no
+AIA,AIA Group,1299.HK,HK,HKD,2010-10-29,,IPO,19.68,,30.5,,1,Financials,1,1,,0,also in core study,,,no
+MGMCHINA,MGM China,2282.HK,HK,HKD,2011-06-03,,IPO,15.34,,7.5,1.9,1,Gaming,0,1,,0,,,,no
+PRADA,Prada,1913.HK,HK,HKD,2011-06-24,,IPO,39.50,,13.0,2.6,1,Luxury,0,1,,0,,,,no
+SUNART,Sun Art Retail,6808.HK,HK,HKD,2011-07-27,,IPO,6.50,,8.0,9.6,1,Retail,0,1,,0,,,,no
+NCI_H,New China Life (H),1336.HK,HK,HKD,2011-12-15,,IPO,28.50,,11.4,,1,Financials,1,1,,1,A+H dual listing,,,no
+PICC,PICC Group (H),1339.HK,HK,HKD,2012-12-07,,IPO,3.48,,19.0,,1,Financials,1,1,,1,A-shares listed 2018,,,no
+CINDA,China Cinda AMC,1359.HK,HK,HKD,2013-12-12,,IPO,3.58,,16.7,,1,Financials,1,1,,0,,,,no
+CEB_H,China Everbright Bank (H),6818.HK,HK,HKD,2013-12-20,,IPO,3.98,,24.0,,1,Financials,1,1,,1,A+H dual listing,,,no
+WHGROUP,WH Group,0288.HK,HK,HKD,2014-08-05,,IPO,6.20,,11.7,22.2,1,Food,0,1,,0,,,,no
+CGN_H,CGN Power (H),1816.HK,HK,HKD,2014-12-10,,IPO,2.78,,16.3,3.7,1,Utilities,0,1,,1,A-shares listed 2019,,,no
+BAIC,BAIC Motor (H),1958.HK,HK,HKD,2014-12-19,,IPO,9.08,,8.8,,1,Autos,0,1,,0,,,,no
+FUYAO_H,Fuyao Glass (H),3606.HK,HK,HKD,2015-03-31,,IPO,16.80,,5.4,2.1,1,Autos,0,1,,1,A+H dual listing,,,no
+GFSEC_H,GF Securities (H),1776.HK,HK,HKD,2015-04-10,,IPO,18.85,,18.5,,1,Financials,1,1,,1,A+H dual listing,,,no
+HUATAI_H,Huatai Securities (H),6886.HK,HK,HKD,2015-06-01,,IPO,24.80,,23.0,,1,Financials,1,1,,1,A+H dual listing,,,no
+LEGEND,Legend Holdings,3396.HK,HK,HKD,2015-06-29,,IPO,42.98,,13.0,,1,Conglomerate,0,1,,0,,,,no
+CHINARE,China Reinsurance,1508.HK,HK,HKD,2015-10-26,,IPO,2.70,,14.8,,1,Financials,1,1,,0,,,,no
+HUARONG,China Huarong AMC,2799.HK,HK,HKD,2015-10-30,,IPO,3.09,,15.6,,1,Financials,1,1,,0,,,,no
+CZB_H,China Zheshang Bank (H),2016.HK,HK,HKD,2016-03-30,,IPO,3.89,,9.0,,1,Financials,1,1,,1,A-shares listed 2019,,,no
+EBSEC_H,Everbright Securities (H),6178.HK,HK,HKD,2016-08-18,,IPO,12.98,,7.7,,1,Financials,1,1,,1,A+H dual listing,,,no
+PSBC_H,Postal Savings Bank of China (H),1658.HK,HK,HKD,2016-09-28,,IPO,4.76,,48.6,,1,Financials,1,1,,1,A-shares listed 2019,,,no
+GTJA_H,Guotai Junan Securities (H),2611.HK,HK,HKD,2017-04-11,,IPO,15.84,,17.7,,1,Financials,1,1,,1,A+H dual listing,,,no
+ZHONGAN,ZhongAn Online P&C,6060.HK,HK,HKD,2017-09-28,,IPO,59.70,,11.2,,0,Financials,1,1,,0,,,,no
+CHINALIT,China Literature,0772.HK,HK,HKD,2017-11-08,,IPO,55.00,,6.4,0.6,1,Internet,0,1,,0,,,,no
+YIXIN,Yixin Group,2858.HK,HK,HKD,2017-11-16,,IPO,7.70,,6.2,,0,Fintech,0,1,,0,,,,no
+PAGD,Ping An Good Doctor,1833.HK,HK,HKD,2018-05-04,,IPO,54.80,,7.5,0.29,0,Internet,0,1,,0,,,,no
+XIAOMI,Xiaomi,1810.HK,HK,HKD,2018-07-09,,IPO,17,,54,17.6,1,Hardware,0,1,,0,also in core study,,,no
+CHINATOWER,China Tower,0788.HK,HK,HKD,2018-08-08,,IPO,1.26,,28.3,10.4,1,Telecom,0,1,,0,,,,no
+MEITUAN,Meituan,3690.HK,HK,HKD,2018-09-20,,IPO,69,,55,6.2,0,Internet,0,1,,0,also in core study,,,no
+HAIDILAO,Haidilao,6862.HK,HK,HKD,2018-09-26,,IPO,17.80,,12.0,1.6,1,Restaurants,0,1,,0,,,,no
+SWHY_H,Shenwan Hongyuan (H),6806.HK,HK,HKD,2019-04-26,,IPO,2.42,,7.7,,1,Financials,1,1,,1,A+H dual listing,,,no
+HANSOH,Hansoh Pharmaceutical,3692.HK,HK,HKD,2019-06-14,,IPO,14.86,,11.3,1.1,1,Pharma,0,1,,0,,,,no
+BUDAPAC,Budweiser APAC,1876.HK,HK,HKD,2019-09-30,,IPO,27,,46,6.5,1,Consumer,0,1,,0,also in core study,,,no
+FEIHE,China Feihe,6186.HK,HK,HKD,2019-11-13,,IPO,7.50,,8.6,1.9,1,Food,0,1,,0,,,,no
+SMOORE,Smoore International,6969.HK,HK,HKD,2020-07-10,,IPO,12.40,,9.6,1.1,1,Consumer,0,1,,0,,,,no
+BOHAI,China Bohai Bank,9668.HK,HK,HKD,2020-07-16,,IPO,5.39,,12.3,,1,Financials,1,1,,0,,,,no
+TIGERMED_H,Hangzhou Tigermed (H),3347.HK,HK,HKD,2020-08-07,,IPO,100.00,,11.2,0.4,1,Healthcare,0,1,,1,A+H dual listing,,,no
+NONGFU,Nongfu Spring,9633.HK,HK,HKD,2020-09-08,,IPO,21.5,,31,3.4,1,Consumer,0,1,,0,also in core study,,,no
+JDH,JD Health,6618.HK,HK,HKD,2020-12-08,,IPO,70.58,,29,2.5,1,Internet,0,1,,0,also in core study,,,no
+MIXC,China Resources Mixc Lifestyle,1209.HK,HK,HKD,2020-12-09,,IPO,22.30,,6.6,0.9,1,Real Estate,0,1,,0,,,,no
+POPMART,Pop Mart,9992.HK,HK,HKD,2020-12-11,,IPO,38.50,,6.9,0.25,1,Consumer,0,1,,0,,,,no
+KUAISHOU,Kuaishou,1024.HK,HK,HKD,2021-02-05,,IPO,115,,61,8.8,0,Internet,0,1,,0,also in core study,,,no
+JDLOG,JD Logistics,2618.HK,HK,HKD,2021-05-28,,IPO,40.36,,31.6,11.3,0,Logistics,0,1,,0,,,,no
+SENSETIME,SenseTime,0020.HK,HK,HKD,2021-12-30,,IPO,3.85,,16.5,0.5,0,AI,0,1,,0,,,,no
+TIANQI_H,Tianqi Lithium (H),9696.HK,HK,HKD,2022-07-13,,IPO,82.00,,17.0,0.8,1,Materials,0,1,,1,A+H dual listing,,,no
+LEAPMOTOR,Leapmotor,9863.HK,HK,HKD,2022-09-29,,IPO,48.00,,7.0,0.5,0,EV,0,1,,0,,,,no
+CALB,CALB,3931.HK,HK,HKD,2022-10-06,,IPO,38.00,,8.6,1.2,1,Batteries,0,1,,0,,,,no
+ZJLD,ZJLD Group,6979.HK,HK,HKD,2023-04-27,,IPO,14.45,,6.3,0.9,1,Beverages,0,1,,0,,,,no
+MIDEA_H,Midea Group (H),0300.HK,HK,HKD,2024-09-17,2024-10,IPO,54.80,,53.0,52.0,1,Consumer,0,1,,1,A+H dual listing,,,no
+HORIZON,Horizon Robotics,9660.HK,HK,HKD,2024-10-24,,IPO,3.99,,6.7,0.2,0,AI,0,1,,0,,,,no
+SF_H,SF Holding (H),6936.HK,HK,HKD,2024-11-27,,IPO,34.30,,22.0,36.0,1,Logistics,0,1,,1,A+H dual listing,,,no
+MIXUE,Mixue Group,2097.HK,HK,HKD,2025-03-03,,IPO,202.50,,9.9,3.5,1,Restaurants,0,1,,0,,,,no
+CATL_H,CATL (H),3750.HK,HK,HKD,2025-05-20,,IPO,263.00,,154,50,1,Batteries,0,1,,1,A+H dual listing,,,no
+HENGRUI_H,Jiangsu Hengrui Pharmaceuticals (H),1276.HK,HK,HKD,2025-05-23,,IPO,44.05,,37.0,3.9,1,Pharma,0,1,,1,A+H dual listing,,,no
+HAITIAN_H,Foshan Haitian Flavouring (H),3288.HK,HK,HKD,2025-06-19,,IPO,36.30,,27.0,3.8,1,Food,0,1,,1,A+H dual listing,,,no
+SANHUA_H,Zhejiang Sanhua (H),2050.HK,HK,HKD,2025-06-23,,IPO,22.53,,12.0,3.9,1,Industrials,0,1,,1,A+H dual listing,,,no
+CHERY,Chery Automobile,9973.HK,HK,HKD,2025-09-25,,IPO,30.75,,23.0,37.0,1,Autos,0,1,,0,,,,no
+ZIJINGOLD,Zijin Gold International,2259.HK,HK,HKD,2025-09-30,,IPO,71.59,,24.0,3.0,1,Mining,0,1,,0,,,,no
+SANY_H,Sany Heavy Industry (H),6031.HK,HK,HKD,2025-10-28,,IPO,21.30,,25.0,11.0,1,Industrials,0,1,,1,A+H dual listing,,,no
+SERES_H,Seres Group (H),9927.HK,HK,HKD,2025-11-05,,IPO,131.50,,29.0,20.0,1,EV,0,1,,1,A+H dual listing,,,no
+HUATAI_A,Huatai Securities (A),601688.SS,ChinaA,CNY,2010-02-26,,IPO,20.00,,16.4,,1,Financials,1,1,,1,A+H (H 2015),,,no
+ABC_A,Agricultural Bank of China (A),601288.SS,ChinaA,CNY,2010-07-15,,IPO,2.68,,128,,1,Financials,1,1,,1,A+H dual listing,,,no
+CEB_A,China Everbright Bank (A),601818.SS,ChinaA,CNY,2010-08-18,,IPO,3.10,,18.5,,1,Financials,1,1,,1,A+H (H 2013),,,no
+SINOHYDRO,Sinohydro (PowerChina),601669.SS,ChinaA,CNY,2011-10-18,,IPO,4.50,,6.8,,1,Construction,0,1,,0,,,,no
+NCI_A,New China Life (A),601336.SS,ChinaA,CNY,2011-12-16,,IPO,23.25,,11.4,,1,Financials,1,1,,1,A+H dual listing,,,no
+GUOSEN,Guosen Securities,002736.SZ,ChinaA,CNY,2014-12-29,,IPO,7.63,,10.1,,1,Financials,1,1,,0,,,,no
+CNNP,China National Nuclear Power,601985.SS,ChinaA,CNY,2015-06-10,,IPO,3.39,,8.5,2.8,1,Utilities,0,1,,0,,,,no
+GTJA_A,Guotai Junan Securities (A),601211.SS,ChinaA,CNY,2015-06-26,,IPO,19.71,,24.2,,1,Financials,1,1,,1,A+H (H 2017),,,no
+JSBANK,Bank of Jiangsu,600919.SS,ChinaA,CNY,2016-08-02,,IPO,6.27,,10.9,,1,Financials,1,1,,0,,,,no
+BOSH,Bank of Shanghai,601229.SS,ChinaA,CNY,2016-11-16,,IPO,17.77,,15.5,,1,Financials,1,1,,0,,,,no
+GALAXY_A,China Galaxy Securities (A),601881.SS,ChinaA,CNY,2017-01-23,,IPO,4.83,,7.1,,1,Financials,1,1,,1,A+H (H 2013),,,no
+LANCANG,Huaneng Lancang River Hydropower,600025.SS,ChinaA,CNY,2017-12-15,,IPO,2.17,,5.9,1.9,1,Utilities,0,1,,0,,,,no
+FII,Foxconn Industrial Internet,601138.SS,ChinaA,CNY,2018-06-08,,IPO,13.77,,42.4,55,1,Hardware,0,1,,0,,,,no
+CATL_A,CATL (A),300750.SZ,ChinaA,CNY,2018-06-11,,IPO,25.14,,8.5,3.0,1,Batteries,0,1,,1,A+H (H 2025),,,no
+CSC_A,China Securities (A),601066.SS,ChinaA,CNY,2018-06-20,,IPO,5.42,,6.4,,1,Financials,1,1,,1,A+H (H 2016),,,no
+MINDRAY,Mindray Medical,300760.SZ,ChinaA,CNY,2018-10-16,,IPO,48.80,,8.6,2.0,1,Healthcare,0,1,,0,,,,no
+CRSC_A,China Railway Signal & Communication (A),688009.SS,ChinaA,CNY,2019-07-22,,IPO,5.85,,9.0,5.2,1,Industrials,0,1,,1,A+H (H 2015),,,no
+CGN_A,CGN Power (A),003816.SZ,ChinaA,CNY,2019-08-26,,IPO,3.60,,25.6,7.4,1,Utilities,0,1,,1,A+H (H 2014),,,no
+CRCB_A,Chongqing Rural Commercial Bank (A),601077.SS,ChinaA,CNY,2019-10-29,,IPO,7.36,,11.8,,1,Financials,1,1,,1,A+H (H 2010),,,no
+CZB_A,China Zheshang Bank (A),601916.SS,ChinaA,CNY,2019-11-26,,IPO,4.94,,13.2,,1,Financials,1,1,,1,A+H (H 2016),,,no
+PSBC_A,Postal Savings Bank of China (A),601658.SS,ChinaA,CNY,2019-12-10,,IPO,5.50,,67.0,,1,Financials,1,1,,1,A+H (H 2016),,,no
+BJSHRAIL,Beijing-Shanghai High-Speed Railway,601816.SS,ChinaA,CNY,2020-01-16,,IPO,4.88,,34.8,5.0,1,Transport,0,1,,0,,,,no
+SMIC_A,SMIC (A),688981.SS,ChinaA,CNY,2020-07-16,,IPO,27.46,,28.6,3.1,1,Semis,0,1,,1,A+H (H 2004),,,no
+CICC_A,CICC (A),601995.SS,ChinaA,CNY,2020-11-02,,IPO,28.78,,20.8,,1,Financials,1,1,,1,A+H (H 2015),,,no
+CTGR,China Three Gorges Renewables,600905.SS,ChinaA,CNY,2021-06-10,,IPO,2.65,,11.8,1.7,1,Utilities,0,1,,0,,,,no
+CT_A,China Telecom (A),601728.SS,ChinaA,CNY,2021-08-20,,IPO,4.53,,64.0,60,1,Telecom,0,1,,1,A+H (H 2002),,,no
+CM_A,China Mobile (A),600941.SS,ChinaA,CNY,2022-01-05,,IPO,57.58,,193,120,1,Telecom,0,1,,1,A+H (HK 1997),,,no
+JINKO_A,Jinko Solar (A),688223.SS,ChinaA,CNY,2022-01-26,,IPO,5.26,,8.3,6.5,1,Solar,0,1,,0,,,,no
+CNOOC_A,CNOOC (A),600938.SS,ChinaA,CNY,2022-04-21,,IPO,10.80,,79.0,38,1,Energy,0,1,,1,A+H (HK 2001),,,no
+HYGON,Hygon Information Technology,688041.SS,ChinaA,CNY,2022-08-12,,IPO,36.00,,12.4,0.4,1,Semis,0,1,,0,,,,no
+HUAHONG_A,Hua Hong Semiconductor (A),688347.SS,ChinaA,CNY,2023-08-07,,IPO,52.00,,12.4,2.5,1,Semis,0,1,,1,A+H (HK 2014),,,no
+HUADIAN_NE,Huadian New Energy,600930.SS,ChinaA,CNY,2025-07-16,,IPO,3.18,,17.8,4.7,1,Utilities,0,1,,0,,,,no
+MOORE,Moore Threads,688795.SS,ChinaA,CNY,2025-12-05,,IPO,114.28,,7.6,0.06,0,Semis,0,1,,0,,,,no

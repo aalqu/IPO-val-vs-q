@@ -2,9 +2,11 @@ cff-version: 1.2.0
 message: "If you use or test this study, please cite it as below."
 title: "Large-cap IPOs, 2010-2025: traditional valuation vs quant rules"
 version: 1.3.0
-date-released: 2026-10-20
+date-released: 2026-10-22
 authors:
-  - name: "YOUR NAME"
-repository-code: "https://github.com/YOUR-NAME/ipo-valuation-vs-quant"
+  - given-names: "Ahmed"
+    family-names: "Alqubaisi"
+repository-code: "https://github.com/aalqu/IPO-val-vs-q"
 license: MIT
+url: "https://aalqu.github.io/IPO-val-vs-q/"
 keywords: [IPO, valuation, underpricing, long-run performance, lock-up, quantitative investing]

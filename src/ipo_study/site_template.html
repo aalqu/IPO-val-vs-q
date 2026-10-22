@@ -198,7 +198,7 @@ const D = /*__DATA__*/null;
   const H = D.headline, pct = v => Math.round(v * 100);
 
   $('#snap').textContent = D.snapshot; $('#ver').textContent = D.version;
-  $('#cite').textContent = `Large-cap IPOs: traditional valuation vs quant rules, v${D.version} (${D.snapshot}).`;
+  $('#cite').textContent = `Alqubaisi, A. (2026). Large-cap IPOs, 2010–2025: traditional valuation vs quant rules, v${D.version} (data to ${D.snapshot}). ${D.repo}`;
   const nv = D.valuation && D.valuation.deals_valued;
   $('#lede').textContent = `Across ${H.n_deals} IPOs worth $5bn+ (2010–2025), buying after listing lagged the index at every horizon, and simple rules that bet against new issues beat valuation-based buying — though the strongest of them depends heavily on the 2020–21 boom.` +
     (nv ? ` In a pilot of ${nv} deals valued from their prospectuses with comps (EV/EBITDA, EV/Sales, P/E, dividend yield) and a DCF, the IPOs that traditional valuation rated attractive did not outperform.` : '') +

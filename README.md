@@ -84,8 +84,8 @@ ipo-study valuation --universe asia              # results/valuation_asia.json (
 Python 3.9+. The study uses only the standard library.
 
 ```bash
-git clone https://github.com/YOUR-NAME/ipo-valuation-vs-quant
-cd ipo-valuation-vs-quant
+git clone https://github.com/aalqu/IPO-val-vs-q
+cd IPO-val-vs-q
 pip install -e ".[test]"
 make test          # arithmetic, data integrity, published numbers (US + global and Asia)
 make results       # results/results.json, results/headline.json, results/deal_returns.csv
@@ -143,6 +143,11 @@ site/        the public page: upload this folder to any web host
 ```
 
 See [METHODOLOGY.md](METHODOLOGY.md) for definitions and [DATA.md](DATA.md) for sources and licensing.
+
+## Online
+
+- Results page: https://aalqu.github.io/IPO-val-vs-q/ (GitHub Pages, built from `site/`)
+- Shareable PDF: [`reports/ipo-valuation-vs-quant.pdf`](reports/ipo-valuation-vs-quant.pdf)
 
 ## Licence and citation
 

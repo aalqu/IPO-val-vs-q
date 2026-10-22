@@ -92,7 +92,7 @@ def _valuation(universe):
         return {"deals_valued": 0, "comparison": [], "problems": [str(e)]}
 
 
-def build(repo_url: str = "https://github.com/YOUR-NAME/ipo-valuation-vs-quant") -> Path:
+def build(repo_url: str = "https://github.com/aalqu/IPO-val-vs-q") -> Path:
     R = run(Config())
     h = headline(R)
     deals = _deal_rows(R, "core")

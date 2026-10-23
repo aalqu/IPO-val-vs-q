@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=NTPCGREEN.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "NTPC GREEN ENERGY LIMITED",
+  "quoteType": "EQUITY",
+  "symbol": "NTPCGREEN.NS",
+  "index": "quotes",
+  "score": 10043000.0,
+  "typeDisp": "Equity",
+  "longname": "NTPC Green Energy Limited",
+  "exchDisp": "NSE",
+  "sector": "Utilities",
+  "industry": "Utilities\u2014Renewable",
+  "isYahooFinance": true
+ }
+}

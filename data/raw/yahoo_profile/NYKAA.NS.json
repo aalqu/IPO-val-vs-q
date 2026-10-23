@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=NYKAA.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "FSN E COMMERCE VENTURES",
+  "quoteType": "EQUITY",
+  "symbol": "NYKAA.NS",
+  "index": "quotes",
+  "score": 10059500.0,
+  "typeDisp": "Equity",
+  "longname": "FSN E-Commerce Ventures Limited",
+  "exchDisp": "NSE",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "industryDisp": "Internet Retail",
+  "isYahooFinance": true
+ }
+}

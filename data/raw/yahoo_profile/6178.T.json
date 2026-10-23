@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6178.T&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "JPX",
+  "shortname": "JAPAN POST HLDGS CO LTD",
+  "quoteType": "EQUITY",
+  "symbol": "6178.T",
+  "index": "quotes",
+  "score": 10009000.0,
+  "typeDisp": "Equity",
+  "longname": "Japan Post Holdings Co., Ltd.",
+  "exchDisp": "Tokyo Stock Exchange",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Banks\u2014Regional",
+  "industryDisp": "Banks\u2014Regional",
+  "isYahooFinance": true
+ }
+}

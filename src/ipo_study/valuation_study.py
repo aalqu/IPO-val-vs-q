@@ -71,12 +71,16 @@ def industry_for(deal_id, imap, table, rf):
             mkt = table.get((reg, year, "total market")) or {}
             pct = lambda v: None if v is None else (v / 100 if v > 1.5 else v)    # some files store percents
             used = name if reg == region else f"{name} ({reg} file: under {MIN_FIRMS} {region} firms)"
+            # no defaults: a missing published input means the deal is not valued (reported as a problem)
+            need = {"wacc": pct(_num(row, "wacc")), "op_margin": pct(_num(row, "op_margin")),
+                    "sales_to_capital": _num(row, "sales_to_capital"), "market_wacc": pct(_num(mkt, "wacc")),
+                    "riskfree": rf.get(year + 1)}
+            missing = [k for k, v in need.items() if v is None]
+            if missing:
+                raise KeyError(f"{deal_id}: {reg} {year} {name!r} has no published {', '.join(missing)}")
             return Industry(name=row["industry"], ev_ebitda=_num(row, "ev_ebitda"), ev_sales=_num(row, "ev_sales"),
                             pe=_pe(_num(row, "pe")), pbv=_num(row, "pbv"), div_yield=pct(_num(row, "div_yield")),
-                            wacc=pct(_num(row, "wacc")) or 0.08, op_margin=pct(_num(row, "op_margin")) or 0.10,
-                            sales_to_capital=_num(row, "sales_to_capital") or 1.5,
-                            market_wacc=pct(_num(mkt, "wacc")) or pct(_num(row, "wacc")) or 0.08,
-                            riskfree=rf.get(year + 1, 0.03)), used
+                            **need), used
     raise KeyError(f"{deal_id}: no benchmark row for {region} {year} {m['industry']!r}")
 
 

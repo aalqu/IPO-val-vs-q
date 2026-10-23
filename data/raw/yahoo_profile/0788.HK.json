@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=0788.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CHINA TOWER",
+  "quoteType": "EQUITY",
+  "symbol": "0788.HK",
+  "index": "quotes",
+  "score": 10048000.0,
+  "typeDisp": "Equity",
+  "longname": "China Tower Corporation Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Telecom Services",
+  "industryDisp": "Telecom Services",
+  "isYahooFinance": true
+ }
+}

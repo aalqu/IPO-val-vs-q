@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=2222.SR&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SAU",
+  "shortname": "Saudi Arabian Oil Co.",
+  "quoteType": "EQUITY",
+  "symbol": "2222.SR",
+  "index": "quotes",
+  "score": 10284000.0,
+  "typeDisp": "Equity",
+  "longname": "Saudi Arabian Oil Company",
+  "exchDisp": "Saudi Stock Exchange",
+  "sector": "Energy",
+  "sectorDisp": "Energy",
+  "industry": "Oil & Gas Integrated",
+  "industryDisp": "Oil & Gas Integrated",
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=IQ&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "iQIYI, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "IQ",
+  "index": "quotes",
+  "score": 10747500.0,
+  "typeDisp": "Equity",
+  "longname": "iQIYI, Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Entertainment",
+  "industryDisp": "Entertainment",
+  "dispSecIndFlag": false,
+  "isYahooFinance": true
+ }
+}

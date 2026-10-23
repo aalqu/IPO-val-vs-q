@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=ALLY&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Ally Financial Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "ALLY",
+  "index": "quotes",
+  "score": 11908000.0,
+  "typeDisp": "Equity",
+  "longname": "Ally Financial Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Credit Services",
+  "industryDisp": "Credit Services",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

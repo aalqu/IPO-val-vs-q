@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=POLICYBZR.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "PB FINTECH LIMITED",
+  "quoteType": "EQUITY",
+  "symbol": "POLICYBZR.NS",
+  "index": "quotes",
+  "score": 10079500.0,
+  "typeDisp": "Equity",
+  "longname": "PB Fintech Limited",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Insurance Brokers",
+  "industryDisp": "Insurance Brokers",
+  "isYahooFinance": true
+ }
+}

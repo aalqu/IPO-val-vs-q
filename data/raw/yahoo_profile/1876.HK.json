@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1876.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "BUD APAC",
+  "quoteType": "EQUITY",
+  "symbol": "1876.HK",
+  "index": "quotes",
+  "score": 10035500.0,
+  "typeDisp": "Equity",
+  "longname": "Budweiser Brewing Company APAC Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Defensive",
+  "industry": "Beverages\u2014Brewers",
+  "isYahooFinance": true
+ }
+}

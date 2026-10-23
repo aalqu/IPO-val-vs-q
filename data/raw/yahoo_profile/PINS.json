@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=PINS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Pinterest, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "PINS",
+  "index": "quotes",
+  "score": 13956000.0,
+  "typeDisp": "Equity",
+  "longname": "Pinterest, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Internet Content & Information",
+  "industryDisp": "Internet Content & Information",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

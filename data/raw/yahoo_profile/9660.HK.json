@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=9660.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "HORIZONROBOT-W",
+  "quoteType": "EQUITY",
+  "symbol": "9660.HK",
+  "index": "quotes",
+  "score": 10149500.0,
+  "typeDisp": "Equity",
+  "longname": "Horizon Robotics",
+  "exchDisp": "Hong Kong",
+  "sector": "Technology",
+  "industry": "Software\u2014Application",
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=DASH&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "DoorDash, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "DASH",
+  "index": "quotes",
+  "score": 13120500.0,
+  "typeDisp": "Equity",
+  "longname": "DoorDash, Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "industryDisp": "Internet Retail",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

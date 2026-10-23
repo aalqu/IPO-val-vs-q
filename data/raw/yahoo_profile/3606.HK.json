@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=3606.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKSE",
+  "shortname": "Fuyao Glass Industry Group Co Ltd",
+  "quoteType": "EQUITY",
+  "symbol": "3606.HK",
+  "index": "quotes",
+  "score": 10002500.0,
+  "typeDisp": "Equity",
+  "longname": "Fuyao Glass Industry Group Co., Ltd.",
+  "exchDisp": "HKSE",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Auto Parts",
+  "industryDisp": "Auto Parts",
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=GICRE.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "GENERAL INS CORP OF INDIA",
+  "quoteType": "EQUITY",
+  "symbol": "GICRE.NS",
+  "index": "quotes",
+  "score": 10014000.0,
+  "typeDisp": "Equity",
+  "longname": "General Insurance Corporation of India",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "industry": "Insurance\u2014Reinsurance",
+  "isYahooFinance": true
+ }
+}

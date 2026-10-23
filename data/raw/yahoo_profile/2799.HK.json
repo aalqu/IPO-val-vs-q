@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=2799.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CITIC FAMC",
+  "quoteType": "EQUITY",
+  "symbol": "2799.HK",
+  "index": "quotes",
+  "score": 10009000.0,
+  "typeDisp": "Equity",
+  "longname": "China CITIC Financial Asset Management Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Asset Management",
+  "industryDisp": "Asset Management",
+  "isYahooFinance": true,
+  "prevName": "China Huarong Asset Management Co., Ltd.",
+  "nameChangeDate": "2026-10-21"
+ }
+}

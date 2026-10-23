@@ -19,3 +19,14 @@ data/in/*.pdf
 data/in/*.txt
 data/in/*.html
 data/kr/
+# source documents (re-downloadable with `make sources`; ~2 GB)
+data/sec/companyfacts/
+data/sec/submissions/
+data/hk/ann/
+data/hk/ann_extra/*.pdf
+data/cn/
+data/in/
+data/global/*.pdf
+data/global/*_prospectus.txt
+data/global/SBK_ecs.txt
+data/raw/yahoo_profile/*.bak

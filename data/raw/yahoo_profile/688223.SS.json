@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=688223.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "JINKO SOLAR CO LTD",
+  "quoteType": "EQUITY",
+  "symbol": "688223.SS",
+  "index": "quotes",
+  "score": 10047500.0,
+  "typeDisp": "Equity",
+  "longname": "Jinko Solar Co., Ltd.",
+  "exchDisp": "Shanghai",
+  "sector": "Technology",
+  "sectorDisp": "Technology",
+  "industry": "Solar",
+  "industryDisp": "Solar",
+  "isYahooFinance": true
+ }
+}

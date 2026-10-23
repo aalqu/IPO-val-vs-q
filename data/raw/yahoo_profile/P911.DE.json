@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=P911.DE&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "GER",
+  "shortname": "Dr. Ing. h.c. F. Porsche AG   I",
+  "quoteType": "EQUITY",
+  "symbol": "P911.DE",
+  "index": "quotes",
+  "score": 10281000.0,
+  "typeDisp": "Equity",
+  "longname": "Dr. Ing. h.c. F. Porsche AG",
+  "exchDisp": "XETRA",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "industryDisp": "Auto Manufacturers",
+  "isYahooFinance": true
+ }
+}

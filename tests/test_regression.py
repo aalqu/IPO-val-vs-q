@@ -25,7 +25,7 @@ def test_report_figures():
     h = headline(run())
     assert h["n_deals"] == 96
     assert round(h["entry_premium_median"] * 100) == 14
-    assert round(h["after_median_6m"] * 100) == -19
-    assert round(h["after_median_12m"] * 100) == -28
+    assert round(h["after_median_6m"] * 100) == -21
+    assert round(h["after_median_12m"] * 100) == -30
     assert round(h["after_median_36m"] * 100) == -49
     assert round(h["short_hot_hit_36m"] * 100) == 88

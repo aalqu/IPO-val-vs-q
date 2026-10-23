@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6818.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CEB BANK",
+  "quoteType": "EQUITY",
+  "symbol": "6818.HK",
+  "index": "quotes",
+  "score": 10014500.0,
+  "typeDisp": "Equity",
+  "longname": "China Everbright Bank Company Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Banks\u2014Regional",
+  "industryDisp": "Banks\u2014Regional",
+  "isYahooFinance": true
+ }
+}

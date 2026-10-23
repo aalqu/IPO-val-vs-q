@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=601728.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "CHINA TELECOM CORPORATION",
+  "quoteType": "EQUITY",
+  "symbol": "601728.SS",
+  "index": "quotes",
+  "score": 10011500.0,
+  "typeDisp": "Equity",
+  "longname": "China Telecom Corporation Limited",
+  "exchDisp": "Shanghai",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Telecom Services",
+  "industryDisp": "Telecom Services",
+  "isYahooFinance": true
+ }
+}

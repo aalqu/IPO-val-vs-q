@@ -1,0 +1,670 @@
+source_url,local_text,kind
+data/raw/yahoo/2222.SR.json,data/raw/yahoo/2222.SR.json,raw json
+data/raw/yahoo/601211.SS.json,data/raw/yahoo/601211.SS.json,raw json
+data/raw/yahoo/6178.T.json,data/raw/yahoo/6178.T.json,raw json
+data/raw/yahoo/9434.T.json,data/raw/yahoo/9434.T.json,raw json
+data/raw/yahoo/ABNB.json,data/raw/yahoo/ABNB.json,raw json
+data/raw/yahoo/AFRM.json,data/raw/yahoo/AFRM.json,raw json
+data/raw/yahoo/ALLY.json,data/raw/yahoo/ALLY.json,raw json
+data/raw/yahoo/APP.json,data/raw/yahoo/APP.json,raw json
+data/raw/yahoo/ARM.json,data/raw/yahoo/ARM.json,raw json
+data/raw/yahoo/BABA.json,data/raw/yahoo/BABA.json,raw json
+data/raw/yahoo/BAJAJHFL.NS.json,data/raw/yahoo/BAJAJHFL.NS.json,raw json
+data/raw/yahoo/BANDHANBNK.NS.json,data/raw/yahoo/BANDHANBNK.NS.json,raw json
+data/raw/yahoo/BEKE.json,data/raw/yahoo/BEKE.json,raw json
+data/raw/yahoo/BIRK.json,data/raw/yahoo/BIRK.json,raw json
+data/raw/yahoo/BMBL.json,data/raw/yahoo/BMBL.json,raw json
+data/raw/yahoo/CART.json,data/raw/yahoo/CART.json,raw json
+data/raw/yahoo/CFG.json,data/raw/yahoo/CFG.json,raw json
+data/raw/yahoo/CHWY.json,data/raw/yahoo/CHWY.json,raw json
+data/raw/yahoo/CHYM.json,data/raw/yahoo/CHYM.json,raw json
+data/raw/yahoo/COALINDIA.NS.json,data/raw/yahoo/COALINDIA.NS.json,raw json
+data/raw/yahoo/COIN.json,data/raw/yahoo/COIN.json,raw json
+data/raw/yahoo/CPNG.json,data/raw/yahoo/CPNG.json,raw json
+data/raw/yahoo/CRBG.json,data/raw/yahoo/CRBG.json,raw json
+data/raw/yahoo/CRCL.json,data/raw/yahoo/CRCL.json,raw json
+data/raw/yahoo/CRWD.json,data/raw/yahoo/CRWD.json,raw json
+data/raw/yahoo/CRWV.json,data/raw/yahoo/CRWV.json,raw json
+data/raw/yahoo/DASH.json,data/raw/yahoo/DASH.json,raw json
+data/raw/yahoo/DBX.json,data/raw/yahoo/DBX.json,raw json
+data/raw/yahoo/DDOG.json,data/raw/yahoo/DDOG.json,raw json
+data/raw/yahoo/EQH.json,data/raw/yahoo/EQH.json,raw json
+data/raw/yahoo/ETERNAL.NS.json,data/raw/yahoo/ETERNAL.NS.json,raw json
+data/raw/yahoo/FIG.json,data/raw/yahoo/FIG.json,raw json
+data/raw/yahoo/FRSH.json,data/raw/yahoo/FRSH.json,raw json
+data/raw/yahoo/GICRE.NS.json,data/raw/yahoo/GICRE.NS.json,raw json
+data/raw/yahoo/GM.json,data/raw/yahoo/GM.json,raw json
+data/raw/yahoo/GROWW.NS.json,data/raw/yahoo/GROWW.NS.json,raw json
+data/raw/yahoo/GRPN.json,data/raw/yahoo/GRPN.json,raw json
+data/raw/yahoo/GTLB.json,data/raw/yahoo/GTLB.json,raw json
+data/raw/yahoo/HAL.NS.json,data/raw/yahoo/HAL.NS.json,raw json
+data/raw/yahoo/HCA.json,data/raw/yahoo/HCA.json,raw json
+data/raw/yahoo/HDBFS.NS.json,data/raw/yahoo/HDBFS.NS.json,raw json
+data/raw/yahoo/HDFCLIFE.NS.json,data/raw/yahoo/HDFCLIFE.NS.json,raw json
+data/raw/yahoo/HLT.json,data/raw/yahoo/HLT.json,raw json
+data/raw/yahoo/HOOD.json,data/raw/yahoo/HOOD.json,raw json
+data/raw/yahoo/HYUNDAI.NS.json,data/raw/yahoo/HYUNDAI.NS.json,raw json
+data/raw/yahoo/ICICIAMC.NS.json,data/raw/yahoo/ICICIAMC.NS.json,raw json
+data/raw/yahoo/IOT.json,data/raw/yahoo/IOT.json,raw json
+data/raw/yahoo/IQ.json,data/raw/yahoo/IQ.json,raw json
+data/raw/yahoo/KLAR.json,data/raw/yahoo/KLAR.json,raw json
+data/raw/yahoo/KMI.json,data/raw/yahoo/KMI.json,raw json
+data/raw/yahoo/KVUE.json,data/raw/yahoo/KVUE.json,raw json
+data/raw/yahoo/KVYO.json,data/raw/yahoo/KVYO.json,raw json
+data/raw/yahoo/LENSKART.NS.json,data/raw/yahoo/LENSKART.NS.json,raw json
+data/raw/yahoo/LGEINDIA.NS.json,data/raw/yahoo/LGEINDIA.NS.json,raw json
+data/raw/yahoo/LI.json,data/raw/yahoo/LI.json,raw json
+data/raw/yahoo/LICI.NS.json,data/raw/yahoo/LICI.NS.json,raw json
+data/raw/yahoo/LINE.json,data/raw/yahoo/LINE.json,raw json
+data/raw/yahoo/LYFT.json,data/raw/yahoo/LYFT.json,raw json
+data/raw/yahoo/MANKIND.NS.json,data/raw/yahoo/MANKIND.NS.json,raw json
+data/raw/yahoo/MBLY.json,data/raw/yahoo/MBLY.json,raw json
+data/raw/yahoo/MEESHO.NS.json,data/raw/yahoo/MEESHO.NS.json,raw json
+data/raw/yahoo/META.json,data/raw/yahoo/META.json,raw json
+data/raw/yahoo/MQ.json,data/raw/yahoo/MQ.json,raw json
+data/raw/yahoo/NIACL.NS.json,data/raw/yahoo/NIACL.NS.json,raw json
+data/raw/yahoo/NIO.json,data/raw/yahoo/NIO.json,raw json
+data/raw/yahoo/NTPCGREEN.NS.json,data/raw/yahoo/NTPCGREEN.NS.json,raw json
+data/raw/yahoo/NU.json,data/raw/yahoo/NU.json,raw json
+data/raw/yahoo/NYKAA.NS.json,data/raw/yahoo/NYKAA.NS.json,raw json
+data/raw/yahoo/OTLY.json,data/raw/yahoo/OTLY.json,raw json
+data/raw/yahoo/PATH.json,data/raw/yahoo/PATH.json,raw json
+data/raw/yahoo/PAYTM.NS.json,data/raw/yahoo/PAYTM.NS.json,raw json
+data/raw/yahoo/PDD.json,data/raw/yahoo/PDD.json,raw json
+data/raw/yahoo/PINS.json,data/raw/yahoo/PINS.json,raw json
+data/raw/yahoo/PLTR.json,data/raw/yahoo/PLTR.json,raw json
+data/raw/yahoo/POLICYBZR.NS.json,data/raw/yahoo/POLICYBZR.NS.json,raw json
+data/raw/yahoo/PTON.json,data/raw/yahoo/PTON.json,raw json
+data/raw/yahoo/RACE.json,data/raw/yahoo/RACE.json,raw json
+data/raw/yahoo/RBLX.json,data/raw/yahoo/RBLX.json,raw json
+data/raw/yahoo/RDDT.json,data/raw/yahoo/RDDT.json,raw json
+data/raw/yahoo/RIVN.json,data/raw/yahoo/RIVN.json,raw json
+data/raw/yahoo/RPRX.json,data/raw/yahoo/RPRX.json,raw json
+data/raw/yahoo/SAIL.json,data/raw/yahoo/SAIL.json,raw json
+data/raw/yahoo/SBICARD.NS.json,data/raw/yahoo/SBICARD.NS.json,raw json
+data/raw/yahoo/SBILIFE.NS.json,data/raw/yahoo/SBILIFE.NS.json,raw json
+data/raw/yahoo/SNAP.json,data/raw/yahoo/SNAP.json,raw json
+data/raw/yahoo/SNOW.json,data/raw/yahoo/SNOW.json,raw json
+data/raw/yahoo/SPOT.json,data/raw/yahoo/SPOT.json,raw json
+data/raw/yahoo/STARHEALTH.NS.json,data/raw/yahoo/STARHEALTH.NS.json,raw json
+data/raw/yahoo/SWIGGY.NS.json,data/raw/yahoo/SWIGGY.NS.json,raw json
+data/raw/yahoo/SYF.json,data/raw/yahoo/SYF.json,raw json
+data/raw/yahoo/TATACAP.NS.json,data/raw/yahoo/TATACAP.NS.json,raw json
+data/raw/yahoo/TME.json,data/raw/yahoo/TME.json,raw json
+data/raw/yahoo/TOST.json,data/raw/yahoo/TOST.json,raw json
+data/raw/yahoo/TPG.json,data/raw/yahoo/TPG.json,raw json
+data/raw/yahoo/U.json,data/raw/yahoo/U.json,raw json
+data/raw/yahoo/UBER.json,data/raw/yahoo/UBER.json,raw json
+data/raw/yahoo/VG.json,data/raw/yahoo/VG.json,raw json
+data/raw/yahoo/VIK.json,data/raw/yahoo/VIK.json,raw json
+data/raw/yahoo/WAAREEENER.NS.json,data/raw/yahoo/WAAREEENER.NS.json,raw json
+data/raw/yahoo/WMG.json,data/raw/yahoo/WMG.json,raw json
+data/raw/yahoo/XPEV.json,data/raw/yahoo/XPEV.json,raw json
+data/raw/yahoo/ZM.json,data/raw/yahoo/ZM.json,raw json
+data/raw/yahoo/ZTS.json,data/raw/yahoo/ZTS.json,raw json
+https://business.bofa.com/content/dam/flagship/in/en/investment-banking/Bajaj-Housing-Finance-Limited-IPO-Prospectus.pdf,data/in/pros/BAJAJHFL.txt,document text
+https://business.bofa.com/content/dam/flagship/in/en/investment-banking/SBI-Cards-and-Payment-Services-Limited-Prospectus.pdf,data/in/pros/SBICARD.txt,document text
+https://business.bofa.com/content/dam/flagship/in/en/investment-banking/Star-Health-and-Allied-Insurance-Company-Limited-Prospectus.pdf,data/in/pros/STARHEALTH.txt,document text
+https://business.bofa.com/content/dam/flagship/in/en/investment-banking/Swiggy-Limited-IPO-Prospectus.pdf,data/in/pros/SWIGGY.txt,document text
+https://cma.gov.sa/en/Market/Prospectuses/Documents/Saudi_Aramco_Prospectus.pdf,data/global/ARAMCO_prospectus.txt,document text
+https://data.sec.gov/api/xbrl/companyfacts/CIK0000040729.json,data/sec/companyfacts/CIK0000040729.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0000759944.json,data/sec/companyfacts/CIK0000759944.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0000860730.json,data/sec/companyfacts/CIK0000860730.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001315098.json,data/sec/companyfacts/CIK0001315098.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001319161.json,data/sec/companyfacts/CIK0001319161.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001321655.json,data/sec/companyfacts/CIK0001321655.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json,data/sec/companyfacts/CIK0001326801.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001333986.json,data/sec/companyfacts/CIK0001333986.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001418091.json,data/sec/companyfacts/CIK0001418091.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001439404.json,data/sec/companyfacts/CIK0001439404.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001467623.json,data/sec/companyfacts/CIK0001467623.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001490281.json,data/sec/companyfacts/CIK0001490281.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001492633.json,data/sec/companyfacts/CIK0001492633.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001506293.json,data/sec/companyfacts/CIK0001506293.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001506307.json,data/sec/companyfacts/CIK0001506307.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001522540.json,data/sec/companyfacts/CIK0001522540.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001535527.json,data/sec/companyfacts/CIK0001535527.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json,data/sec/companyfacts/CIK0001543151.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001544522.json,data/sec/companyfacts/CIK0001544522.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001555280.json,data/sec/companyfacts/CIK0001555280.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001559720.json,data/sec/companyfacts/CIK0001559720.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001561550.json,data/sec/companyfacts/CIK0001561550.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001564408.json,data/sec/companyfacts/CIK0001564408.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001577552.json,data/sec/companyfacts/CIK0001577552.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001579091.json,data/sec/companyfacts/CIK0001579091.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001579878.json,data/sec/companyfacts/CIK0001579878.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001580608.json,data/sec/companyfacts/CIK0001580608.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001585521.json,data/sec/companyfacts/CIK0001585521.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001585689.json,data/sec/companyfacts/CIK0001585689.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001601712.json,data/sec/companyfacts/CIK0001601712.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001639825.json,data/sec/companyfacts/CIK0001639825.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001639920.json,data/sec/companyfacts/CIK0001639920.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001640147.json,data/sec/companyfacts/CIK0001640147.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001642896.json,data/sec/companyfacts/CIK0001642896.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001650164.json,data/sec/companyfacts/CIK0001650164.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001653482.json,data/sec/companyfacts/CIK0001653482.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001679788.json,data/sec/companyfacts/CIK0001679788.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001691493.json,data/sec/companyfacts/CIK0001691493.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001702780.json,data/sec/companyfacts/CIK0001702780.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001713445.json,data/sec/companyfacts/CIK0001713445.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001720671.json,data/sec/companyfacts/CIK0001720671.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001722608.json,data/sec/companyfacts/CIK0001722608.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001734722.json,data/sec/companyfacts/CIK0001734722.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001736541.json,data/sec/companyfacts/CIK0001736541.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001737806.json,data/sec/companyfacts/CIK0001737806.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001744676.json,data/sec/companyfacts/CIK0001744676.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001745201.json,data/sec/companyfacts/CIK0001745201.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001747748.json,data/sec/companyfacts/CIK0001747748.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001751008.json,data/sec/companyfacts/CIK0001751008.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001759509.json,data/sec/companyfacts/CIK0001759509.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001764757.json,data/sec/companyfacts/CIK0001764757.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001764925.json,data/sec/companyfacts/CIK0001764925.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001766502.json,data/sec/companyfacts/CIK0001766502.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001769628.json,data/sec/companyfacts/CIK0001769628.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001783879.json,data/sec/companyfacts/CIK0001783879.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001791706.json,data/sec/companyfacts/CIK0001791706.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001792789.json,data/sec/companyfacts/CIK0001792789.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001795586.json,data/sec/companyfacts/CIK0001795586.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001802768.json,data/sec/companyfacts/CIK0001802768.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001809587.json,data/sec/companyfacts/CIK0001809587.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001810806.json,data/sec/companyfacts/CIK0001810806.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001810997.json,data/sec/companyfacts/CIK0001810997.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001820953.json,data/sec/companyfacts/CIK0001820953.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001830043.json,data/sec/companyfacts/CIK0001830043.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001834584.json,data/sec/companyfacts/CIK0001834584.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001835830.json,data/sec/companyfacts/CIK0001835830.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001843586.json,data/sec/companyfacts/CIK0001843586.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001868159.json,data/sec/companyfacts/CIK0001868159.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001874178.json,data/sec/companyfacts/CIK0001874178.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001876042.json,data/sec/companyfacts/CIK0001876042.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001880661.json,data/sec/companyfacts/CIK0001880661.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001889539.json,data/sec/companyfacts/CIK0001889539.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001910139.json,data/sec/companyfacts/CIK0001910139.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001944048.json,data/sec/companyfacts/CIK0001944048.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001973239.json,data/sec/companyfacts/CIK0001973239.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0001977102.json,data/sec/companyfacts/CIK0001977102.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0002003292.json,data/sec/companyfacts/CIK0002003292.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0002007855.json,data/sec/companyfacts/CIK0002007855.json,xbrl json
+https://data.sec.gov/api/xbrl/companyfacts/CIK0002030781.json,data/sec/companyfacts/CIK0002030781.json,xbrl json
+https://data.sec.gov/submissions/CIK0001418091.json,data/sec/submissions/CIK0001418091.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001439404.json,data/sec/submissions/CIK0001439404.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001492633.json,data/sec/submissions/CIK0001492633.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001580608.json,data/sec/submissions/CIK0001580608.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001702780.json,data/sec/submissions/CIK0001702780.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001720671.json,data/sec/submissions/CIK0001720671.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001747748.json,data/sec/submissions/CIK0001747748.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001764757.json,data/sec/submissions/CIK0001764757.json,sec submissions json
+https://data.sec.gov/submissions/CIK0001764925.json,data/sec/submissions/CIK0001764925.json,sec submissions json
+https://deutsche-boerse.com/dbg-en/media/news-stories/press-releases/Siemens-Healthineers-AG-listed-on-the-Frankfurt-Stock-Exchange-today-146750,data/global/SHL_dbg.txt,document text
+https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100EJ15.pdf,,remote only (no local copy)
+https://fnn.prod.fs.tomcat2.gfm.support/File.Mix_Announcement_File/5C028E95-3008-4517-B65F-01A3FB38F425.pdf,data/global/DEWA_dfm.txt,document text
+https://fred.stlouisfed.org/series/DEXCHUS,data/raw/fred/DEXCHUS.csv,fred csv
+https://fred.stlouisfed.org/series/DEXHKUS,data/raw/fred/DEXHKUS.csv,fred csv
+https://fred.stlouisfed.org/series/DEXINUS,data/raw/fred/DEXINUS.csv,fred csv
+https://fred.stlouisfed.org/series/DEXJPUS,data/raw/fred/DEXJPUS.csv,fred csv
+https://fred.stlouisfed.org/series/DEXUSEU,data/raw/fred/DEXUSEU.csv,fred csv
+https://indiaipo.jpmorgan.com/content/dam/jpm/india-private-limited/documents/mankind-basis-allotment.pdf,data/in/pros/MANKIND_boa.txt,document text
+https://ipo.emiratesnbd.com/-/media/enbd/files/ipo/prospectus-en.pdf,data/global/DEWA_prospectus.txt,document text
+https://moneybase.com/wp-content/uploads/2022/09/prospectus_porsche.pdf,data/global/PORSCHE_prospectus.txt,document text
+https://newsroom.porsche.com/en/2022/company/porsche-ag-initial-public-offering-p911-frankfurt-stock-exchange-29830.html,data/global/PORSCHE_pr.txt,document text
+https://nsearchives.nseindia.com/corporate/FP_INE377N01017_24OCT2024.pdf,data/in/pros/WAAREE.txt,document text
+https://nsearchives.nseindia.com/corporate/FP_INE388Y01029_08NOV2021.pdf,data/in/pros/NYKAA.txt,document text
+https://nsearchives.nseindia.com/corporate/FP_INE982J01020_16NOV2021.pdf,data/in/pros/PAYTM.txt,document text
+https://query1.finance.yahoo.com/v1/finance/search?q=0020.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/0020.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=002736.SZ&quotesCount=5&newsCount=0,data/raw/yahoo_profile/002736.SZ.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=003816.SZ&quotesCount=5&newsCount=0,data/raw/yahoo_profile/003816.SZ.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=0288.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/0288.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=0300.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/0300.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=0772.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/0772.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=0788.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/0788.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1024.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1024.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1209.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1209.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1276.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1276.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1288.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1288.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1299.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1299.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1336.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1336.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1339.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1339.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1359.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1359.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1508.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1508.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1658.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1658.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1776.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1776.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1810.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1810.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1816.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1816.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1833.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1833.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1876.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1876.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1913.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1913.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=1958.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/1958.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2016.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2016.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2050.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2050.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2097.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2097.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2222.SR&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2222.SR.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2259.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2259.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2282.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2282.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2611.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2611.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2618.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2618.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2799.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2799.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=2858.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/2858.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=300750.SZ&quotesCount=5&newsCount=0,data/raw/yahoo_profile/300750.SZ.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=300760.SZ&quotesCount=5&newsCount=0,data/raw/yahoo_profile/300760.SZ.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3288.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3288.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3347.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3347.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3396.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3396.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3606.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3606.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3690.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3690.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3692.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3692.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3750.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3750.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=3931.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/3931.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=600025.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/600025.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=600905.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/600905.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=600919.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/600919.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=600930.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/600930.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=600938.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/600938.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=600941.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/600941.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601066.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601066.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601077.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601077.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601138.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601138.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601211.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601211.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601229.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601229.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601288.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601288.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601336.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601336.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601658.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601658.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601669.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601669.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601688.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601688.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601728.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601728.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601816.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601816.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601818.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601818.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601881.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601881.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601916.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601916.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601985.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601985.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=601995.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/601995.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6031.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6031.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6060.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6060.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6178.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6178.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6178.T&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6178.T.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6186.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6186.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6618.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6618.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6806.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6806.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6808.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6808.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6818.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6818.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6862.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6862.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=688009.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/688009.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=688041.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/688041.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=688223.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/688223.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=688347.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/688347.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6886.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6886.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=688795.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/688795.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=688981.SS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/688981.SS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6936.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6936.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6969.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6969.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=6979.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/6979.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9434.T&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9434.T.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9633.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9633.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9660.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9660.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9668.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9668.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9696.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9696.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9863.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9863.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9927.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9927.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9973.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9973.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=9992.HK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/9992.HK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=ABNB&quotesCount=5&newsCount=0,data/raw/yahoo_profile/ABNB.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=AFRM&quotesCount=5&newsCount=0,data/raw/yahoo_profile/AFRM.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=ALLY&quotesCount=5&newsCount=0,data/raw/yahoo_profile/ALLY.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=APP&quotesCount=5&newsCount=0,data/raw/yahoo_profile/APP.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=ARM&quotesCount=5&newsCount=0,data/raw/yahoo_profile/ARM.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=BABA&quotesCount=5&newsCount=0,data/raw/yahoo_profile/BABA.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=BAJAJHFL.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/BAJAJHFL.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=BANDHANBNK.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/BANDHANBNK.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=BEKE&quotesCount=5&newsCount=0,data/raw/yahoo_profile/BEKE.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=BIRK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/BIRK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=BMBL&quotesCount=5&newsCount=0,data/raw/yahoo_profile/BMBL.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CART&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CART.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CFG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CFG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CHWY&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CHWY.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CHYM&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CHYM.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=COALINDIA.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/COALINDIA.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=COIN&quotesCount=5&newsCount=0,data/raw/yahoo_profile/COIN.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CPNG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CPNG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CRBG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CRBG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CRCL&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CRCL.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CRWD&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CRWD.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=CRWV&quotesCount=5&newsCount=0,data/raw/yahoo_profile/CRWV.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=DASH&quotesCount=5&newsCount=0,data/raw/yahoo_profile/DASH.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=DBX&quotesCount=5&newsCount=0,data/raw/yahoo_profile/DBX.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=DDOG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/DDOG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=DEWA.AE&quotesCount=5&newsCount=0,data/raw/yahoo_profile/DEWA.AE.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=EQH&quotesCount=5&newsCount=0,data/raw/yahoo_profile/EQH.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=ETERNAL.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/ETERNAL.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=FIG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/FIG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=FRSH&quotesCount=5&newsCount=0,data/raw/yahoo_profile/FRSH.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=GICRE.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/GICRE.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=GM&quotesCount=5&newsCount=0,data/raw/yahoo_profile/GM.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=GROWW.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/GROWW.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=GRPN&quotesCount=5&newsCount=0,data/raw/yahoo_profile/GRPN.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=GTLB&quotesCount=5&newsCount=0,data/raw/yahoo_profile/GTLB.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=HAL.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/HAL.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=HCA&quotesCount=5&newsCount=0,data/raw/yahoo_profile/HCA.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=HDBFS.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/HDBFS.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=HDFCLIFE.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/HDFCLIFE.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=HLT&quotesCount=5&newsCount=0,data/raw/yahoo_profile/HLT.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=HOOD&quotesCount=5&newsCount=0,data/raw/yahoo_profile/HOOD.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=HYUNDAI.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/HYUNDAI.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=ICICIAMC.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/ICICIAMC.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=IOT&quotesCount=5&newsCount=0,data/raw/yahoo_profile/IOT.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=IQ&quotesCount=5&newsCount=0,data/raw/yahoo_profile/IQ.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=KLAR&quotesCount=5&newsCount=0,data/raw/yahoo_profile/KLAR.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=KMI&quotesCount=5&newsCount=0,data/raw/yahoo_profile/KMI.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=KVUE&quotesCount=5&newsCount=0,data/raw/yahoo_profile/KVUE.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=KVYO&quotesCount=5&newsCount=0,data/raw/yahoo_profile/KVYO.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=LENSKART.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/LENSKART.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=LGEINDIA.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/LGEINDIA.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=LI&quotesCount=5&newsCount=0,data/raw/yahoo_profile/LI.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=LICI.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/LICI.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=LINE&quotesCount=5&newsCount=0,data/raw/yahoo_profile/LINE.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=LYFT&quotesCount=5&newsCount=0,data/raw/yahoo_profile/LYFT.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=MANKIND.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/MANKIND.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=MBLY&quotesCount=5&newsCount=0,data/raw/yahoo_profile/MBLY.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=MEESHO.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/MEESHO.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=META&quotesCount=5&newsCount=0,data/raw/yahoo_profile/META.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=MQ&quotesCount=5&newsCount=0,data/raw/yahoo_profile/MQ.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=NIACL.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/NIACL.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=NIO&quotesCount=5&newsCount=0,data/raw/yahoo_profile/NIO.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=NTPCGREEN.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/NTPCGREEN.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=NU&quotesCount=5&newsCount=0,data/raw/yahoo_profile/NU.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=NYKAA.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/NYKAA.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=OTLY&quotesCount=5&newsCount=0,data/raw/yahoo_profile/OTLY.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=P911.DE&quotesCount=5&newsCount=0,data/raw/yahoo_profile/P911.DE.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=PATH&quotesCount=5&newsCount=0,data/raw/yahoo_profile/PATH.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=PAYTM.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/PAYTM.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=PDD&quotesCount=5&newsCount=0,data/raw/yahoo_profile/PDD.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=PINS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/PINS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=PLTR&quotesCount=5&newsCount=0,data/raw/yahoo_profile/PLTR.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=POLICYBZR.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/POLICYBZR.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=PTON&quotesCount=5&newsCount=0,data/raw/yahoo_profile/PTON.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=RACE&quotesCount=5&newsCount=0,data/raw/yahoo_profile/RACE.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=RBLX&quotesCount=5&newsCount=0,data/raw/yahoo_profile/RBLX.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=RDDT&quotesCount=5&newsCount=0,data/raw/yahoo_profile/RDDT.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=RIVN&quotesCount=5&newsCount=0,data/raw/yahoo_profile/RIVN.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=RPRX&quotesCount=5&newsCount=0,data/raw/yahoo_profile/RPRX.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SAIL&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SAIL.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SBICARD.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SBICARD.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SBILIFE.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SBILIFE.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SHL.DE&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SHL.DE.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SNAP&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SNAP.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SNOW&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SNOW.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SPOT&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SPOT.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=STARHEALTH.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/STARHEALTH.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SWIGGY.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SWIGGY.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=SYF&quotesCount=5&newsCount=0,data/raw/yahoo_profile/SYF.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=TATACAP.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/TATACAP.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=TME&quotesCount=5&newsCount=0,data/raw/yahoo_profile/TME.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=TOST&quotesCount=5&newsCount=0,data/raw/yahoo_profile/TOST.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=TPG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/TPG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=U&quotesCount=5&newsCount=0,data/raw/yahoo_profile/U.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=UBER&quotesCount=5&newsCount=0,data/raw/yahoo_profile/UBER.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=VG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/VG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=VIK&quotesCount=5&newsCount=0,data/raw/yahoo_profile/VIK.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=WAAREEENER.NS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/WAAREEENER.NS.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=WMG&quotesCount=5&newsCount=0,data/raw/yahoo_profile/WMG.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=XPEV&quotesCount=5&newsCount=0,data/raw/yahoo_profile/XPEV.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=ZM&quotesCount=5&newsCount=0,data/raw/yahoo_profile/ZM.json,yahoo profile json
+https://query1.finance.yahoo.com/v1/finance/search?q=ZTS&quotesCount=5&newsCount=0,data/raw/yahoo_profile/ZTS.json,yahoo profile json
+https://resources.groww.in/web-assets/media-library/2025/11/Prospectus.pdf,data/in/pros/GROWW.txt,document text
+https://search.sbisec.co.jp/v2/popwin/info/connect/ipo/201509102103.pdf,data/global/JPH_amend3.txt,document text
+https://static.cninfo.com.cn/finalpage/2010-02-25/57623771.PDF,data/cn/HUATAI_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2010-07-14/58169378.PDF,data/cn/ABC_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2010-08-17/58311856.PDF,data/cn/CEB_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2011-10-17/60065759.PDF,data/cn/SINOHYDRO_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2011-12-15/60326514.PDF,data/cn/NCI_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2014-12-26/1200496633.PDF,data/cn/GUOSEN_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2015-06-09/1201123741.PDF,data/cn/CNNP_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2015-06-17/1201161114.PDF,data/cn/GTJA_A_prospectus.txt,document text
+https://static.cninfo.com.cn/finalpage/2015-06-20/1201176088.PDF,data/cn/GTJA_A_result.txt,document text
+https://static.cninfo.com.cn/finalpage/2016-08-01/1202523601.PDF,data/cn/JSBANK_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2016-11-15/1202829044.PDF,data/cn/BOSH_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2017-01-20/1203032392.PDF,data/cn/GALAXY_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2017-12-14/1204221013.PDF,data/cn/LANCANG_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2018-06-07/1205042765.PDF,data/cn/FII_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2018-06-08/1205044219.PDF,data/cn/CATL_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2018-06-19/1205064932.PDF,data/cn/CSC_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2018-10-15/1205503838.PDF,data/cn/MINDRAY_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2019-07-19/1206460073.PDF,data/cn/CRSC_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2019-08-23/1206556864.PDF,data/cn/CGN_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2019-10-28/1207024691.PDF,data/cn/CRCB_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2019-11-25/1207111489.PDF,data/cn/CZB_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2019-12-09/1207147351.PDF,data/cn/PSBC_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2020-01-15/1207250044.PDF,data/cn/BJSHRAIL_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2020-07-15/1208033037.PDF,data/cn/SMIC_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2020-10-30/1208654031.PDF,data/cn/CICC_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2021-06-09/1210199482.PDF,data/cn/CTGR_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2021-08-20/1210794737.PDF,data/cn/CT_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2022-01-04/1212085542.PDF,data/cn/CM_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2022-01-25/1212264380.PDF,data/cn/JINKO_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2022-04-20/1212978191.PDF,data/cn/CNOOC_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2022-08-11/1214267801.PDF,data/cn/HYGON_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2023-08-04/1217460805.PDF,data/cn/HUAHONG_A_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2025-07-15/1224165147.PDF,data/cn/HUADIAN_NE_listing.txt,document text
+https://static.cninfo.com.cn/finalpage/2025-12-04/1224848789.PDF,data/cn/MOORE_listing.txt,document text
+https://www.aramco.com/-/media/images/investors/saudi-aramco-final-price-announcement-en.pdf,,remote only (no local copy)
+"https://www.bseindia.com/corporates/download/318111/IPO%20BasisOfAllotment/Life%20Insurance%20Corporation%20of%20India%20-%20Prospectus%20(May%2012,%202022)_20220512195642.pdf",data/in/pros/LIC.txt,document text
+https://www.citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/SBI-Life-Insurance-Prospectus.pdf,data/in/pros/SBILIFE.txt,document text
+https://www.citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/Suraksha-Prospectus.pdf,data/in/pros/GICRE.txt,document text
+https://www.citigroup.com/rcs/citigpa/storage/public/India/regulatory-disclosures/coal-india-limited-prospectus.pdf,data/in/pros/COALINDIA.txt,document text
+https://www.cnbc.com/2018/04/03/spotify-spot-ipo-stock-starts-trading-on-the-nyse.html,,remote only (no local copy)
+https://www.cnbc.com/2020/09/29/palantir-direct-listing-reference-price-7point25-says-nyse.html,,remote only (no local copy)
+https://www.cnbc.com/2021/04/13/coinbase-reference-price-250-ahead-of-direct-listing.html,,remote only (no local copy)
+https://www.dewa.gov.ae/~/media/Files/IPO/FinalPriceAnnouncement_EN.ashx,,remote only (no local copy)
+https://www.goldmansachs.com/worldwide/india/ipo/bandhan-bank-limited/bandhan-bank-prospectus.pdf,data/in/pros/BANDHAN.txt,document text
+https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/ICICI-Prudential-Asset-Management-Company-Limited-Prospectus.pdf,data/in/pros/ICICIAMC.txt,document text
+https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/wholesale-banking/investment-banking/Tata-Capital-Limited-Prospectus.pdf,data/in/pros/TATACAP.txt,document text
+https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/wholesale-banking/investment-banking/offer-documents/pb-fintech-limited-prospectus.pdf,data/in/pros/POLICYBZR.txt,document text
+https://www.hyundai.com/content/dam/hyundai/in/en/data/investor-relations/material-documents/prospectus.pdf,data/in/pros/HYUNDAIIN.txt,document text
+https://www.jefferies.com/wp-content/uploads/sites/4/2023/10/050323-mankind-pharma-limited-prospectus-1.pdf,data/in/pros/MANKIND.txt,document text
+https://www.morganstanley.com/content/dam/msdotcom/en/indiaofferdocuments/pdfs/HDB_Financial_Services_Limited_Prospectus.pdf,data/in/pros/HDBFS.txt,document text
+https://www.morganstanley.com/content/dam/msdotcom/en/indiaofferdocuments/pdfs/LG_Electronics_India_Limited_Prospectus.pdf,data/in/pros/LGEIND.txt,document text
+https://www.morganstanley.com/content/dam/msdotcom/en/indiaofferdocuments/pdfs/Lenskart_Solution_Limited_Prospectus.pdf,data/in/pros/LENSKART.txt,document text
+https://www.morganstanley.com/content/dam/msdotcom/en/indiaofferdocuments/pdfs/Meesho_Limited_Prospectus.pdf,data/in/pros/MEESHO.txt,document text
+https://www.morganstanley.com/content/dam/msdotcom/en/indiaofferdocuments/pdfs/Zomato_Limited_Prospectus.pdf,data/in/pros/ZOMATO.txt,document text
+https://www.nomuranow.com/portal/site/nnextranet/resources/assets/files/NIA_Prospectus.pdf,data/in/pros/NIACL.txt,document text
+https://www.nomuranow.com/portal/site/nnextranet/resources/assets/files/hdfcslip.pdf,data/in/pros/HDFCLIFE.txt,document text
+https://www.renaissancecapital.com/IPO-Center/News/63741/slacks-nyse-reference-price-is-set-at-26,data/web/WORK_ref.txt,document text
+https://www.renaissancecapital.com/IPO-Center/News/79113/robloxs-nyse-reference-price-is-set-at-45-ahead-of-direct-listing,data/web/RBLX_ref.txt,document text
+https://www.sbicaps.com/wp-content/uploads/2021/10/Hindustan_Aeronautics_Limited_Prospectus.pdf,data/in/pros/HAL.txt,document text
+https://www.sebi.gov.in/sebi_data/attachdocs/nov-2024/1732529788335.pdf,data/in/pros/NTPCGREEN.txt,document text
+https://www.sec.gov/Archives/edgar/data/1315098/000119312521075435/d87104d424b4.htm,data/sec/prospectus/RBLX.txt,document text
+https://www.sec.gov/Archives/edgar/data/1319161/000119312520160812/d833365d424b4.htm,data/sec/prospectus/WMG.txt,document text
+https://www.sec.gov/Archives/edgar/data/1321655/000119312520258493/d904406d424b4.htm,data/sec/prospectus/PLTR.txt,document text
+https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm,data/sec/prospectus/META.txt,document text
+https://www.sec.gov/Archives/edgar/data/1333986/000119312518160394/d334112d424b4.htm,data/sec/prospectus/EQH.txt,document text
+https://www.sec.gov/Archives/edgar/data/1418091/000119312513431301/d564001d424b4.htm,data/sec/prospectus/TWTR.txt,document text
+https://www.sec.gov/Archives/edgar/data/1439404/000119312511343682/d198836d424b4.htm,data/sec/prospectus/ZNGA.txt,document text
+https://www.sec.gov/Archives/edgar/data/1467623/000119312518092764/d553522d424b4.htm,data/sec/prospectus/DBX.txt,document text
+https://www.sec.gov/Archives/edgar/data/1467858/000119312510263484/d424b1.htm,data/sec/prospectus/GM.txt,document text
+https://www.sec.gov/Archives/edgar/data/1490281/000104746911009142/a2206165z424b4.htm,data/sec/prospectus/GRPN.txt,document text
+https://www.sec.gov/Archives/edgar/data/1492633/000119312511015866/d424b4.htm,data/sec/prospectus/NLSN.txt,document text
+https://www.sec.gov/Archives/edgar/data/1506293/000119312519111067/d697629d424b4.htm,data/sec/prospectus/PINS.txt,document text
+https://www.sec.gov/Archives/edgar/data/1506307/000104746911000769/a2201911z424b1.htm,data/sec/prospectus/KMI.txt,document text
+https://www.sec.gov/Archives/edgar/data/1522540/000119312521187099/d64065d424b4.htm,data/sec/prospectus/MQ.txt,document text
+https://www.sec.gov/Archives/edgar/data/1535527/000104746919003607/a2239024z424b4.htm,data/sec/prospectus/CRWD.txt,document text
+https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm,data/sec/prospectus/UBER.txt,document text
+https://www.sec.gov/Archives/edgar/data/1544522/000162828021019055/freshworks424b4.htm,data/sec/prospectus/FRSH.txt,document text
+https://www.sec.gov/Archives/edgar/data/1555280/000119312513035094/d381653d424b4.htm,data/sec/prospectus/ZTS.txt,document text
+https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm,data/sec/prospectus/ABNB.txt,document text
+https://www.sec.gov/Archives/edgar/data/1561550/000119312519249577/d745413d424b4.htm,data/sec/prospectus/DDOG.txt,document text
+https://www.sec.gov/Archives/edgar/data/1564408/000119312517068848/d270216d424b4.htm,data/sec/prospectus/SNAP.txt,document text
+https://www.sec.gov/Archives/edgar/data/1577552/000119312514347620/d709111d424b4.htm,data/sec/prospectus/BABA.txt,document text
+https://www.sec.gov/Archives/edgar/data/1579091/000119312523237900/d55348d424b4.htm,data/sec/prospectus/CART.txt,document text
+https://www.sec.gov/Archives/edgar/data/1579878/000162828025037014/figma424b4.htm,data/sec/prospectus/FIG.txt,document text
+https://www.sec.gov/Archives/edgar/data/1580608/000119312514019910/d629853d424b4.htm,data/sec/prospectus/SC.txt,document text
+https://www.sec.gov/Archives/edgar/data/1585521/000119312519110919/d642624d424b4.htm,data/sec/prospectus/ZM.txt,document text
+https://www.sec.gov/Archives/edgar/data/1585689/000119312513473211/d593452d424b4.htm,data/sec/prospectus/HLT.txt,document text
+https://www.sec.gov/Archives/edgar/data/1601712/000119312514289938/d680310d424b1.htm,data/sec/prospectus/SYF.txt,document text
+https://www.sec.gov/Archives/edgar/data/1639825/000119312519255124/d738839d424b4.htm,data/sec/prospectus/PTON.txt,document text
+https://www.sec.gov/Archives/edgar/data/1639920/000119312518105231/d494294d424b4.htm,data/sec/prospectus/SPOT.txt,document text
+https://www.sec.gov/Archives/edgar/data/1640147/000162828020013667/snowflake424b4.htm,data/sec/prospectus/SNOW.txt,document text
+https://www.sec.gov/Archives/edgar/data/1642896/000119312521358031/d261594d424b4.htm,data/sec/prospectus/IOT.txt,document text
+https://www.sec.gov/Archives/edgar/data/1648416/000119312515349281/d61094d424b1.htm,data/sec/prospectus/RACE.txt,document text
+https://www.sec.gov/Archives/edgar/data/1650164/000119312521279379/d166297d424b4.htm,data/sec/prospectus/TOST.txt,document text
+https://www.sec.gov/Archives/edgar/data/1653482/000162828021020056/gitlab-424b4.htm,data/sec/prospectus/GTLB.txt,document text
+https://www.sec.gov/Archives/edgar/data/1679788/000162828021006850/coinbaseglobalinc424b.htm,data/sec/prospectus/COIN.txt,document text
+https://www.sec.gov/Archives/edgar/data/1691493/000119312521352703/d213207d424b1.htm,data/sec/prospectus/NU.txt,document text
+https://www.sec.gov/Archives/edgar/data/1702780/000104746917004208/a2232514z424b4.htm,data/sec/prospectus/ATUS.txt,document text
+https://www.sec.gov/Archives/edgar/data/1713445/000162828024012380/reddit-final424b4.htm,data/sec/prospectus/RDDT.txt,document text
+https://www.sec.gov/Archives/edgar/data/1720671/000119312521352796/d205906d424b4.htm,data/sec/prospectus/HCP.txt,document text
+https://www.sec.gov/Archives/edgar/data/1722608/000119312518101601/d487167d424b4.htm,data/sec/prospectus/IQ.txt,document text
+https://www.sec.gov/Archives/edgar/data/1734722/000119312521125014/d98556d424b4.htm,data/sec/prospectus/PATH.txt,document text
+https://www.sec.gov/Archives/edgar/data/1736541/000119312518271849/d560276d424b4.htm,data/sec/prospectus/NIO.txt,document text
+https://www.sec.gov/Archives/edgar/data/1737806/000104746918005204/a2236308z424b4.htm,data/sec/prospectus/PDD.txt,document text
+https://www.sec.gov/Archives/edgar/data/1744676/000119312518347477/d624633d424b4.htm,data/sec/prospectus/TME.txt,document text
+https://www.sec.gov/Archives/edgar/data/1745201/000119312524129359/d496227d424b4.htm,data/sec/prospectus/VIK.txt,document text
+https://www.sec.gov/Archives/edgar/data/1747748/000162828021001181/qualtricss-1424b4.htm,data/sec/prospectus/XM.txt,document text
+https://www.sec.gov/Archives/edgar/data/1751008/000119312521117730/d73804d424b4.htm,data/sec/prospectus/APP.txt,document text
+https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm,data/sec/prospectus/LYFT.txt,document text
+https://www.sec.gov/Archives/edgar/data/1764757/000104746921001227/a2243300z424b4.htm,data/sec/prospectus/DIDI.txt,document text
+https://www.sec.gov/Archives/edgar/data/1764925/000162828019008125/slack424.htm,data/sec/prospectus/WORK.txt,document text
+https://www.sec.gov/Archives/edgar/data/1766502/000119312519174261/d665122d424b4.htm,data/sec/prospectus/CHWY.txt,document text
+https://www.sec.gov/Archives/edgar/data/1769628/000119312525067651/d899798d424b4.htm,data/sec/prospectus/CRWV.txt,document text
+https://www.sec.gov/Archives/edgar/data/1783879/000162828021015076/robinhood424.htm,data/sec/prospectus/HOOD.txt,document text
+https://www.sec.gov/Archives/edgar/data/1791706/000104746920004324/a2242162z424b4.htm,data/sec/prospectus/LI.txt,document text
+https://www.sec.gov/Archives/edgar/data/1792789/000119312520313884/d752207d424b4.htm,data/sec/prospectus/DASH.txt,document text
+https://www.sec.gov/Archives/edgar/data/1795586/000162828025030855/chimefinancialinc-finalpro.htm,data/sec/prospectus/CHYM.txt,document text
+https://www.sec.gov/Archives/edgar/data/1802768/000119312520171165/d862976d424b4.htm,data/sec/prospectus/RPRX.txt,document text
+https://www.sec.gov/Archives/edgar/data/1809587/000104746920004582/a2242260z424b4.htm,data/sec/prospectus/BEKE.txt,document text
+https://www.sec.gov/Archives/edgar/data/1810806/000119312520249257/d908875d424b4.htm,data/sec/prospectus/U.txt,document text
+https://www.sec.gov/Archives/edgar/data/1810997/000119312520233600/d890887d424b4.htm,data/sec/prospectus/XPEV.txt,document text
+https://www.sec.gov/Archives/edgar/data/1820953/000110465921004276/tm2026663-21_s1a.htm,data/sec/prospectus/AFRM.txt,document text
+https://www.sec.gov/Archives/edgar/data/1830043/000119312521041904/d20761d424b4.htm,data/sec/prospectus/BMBL.txt,document text
+https://www.sec.gov/Archives/edgar/data/1834584/000162828021004565/coupang-424b4.htm,data/sec/prospectus/CPNG.txt,document text
+https://www.sec.gov/Archives/edgar/data/1835830/000162828023032570/klaviyoincfinalprospectus.htm,data/sec/prospectus/KVYO.txt,document text
+https://www.sec.gov/Archives/edgar/data/1843586/000119312521168012/d123209d424b4.htm,data/sec/prospectus/OTLY.txt,document text
+https://www.sec.gov/Archives/edgar/data/1868159/000119312524185331/d577649d424b4.htm,data/sec/prospectus/LINE.txt,document text
+https://www.sec.gov/Archives/edgar/data/1874178/000119312521328239/d157488d424b4.htm,data/sec/prospectus/RIVN.txt,document text
+https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm,data/sec/prospectus/CRCL.txt,document text
+https://www.sec.gov/Archives/edgar/data/1880661/000119312522009890/d197780d424b4.htm,data/sec/prospectus/TPG.txt,document text
+https://www.sec.gov/Archives/edgar/data/1889539/000114036122033508/ny20001795x22_424b4.htm,data/sec/prospectus/CRBG.txt,document text
+https://www.sec.gov/Archives/edgar/data/1910139/000110465922112004/tm227410-23_424b4.htm,data/sec/prospectus/MBLY.txt,document text
+https://www.sec.gov/Archives/edgar/data/1944048/000162828023015837/kenvue424b4.htm,data/sec/prospectus/KVUE.txt,document text
+https://www.sec.gov/Archives/edgar/data/1973239/000119312523235320/d550931d424b4.htm,data/sec/prospectus/ARM.txt,document text
+https://www.sec.gov/Archives/edgar/data/1977102/000119312523254724/d507917d424b4.htm,data/sec/prospectus/BIRK.txt,document text
+https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm,data/sec/prospectus/KLAR.txt,document text
+https://www.sec.gov/Archives/edgar/data/2007855/000119312525012218/d146310d424b4.htm,data/sec/prospectus/VG.txt,document text
+https://www.sec.gov/Archives/edgar/data/2030781/000119312525026566/d906470d424b4.htm,data/sec/prospectus/SAIL.txt,document text
+https://www.sec.gov/Archives/edgar/data/40729/000119312514140209/d651440d424b4.htm,data/sec/prospectus/ALLY.txt,document text
+https://www.sec.gov/Archives/edgar/data/759944/000119312514352022/d723158d424b4.htm,data/sec/prospectus/CFG.txt,document text
+https://www.sec.gov/Archives/edgar/data/860730/000095012311024716/y83802b4e424b4.htm,data/sec/prospectus/HCA.txt,document text
+https://www.softbank.jp/corp/news/press/sbkk/2018/20181210_01/,data/global/SBK_price.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/01288_834053/E124.pdf,data/hk/ann/ABC_H_d3_E124.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/ltn20100630147.pdf,data/hk/ann/ABC_H_d2.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0709/ltn20100709005.pdf,data/hk/ann/ABC_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0715/01288_845080/E102.PDF,data/hk/ann/ABC_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1018/01299_915068/E106.pdf,data/hk/ann/AIA_d2_E106.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1026/ltn20101026003.pdf,data/hk/ann/AIA_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1028/01299_921887/E102.PDF,data/hk/ann/AIA_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0523/02282_1079641/E105.pdf,data/hk/ann/MGMCHINA_d2_E105.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0602/02282_1087588/E102.PDF,data/hk/ann/MGMCHINA_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0613/ltn20110613009.pdf,data/hk/ann/PRADA_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0623/01913_1101242/E102.PDF,data/hk/ann/PRADA_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0704/ltn20110704009.pdf,data/hk/ann/SUNART_d2.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0726/06808_1123723/E102.pdf,data/hk/ann/SUNART_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1202/01336_1217631/E120.pdf,data/hk/ann/NCI_H_d2_E120.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1209/ltn20111209030.pdf,data/hk/ann/NCI_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1214/01336_1225600/E102.PDF,data/hk/ann/NCI_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2012/1126/ltn20121126015.pdf,data/hk/ann/PICC_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2012/1206/01339_1498950/E102.PDF,data/hk/ann/PICC_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1128/ltn20131128033.pdf,data/hk/ann/CINDA_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1210/06818_1794821/E123.pdf,data/hk/ann/CEB_H_d2_E123.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1211/01359_1795642/E102.PDF,data/hk/ann/CINDA_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1219/06818_1801543/E102.PDF,data/hk/ann/CEB_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2014/0724/ltn20140724039.pdf,data/hk/ann/WHGROUP_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2014/0804/00288_2002345/E102.PDF,data/hk/ann/WHGROUP_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1127/ltn20141127047.pdf,data/hk/ann/CGN_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/01816_2116572/E102.PDF,data/hk/ann/CGN_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/01958_2116584/E121.pdf,data/hk/ann/BAIC_d1_E121.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1218/01958_2124190/E102.PDF,data/hk/ann/BAIC_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0319/ltn20150319019.pdf,data/hk/ann/FUYAO_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0325/ltn20150325029.pdf,data/hk/ann/GFSEC_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0329/03606_2208279/E102.PDF,data/hk/ann/FUYAO_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0409/01776_2221256/E102.PDF,data/hk/ann/GFSEC_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0519/ltn20150519023.pdf,data/hk/ann/HUATAI_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0529/06886_2278740/E102.PDF,data/hk/ann/HUATAI_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0616/ltn20150616019.pdf,data/hk/ann/LEGEND_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0626/03396_2307314/E102.PDF,data/hk/ann/LEGEND_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1013/ltn20151013009.pdf,data/hk/ann/CHINARE_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1016/ltn20151016035.pdf,data/hk/ann/HUARONG_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1023/01508_2427759/E102.PDF,data/hk/ann/CHINARE_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1029/02799_2432143/E102.PDF,data/hk/ann/HUARONG_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0316/ltn20160316015.pdf,data/hk/ann/CZB_H_d2.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0329/02016_2563896/E102.PDF,data/hk/ann/CZB_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0808/ltn20160808021.pdf,data/hk/ann/EBSEC_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0817/06178_2707920/E102.PDF,data/hk/ann/EBSEC_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0914/ltn20160914011.pdf,data/hk/ann/PSBC_H_d2.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0927/01658_2746551/E102.PDF,data/hk/ann/PSBC_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0328/ltn20170328033.pdf,data/hk/ann/GTJA_H_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0410/02611_2916379/E102.PDF,data/hk/ann/GTJA_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0918/ltn20170918023.pdf,data/hk/ann/ZHONGAN_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0927/06060_3090718/E102.PDF,data/hk/ann/ZHONGAN_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1026/ltn20171026021.pdf,data/hk/ann/CHINALIT_d2.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1106/ltn20171106013.pdf,data/hk/ann/YIXIN_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1107/00772_3131750/E102.PDF,data/hk/ann/CHINALIT_d1_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1107/ltn20171107830.pdf,data/hk/ann/CHINALIT_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1115/02858_3139937/E102.PDF,data/hk/ann/YIXIN_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0423/ltn20180423031.pdf,data/hk/ann/PAGD_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0503/01833_3322359/E102.PDF,data/hk/ann/PAGD_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0625/ltn20180625033.pdf,data/hk/ann/XIAOMI_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0706/01810_3392924/E102.PDF,data/hk/ann/XIAOMI_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0725/00788_3409596/EWP119.pdf,data/hk/ann/CHINATOWER_d1_EWP119.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0807/00788_3428080/E102.PDF,data/hk/ann/CHINATOWER_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0907/ltn20180907011.pdf,data/hk/ann/MEITUAN_d2.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0912/ltn20180912019.pdf,data/hk/ann/HAIDILAO_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0919/03690_3480351/E102.PDF,data/hk/ann/MEITUAN_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0924/06862_3484637/E102.PDF,data/hk/ann/HAIDILAO_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0412/06806_3706086/E121.pdf,data/hk/ann/SWHY_H_d1_E121.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0425/06806_3719225/E102.PDF,data/hk/ann/SWHY_H_d0_E102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0531/ltn20190531015.pdf,data/hk/ann/HANSOH_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0613/03692_3784651/e102.pdf,data/hk/ann/HANSOH_d0_e102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0924/ltn201909249999.pdf,data/hk/ann/BUDAPAC_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0927/01876_3883047/e102.pdf,data/hk/ann/BUDAPAC_d0_e102.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1008/ltn20191008751.pdf,data/hk/ann_extra/BUDAPAC_mr201909.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1030/2019103000013.pdf,data/hk/ann/FEIHE_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1112/9064185/2019111200090.pdf,data/hk/ann/FEIHE_d0_2019111200090.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0629/2020062900021.pdf,data/hk/ann/SMOORE_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0630/2020063000079.pdf,data/hk/ann/BOHAI_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0709/9351379/2020070900086.pdf,data/hk/ann/SMOORE_d0_2020070900086.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0715/9357079/2020071500022.pdf,data/hk/ann/BOHAI_d0_2020071500022.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0728/2020072800013.pdf,data/hk/ann/TIGERMED_H_d2.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0806/9387579/2020080600026.pdf,data/hk/ann/TIGERMED_H_d0_2020080600026.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0825/2020082500025.pdf,data/hk/ann/NONGFU_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0907/9432499/2020090700018.pdf,data/hk/ann/NONGFU_d0_2020090700018.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1125/2020112500007.pdf,data/hk/ann/MIXC_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1126/2020112600117.pdf,data/hk/ann/JDH_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1201/2020120100099.pdf,data/hk/ann/POPMART_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1207/9539949/2020120700123.pdf,data/hk/ann/JDH_d0_2020120700123.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1208/9541656/2020120800054.pdf,data/hk/ann/MIXC_d0_2020120800054.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1210/9543752/2020121000022.pdf,data/hk/ann/POPMART_d0_2020121000022.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/9597258/2021012600098.pdf,data/hk/ann/KUAISHOU_d1_2021012600098.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/9597258/2021012600121.pdf,data/hk/ann/KUAISHOU_d1_2021012600121.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0204/9614152/2021020400036.pdf,data/hk/ann/KUAISHOU_d0_2021020400036.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0517/2021051700091.pdf,data/hk/ann/JDLOG_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0527/9778625/2021052700016.pdf,data/hk/ann/JDLOG_d0_2021052700016.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/10043013/2021120700043.pdf,data/hk/ann/SENSETIME_d1_2021120700043.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/10043013/2021120700066.pdf,data/hk/ann/SENSETIME_d1_2021120700066.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1229/10065867/2021122900060.pdf,data/hk/ann/SENSETIME_d0_2021122900060.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0630/10322528/2022063000167.pdf,data/hk/ann/TIANQI_H_d2_2022063000167.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0712/10339849/2022071200064.pdf,data/hk/ann/TIANQI_H_d0_2022071200064.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0920/2022092000023.pdf,data/hk/ann/LEAPMOTOR_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0923/2022092300035.pdf,data/hk/ann/CALB_d1.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0928/10445565/2022092800022.pdf,data/hk/ann/LEAPMOTOR_d0_2022092800022.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1005/10457761/2022100500030.pdf,data/hk/ann/CALB_d0_2022100500030.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0417/10689638/2023041700049.pdf,data/hk/ann/ZJLD_d1_2023041700049.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0426/10705031/2023042600064.pdf,data/hk/ann/ZJLD_d0_2023042600064.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0916/2024091600951.pdf,data/hk/ann/MIDEA_H_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1023/2024102300943.pdf,data/hk/ann/HORIZON_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1126/2024112601132.pdf,data/hk/ann/SF_H_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0228/2025022801727.pdf,data/hk/ann/MIXUE_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0519/2025051901257.pdf,data/hk/ann/CATL_H_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0523/2025052301545.pdf,data/hk/ann/HENGRUI_H_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0618/2025061801931.pdf,data/hk/ann/HAITIAN_H_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0620/2025062002236.pdf,data/hk/ann/SANHUA_H_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0924/2025092401262.pdf,data/hk/ann/CHERY_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0929/2025092903788.pdf,data/hk/ann/ZIJINGOLD_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1027/2025102701586.pdf,data/hk/ann/SANY_H_d0.txt,document text
+https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1104/2025110402282.pdf,data/hk/ann/SERES_H_d0.txt,document text

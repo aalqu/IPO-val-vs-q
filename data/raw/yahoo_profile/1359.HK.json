@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1359.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CHINA CINDA",
+  "quoteType": "EQUITY",
+  "symbol": "1359.HK",
+  "index": "quotes",
+  "score": 10011500.0,
+  "typeDisp": "Equity",
+  "longname": "China Cinda Asset Management Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Asset Management",
+  "industryDisp": "Asset Management",
+  "isYahooFinance": true
+ }
+}

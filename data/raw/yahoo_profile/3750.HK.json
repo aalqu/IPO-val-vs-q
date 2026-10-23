@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=3750.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CATL",
+  "quoteType": "EQUITY",
+  "symbol": "3750.HK",
+  "index": "quotes",
+  "score": 12452000.0,
+  "typeDisp": "Equity",
+  "longname": "Contemporary Amperex Technology Co., Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Industrials",
+  "sectorDisp": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "industryDisp": "Electrical Equipment & Parts",
+  "isYahooFinance": true
+ }
+}

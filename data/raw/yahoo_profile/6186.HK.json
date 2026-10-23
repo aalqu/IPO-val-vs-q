@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6186.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CHINA FEIHE",
+  "quoteType": "EQUITY",
+  "symbol": "6186.HK",
+  "index": "quotes",
+  "score": 10019500.0,
+  "typeDisp": "Equity",
+  "longname": "China Feihe Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Defensive",
+  "sectorDisp": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "industryDisp": "Packaged Foods",
+  "isYahooFinance": true
+ }
+}

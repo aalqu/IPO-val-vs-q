@@ -1,0 +1,64 @@
+id,field,expression,scale,note
+HCA,ebit,"2,231 + 2,097",1,"income before taxes + interest expense, FY2010"
+HCA,ebitda,"2,231 + 2,097 + 1,421",1,"EBIT + depreciation and amortization, FY2010"
+HLT,cash,470,1,cash and cash equivalents (summary balance sheet)
+TWTR,ebit,"-77,083",0.001,"loss from operations, FY2012 ($ thousands)"
+TWTR,ebitda,"-77,083 + 72,506",0.001,"loss from operations + depreciation and amortization, FY2012 ($ thousands)"
+BABA,debt,"4,241 + 49,033 + 8,831",1,current bank borrowings + non-current bank borrowings + secured borrowings (RMB m)
+RACE,ebitda,678,1,"EBITDA as printed in the prospectus reconciliation, FY2014 (EUR m)"
+SNAP,ebit,"-520,385",0.001,"loss from operations, FY2016 ($ thousands)"
+SNAP,ebitda,"-520,385 + 29,115",0.001,"loss from operations + depreciation and amortization, FY2016"
+ZM,ebitda,"6,167 + 7,008",0.001,"income from operations + depreciation and amortization, FY2019 ($ thousands)"
+WMG,cash,381,1,cash and equivalents as stated in the prospectus capitalization
+WMG,dividends,"0.12 * 4 * 510,000,000",1e-06,stated quarterly dividend of $0.12 per share x 4 x shares outstanding after the offering
+SNOW,ebitda,"-358,088 + 3,522",0.001,"operating loss + depreciation and amortization, FY2020 ($ thousands)"
+ABNB,ebitda,"-501,543 + 114,162",0.001,"loss from operations + depreciation and amortization, FY2019 ($ thousands)"
+KVUE,ebitda,"2,476 + 644",1,"pro forma operating income + depreciation and amortization, FY2022"
+KVUE,dividends,"0.20 * 4 * 1,888,972,560",1e-06,stated quarterly dividend of about $0.20 per share x 4 x shares outstanding after the offering
+ARAMCO,ebit,"797,896 + 2,959",1,"income before income taxes + finance costs, 2018 (SAR m)"
+ARAMCO,ebitda,"797,896 + 2,959 + 41,334",1,"EBIT + depreciation and amortization, 2018"
+ARAMCO,cash,"183,152 + 194",1,"cash and cash equivalents + short-term investments, 31 Dec 2018"
+ARAMCO,dividends,75.0 * 1000 * 3.75,1,"stated intention of at least $75.0 billion ordinary dividends for 2020, at the SAR 3.75 peg"
+XIAOMI,ebitda,"(12,215,467 + 166,515 + 194,441) / 1000",1,"operating profit + depreciation of property and equipment + amortization of intangible assets, 2017 (RMB thousands)"
+XIAOMI,primary_proceeds,"23,974.8 * 0.8193",1,net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$
+CHINATOWER,primary_proceeds,"53,422.8 * 0.85254",1,net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$
+HAIDILAO,ebit,"(1,625,050 + 8,614) / 1000",1,"profit before tax + finance costs, 2017 (RMB thousands)"
+HAIDILAO,ebitda,"(1,625,050 + 8,614 + 359,839) / 1000",1,"EBIT + depreciation and amortisation, 2017"
+HAIDILAO,primary_proceeds,"7,269.4 * 0.87079",1,net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$
+SMOORE,ebit,"(2,567,051 + 18,173) / 1000",1,"profit before tax + finance costs, 2019 (RMB thousands)"
+SMOORE,ebitda,"(2,567,051 + 18,173 + 173,507) / 1000",1,"EBIT + depreciation and amortisation incl. right-of-use assets, 2019"
+SMOORE,primary_proceeds,"6,862.5 * 0.9143",1,net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$
+NONGFU,ebit,"6,499 + 16",1,"profit before tax + finance costs, 2019 (RMB m)"
+NONGFU,ebitda,"6,499 + 16 + 1,614,152 / 1000",1,"EBIT + depreciation and amortisation (RMB thousands), 2019"
+NONGFU,debt,"2,253 + 7,800",1,"interest-bearing borrowings at 31 May 2020 + RMB7,800m dividend declared before listing (RMB m)"
+NONGFU,primary_proceeds,"8,149 * 0.8955",1,net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$
+CNNP,ebit,"(616,148.57 + 226,377.57) / 100",1,"利润总额 + 利息支出, 2014 (RMB 10,000s)"
+CNNP,debt,"(720,768.43 + 688,030.07 + 13,443,420.94 + 547,381.80) / 100 + 24,102,101,505.90 / 1000000",1,"短期借款 + 一年内到期的非流动负债 + 长期借款 + 应付债券 (RMB 10,000s) + 少数股东权益 (RMB), 31 Dec 2014"
+FII,ebit,"(20,041,268 + 105,882) / 1000",1,"利润总额 + 利息支出, 2017 (RMB thousands)"
+FII,debt,"(6,956,799 + 21,529) / 1000",1,"短期借款 + 少数股东权益, 31 Dec 2017 (RMB thousands)"
+CATL_A,ebit,"(484,810.02 + 10,282.90) / 100",1,"利润总额 + 利息支出, 2017 (RMB 10,000s)"
+CATL_A,debt,"(224,509.60 + 36,494.46 + 212,909.53 + 176,979.95) / 100",1,"短期借款 + 一年内到期的非流动负债 + 长期借款 + 少数股东权益, 31 Dec 2017 (RMB 10,000s)"
+MINDRAY,ebit,"(2,931,367,420.00 + 80,991,773.00) / 1000000",1,"利润总额 + 利息支出, 2017 (RMB, 2018 annual report comparatives)"
+MINDRAY,ebitda,"(2,931,367,420.00 + 80,991,773.00 + 214,271,823.00 + 89,894,512.00 + 13,526,524.00) / 1000000",1,"EBIT + 折旧 + 无形资产摊销 + 长期待摊费用摊销, 2017 (RMB)"
+MINDRAY,debt,"(1,801,120,000.00 + 42,785,033.00 + 34,196,451.00) / 1000000",1,"短期借款 + 一年内到期的非流动负债 + 少数股东权益, 31 Dec 2017 (RMB)"
+BJSHRAIL,ebit,"(1,366,419.72 + 126,260.15) / 100",1,"利润总额 + 利息支出, 2018 (RMB 10,000s)"
+COALINDIA,ebit,"525,922.92 - 52,408.39 - 385,737.04 + 1,364.59 + 194.95",1,"total income - other income - total expenditure + interest + finance charges, FY2010 (INR m)"
+COALINDIA,ebitda,"525,922.92 - 52,408.39 - 385,737.04 + 1,364.59 + 194.95 + 13,138.41 + 156.12",1,"EBIT + depreciation + impairment, FY2010"
+COALINDIA,debt,"4,669.08 + 16,199.43 + 236.07",1,"secured loans + unsecured loans + minority interest, 31 Mar 2010 (INR m)"
+HAL,ebit,"35,917 - 10,420 + 102",1,"restated profit before tax - other income + finance costs, FY2017 (INR m)"
+HAL,ebitda,"35,917 - 10,420 + 102 + 7,129",1,"EBIT + depreciation, amortization and impairment, FY2017"
+NYKAA,ebit,753.38 - 117.41 + 307.01,1,"profit before tax - other income + finance costs, FY2021 (INR m)"
+NYKAA,ebitda,753.38 - 117.41 + 307.01 + 671.28,1,"EBIT + depreciation and amortisation, FY2021"
+NYKAA,cash,"2,818.36 + 1,038.73",1,"cash and cash equivalents + other bank balances, 30 Jun 2021 (INR m)"
+PAYTM,ebit,"-15,962 - 3,844 + 348",1,"loss before share of associates, exceptional items and tax - other income + finance costs, FY2021 (INR m)"
+PAYTM,cash,"6,504 + 18,476 + 6,555",1,"cash and cash equivalents + other bank balances + current investments, 30 Jun 2021 (INR m)"
+ZOMATO,ebit,"-4,903.58 - 1,246.35 + 100.82",1,"loss before exceptional items and tax - other income + finance costs, FY2021 (INR m)"
+ZOMATO,ebitda,"-4,903.58 - 1,246.35 + 100.82 + 1,377.44",1,"EBIT + depreciation and amortization, FY2021"
+ZOMATO,cash,"3,065.46 + 5,971.12 + 35,965.69",1,"cash and cash equivalents + other bank balances + deposits with maturity over 12 months, 31 Mar 2021 (INR m)"
+WMG,shares_post_ipo_m,"510,000,000",0.000001,Class A and Class B shares outstanding after the offering (prospectus)
+ARAMCO,shares_post_ipo_m,"200,000,000,000",0.000001,shares in issue (prospectus); the offering was a sale of existing shares
+ZTS,shares_post_ipo_m,"86,100,000 + 413,900,000",0.000001,Class A + Class B shares outstanding after the offering (prospectus)
+ZTS,dividends,"0.065 * 4 * (86,100,000 + 413,900,000)",0.000001,stated quarterly dividend of $0.065 per share x 4 x shares outstanding after the offering
+ZTS,cash,300,1,"pro forma cash and cash equivalents (capitalization table, $ m)"
+XIAOMI,cash,"14,027,013",0.001,cash and cash equivalents at 31 March 2018 (RMB thousands)
+MINDRAY,primary_proceeds,"5,751,799,462",0.000001,募集资金净额 (net proceeds) per the 2018 annual report (RMB)

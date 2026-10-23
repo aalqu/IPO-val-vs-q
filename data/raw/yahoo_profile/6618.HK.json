@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6618.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "JD HEALTH",
+  "quoteType": "EQUITY",
+  "symbol": "6618.HK",
+  "index": "quotes",
+  "score": 10026500.0,
+  "typeDisp": "Equity",
+  "longname": "JD Health International Inc.",
+  "exchDisp": "Hong Kong",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Pharmaceutical Retailers",
+  "industryDisp": "Pharmaceutical Retailers",
+  "isYahooFinance": true
+ }
+}

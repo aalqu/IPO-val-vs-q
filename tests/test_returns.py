@@ -7,7 +7,7 @@ from ipo_study.study import Config, deal_returns, run, select
 
 def make_deal(**kw):
     base = dict(id="X", name="Test Co", ticker="X", region="US", ipo_date="2015-01-15", listing_type="IPO",
-                offer_price=10.0, mcap_usd_bn=20.0, ltm_revenue_usd_bn=2.0, profitable=True, sector="Test",
+                offer_price=10.0, mcap_usd_bn=20.0, revenue_usd_bn=2.0, profitable=True, sector="Test",
                 financial=False, price_unit_divisor=1.0, entry_close_override=None, verified=True)
     base.update(kw)
     return Deal(**base)

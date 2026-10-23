@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=LICI.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "LIFE INSURA CORP OF INDIA",
+  "quoteType": "EQUITY",
+  "symbol": "LICI.NS",
+  "index": "quotes",
+  "score": 10047000.0,
+  "typeDisp": "Equity",
+  "longname": "Life Insurance Corporation of India",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "industry": "Insurance\u2014Life",
+  "isYahooFinance": true
+ }
+}

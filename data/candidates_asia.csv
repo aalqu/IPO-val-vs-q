@@ -1,0 +1,122 @@
+id,name,ticker,region,exchange_ccy,listing_type,price_unit_divisor,dual_ah
+ABC_A,Agricultural Bank of China (A),601288.SS,ChinaA,CNY,IPO,1,1
+ABC_H,Agricultural Bank of China (H),1288.HK,HK,HKD,IPO,1,1
+AIA,AIA Group,1299.HK,HK,HKD,IPO,1,0
+BAIC,BAIC Motor (H),1958.HK,HK,HKD,IPO,1,0
+BAJAJHFL,Bajaj Housing Finance,BAJAJHFL.NS,India,INR,IPO,1,0
+BANDHAN,Bandhan Bank,BANDHANBNK.NS,India,INR,IPO,1,0
+BJSHRAIL,Beijing-Shanghai High-Speed Railway,601816.SS,ChinaA,CNY,IPO,1,0
+BOHAI,China Bohai Bank,9668.HK,HK,HKD,IPO,1,0
+BOSH,Bank of Shanghai,601229.SS,ChinaA,CNY,IPO,1,0
+BUDAPAC,Budweiser APAC,1876.HK,HK,HKD,IPO,1,0
+CALB,CALB,3931.HK,HK,HKD,IPO,1,0
+CATL_A,CATL (A),300750.SZ,ChinaA,CNY,IPO,1,1
+CATL_H,CATL (H),3750.HK,HK,HKD,IPO,1,1
+CEB_A,China Everbright Bank (A),601818.SS,ChinaA,CNY,IPO,1,1
+CEB_H,China Everbright Bank (H),6818.HK,HK,HKD,IPO,1,1
+CGN_A,CGN Power (A),003816.SZ,ChinaA,CNY,IPO,1,1
+CGN_H,CGN Power (H),1816.HK,HK,HKD,IPO,1,1
+CHERY,Chery Automobile,9973.HK,HK,HKD,IPO,1,0
+CHINALIT,China Literature,0772.HK,HK,HKD,IPO,1,0
+CHINARE,China Reinsurance,1508.HK,HK,HKD,IPO,1,0
+CHINATOWER,China Tower,0788.HK,HK,HKD,IPO,1,0
+CICC_A,CICC (A),601995.SS,ChinaA,CNY,IPO,1,1
+CINDA,China Cinda AMC,1359.HK,HK,HKD,IPO,1,0
+CM_A,China Mobile (A),600941.SS,ChinaA,CNY,IPO,1,1
+CNNP,China National Nuclear Power,601985.SS,ChinaA,CNY,IPO,1,0
+CNOOC_A,CNOOC (A),600938.SS,ChinaA,CNY,IPO,1,1
+COALINDIA,Coal India,COALINDIA.NS,India,INR,IPO,1,0
+CRCB_A,Chongqing Rural Commercial Bank (A),601077.SS,ChinaA,CNY,IPO,1,1
+CRSC_A,China Railway Signal & Communication (A),688009.SS,ChinaA,CNY,IPO,1,1
+CSC_A,China Securities (A),601066.SS,ChinaA,CNY,IPO,1,1
+CTGR,China Three Gorges Renewables,600905.SS,ChinaA,CNY,IPO,1,0
+CT_A,China Telecom (A),601728.SS,ChinaA,CNY,IPO,1,1
+CZB_A,China Zheshang Bank (A),601916.SS,ChinaA,CNY,IPO,1,1
+CZB_H,China Zheshang Bank (H),2016.HK,HK,HKD,IPO,1,1
+EBSEC_H,Everbright Securities (H),6178.HK,HK,HKD,IPO,1,1
+FEIHE,China Feihe,6186.HK,HK,HKD,IPO,1,0
+FII,Foxconn Industrial Internet,601138.SS,ChinaA,CNY,IPO,1,0
+FUYAO_H,Fuyao Glass (H),3606.HK,HK,HKD,IPO,1,1
+GALAXY_A,China Galaxy Securities (A),601881.SS,ChinaA,CNY,IPO,1,1
+GFSEC_H,GF Securities (H),1776.HK,HK,HKD,IPO,1,1
+GICRE,General Insurance Corp of India,GICRE.NS,India,INR,IPO,1,0
+GROWW,Groww (Billionbrains Garage Ventures),GROWW.NS,India,INR,IPO,1,0
+GTJA_A,Guotai Junan Securities (A),601211.SS,ChinaA,CNY,IPO,1,1
+GTJA_H,Guotai Junan Securities (H),2611.HK,HK,HKD,IPO,1,1
+GUOSEN,Guosen Securities,002736.SZ,ChinaA,CNY,IPO,1,0
+HAIDILAO,Haidilao,6862.HK,HK,HKD,IPO,1,0
+HAITIAN_H,Foshan Haitian Flavouring (H),3288.HK,HK,HKD,IPO,1,1
+HAL,Hindustan Aeronautics,HAL.NS,India,INR,IPO,1,0
+HANSOH,Hansoh Pharmaceutical,3692.HK,HK,HKD,IPO,1,0
+HDBFS,HDB Financial Services,HDBFS.NS,India,INR,IPO,1,0
+HDFCLIFE,HDFC Life,HDFCLIFE.NS,India,INR,IPO,1,0
+HENGRUI_H,Jiangsu Hengrui Pharmaceuticals (H),1276.HK,HK,HKD,IPO,1,1
+HORIZON,Horizon Robotics,9660.HK,HK,HKD,IPO,1,0
+HUADIAN_NE,Huadian New Energy,600930.SS,ChinaA,CNY,IPO,1,0
+HUAHONG_A,Hua Hong Semiconductor (A),688347.SS,ChinaA,CNY,IPO,1,1
+HUARONG,China Huarong AMC,2799.HK,HK,HKD,IPO,1,0
+HUATAI_A,Huatai Securities (A),601688.SS,ChinaA,CNY,IPO,1,1
+HUATAI_H,Huatai Securities (H),6886.HK,HK,HKD,IPO,1,1
+HYGON,Hygon Information Technology,688041.SS,ChinaA,CNY,IPO,1,0
+HYUNDAIIN,Hyundai Motor India,HYUNDAI.NS,India,INR,IPO,1,0
+ICICIAMC,ICICI Prudential AMC,ICICIAMC.NS,India,INR,IPO,1,0
+ICICIPRU,ICICI Prudential Life,ICICIPRULI.NS,India,INR,IPO,1,0
+JDH,JD Health,6618.HK,HK,HKD,IPO,1,0
+JDLOG,JD Logistics,2618.HK,HK,HKD,IPO,1,0
+JINKO_A,Jinko Solar (A),688223.SS,ChinaA,CNY,IPO,1,0
+JSBANK,Bank of Jiangsu,600919.SS,ChinaA,CNY,IPO,1,0
+KUAISHOU,Kuaishou,1024.HK,HK,HKD,IPO,1,0
+LANCANG,Huaneng Lancang River Hydropower,600025.SS,ChinaA,CNY,IPO,1,0
+LEAPMOTOR,Leapmotor,9863.HK,HK,HKD,IPO,1,0
+LEGEND,Legend Holdings,3396.HK,HK,HKD,IPO,1,0
+LENSKART,Lenskart,LENSKART.NS,India,INR,IPO,1,0
+LGEIND,LG Electronics India,LGEINDIA.NS,India,INR,IPO,1,0
+LIC,Life Insurance Corp of India,LICI.NS,India,INR,IPO,1,0
+MANKIND,Mankind Pharma,MANKIND.NS,India,INR,IPO,1,0
+MEESHO,Meesho,MEESHO.NS,India,INR,IPO,1,0
+MEITUAN,Meituan,3690.HK,HK,HKD,IPO,1,0
+MGMCHINA,MGM China,2282.HK,HK,HKD,IPO,1,0
+MIDEA_H,Midea Group (H),0300.HK,HK,HKD,IPO,1,1
+MINDRAY,Mindray Medical,300760.SZ,ChinaA,CNY,IPO,1,0
+MIXC,China Resources Mixc Lifestyle,1209.HK,HK,HKD,IPO,1,0
+MIXUE,Mixue Group,2097.HK,HK,HKD,IPO,1,0
+MOORE,Moore Threads,688795.SS,ChinaA,CNY,IPO,1,0
+NCI_A,New China Life (A),601336.SS,ChinaA,CNY,IPO,1,1
+NCI_H,New China Life (H),1336.HK,HK,HKD,IPO,1,1
+NIACL,New India Assurance,NIACL.NS,India,INR,IPO,1,0
+NONGFU,Nongfu Spring,9633.HK,HK,HKD,IPO,1,0
+NTPCGREEN,NTPC Green Energy,NTPCGREEN.NS,India,INR,IPO,1,0
+NYKAA,Nykaa (FSN E-Commerce),NYKAA.NS,India,INR,IPO,1,0
+PAGD,Ping An Good Doctor,1833.HK,HK,HKD,IPO,1,0
+PAYTM,Paytm (One 97 Communications),PAYTM.NS,India,INR,IPO,1,0
+PICC,PICC Group (H),1339.HK,HK,HKD,IPO,1,1
+POLICYBZR,PB Fintech (Policybazaar),POLICYBZR.NS,India,INR,IPO,1,0
+POPMART,Pop Mart,9992.HK,HK,HKD,IPO,1,0
+PRADA,Prada,1913.HK,HK,HKD,IPO,1,0
+PSBC_A,Postal Savings Bank of China (A),601658.SS,ChinaA,CNY,IPO,1,1
+PSBC_H,Postal Savings Bank of China (H),1658.HK,HK,HKD,IPO,1,1
+SANHUA_H,Zhejiang Sanhua (H),2050.HK,HK,HKD,IPO,1,1
+SANY_H,Sany Heavy Industry (H),6031.HK,HK,HKD,IPO,1,1
+SBICARD,SBI Cards,SBICARD.NS,India,INR,IPO,1,0
+SBILIFE,SBI Life Insurance,SBILIFE.NS,India,INR,IPO,1,0
+SENSETIME,SenseTime,0020.HK,HK,HKD,IPO,1,0
+SERES_H,Seres Group (H),9927.HK,HK,HKD,IPO,1,1
+SF_H,SF Holding (H),6936.HK,HK,HKD,IPO,1,1
+SINOHYDRO,Sinohydro (PowerChina),601669.SS,ChinaA,CNY,IPO,1,0
+SMIC_A,SMIC (A),688981.SS,ChinaA,CNY,IPO,1,1
+SMOORE,Smoore International,6969.HK,HK,HKD,IPO,1,0
+STARHEALTH,Star Health Insurance,STARHEALTH.NS,India,INR,IPO,1,0
+SUNART,Sun Art Retail,6808.HK,HK,HKD,IPO,1,0
+SWHY_H,Shenwan Hongyuan (H),6806.HK,HK,HKD,IPO,1,1
+SWIGGY,Swiggy,SWIGGY.NS,India,INR,IPO,1,0
+TATACAP,Tata Capital,TATACAP.NS,India,INR,IPO,1,0
+TIANQI_H,Tianqi Lithium (H),9696.HK,HK,HKD,IPO,1,1
+TIGERMED_H,Hangzhou Tigermed (H),3347.HK,HK,HKD,IPO,1,1
+WAAREE,Waaree Energies,WAAREEENER.NS,India,INR,IPO,1,0
+WHGROUP,WH Group,0288.HK,HK,HKD,IPO,1,0
+XIAOMI,Xiaomi,1810.HK,HK,HKD,IPO,1,0
+YIXIN,Yixin Group,2858.HK,HK,HKD,IPO,1,0
+ZHONGAN,ZhongAn Online P&C,6060.HK,HK,HKD,IPO,1,0
+ZIJINGOLD,Zijin Gold International,2259.HK,HK,HKD,IPO,1,0
+ZJLD,ZJLD Group,6979.HK,HK,HKD,IPO,1,0
+ZOMATO,Zomato (Eternal),ETERNAL.NS,India,INR,IPO,1,0

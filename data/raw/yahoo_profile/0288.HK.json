@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=0288.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "WH GROUP",
+  "quoteType": "EQUITY",
+  "symbol": "0288.HK",
+  "index": "quotes",
+  "score": 10073500.0,
+  "typeDisp": "Equity",
+  "longname": "WH Group Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Defensive",
+  "sectorDisp": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "industryDisp": "Packaged Foods",
+  "isYahooFinance": true
+ }
+}

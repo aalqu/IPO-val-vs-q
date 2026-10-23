@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=RIVN&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Rivian Automotive, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "RIVN",
+  "index": "quotes",
+  "score": 33815500.0,
+  "typeDisp": "Equity",
+  "longname": "Rivian Automotive, Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "industryDisp": "Auto Manufacturers",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

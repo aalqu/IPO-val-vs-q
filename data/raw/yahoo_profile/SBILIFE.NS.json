@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=SBILIFE.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "SBI LIFE INSURANCE CO LTD",
+  "quoteType": "EQUITY",
+  "symbol": "SBILIFE.NS",
+  "index": "quotes",
+  "score": 10068000.0,
+  "typeDisp": "Equity",
+  "longname": "SBI Life Insurance Company Limited",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Insurance\u2014Life",
+  "industryDisp": "Insurance\u2014Life",
+  "isYahooFinance": true
+ }
+}

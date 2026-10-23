@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=3288.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "HAITIAN FLAV",
+  "quoteType": "EQUITY",
+  "symbol": "3288.HK",
+  "index": "quotes",
+  "score": 10016000.0,
+  "typeDisp": "Equity",
+  "longname": "Foshan Haitian Flavouring and Food Company Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Defensive",
+  "sectorDisp": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "industryDisp": "Packaged Foods",
+  "isYahooFinance": true
+ }
+}

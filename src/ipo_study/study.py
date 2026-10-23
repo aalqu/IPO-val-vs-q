@@ -146,12 +146,12 @@ def run(cfg: Config | None = None, deals=None, prices=None, benches=None) -> dic
     rich = lambda d: d.ps is not None and d.ps > ps_med
     R["traditional"] = {
         "buy_every_ipo": screen(lambda d: True),
-        "profitable": screen(lambda d: d.profitable),
-        "loss_making": screen(lambda d: not d.profitable),
+        "profitable": screen(lambda d: d.profitable is True),
+        "loss_making": screen(lambda d: d.profitable is False),
         "cheap_ps": screen(cheap),
         "expensive_ps": screen(rich),
-        "profitable_and_cheap": screen(lambda d: d.profitable and cheap(d)),
-        "loss_making_and_expensive": screen(lambda d: not d.profitable and rich(d)),
+        "profitable_and_cheap": screen(lambda d: d.profitable is True and cheap(d)),
+        "loss_making_and_expensive": screen(lambda d: d.profitable is False and rich(d)),
     }
     R["spearman_ps_vs_offer_excess"] = {h: spearman([r.deal.ps for r in ipo], [r.xs("offer", h) for r in ipo]) for h in (6, 12, 36)}
     R["after_by_profitability"] = {flag: {h: summarize([r.xs("after", h) for r in res if r.deal.profitable == (flag == "profitable")])

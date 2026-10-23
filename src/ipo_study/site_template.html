@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Large-Cap IPOs: Valuation vs Quant</title>
-<meta name="description" content="An open, reproducible test of whether traditional valuation or systematic rules better predicted how large-cap IPOs (2010–2025) in the US, global markets, Korea, India, Hong Kong and China performed after listing.">
+<meta name="description" content="An open, reproducible test of whether traditional valuation or systematic rules better predicted how large-cap IPOs (2010–2025) in the US, global markets, India, Hong Kong and China performed after listing.">
 <style>
 :root {
   --bg: #fbfaf7; --panel: #ffffff; --fg: #1d1c1a; --muted: #6b6862; --line: #e4e1da;
@@ -112,13 +112,13 @@ a { color: var(--accent); }
   <th class="l">Deal</th><th>EV/EBITDA (ind.)</th><th>EV/Sales (ind.)</th><th>P/E (ind.)</th><th>Div. yield (ind.)</th><th>Comps gap</th><th>DCF gap</th><th class="l">Traditional rules that buy</th><th>3y vs index</th>
 </tr></thead><tbody></tbody></table></div>
 
-<h2 id="asia">Asia: Korea, India, Hong Kong and China A-shares</h2>
+<h2 id="asia">Asia: India, Hong Kong and China A-shares</h2>
 <p class="note" id="asia-note"></p>
 <div class="callout" id="asia-callout"></div>
 <div class="tbl-wrap"><table id="asia-mk"><thead><tr>
   <th class="l">Market or variant</th><th>Deals</th><th>1st-month gain</th><th class="hide-narrow">1y excess after listing</th><th>3y excess after listing</th><th>Beat index 3y</th><th class="hide-narrow">3y excess from offer</th><th>Short hottest third, mean 3y</th><th>Right</th>
 </tr></thead><tbody></tbody></table></div>
-<p class="note" style="margin-top:8px">Benchmarks: KOSPI 200 (KODEX 200 ETF) for Korea, Nifty 50 (Nifty BeES) for India, Hang Seng (Tracker Fund) for Hong Kong, CSI 300 for China A-shares; total return in local currency. Market rows re-rank the hottest third within that market.</p>
+<p class="note" style="margin-top:8px">Benchmarks: Nifty 50 (Nifty BeES) for India, Hang Seng (Tracker Fund) for Hong Kong, CSI 300 for China A-shares; total return in local currency. Market rows re-rank the hottest third within that market.</p>
 <div style="display:grid;gap:12px;margin-top:12px">
   <div class="card"><h3>Rules across all Asian deals</h3>
     <p class="note">Share of deals where the rule beat the local index (flipping: share above the offer price). Mean excess at right.</p>
@@ -142,7 +142,7 @@ a { color: var(--accent); }
   <div class="legend" id="lg-sc"></div><div id="ch-sc"></div></div>
 <div class="controls">
   <label>Study <select id="f-u"><option value="core">US + global</option><option value="asia">Asia</option><option value="">Both</option></select></label>
-  <label>Region <select id="f-region"><option value="">All</option><option>US</option><option>Global</option><option>Korea</option><option>India</option><option>HK</option><option>ChinaA</option></select></label>
+  <label>Region <select id="f-region"><option value="">All</option><option>US</option><option>Global</option><option>India</option><option>HK</option><option>ChinaA</option></select></label>
   <label>Cohort <select id="f-cohort"><option value="">All</option><option>2010-14</option><option>2015-19</option><option>2020-21</option><option>2022-25</option></select></label>
   <label>Profitable at IPO <select id="f-prof"><option value="">All</option><option value="1">Yes</option><option value="0">No</option></select></label>
   <input id="f-q" type="search" placeholder="Search deals or sectors" aria-label="Search deals">
@@ -164,7 +164,7 @@ a { color: var(--accent); }
 make test        # unit, data-integrity and regression tests
 make results     # writes results/results.json and deal_returns.csv
 make robustness  # the table above
-ipo-study run --universe asia          # Korea, India, Hong Kong, China A
+ipo-study run --universe asia          # India, Hong Kong, China A
 ipo-study valuation --universe asia    # Hong Kong comps/DCF pilot</pre></li>
   <li>Rebuild prices from a second source and compare: <code>make crosscheck</code> (downloads from Yahoo Finance).</li>
   <li>Change an assumption: <code>ipo-study run --min-mcap 10 --region US --exclude-cohort 2020-21 --bootstrap 2000</code></li>
@@ -173,15 +173,16 @@ ipo-study valuation --universe asia    # Hong Kong comps/DCF pilot</pre></li>
 
 <h2>Method and limits</h2>
 <ul>
-  <li><strong>Universe:</strong> 96 listings worth $5bn or more at the offer price, 2010–2025: 79 US (including 5 direct listings) and 17 global. Five deals excluded for lack of monthly prices.</li>
+  <li><strong>Universe:</strong> 96 listings worth $5bn or more at the offer price, 2010–2025: 81 US (including 5 direct listings) and 15 global. Excluded: Glencore (offering documents could not be retrieved) and three deals with no monthly prices at Yahoo Finance (First Data, Borouge, ADNOC Gas).</li>
+  <li><strong>Every number is sourced:</strong> each deal's offer price, share count, listing date and exchange rate comes from a named document — the final prospectus, the exchange's allotment or listing announcement, or the Federal Reserve H.10 rate — with the exact words quoted (data/deal_facts.csv, checked by the test suite). Market value at the offer = offer price × all shares outstanding after the offering, before any over-allotment. Nothing is estimated: a value that cannot be sourced is left blank, and a deal whose size cannot be computed is excluded.</li>
   <li><strong>Returns:</strong> buy-and-hold total return from month-end closes (adjusted for splits and dividends), minus the benchmark's total return over the same months.</li>
   <li><strong>Traditional valuation (pilot):</strong> each IPO's EV/EBITDA, EV/Sales, P/E and dividend yield at the offer price (P/B for financials) against Damodaran's industry multiples for the IPO year and region, and a 10-year DCF with the same rules for every deal. Inputs come from the final prospectus (424B4) and SEC XBRL data; every row links to its filing.</li>
-  <li><strong>Simple screens (all 96 deals):</strong> profitability at IPO, price-to-sales against the sample median.</li>
+  <li><strong>Simple screens:</strong> profitability at IPO and price-to-sales against the sample median, for the deals whose last full-year revenue and operating profit are reported in SEC XBRL filings (mostly US filers). Non-US deals are left out of these screens rather than given approximate figures.</li>
   <li><strong>Quant rules:</strong> reconstructed from published research (long-run underperformance, hot-issue fade, lock-up expiry, post-lock-up momentum). They are not any fund's actual strategy.</li>
   <li><strong>Limits of the valuation pilot:</strong> 19 deals (Porsche excluded for lack of sourceable accounts), so each rule trades only a handful; trailing multiples, not the forward multiples bankers emphasise; basic post-IPO share counts (excluding options and RSUs), which flatter Facebook, Snap, Uber and Airbnb.</li>
-  <li><strong>Not yet verified:</strong> for the other 77 deals, offer prices and valuation inputs are approximate and not yet linked to prospectuses. Prices come from one aggregator; the cross-check against a second source has not yet been run.</li>
-  <li><strong>Asia extension (v1.2):</strong> 131 listings worth $5bn+ in Korea, India, Hong Kong (including mainland companies' H-shares; A+H dual listings tagged) and mainland China A-shares, with monthly prices from Yahoo Finance and local index benchmarks. Offer prices, sizes and revenues are approximate and not yet tied to prospectuses. Three deals have no price history (Haitong H merged, ESR taken private, Sinovel delisted); dropping delisted Sinovel flatters China A results slightly.</li>
-  <li><strong>Asian valuation pilot (15 deals):</strong> Hong Kong (Xiaomi, China Tower, Haidilao, Smoore, Nongfu Spring; HKEX prospectuses), China A (CNNP, Foxconn Industrial Internet, CATL, Mindray, Beijing–Shanghai High-Speed Railway; CNINFO prospectuses, Mindray from its annual report because the prospectus is a scanned image) and India (Coal India, HAL, Zomato, Nykaa, Paytm; prospectuses via SEBI, NSE and the lead managers). Industry benchmarks from Damodaran's China and India files, the Emerging-markets file where a country has fewer than 10 firms in the industry, and the US January 2010 file for Coal India (no earlier India file exists). Korea is not yet valued: DART's search blocks automated access, so it needs an OpenDART API key.</li>
+  <li><strong>Prices:</strong> monthly closes from Yahoo Finance; nine delisted US names (no longer served by Yahoo) from a digrin.com snapshot. A cross-check against a second price source has not yet been run.</li>
+  <li><strong>Asia extension:</strong> 119 listings worth $5bn+ in India (27), Hong Kong (59, including mainland companies' H-shares; A+H dual listings tagged) and mainland China A-shares (33), each against its local index, with offer prices, share counts and listing dates from HKEXnews, CNINFO and the final Indian prospectuses. Excluded: three deals with no monthly prices at Yahoo Finance (Haitong Securities H, ESR, Sinovel), ICICI Prudential Life (prospectus not retrievable) and ZJLD (US$4.5bn at the offer, under the threshold). Korean listings were removed from the study (22 Oct 2026). Revenues and profitability are not yet extracted for these deals, so the price-to-sales and profitability screens are not run for Asia.</li>
+  <li><strong>Asian valuation pilot (15 deals):</strong> Hong Kong (Xiaomi, China Tower, Haidilao, Smoore, Nongfu Spring; HKEX prospectuses and allotment announcements), China A (CNNP, Foxconn Industrial Internet, CATL, Mindray, Beijing–Shanghai High-Speed Railway; CNINFO prospectuses, Mindray from its annual report because the prospectus is a scanned image) and India (Coal India, HAL, Zomato, Nykaa, Paytm; final prospectuses). Every input is printed in the source or derived from printed numbers (data/fundamentals_derivations.csv); figures are as reported, with no analyst adjustments, and a dividend is used only when the prospectus states an amount. Industry benchmarks from Damodaran's China and India files, the Emerging-markets file where a country has fewer than 10 firms in the industry, and the US January 2010 file for Coal India (no earlier India file exists).</li>
   <li><strong>Not investment advice.</strong> In-sample results, small groups, no costs.</li>
 </ul>
 
@@ -202,7 +203,7 @@ const D = /*__DATA__*/null;
   const nv = D.valuation && D.valuation.deals_valued;
   $('#lede').textContent = `Across ${H.n_deals} IPOs worth $5bn+ (2010–2025), buying after listing lagged the index at every horizon, and simple rules that bet against new issues beat valuation-based buying — though the strongest of them depends heavily on the 2020–21 boom.` +
     (nv ? ` In a pilot of ${nv} deals valued from their prospectuses with comps (EV/EBITDA, EV/Sales, P/E, dividend yield) and a DCF, the IPOs that traditional valuation rated attractive did not outperform.` : '') +
-    (D.asia ? ` The same lag shows up across ${D.asia.headline.n_deals} large listings in Korea, India, Hong Kong and China.` : '');
+    (D.asia ? ` The same lag shows up across ${D.asia.headline.n_deals} large listings in India, Hong Kong and China.` : '');
 
   const kpis = [
     [`+${pct(H.entry_premium_median)}%`, 'Median gain for allocation buyers, offer to first month-end'],
@@ -332,7 +333,14 @@ const D = /*__DATA__*/null;
     $('#val-note').textContent = `Pilot: ${V.deals_valued} IPOs valued from their prospectuses with comparable multiples (EV/EBITDA, EV/Sales, P/E, dividend yield; P/B for the one financial) and a standard 10-year DCF. Each traditional rule buys the IPOs it rates attractive; the quant rules run on the same ${V.deals_valued} deals.`;
     compTable(V.comparison, '#val tbody');
     const sig = V.signal || {}, rho = (k, h) => sig[k] && sig[k][h] != null ? (sig[k][h] >= 0 ? '+' : '−') + Math.abs(sig[k][h]).toFixed(2) : 'n/a';
-    $('#val-findings').textContent = `Traditional valuation rarely called an IPO cheap, and its picks did not beat the index: most rules bought 1–4 of the ${V.deals_valued} deals. The size of the valuation gap did not predict returns either — rank correlation of the comps gap with 1-year excess return ${rho('comps_gap', 'h12')}, DCF gap ${rho('dcf_gap', 'h12')} (positive would mean cheap IPOs did better). Over the same deals, flipping allocations and shorting the hottest third did better. Pilot sample: treat as indicative.`;
+    $('#val-findings').textContent = (() => {
+      const trad = V.comparison.filter(r => r.family === 'Traditional' && r.entry === 'offer' && r.horizon_m === 36);
+      const tmax = Math.max(...trad.map(r => r.trades)), tmin = Math.min(...trad.map(r => r.trades));
+      const up = trad.filter(r => r.mean != null && r.mean > 0).map(r => `${r.strategy.toLowerCase()} (${r.trades} deals, ${sgn(r.mean * 100)} pts)`);
+      return `Traditional valuation rarely called an IPO cheap: each rule bought ${tmin}–${tmax} of the ${V.deals_valued} deals, too few to tell skill from luck. ` +
+        (up.length ? `Over 3 years from the offer, ${up.join(' and ')} beat the index; the other valuation rules lagged it. ` : 'None of the valuation rules beat the index over 3 years from the offer. ') +
+        `The size of the valuation gap did not predict returns — rank correlation of the comps gap with 1-year excess return ${rho('comps_gap', 'h12')}, DCF gap ${rho('dcf_gap', 'h12')} (positive would mean cheap IPOs did better). Over the same deals, flipping allocations and shorting the hottest third did better. Pilot sample: treat as indicative.`;
+    })();
     const vb = $('#vd tbody'), x = v => v == null ? '–' : v.toFixed(1) + 'x', y = v => v == null ? '–' : (v * 100).toFixed(1) + '%';
     V.deals.slice().sort((a, b) => (b.comps_gap ?? -9) - (a.comps_gap ?? -9)).forEach(d => { const tr = document.createElement('tr');
       const cell = (t, c) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); };
@@ -352,22 +360,21 @@ const D = /*__DATA__*/null;
        [f(r.offer36), cl(r.offer36) + ' hide-narrow'], [f(r.hot_mean), cl(r.hot_mean)], [r.hot_hit == null ? '' : r.hot_hit + '%']]
         .forEach(([t, c]) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); }); tb.appendChild(tr); });
     const by = n => mk.find(r => r.variant.startsWith(n)) || {};
-    const cps = A.rules.find(r => r.rule.startsWith('Cheap on P/S')) || {};
-    const k = by('Korea'), i = by('India'), hk = by('Hong Kong'), ca = by('China A'), ex = by('Excluding the 2020');
-    $('#asia-note').textContent = `${all.n} listings worth $5bn+ at the offer, 2010–2025: Korea ${k.n}, India ${i.n}, Hong Kong ${hk.n}, China A-shares ${ca.n}. Same returns, rules and statistics as the US + global study.`;
-    $('#asia-callout').textContent = `The same pattern holds in Asia: allocations made money (median first-month gain +${all.prem}%), but buying after listing lagged the local index — median ${sgn(all.after36)} pts over 3 years, with ${all.beat36}% of deals ahead. The lag was worst in India (${sgn(i.after36)}) and Korea (${sgn(k.after36)}), mildest in China A (${sgn(ca.after36)}), where regulators long held offer prices down and first-month gains are largest (median +${ca.prem}%). Shorting the hottest third was right ${all.hot_hit}% of the time (${ex.hot_hit}% outside 2020–21) but its mean is ${sgn(all.hot_mean)} pts: a few China A deals that kept soaring (mean ${sgn(ca.hot_mean)} pts within China A) wipe out the gains, so the rule needs position limits there. One difference from the US + global study: IPOs that were cheap on price-to-sales did better here (${cps.hit}% beat the index over 3 years from the offer, median ${sgn(cps.median)} pts), though Asian revenues are approximate.`;
+    const i = by('India'), hk = by('Hong Kong'), ca = by('China A'), ex = by('Excluding the 2020');
+    $('#asia-note').textContent = `${all.n} listings worth $5bn+ at the offer, 2010–2025: India ${i.n}, Hong Kong ${hk.n}, China A-shares ${ca.n}. Same returns, rules and statistics as the US + global study.`;
+    $('#asia-callout').textContent = `The same pattern holds in Asia: allocations made money (median first-month gain +${all.prem}%), but buying after listing lagged the local index — median ${sgn(all.after36)} pts over 3 years, with ${all.beat36}% of deals ahead. The lag was worst in India (${sgn(i.after36)}), mildest in China A (${sgn(ca.after36)}), where first-month gains are also largest (median +${ca.prem}%). Shorting the hottest third was right ${all.hot_hit}% of the time (${ex.hot_hit}% outside 2020–21) but its mean is ${sgn(all.hot_mean)} pts: a few China A deals that kept soaring (mean ${sgn(ca.hot_mean)} pts within China A) wipe out the gains, so the rule needs position limits there.`;
     // rules chart reuses the main renderer with Asia rows
     const keep = D.rules; D.rules = A.rules; drawRules('#ch-arules', '#lg-arules'); D.rules = keep;
     const V = A.valuation; if (!V || !V.deals_valued) { $('#asia-val-note').textContent = 'Pending.'; return; }
     $('#asia-val-note').textContent = (() => {
       const n = r => V.deals.filter(d => d.region === r).length, rho = (k, h) => { const v = (V.signal || {})[k] && V.signal[k][h]; return v == null ? 'n/a' : (v >= 0 ? '+' : '−') + Math.abs(v).toFixed(2); };
       const cheap = V.deals.filter(d => d.comps_gap > 0).map(d => d.name).join(', ');
-      return `${V.deals_valued} prospectuses (Hong Kong ${n('HK')}, China A ${n('ChinaA')}, India ${n('India')}), valued with the same comps and DCF rules as the US pilot. Most were priced rich (median comps gap ${pc(V.median_gap.comps_gap)}, DCF gap ${pc(V.median_gap.dcf_gap)}). Unlike the US pilot, the gap pointed the right way here: rank correlation with 3-year excess from the offer ${rho('comps_gap', 'h36')} for comps and ${rho('dcf_gap', 'h36')} for DCF. Comps called ${cheap || 'none'} cheap; three of these are China A listings, whose offer prices regulators held below market multiples.`;
+      return `${V.deals_valued} prospectuses (Hong Kong ${n('HK')}, China A ${n('ChinaA')}, India ${n('India')}), valued with the same comps and DCF rules as the US pilot. Most were priced rich (median comps gap ${pc(V.median_gap.comps_gap)}, DCF gap ${pc(V.median_gap.dcf_gap)}). ${((V.signal || {}).comps_gap || {}).h36 > 0 ? 'Unlike the US pilot, the gap pointed the right way here' : 'As in the US pilot, the gap did not point the right way'}: rank correlation with 3-year excess from the offer ${rho('comps_gap', 'h36')} for comps and ${rho('dcf_gap', 'h36')} for DCF. Comps called ${cheap || 'none'} cheap${(() => { const k = V.deals.filter(d => d.comps_gap > 0 && d.region === 'ChinaA').length; return k ? `; ${k} of these are China A listings` : ''; })()}.`;
     })();
     const vb = $('#avd tbody'), x = v => v == null ? '–' : v.toFixed(1) + 'x';
     V.deals.slice().sort((a, b) => (b.comps_gap ?? -9) - (a.comps_gap ?? -9)).forEach(d => { const tr = document.createElement('tr');
       const cell = (t, c) => { const td = document.createElement('td'); td.textContent = t; if (c) td.className = c; tr.appendChild(td); };
-      cell(d.name, 'l'); cell({HK: 'Hong Kong', ChinaA: 'China A', India: 'India', Korea: 'Korea'}[d.region] || d.region, 'l'); cell(`${x(d.ev_ebitda)} (${x(d.ind_ev_ebitda)})`); cell(`${x(d.pe)} (${x(d.ind_pe)})`);
+      cell(d.name, 'l'); cell({HK: 'Hong Kong', ChinaA: 'China A', India: 'India'}[d.region] || d.region, 'l'); cell(`${x(d.ev_ebitda)} (${x(d.ind_ev_ebitda)})`); cell(`${x(d.pe)} (${x(d.ind_pe)})`);
       cell(pc(d.comps_gap), cl(d.comps_gap)); cell(pc(d.dcf_gap), cl(d.dcf_gap));
       cell(d.xs12 == null ? '' : sgn(d.xs12 * 100), cl(d.xs12)); cell(d.xs36 == null ? '' : sgn(d.xs36 * 100), cl(d.xs36)); vb.appendChild(tr); });
     compTable(V.comparison, '#aval tbody');

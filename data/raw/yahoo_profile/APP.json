@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=APP&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Applovin Corporation",
+  "quoteType": "EQUITY",
+  "symbol": "APP",
+  "index": "quotes",
+  "score": 30603000.0,
+  "typeDisp": "Equity",
+  "longname": "AppLovin Corporation",
+  "exchDisp": "NASDAQ",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Advertising Agencies",
+  "industryDisp": "Advertising Agencies",
+  "dispSecIndFlag": false,
+  "isYahooFinance": true
+ }
+}

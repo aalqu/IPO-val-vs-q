@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1024.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "KUAISHOU-W",
+  "quoteType": "EQUITY",
+  "symbol": "1024.HK",
+  "index": "quotes",
+  "score": 10309500.0,
+  "typeDisp": "Equity",
+  "longname": "Kuaishou Technology",
+  "exchDisp": "Hong Kong",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Internet Content & Information",
+  "industryDisp": "Internet Content & Information",
+  "isYahooFinance": true,
+  "prevName": "Beijing Kuaishou Technology Ltd.",
+  "nameChangeDate": "2026-10-21"
+ }
+}

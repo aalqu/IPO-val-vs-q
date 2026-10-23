@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=SPOT&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Spotify Technology S.A.",
+  "quoteType": "EQUITY",
+  "symbol": "SPOT",
+  "index": "quotes",
+  "score": 29663500.0,
+  "typeDisp": "Equity",
+  "longname": "Spotify Technology S.A.",
+  "exchDisp": "NYSE",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Internet Content & Information",
+  "industryDisp": "Internet Content & Information",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=9927.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "SERES",
+  "quoteType": "EQUITY",
+  "symbol": "9927.HK",
+  "index": "quotes",
+  "score": 10013000.0,
+  "typeDisp": "Equity",
+  "longname": "Seres Group Co.,Ltd",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "industryDisp": "Auto Manufacturers",
+  "isYahooFinance": true,
+  "prevName": "Chongqing Sokon Industry Group Stock Co.,Ltd.",
+  "nameChangeDate": "2026-10-21"
+ }
+}

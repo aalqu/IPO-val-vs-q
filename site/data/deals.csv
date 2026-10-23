@@ -1,97 +1,97 @@
-id,name,ticker,region,exchange_ccy,ipo_date,listing_type,offer_price,offer_price_unit_note,mcap_usd_bn_at_offer,ltm_revenue_usd_bn,operating_profit_positive,sector,financial,price_unit_divisor,entry_close_override,note,offer_price_source,valuation_inputs_source,verified
-GM,General Motors,GM,US,USD,2010-11-18,IPO,33,,50,135,1,Autos,0,1,,,,,no
-KMI,Kinder Morgan,KMI,US,USD,2011-02-11,IPO,30,,21,8.2,1,Energy,0,1,,,,,no
-HCA,HCA Healthcare,HCA,US,USD,2011-03-10,IPO,30,,15.6,30.7,1,Healthcare,0,1,,,,,no
-NLSN,Nielsen,NLSN,US,USD,2011-01-26,IPO,23,,8.2,5.1,1,Media/Data,0,1,,,,,no
-GRPN,Groupon,GRPN,US,USD,2011-11-04,IPO,20,,12.7,1.4,0,Internet,0,1,,1-for-20 reverse split 2020,,,no
-ZNGA,Zynga,ZNGA,US,USD,2011-12-16,IPO,10,,7,1.1,1,Internet,0,1,,,,,no
-META,Facebook (Meta),META,US,USD,2012-05-18,IPO,38,,104,3.9,1,Internet,0,1,,,,,no
-ZTS,Zoetis,ZTS,US,USD,2013-02-01,IPO,26,,13,4.3,1,Healthcare,0,1,,,,,no
-TWTR,Twitter,TWTR,US,USD,2013-11-07,IPO,26,,14.2,0.53,0,Internet,0,1,,taken private Oct 2022 at 54.20,,,no
-HLT,Hilton,HLT,US,USD,2013-12-12,IPO,20,,19.7,9.5,1,Leisure,0,1,,1-for-3 reverse split Jan 2017,,,no
-SC,Santander Consumer,SC,US,USD,2014-01-23,IPO,24,,8.3,,1,Financials,1,1,,,,,no
-ALLY,Ally Financial,ALLY,US,USD,2014-04-10,IPO,25,,12,,1,Financials,1,1,,,,,no
-SYF,Synchrony,SYF,US,USD,2014-07-31,IPO,23,,19,,1,Financials,1,1,,,,,no
-BABA,Alibaba,BABA,US,USD,2014-09-19,IPO,68,,168,8.5,1,Internet,0,1,,,,,no
-CFG,Citizens Financial,CFG,US,USD,2014-09-24,IPO,21.5,,12,,1,Financials,1,1,,,,,no
-RACE,Ferrari,RACE,US,USD,2015-10-21,IPO,52,,9.8,3.2,1,Autos,0,1,,,,,no
-SNAP,Snap,SNAP,US,USD,2017-03-02,IPO,17,,24,0.4,0,Internet,0,1,,,,,no
-ATUS,Altice USA,ATUS,US,USD,2017-06-22,IPO,30,,22,9.3,1,Telecom/Media,0,1,,,,,no
-DBX,Dropbox,DBX,US,USD,2018-03-23,IPO,21,,9.2,1.1,0,Software,0,1,,,,,no
-IQ,iQiyi,IQ,US,USD,2018-03-29,IPO,18,,12.7,2.7,0,Internet,0,1,,,,,no
-SPOT,Spotify,SPOT,US,USD,2018-04-03,Direct,132,reference price (direct listing),26.5,5,0,Internet,0,1,,direct listing reference price,,,no
-EQH,AXA Equitable,EQH,US,USD,2018-05-10,IPO,20,,11,,1,Financials,1,1,,,,,no
-PDD,Pinduoduo,PDD,US,USD,2018-07-26,IPO,19,,24,1.3,0,Internet,0,1,,,,,no
-NIO,Nio,NIO,US,USD,2018-09-12,IPO,6.26,,6.4,0.05,0,EV,0,1,,,,,no
-TME,Tencent Music,TME,US,USD,2018-12-12,IPO,13,,21,2.7,1,Internet,0,1,,,,,no
-LYFT,Lyft,LYFT,US,USD,2019-03-29,IPO,72,,24.3,2.2,0,Internet,0,1,,,,,no
-PINS,Pinterest,PINS,US,USD,2019-04-18,IPO,19,,12.7,1,0,Internet,0,1,,,,,no
-ZM,Zoom,ZM,US,USD,2019-04-18,IPO,36,,9.2,0.33,1,Software,0,1,,,,,no
-UBER,Uber,UBER,US,USD,2019-05-10,IPO,45,,82,11.3,0,Internet,0,1,,,,,no
-CRWD,CrowdStrike,CRWD,US,USD,2019-06-12,IPO,34,,6.6,0.25,0,Software,0,1,,,,,no
-CHWY,Chewy,CHWY,US,USD,2019-06-14,IPO,22,,8.8,3.5,0,Internet,0,1,,,,,no
-WORK,Slack,WORK,US,USD,2019-06-20,Direct,26,reference price (direct listing),15.7,0.4,0,Software,0,1,,direct listing; acquired Jul 2021,,,no
-DDOG,Datadog,DDOG,US,USD,2019-09-19,IPO,27,,7.8,0.29,0,Software,0,1,,,,,no
-PTON,Peloton,PTON,US,USD,2019-09-26,IPO,29,,8.1,0.92,0,Consumer,0,1,,,,,no
-WMG,Warner Music,WMG,US,USD,2020-06-03,IPO,25,,12.8,4.5,1,Media/Data,0,1,,,,,no
-RPRX,Royalty Pharma,RPRX,US,USD,2020-06-16,IPO,28,,17,1.8,1,Healthcare,0,1,,,,,no
-LI,Li Auto,LI,US,USD,2020-07-30,IPO,11.5,,10,0.2,0,EV,0,1,,,,,no
-BEKE,Beike (KE Holdings),BEKE,US,USD,2020-08-13,IPO,20,,23.6,6,0,Internet,0,1,,,,,no
-XPEV,XPeng,XPEV,US,USD,2020-08-27,IPO,15,,11,0.1,0,EV,0,1,,,,,no
-SNOW,Snowflake,SNOW,US,USD,2020-09-16,IPO,120,,33,0.4,0,Software,0,1,,,,,no
-U,Unity,U,US,USD,2020-09-18,IPO,52,,13.7,0.7,0,Software,0,1,,,,,no
-PLTR,Palantir,PLTR,US,USD,2020-09-30,Direct,7.25,reference price (direct listing),16,0.9,0,Software,0,1,,direct listing reference price,,,no
-DASH,DoorDash,DASH,US,USD,2020-12-09,IPO,102,,39,2.3,0,Internet,0,1,,,,,no
-ABNB,Airbnb,ABNB,US,USD,2020-12-10,IPO,68,,47,3.6,0,Internet,0,1,,,,,no
-AFRM,Affirm,AFRM,US,USD,2021-01-13,IPO,49,,11.9,0.5,0,Fintech,0,1,,,,,no
-XM,Qualtrics,XM,US,USD,2021-01-28,IPO,30,,15,0.76,0,Software,0,1,,acquired Jun 2023 at 18.15,,,no
-BMBL,Bumble,BMBL,US,USD,2021-02-11,IPO,43,,7.7,0.58,0,Internet,0,1,,,,,no
-RBLX,Roblox,RBLX,US,USD,2021-03-10,Direct,45,reference price (direct listing),29.5,0.92,0,Internet,0,1,,direct listing reference price,,,no
-CPNG,Coupang,CPNG,US,USD,2021-03-11,IPO,35,,60,12,0,Internet,0,1,,,,,no
-COIN,Coinbase,COIN,US,USD,2021-04-14,Direct,250,reference price (direct listing),65,2.9,1,Fintech,0,1,,direct listing reference price,,,no
-APP,AppLovin,APP,US,USD,2021-04-15,IPO,80,,28.6,1.5,1,Software,0,1,,,,,no
-PATH,UiPath,PATH,US,USD,2021-04-21,IPO,56,,29,0.6,0,Software,0,1,,,,,no
-OTLY,Oatly,OTLY,US,USD,2021-05-20,IPO,17,,10,0.45,0,Consumer,0,1,,check reverse split,,,no
-MQ,Marqeta,MQ,US,USD,2021-06-09,IPO,27,,14,0.3,0,Fintech,0,1,,,,,no
-DIDI,Didi Global,DIDI,US,USD,2021-06-30,IPO,14,,68,22,0,Internet,0,1,,delisted NYSE Jun 2022,,,no
-HOOD,Robinhood,HOOD,US,USD,2021-07-29,IPO,38,,32,1.8,0,Fintech,0,1,,,,,no
-TOST,Toast,TOST,US,USD,2021-09-22,IPO,40,,20,1.2,0,Fintech,0,1,,,,,no
-FRSH,Freshworks,FRSH,US,USD,2021-09-22,IPO,36,,10,0.3,0,Software,0,1,,,,,no
-GTLB,GitLab,GTLB,US,USD,2021-10-14,IPO,77,,11,0.2,0,Software,0,1,,,,,no
-RIVN,Rivian,RIVN,US,USD,2021-11-10,IPO,78,,66.5,0.01,0,EV,0,1,,,,,no
-NU,Nubank,NU,US,USD,2021-12-09,IPO,9,,41.5,1.7,0,Fintech,0,1,,,,,no
-HCP,HashiCorp,HCP,US,USD,2021-12-09,IPO,80,,14,0.3,0,Software,0,1,,acquired by IBM Feb 2025,,,no
-IOT,Samsara,IOT,US,USD,2021-12-15,IPO,23,,11.5,0.25,0,Software,0,1,,,,,no
-TPG,TPG,TPG,US,USD,2022-01-13,IPO,29.5,,9,,1,Financials,1,1,,,,,no
-CRBG,Corebridge,CRBG,US,USD,2022-09-15,IPO,21,,13.6,,1,Financials,1,1,,,,,no
-MBLY,Mobileye,MBLY,US,USD,2022-10-26,IPO,21,,17,1.7,0,Autos,0,1,,,,,no
-KVUE,Kenvue,KVUE,US,USD,2023-05-04,IPO,22,,41,15,1,Consumer,0,1,,,,,no
-ARM,Arm Holdings,ARM,US,USD,2023-09-14,IPO,51,,54.5,2.7,1,Semis,0,1,,,,,no
-CART,Instacart,CART,US,USD,2023-09-19,IPO,30,,9.9,2.8,1,Internet,0,1,,,,,no
-KVYO,Klaviyo,KVYO,US,USD,2023-09-20,IPO,30,,9.2,0.6,0,Software,0,1,,,,,no
-BIRK,Birkenstock,BIRK,US,USD,2023-10-11,IPO,46,,8.6,1.6,1,Consumer,0,1,,,,,no
-RDDT,Reddit,RDDT,US,USD,2024-03-21,IPO,34,,6.4,0.8,0,Internet,0,1,,,,,no
-VIK,Viking Holdings,VIK,US,USD,2024-05-01,IPO,24,,10.4,4.7,1,Leisure,0,1,,,,,no
-LINE,Lineage,LINE,US,USD,2024-07-25,IPO,78,,18,5.3,1,Real Estate,0,1,,approx month-end prices (midpoint of monthly range; dividends excluded),,,no
-CRWV,CoreWeave,CRWV,US,USD,2025-03-28,IPO,40,,19,1.9,1,AI Infra,0,1,,,,,no
-CRCL,Circle,CRCL,US,USD,2025-06-05,IPO,31,,6.9,1.7,1,Fintech,0,1,,,,,no
-CHYM,Chime,CHYM,US,USD,2025-06-12,IPO,27,,9.8,1.7,0,Fintech,0,1,,,,,no
-FIG,Figma,FIG,US,USD,2025-07-31,IPO,33,,19.3,0.82,0,Software,0,1,,,,,no
-KLAR,Klarna,KLAR,US,USD,2025-09-10,IPO,40,,15.1,2.8,0,Fintech,0,1,,,,,no
-AIA,AIA Group,1299.HK,Global,HKD,2010-10-29,IPO,19.68,,30.5,,1,Financials,1,1,,,,,no
-GLEN,Glencore,GLEN.L,Global,GBp,2011-05-24,IPO,530,pence,60,145,1,Materials,0,1,,,,,no
-JPH,Japan Post Holdings,6178.T,Global,JPY,2015-11-04,IPO,1400,,52,,1,Financials,1,1,,,,,no
-SHL,Siemens Healthineers,SHL.DE,Global,EUR,2018-03-16,IPO,28,,34.5,16.5,1,Healthcare,0,1,,,,,no
-XIAOMI,Xiaomi,1810.HK,Global,HKD,2018-07-09,IPO,17,,54,17.6,1,Hardware,0,1,,,,,no
-MEITUAN,Meituan,3690.HK,Global,HKD,2018-09-20,IPO,69,,55,6.2,0,Internet,0,1,,,,,no
-SBK,SoftBank Corp,9434.T,Global,JPY,2018-12-19,IPO,1500,,64,33,1,Telecom/Media,0,10,,10-for-1 split Oct 2024,,,no
-ARAMCO,Saudi Aramco,2222.SR,Global,SAR,2019-12-11,IPO,32,,1700,330,1,Energy,0,1,35.20,1-for-10 bonus share 2023,,,no
-BUDAPAC,Budweiser APAC,1876.HK,Global,HKD,2019-09-30,IPO,27,,46,6.5,1,Consumer,0,1,,,,,no
-NONGFU,Nongfu Spring,9633.HK,Global,HKD,2020-09-08,IPO,21.5,,31,3.4,1,Consumer,0,1,,,,,no
-JDH,JD Health,6618.HK,Global,HKD,2020-12-08,IPO,70.58,,29,2.5,1,Internet,0,1,,,,,no
-KUAISHOU,Kuaishou,1024.HK,Global,HKD,2021-02-05,IPO,115,,61,8.8,0,Internet,0,1,,,,,no
-LGES,LG Energy Solution,373220.KS,Global,KRW,2022-01-27,IPO,300000,,59,15,1,Batteries,0,1,,,,,no
-DEWA,Dubai Electricity & Water,DEWA.AE,Global,AED,2022-04-12,IPO,2.48,,34,6,1,Utilities,0,1,,,,,no
-LIC,Life Insurance Corp of India,LICI.NS,Global,INR,2022-05-17,IPO,949,,78,,1,Financials,1,1,,,,,no
-PORSCHE,Porsche AG,P911.DE,Global,EUR,2022-09-29,IPO,82.5,,73,35,1,Autos,0,1,,,,,no
-HYUNDAIIN,Hyundai Motor India,HYUNDAI.NS,Global,INR,2024-10-22,IPO,1960,,19,8.3,1,Autos,0,1,,,,,no
+id,name,ticker,region,exchange_ccy,ipo_date,entry_month,listing_type,offer_price,offer_price_unit,mcap_usd_bn_at_offer,revenue_last_fy_usd_bn,operating_profit_positive,sector,financial,price_unit_divisor,entry_close_override,offer_price_source,verified
+ABNB,Airbnb,ABNB,US,USD,2020-12-10,,IPO,68,USD per share,40.626,4.805,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm,yes
+AFRM,Affirm,AFRM,US,USD,2021-01-13,,IPO,49,USD per share,11.895,0.510,0,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1820953/000110465921004276/tm2026663-21_s1a.htm,yes
+AIA,AIA Group,1299.HK,Global,HKD,2010-10-29,,IPO,19.68,HKD per share,30.578,,,Financial Services,1,1,,https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1026/ltn20101026003.pdf,yes
+ALLY,Ally Financial,ALLY,US,USD,2014-04-09,,IPO,25,USD per share,12.038,4.263,1,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/40729/000119312514140209/d651440d424b4.htm,yes
+APP,AppLovin,APP,US,USD,2021-04-15,,IPO,80,USD per share,28.636,1.451,0,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1751008/000119312521117730/d73804d424b4.htm,yes
+ARAMCO,Saudi Aramco,2222.SR,Global,SAR,2019-12-11,,IPO,32,SAR per share,1706.667,,,Energy,0,1,,https://www.aramco.com/-/media/images/investors/saudi-aramco-final-price-announcement-en.pdf,yes
+ARM,Arm Holdings,ARM,US,USD,2023-09-14,,IPO,51,USD per ADS,52.329,2.679,1,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1973239/000119312523235320/d550931d424b4.htm,yes
+ATUS,Altice USA,ATUS,US,USD,2017-06-21,,IPO,30,USD per share,22.112,6.017,1,Cable & Other Pay Television Services,0,1,,https://www.sec.gov/Archives/edgar/data/1702780/000104746917004208/a2232514z424b4.htm,yes
+BABA,Alibaba,BABA,US,USD,2014-09-19,,IPO,68,USD per ADS,167.620,8.463,1,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1577552/000119312514347620/d709111d424b4.htm,yes
+BEKE,Beike (KE Holdings),BEKE,US,USD,2020-08-13,,IPO,20,USD per ADS,22.550,6.513,0,Real Estate,0,1,,https://www.sec.gov/Archives/edgar/data/1809587/000104746920004582/a2242260z424b4.htm,yes
+BIRK,Birkenstock,BIRK,US,USD,2023-10-11,,IPO,46,USD per share,8.640,1.581,1,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1977102/000119312523254724/d507917d424b4.htm,yes
+BMBL,Bumble,BMBL,US,USD,2021-02-11,,IPO,43,USD per share,7.938,0.489,1,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1830043/000119312521041904/d20761d424b4.htm,yes
+BUDAPAC,Budweiser APAC,1876.HK,Global,HKD,2019-09-30,,IPO,27,HKD per share,44.858,,,Consumer Defensive,0,1,,https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0927/01876_3883047/e102.pdf,yes
+CART,Instacart,CART,US,USD,2023-09-19,,IPO,30,USD per share,8.300,2.551,1,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1579091/000119312523237900/d55348d424b4.htm,yes
+CFG,Citizens Financial,CFG,US,USD,2014-09-24,,IPO,21.5,USD per share,12.040,4.690,0,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/759944/000119312514352022/d723158d424b4.htm,yes
+CHWY,Chewy,CHWY,US,USD,2019-06-14,,IPO,22,USD per share,8.769,3.533,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1766502/000119312519174261/d665122d424b4.htm,yes
+CHYM,Chime,CHYM,US,USD,2025-06-12,,IPO,27,USD per share,9.839,1.673,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1795586/000162828025030855/chimefinancialinc-finalpro.htm,yes
+COIN,Coinbase,COIN,US,USD,2021-04-14,,Direct,250,USD per share,49.190,1.277,1,Financial Services,1,1,,https://www.cnbc.com/2021/04/13/coinbase-reference-price-250-ahead-of-direct-listing.html,yes
+CPNG,Coupang,CPNG,US,USD,2021-03-11,,IPO,35,USD per share,60.030,11.967,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1834584/000162828021004565/coupang-424b4.htm,yes
+CRBG,Corebridge,CRBG,US,USD,2022-09-16,,IPO,21,USD per share,13.545,23.390,1,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1889539/000114036122033508/ny20001795x22_424b4.htm,yes
+CRCL,Circle,CRCL,US,USD,2025-06-05,,IPO,31,USD per share,6.899,1.676,1,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm,yes
+CRWD,CrowdStrike,CRWD,US,USD,2019-06-12,,IPO,34,USD per share,6.687,0.250,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1535527/000104746919003607/a2239024z424b4.htm,yes
+CRWV,CoreWeave,CRWV,US,USD,2025-03-28,,IPO,40,USD per share,18.564,1.915,1,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1769628/000119312525067651/d899798d424b4.htm,yes
+DASH,DoorDash,DASH,US,USD,2020-12-09,,IPO,102,USD per share,32.401,0.885,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1792789/000119312520313884/d752207d424b4.htm,yes
+DBX,Dropbox,DBX,US,USD,2018-03-23,,IPO,21,USD per share,8.230,1.107,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1467623/000119312518092764/d553522d424b4.htm,yes
+DDOG,Datadog,DDOG,US,USD,2019-09-19,,IPO,27,USD per share,7.826,0.198,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1561550/000119312519249577/d745413d424b4.htm,yes
+DEWA,Dubai Electricity & Water,DEWA.AE,Global,AED,2022-04-12,,IPO,2.48,AED per share,33.764,,,Utilities,0,1,,https://www.dewa.gov.ae/~/media/Files/IPO/FinalPriceAnnouncement_EN.ashx,yes
+DIDI,Didi Global,DIDI,US,USD,2021-06-29,,IPO,14,USD per ADS,67.525,21.633,0,"Services-Business Services, NEC",0,1,,https://www.sec.gov/Archives/edgar/data/1764757/000104746921001227/a2243300z424b4.htm,yes
+EQH,AXA Equitable,EQH,US,USD,2018-05-10,,IPO,20,USD per share,11.220,12.401,1,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1333986/000119312518160394/d334112d424b4.htm,yes
+FIG,Figma,FIG,US,USD,2025-07-31,,IPO,33,USD per share,16.086,0.749,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025037014/figma424b4.htm,yes
+FRSH,Freshworks,FRSH,US,USD,2021-09-22,,IPO,36,USD per share,10.132,0.250,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1544522/000162828021019055/freshworks424b4.htm,yes
+GM,General Motors,GM,US,USD,2010-11-18,,IPO,33,USD per share,49.500,,,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1467858/000119312510263484/d424b1.htm,yes
+GRPN,Groupon,GRPN,US,USD,2011-11-04,,IPO,20,USD per share,12.756,0.313,0,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1490281/000104746911009142/a2206165z424b4.htm,yes
+GTLB,GitLab,GTLB,US,USD,2021-10-14,,IPO,77,USD per share,11.012,0.152,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1653482/000162828021020056/gitlab-424b4.htm,yes
+HCA,HCA Healthcare,HCA,US,USD,2011-03-10,,IPO,30,USD per share,15.456,28.035,1,Healthcare,0,1,,https://www.sec.gov/Archives/edgar/data/860730/000095012311024716/y83802b4e424b4.htm,yes
+HCP,HashiCorp,HCP,US,USD,2021-12-08,,IPO,80,USD per share,14.311,0.212,0,Services-Computer Programming Services,0,1,,https://www.sec.gov/Archives/edgar/data/1720671/000119312521352796/d205906d424b4.htm,yes
+HLT,Hilton,HLT,US,USD,2013-12-12,,IPO,20,USD per share,19.692,9.276,1,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1585689/000119312513473211/d593452d424b4.htm,yes
+HOOD,Robinhood,HOOD,US,USD,2021-07-29,,IPO,38,USD per share,32.011,0.959,1,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1783879/000162828021015076/robinhood424.htm,yes
+HYUNDAIIN,Hyundai Motor India,HYUNDAI.NS,Global,INR,2024-10-22,,IPO,1960,INR per share,18.946,,,Consumer Cyclical,0,1,,https://www.hyundai.com/content/dam/hyundai/in/en/data/investor-relations/material-documents/prospectus.pdf,yes
+IOT,Samsara,IOT,US,USD,2021-12-15,,IPO,23,USD per share,11.509,0.250,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1642896/000119312521358031/d261594d424b4.htm,yes
+IQ,iQiyi,IQ,US,USD,2018-03-29,,IPO,18,USD per ADS,12.739,2.671,0,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1722608/000119312518101601/d487167d424b4.htm,yes
+JDH,JD Health,6618.HK,Global,HKD,2020-12-08,,IPO,70.58,HKD per share,28.475,,,Healthcare,0,1,,https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1207/9539949/2020120700123.pdf,yes
+JPH,Japan Post Holdings,6178.T,Global,JPY,2015-11-04,,IPO,1400,JPY per share,51.843,,,Financial Services,1,1,,https://search.sbisec.co.jp/v2/popwin/info/connect/ipo/201509102103.pdf,yes
+KLAR,Klarna,KLAR,US,USD,2025-09-11,,IPO,40,USD per share,15.090,2.811,0,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm,yes
+KMI,Kinder Morgan,KMI,US,USD,2011-02-11,,IPO,30,USD per share,21.210,8.191,1,Energy,0,1,,https://www.sec.gov/Archives/edgar/data/1506307/000104746911000769/a2201911z424b1.htm,yes
+KUAISHOU,Kuaishou,1024.HK,Global,HKD,2021-02-05,,IPO,115,HKD per share,60.941,,,Communication Services,0,1,,https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0204/9614152/2021020400036.pdf,yes
+KVUE,Kenvue,KVUE,US,USD,2023-05-04,,IPO,22,USD per share,41.557,14.950,1,Consumer Defensive,0,1,,https://www.sec.gov/Archives/edgar/data/1944048/000162828023015837/kenvue424b4.htm,yes
+KVYO,Klaviyo,KVYO,US,USD,2023-09-20,,IPO,30,USD per share,7.556,0.473,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1835830/000162828023032570/klaviyoincfinalprospectus.htm,yes
+LI,Li Auto,LI,US,USD,2020-07-30,,IPO,11.5,USD per ADS,9.618,0.040,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1791706/000104746920004324/a2242162z424b4.htm,yes
+LIC,Life Insurance Corp of India,LICI.NS,Global,INR,2022-05-17,,IPO,949,INR per share,77.491,,,Financial Services,1,1,,"https://www.bseindia.com/corporates/download/318111/IPO%20BasisOfAllotment/Life%20Insurance%20Corporation%20of%20India%20-%20Prospectus%20(May%2012,%202022)_20220512195642.pdf",yes
+LINE,Lineage,LINE,US,USD,2024-07-25,,IPO,78,USD per share,19.000,5.342,1,Real Estate,0,1,,https://www.sec.gov/Archives/edgar/data/1868159/000119312524185331/d577649d424b4.htm,yes
+LYFT,Lyft,LYFT,US,USD,2019-03-29,,IPO,72,USD per share,20.583,2.157,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm,yes
+MBLY,Mobileye,MBLY,US,USD,2022-10-26,,IPO,21,USD per share,16.711,1.386,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1910139/000110465922112004/tm227410-23_424b4.htm,yes
+MEITUAN,Meituan,3690.HK,Global,HKD,2018-09-20,,IPO,69,HKD per share,48.313,,,Consumer Cyclical,0,1,,https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0919/03690_3480351/E102.PDF,yes
+META,Facebook (Meta),META,US,USD,2012-05-18,,IPO,38,USD per share,81.247,3.711,1,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm,yes
+MQ,Marqeta,MQ,US,USD,2021-06-09,,IPO,27,USD per share,14.317,0.290,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1522540/000119312521187099/d64065d424b4.htm,yes
+NIO,Nio,NIO,US,USD,2018-09-12,,IPO,6.26,USD per ADS,6.423,0.000,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1736541/000119312518271849/d560276d424b4.htm,yes
+NLSN,Nielsen,NLSN,US,USD,2011-01-26,,IPO,23,USD per share,7.995,5.126,1,"Services-Business Services, NEC",0,1,,https://www.sec.gov/Archives/edgar/data/1492633/000119312511015866/d424b4.htm,yes
+NONGFU,Nongfu Spring,9633.HK,Global,HKD,2020-09-08,,IPO,21.5,HKD per share,31.037,,,Consumer Defensive,0,1,,https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0907/9432499/2020090700018.pdf,yes
+NU,Nubank,NU,US,USD,2021-12-09,,IPO,9,USD per share,41.478,0.737,0,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1691493/000119312521352703/d213207d424b1.htm,yes
+OTLY,Oatly,OTLY,US,USD,2021-05-20,,IPO,17,USD per ADS,10.061,0.421,0,Consumer Defensive,0,1,,https://www.sec.gov/Archives/edgar/data/1843586/000119312521168012/d123209d424b4.htm,yes
+PATH,UiPath,PATH,US,USD,2021-04-21,,IPO,56,USD per share,29.073,0.608,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1734722/000119312521125014/d98556d424b4.htm,yes
+PDD,Pinduoduo,PDD,US,USD,2018-07-26,,IPO,19,USD per ADS,21.048,0.278,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1737806/000104746918005204/a2236308z424b4.htm,yes
+PINS,Pinterest,PINS,US,USD,2019-04-18,,IPO,19,USD per share,10.058,0.756,0,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1506293/000119312519111067/d697629d424b4.htm,yes
+PLTR,Palantir,PLTR,US,USD,2020-09-30,,Direct,7.25,USD per share,11.746,0.743,0,Technology,0,1,,https://www.cnbc.com/2020/09/29/palantir-direct-listing-reference-price-7point25-says-nyse.html,yes
+PORSCHE,Porsche AG,P911.DE,Global,EUR,2022-09-29,,IPO,82.5,EUR per share,73.459,,,Consumer Cyclical,0,1,,https://newsroom.porsche.com/en/2022/company/porsche-ag-initial-public-offering-p911-frankfurt-stock-exchange-29830.html,yes
+PTON,Peloton,PTON,US,USD,2019-09-26,,IPO,29,USD per share,8.102,0.915,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1639825/000119312519255124/d738839d424b4.htm,yes
+RACE,Ferrari,RACE,US,USD,2015-10-21,,IPO,52,USD per share,9.824,3.138,1,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1648416/000119312515349281/d61094d424b1.htm,yes
+RBLX,Roblox,RBLX,US,USD,2021-03-10,,Direct,45,USD per share,24.770,0.924,0,Communication Services,0,1,,https://www.renaissancecapital.com/IPO-Center/News/79113/robloxs-nyse-reference-price-is-set-at-45-ahead-of-direct-listing,yes
+RDDT,Reddit,RDDT,US,USD,2024-03-21,,IPO,34,USD per share,5.406,0.804,0,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1713445/000162828024012380/reddit-final424b4.htm,yes
+RIVN,Rivian,RIVN,US,USD,2021-11-10,,IPO,78,USD per share,67.726,0.000,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1874178/000119312521328239/d157488d424b4.htm,yes
+RPRX,Royalty Pharma,RPRX,US,USD,2020-06-16,,IPO,28,USD per share,16.671,1.814,1,Healthcare,0,1,,https://www.sec.gov/Archives/edgar/data/1802768/000119312520171165/d862976d424b4.htm,yes
+SAIL,SailPoint,SAIL,US,USD,2025-02-13,,IPO,23,USD per share,12.801,0.862,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/2030781/000119312525026566/d906470d424b4.htm,yes
+SBK,SoftBank Corp,9434.T,Global,JPY,2018-12-19,,IPO,1500,JPY per share,64.028,,,Communication Services,0,1,,https://www.softbank.jp/corp/news/press/sbkk/2018/20181210_01/,yes
+SC,Santander Consumer,SC,US,USD,2014-01-22,,IPO,24,USD per share,8.337,,1,Personal Credit Institutions,1,1,,https://www.sec.gov/Archives/edgar/data/1580608/000119312514019910/d629853d424b4.htm,yes
+SHL,Siemens Healthineers,SHL.DE,Global,EUR,2018-03-16,2018-04,IPO,28,EUR per share,34.384,,,Healthcare,0,1,,https://deutsche-boerse.com/dbg-en/media/news-stories/press-releases/Siemens-Healthineers-AG-listed-on-the-Frankfurt-Stock-Exchange-today-146750,yes
+SNAP,Snap,SNAP,US,USD,2017-03-02,,IPO,17,USD per share,19.673,0.404,0,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1564408/000119312517068848/d270216d424b4.htm,yes
+SNOW,Snowflake,SNOW,US,USD,2020-09-16,,IPO,120,USD per share,33.203,0.265,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1640147/000162828020013667/snowflake424b4.htm,yes
+SPOT,Spotify,SPOT,US,USD,2018-04-03,,Direct,132,USD per share,23.511,5.023,0,Communication Services,0,1,,https://www.cnbc.com/2018/04/03/spotify-spot-ipo-stock-starts-trading-on-the-nyse.html,yes
+SYF,Synchrony,SYF,US,USD,2014-07-31,,IPO,23,USD per share,19.096,,1,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1601712/000119312514289938/d680310d424b1.htm,yes
+TME,Tencent Music,TME,US,USD,2018-12-12,,IPO,13,USD per ADS,21.261,1.599,1,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1744676/000119312518347477/d624633d424b4.htm,yes
+TOST,Toast,TOST,US,USD,2021-09-22,,IPO,40,USD per share,19.973,0.823,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1650164/000119312521279379/d166297d424b4.htm,yes
+TPG,TPG,TPG,US,USD,2022-01-13,,IPO,29.5,USD per share,9.055,4.976,1,Financial Services,1,1,,https://www.sec.gov/Archives/edgar/data/1880661/000119312522009890/d197780d424b4.htm,yes
+TWTR,Twitter,TWTR,US,USD,2013-11-06,,IPO,26,USD per share,14.162,0.317,0,"Services-Computer Programming, Data Processing, Etc.",0,1,,https://www.sec.gov/Archives/edgar/data/1418091/000119312513431301/d564001d424b4.htm,yes
+U,Unity,U,US,USD,2020-09-18,,IPO,52,USD per share,13.695,0.542,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1810806/000119312520249257/d908875d424b4.htm,yes
+UBER,Uber,UBER,US,USD,2019-05-10,,IPO,45,USD per share,75.713,11.270,0,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm,yes
+VG,Venture Global,VG,US,USD,2025-01-24,,IPO,25,USD per share,60.489,4.972,1,Energy,0,1,,https://www.sec.gov/Archives/edgar/data/2007855/000119312525012218/d146310d424b4.htm,yes
+VIK,Viking Holdings,VIK,US,USD,2024-05-01,,IPO,24,USD per share,10.355,4.710,1,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1745201/000119312524129359/d496227d424b4.htm,yes
+WMG,Warner Music,WMG,US,USD,2020-06-03,,IPO,25,USD per share,12.750,4.475,1,Communication Services,0,1,,https://www.sec.gov/Archives/edgar/data/1319161/000119312520160812/d833365d424b4.htm,yes
+WORK,Slack,WORK,US,USD,2019-06-20,,Direct,26,USD per share,13.786,0.401,0,Services-Prepackaged Software,0,1,,https://www.renaissancecapital.com/IPO-Center/News/63741/slacks-nyse-reference-price-is-set-at-26,yes
+XIAOMI,Xiaomi,1810.HK,Global,HKD,2018-07-09,,IPO,17,HKD per share,48.467,,,Technology,0,1,,https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0706/01810_3392924/E102.PDF,yes
+XM,Qualtrics,XM,US,USD,2021-01-28,,IPO,30,USD per share,15.102,0.764,0,Services-Prepackaged Software,0,1,,https://www.sec.gov/Archives/edgar/data/1747748/000162828021001181/qualtricss-1424b4.htm,yes
+XPEV,XPeng,XPEV,US,USD,2020-08-27,,IPO,15,USD per ADS,10.796,0.329,0,Consumer Cyclical,0,1,,https://www.sec.gov/Archives/edgar/data/1810997/000119312520233600/d890887d424b4.htm,yes
+ZM,Zoom,ZM,US,USD,2019-04-18,,IPO,36,USD per share,9.230,0.331,1,Technology,0,1,,https://www.sec.gov/Archives/edgar/data/1585521/000119312519110919/d642624d424b4.htm,yes
+ZNGA,Zynga,ZNGA,US,USD,2011-12-15,,IPO,10,USD per share,6.993,0.597,1,Services-Computer Processing & Data Preparation,0,1,,https://www.sec.gov/Archives/edgar/data/1439404/000119312511343682/d198836d424b4.htm,yes
+ZTS,Zoetis,ZTS,US,USD,2013-02-01,,IPO,26,USD per share,13.000,4.336,1,Healthcare,0,1,,https://www.sec.gov/Archives/edgar/data/1555280/000119312513035094/d381653d424b4.htm,yes

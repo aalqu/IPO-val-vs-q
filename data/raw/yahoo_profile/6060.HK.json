@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6060.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "ZA ONLINE",
+  "quoteType": "EQUITY",
+  "symbol": "6060.HK",
+  "index": "quotes",
+  "score": 10027500.0,
+  "typeDisp": "Equity",
+  "longname": "ZhongAn Online P & C Insurance Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Financial Services",
+  "industry": "Insurance\u2014Property & Casualty",
+  "isYahooFinance": true
+ }
+}

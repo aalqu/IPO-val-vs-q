@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=UBER&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Uber Technologies, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "UBER",
+  "index": "quotes",
+  "score": 39274500.0,
+  "typeDisp": "Equity",
+  "longname": "Uber Technologies, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Technology",
+  "industry": "Software\u2014Application",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

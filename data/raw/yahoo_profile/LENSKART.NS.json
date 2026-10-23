@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=LENSKART.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "LENSKART SOLUTIONS LTD",
+  "quoteType": "EQUITY",
+  "symbol": "LENSKART.NS",
+  "index": "quotes",
+  "score": 10029500.0,
+  "typeDisp": "Equity",
+  "longname": "Lenskart Solutions Limited",
+  "exchDisp": "NSE",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "industryDisp": "Medical Instruments & Supplies",
+  "isYahooFinance": true
+ }
+}

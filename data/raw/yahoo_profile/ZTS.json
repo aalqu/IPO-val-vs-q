@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=ZTS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Zoetis Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "ZTS",
+  "index": "quotes",
+  "score": 13001500.0,
+  "typeDisp": "Equity",
+  "longname": "Zoetis Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Drug Manufacturers\u2014Specialty & Generic",
+  "industryDisp": "Drug Manufacturers\u2014Specialty & Generic",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

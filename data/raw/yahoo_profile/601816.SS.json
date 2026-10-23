@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=601816.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "BEIJING-SHANGHAI HIGH SPEED RAI",
+  "quoteType": "EQUITY",
+  "symbol": "601816.SS",
+  "index": "quotes",
+  "score": 10002000.0,
+  "typeDisp": "Equity",
+  "longname": "Beijing-Shanghai High-Speed Railway Co., Ltd.",
+  "exchDisp": "Shanghai",
+  "sector": "Industrials",
+  "sectorDisp": "Industrials",
+  "industry": "Railroads",
+  "industryDisp": "Railroads",
+  "isYahooFinance": true,
+  "prevName": "Beijing-Shanghai High-Speed Railway Co.,Ltd.",
+  "nameChangeDate": "2026-10-21"
+ }
+}

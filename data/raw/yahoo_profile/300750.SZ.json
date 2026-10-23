@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=300750.SZ&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHZ",
+  "shortname": "CATL",
+  "quoteType": "EQUITY",
+  "symbol": "300750.SZ",
+  "index": "quotes",
+  "score": 10947000.0,
+  "typeDisp": "Equity",
+  "longname": "Contemporary Amperex Technology Co., Limited",
+  "exchDisp": "Shenzhen",
+  "sector": "Industrials",
+  "sectorDisp": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "industryDisp": "Electrical Equipment & Parts",
+  "isYahooFinance": true
+ }
+}

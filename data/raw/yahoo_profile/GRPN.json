@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=GRPN&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Groupon, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "GRPN",
+  "index": "quotes",
+  "score": 10745000.0,
+  "typeDisp": "Equity",
+  "longname": "Groupon, Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Internet Content & Information",
+  "industryDisp": "Internet Content & Information",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

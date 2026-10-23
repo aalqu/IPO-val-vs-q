@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1276.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "HENGRUI PHARMA",
+  "quoteType": "EQUITY",
+  "symbol": "1276.HK",
+  "index": "quotes",
+  "score": 10060500.0,
+  "typeDisp": "Equity",
+  "longname": "Jiangsu Hengrui Pharmaceuticals Co.,Ltd",
+  "exchDisp": "Hong Kong",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Drug Manufacturers\u2014Specialty & Generic",
+  "industryDisp": "Drug Manufacturers\u2014Specialty & Generic",
+  "isYahooFinance": true,
+  "prevName": "Jiangsu Hengrui Medicine Co., Ltd.",
+  "nameChangeDate": "2026-10-21"
+ }
+}

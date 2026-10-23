@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=9973.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CHERY AUTO",
+  "quoteType": "EQUITY",
+  "symbol": "9973.HK",
+  "index": "quotes",
+  "score": 10059500.0,
+  "typeDisp": "Equity",
+  "longname": "Chery Automobile Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "isYahooFinance": true
+ }
+}

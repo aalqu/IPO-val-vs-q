@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=CPNG&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Coupang, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "CPNG",
+  "index": "quotes",
+  "score": 12342000.0,
+  "typeDisp": "Equity",
+  "longname": "Coupang, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

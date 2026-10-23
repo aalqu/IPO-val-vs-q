@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=SBICARD.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "SBI CARDS & PAY SER LTD",
+  "quoteType": "EQUITY",
+  "symbol": "SBICARD.NS",
+  "index": "quotes",
+  "score": 10037500.0,
+  "typeDisp": "Equity",
+  "longname": "SBI Cards and Payment Services Limited",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Credit Services",
+  "industryDisp": "Credit Services",
+  "isYahooFinance": true
+ }
+}

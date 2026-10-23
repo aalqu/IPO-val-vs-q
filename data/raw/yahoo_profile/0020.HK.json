@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=0020.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "SENSETIME-W",
+  "quoteType": "EQUITY",
+  "symbol": "0020.HK",
+  "index": "quotes",
+  "score": 10119000.0,
+  "typeDisp": "Equity",
+  "longname": "SenseTime Group Inc.",
+  "exchDisp": "Hong Kong",
+  "sector": "Technology",
+  "sectorDisp": "Technology",
+  "industry": "Software\u2014Application",
+  "industryDisp": "Software\u2014Application",
+  "isYahooFinance": true
+ }
+}

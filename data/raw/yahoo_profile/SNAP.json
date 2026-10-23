@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=SNAP&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Snap Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "SNAP",
+  "index": "quotes",
+  "score": 23636000.0,
+  "typeDisp": "Equity",
+  "longname": "Snap Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Internet Content & Information",
+  "industryDisp": "Internet Content & Information",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

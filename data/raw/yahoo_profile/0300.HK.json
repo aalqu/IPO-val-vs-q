@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=0300.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "MIDEA GROUP",
+  "quoteType": "EQUITY",
+  "symbol": "0300.HK",
+  "index": "quotes",
+  "score": 10119000.0,
+  "typeDisp": "Equity",
+  "longname": "Midea Group Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "isYahooFinance": true
+ }
+}

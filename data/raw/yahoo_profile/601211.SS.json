@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=601211.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "GUOTAI HAITONG SECURITIES CO LT",
+  "quoteType": "EQUITY",
+  "symbol": "601211.SS",
+  "index": "quotes",
+  "score": 10002500.0,
+  "typeDisp": "Equity",
+  "longname": "Guotai Haitong Securities Co., Ltd.",
+  "exchDisp": "Shanghai",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Capital Markets",
+  "industryDisp": "Capital Markets",
+  "isYahooFinance": true,
+  "prevName": "Guotai Junan Securities Co., Ltd.",
+  "nameChangeDate": "2026-10-21"
+ }
+}

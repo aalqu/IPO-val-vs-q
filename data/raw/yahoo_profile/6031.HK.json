@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6031.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "SANY HEAVY IND",
+  "quoteType": "EQUITY",
+  "symbol": "6031.HK",
+  "index": "quotes",
+  "score": 10035000.0,
+  "typeDisp": "Equity",
+  "longname": "Sany Heavy Industry Co.,Ltd",
+  "exchDisp": "Hong Kong",
+  "sector": "Industrials",
+  "sectorDisp": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
+  "industryDisp": "Farm & Heavy Construction Machinery",
+  "isYahooFinance": true,
+  "prevName": "Sany Heavy Industry Co., Ltd",
+  "nameChangeDate": "2026-10-21"
+ }
+}

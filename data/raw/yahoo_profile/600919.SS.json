@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=600919.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "BANK OF JIANGSU",
+  "quoteType": "EQUITY",
+  "symbol": "600919.SS",
+  "index": "quotes",
+  "score": 10009500.0,
+  "typeDisp": "Equity",
+  "longname": "Bank of Jiangsu Co., Ltd.",
+  "exchDisp": "Shanghai",
+  "sector": "Financial Services",
+  "industry": "Banks\u2014Regional",
+  "isYahooFinance": true,
+  "prevName": "Amazon Tokenized Stock Defichain",
+  "nameChangeDate": "2026-10-21"
+ }
+}

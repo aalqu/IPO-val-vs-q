@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=HYUNDAI.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "HYUNDAI MOTOR INDIA LTD",
+  "quoteType": "EQUITY",
+  "symbol": "HYUNDAI.NS",
+  "index": "quotes",
+  "score": 10046000.0,
+  "typeDisp": "Equity",
+  "longname": "Hyundai Motor India Limited",
+  "exchDisp": "NSE",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "industryDisp": "Auto Manufacturers",
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=9696.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "TIANQI LITHIUM",
+  "quoteType": "EQUITY",
+  "symbol": "9696.HK",
+  "index": "quotes",
+  "score": 10028500.0,
+  "typeDisp": "Equity",
+  "longname": "Tianqi Lithium Corporation",
+  "exchDisp": "Hong Kong",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
+  "isYahooFinance": true
+ }
+}

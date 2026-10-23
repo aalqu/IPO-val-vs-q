@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=601658.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "POSTAL SAVINGS BANK OF CHINA CO",
+  "quoteType": "EQUITY",
+  "symbol": "601658.SS",
+  "index": "quotes",
+  "score": 10007000.0,
+  "typeDisp": "Equity",
+  "longname": "Postal Savings Bank of China Co., Ltd.",
+  "exchDisp": "Shanghai",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Banks\u2014Regional",
+  "industryDisp": "Banks\u2014Regional",
+  "isYahooFinance": true
+ }
+}

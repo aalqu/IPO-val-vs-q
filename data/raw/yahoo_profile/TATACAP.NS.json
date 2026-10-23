@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=TATACAP.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "TATA CAPITAL LIMITED",
+  "quoteType": "EQUITY",
+  "symbol": "TATACAP.NS",
+  "index": "quotes",
+  "score": 10018000.0,
+  "typeDisp": "Equity",
+  "longname": "Tata Capital Limited",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Credit Services",
+  "industryDisp": "Credit Services",
+  "isYahooFinance": true
+ }
+}

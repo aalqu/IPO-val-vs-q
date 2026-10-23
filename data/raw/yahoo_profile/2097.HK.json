@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=2097.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "MIXUE GROUP",
+  "quoteType": "EQUITY",
+  "symbol": "2097.HK",
+  "index": "quotes",
+  "score": 10050500.0,
+  "typeDisp": "Equity",
+  "longname": "MIXUE Group",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Defensive",
+  "sectorDisp": "Consumer Defensive",
+  "industry": "Beverages\u2014Non-Alcoholic",
+  "industryDisp": "Beverages\u2014Non\u2014Alcoholic",
+  "isYahooFinance": true
+ }
+}

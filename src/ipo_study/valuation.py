@@ -84,12 +84,18 @@ def load_fundamentals(path: Path | None = None) -> dict[str, Fundamentals]:
     for r in csv.DictReader(open(path, newline="", encoding="utf-8")):
         if not (r.get("revenue") or "").strip():
             continue                     # template row not filled yet
+
+        def req(k):                       # no defaults: every input must be written in the file
+            v = _f(r.get(k))
+            if v is None:
+                raise ValueError(f"{path.name}: {r['id']} has no {k} (write 0 explicitly if it is zero)")
+            return v
         out[r["id"]] = Fundamentals(
             id=r["id"], revenue=float(r["revenue"]), revenue_prior=_f(r["revenue_prior"]), ebitda=_f(r["ebitda"]),
-            ebit=_f(r["ebit"]), net_income=_f(r["net_income"]), dividends=_f(r["dividends"]), cash=_f(r["cash"]) or 0.0,
-            debt=_f(r["debt"]) or 0.0, primary_proceeds=_f(r["primary_proceeds"]) or 0.0,
-            shares_post_ipo=float(r["shares_post_ipo_m"]), fx_listing_to_reporting=_f(r["fx_listing_to_reporting"]) or 1.0,
-            ads_ratio=_f(r["ads_ratio"]) or 1.0, marginal_tax=_f(r["marginal_tax"]) or 0.25,
+            ebit=_f(r["ebit"]), net_income=_f(r["net_income"]), dividends=_f(r["dividends"]), cash=req("cash"),
+            debt=req("debt"), primary_proceeds=req("primary_proceeds"),
+            shares_post_ipo=req("shares_post_ipo_m"), fx_listing_to_reporting=req("fx_listing_to_reporting"),
+            ads_ratio=req("ads_ratio"), marginal_tax=req("marginal_tax"),
             book_equity=_f(r["book_equity"]), financial=r.get("financial", "0") == "1", source=r.get("source_url", ""))
     return out
 
@@ -174,7 +180,7 @@ def dcf_value(f: Fundamentals, ind: Industry, rules: DCFRules | None = None) -> 
     else:
         g0 = g_term
     g0 = max(R.growth_floor, min(R.growth_cap, g0)) + R.growth_shift
-    m0 = (f.ebit or 0.0) / f.revenue
+    m0 = f.ebit / f.revenue
     if m0 <= 0 or R.margin_rule == "industry":
         target = ind.op_margin
     elif R.margin_rule == "hold":
@@ -231,8 +237,8 @@ def value_deal(f: Fundamentals, ind: Industry, offer_price: float, rules: DCFRul
     c = comps_value(f, ind)
     out = {"offer_equity_value": eq, "multiples": offer_multiples(f, offer_price), "comps": c,
            "comps_gap": (c["value"] / eq - 1) if c["value"] else None}
-    if f.financial or f.revenue <= 0:
-        out["dcf"], out["dcf_gap"] = None, None   # FCFF not meaningful for financials or pre-revenue firms
+    if f.financial or f.revenue <= 0 or f.ebit is None:
+        out["dcf"], out["dcf_gap"] = None, None   # FCFF not meaningful for financials or pre-revenue firms; no EBIT, no DCF
     else:
         d = dcf_value(f, ind, rules)
         out["dcf"] = d

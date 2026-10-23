@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=601916.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "CHINA ZHESHANG BANK CO. LTD",
+  "quoteType": "EQUITY",
+  "symbol": "601916.SS",
+  "index": "quotes",
+  "score": 10006000.0,
+  "typeDisp": "Equity",
+  "longname": "China Zheshang Bank Co., Ltd",
+  "exchDisp": "Shanghai",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Banks\u2014Regional",
+  "industryDisp": "Banks\u2014Regional",
+  "isYahooFinance": true
+ }
+}

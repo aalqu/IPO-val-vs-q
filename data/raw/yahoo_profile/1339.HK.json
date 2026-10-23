@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1339.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "PICC GROUP",
+  "quoteType": "EQUITY",
+  "symbol": "1339.HK",
+  "index": "quotes",
+  "score": 10035000.0,
+  "typeDisp": "Equity",
+  "longname": "The People's Insurance Company (Group) of China Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Insurance\u2014Property & Casualty",
+  "industryDisp": "Insurance\u2014Property & Casualty",
+  "isYahooFinance": true
+ }
+}

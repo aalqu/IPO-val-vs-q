@@ -1,0 +1,5 @@
+id,name,reason
+FDC,First Data,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+BOROUGE,Borouge,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+ADNOCGAS,ADNOC Gas,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+LGES,LG Energy Solution,"Korean listings removed from the study (scope decision, 22 Oct 2026)"

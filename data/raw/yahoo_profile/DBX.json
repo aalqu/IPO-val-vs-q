@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=DBX&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Dropbox, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "DBX",
+  "index": "quotes",
+  "score": 10436500.0,
+  "typeDisp": "Equity",
+  "longname": "Dropbox, Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Technology",
+  "industry": "Software\u2014Infrastructure",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

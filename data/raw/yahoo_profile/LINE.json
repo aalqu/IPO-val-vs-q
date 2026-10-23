@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=LINE&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Lineage, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "LINE",
+  "index": "quotes",
+  "score": 10743000.0,
+  "typeDisp": "Equity",
+  "longname": "Lineage, Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Real Estate",
+  "industry": "REIT\u2014Industrial",
+  "dispSecIndFlag": false,
+  "isYahooFinance": true
+ }
+}

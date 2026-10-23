@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=NIACL.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "THE NEW INDIA ASSU CO LTD",
+  "quoteType": "EQUITY",
+  "symbol": "NIACL.NS",
+  "index": "quotes",
+  "score": 10012000.0,
+  "typeDisp": "Equity",
+  "longname": "The New India Assurance Company Limited",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "industry": "Insurance\u2014Diversified",
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=FIG&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Figma, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "FIG",
+  "index": "quotes",
+  "score": 18844000.0,
+  "typeDisp": "Equity",
+  "longname": "Figma, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Technology",
+  "sectorDisp": "Technology",
+  "industry": "Software\u2014Application",
+  "industryDisp": "Software\u2014Application",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

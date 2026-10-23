@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=SHL.DE&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "GER",
+  "shortname": "Siemens Healthineers AG       N",
+  "quoteType": "EQUITY",
+  "symbol": "SHL.DE",
+  "index": "quotes",
+  "score": 10240000.0,
+  "typeDisp": "Equity",
+  "longname": "Siemens Healthineers AG",
+  "exchDisp": "XETRA",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Medical Devices",
+  "industryDisp": "Medical Devices",
+  "isYahooFinance": true
+ }
+}

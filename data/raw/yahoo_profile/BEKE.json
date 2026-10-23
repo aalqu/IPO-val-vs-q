@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=BEKE&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "KE Holdings Inc",
+  "quoteType": "EQUITY",
+  "symbol": "BEKE",
+  "index": "quotes",
+  "score": 10218500.0,
+  "typeDisp": "Equity",
+  "longname": "KE Holdings Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Real Estate",
+  "industry": "Real Estate Services",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

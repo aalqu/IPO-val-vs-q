@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6886.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "HTSC",
+  "quoteType": "EQUITY",
+  "symbol": "6886.HK",
+  "index": "quotes",
+  "score": 10011500.0,
+  "typeDisp": "Equity",
+  "longname": "Huatai Securities Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Capital Markets",
+  "industryDisp": "Capital Markets",
+  "isYahooFinance": true
+ }
+}

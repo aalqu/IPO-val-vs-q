@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=RBLX&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYSE",
+  "shortname": "Roblox Corp",
+  "quoteType": "EQUITY",
+  "symbol": "RBLX",
+  "index": "quotes",
+  "score": 10040000.0,
+  "typeDisp": "Equity",
+  "longname": "Roblox Corporation",
+  "exchDisp": "NYSE",
+  "sector": "Communication Services",
+  "sectorDisp": "Communication Services",
+  "industry": "Electronic Gaming & Multimedia",
+  "industryDisp": "Electronic Gaming & Multimedia",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

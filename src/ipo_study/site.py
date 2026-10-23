@@ -61,7 +61,6 @@ def _rob_row(name, cfg):
 
 ASIA_ROBUSTNESS = [
     ("All Asia ($5bn+, 2010-2025)", Config(universe="asia")),
-    ("Korea", Config(universe="asia", regions=("Korea",))),
     ("India", Config(universe="asia", regions=("India",))),
     ("Hong Kong", Config(universe="asia", regions=("HK",))),
     ("China A-shares", Config(universe="asia", regions=("ChinaA",))),

@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=BAJAJHFL.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "BAJAJ HOUSING FINANCE LTD",
+  "quoteType": "EQUITY",
+  "symbol": "BAJAJHFL.NS",
+  "index": "quotes",
+  "score": 10027000.0,
+  "typeDisp": "Equity",
+  "longname": "Bajaj Housing Finance Limited",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "industry": "Mortgage Finance",
+  "isYahooFinance": true
+ }
+}

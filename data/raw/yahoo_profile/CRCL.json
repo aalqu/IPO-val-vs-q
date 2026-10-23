@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=CRCL&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYSE",
+  "shortname": "Circle Internet Group Inc",
+  "quoteType": "EQUITY",
+  "symbol": "CRCL",
+  "index": "quotes",
+  "score": 10130000.0,
+  "typeDisp": "Equity",
+  "longname": "Circle Internet Group",
+  "exchDisp": "NYSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Capital Markets",
+  "industryDisp": "Capital Markets",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

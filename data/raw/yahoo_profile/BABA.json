@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=BABA&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Alibaba Group Holding Limited",
+  "quoteType": "EQUITY",
+  "symbol": "BABA",
+  "index": "quotes",
+  "score": 53035500.0,
+  "typeDisp": "Equity",
+  "longname": "Alibaba Group Holding Limited",
+  "exchDisp": "NYSE",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

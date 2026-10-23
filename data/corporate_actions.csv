@@ -7,3 +7,4 @@ GRPN,reverse split,1-for-20,2020-06,close/adj_close factor of 0.05,
 HLT,reverse split,1-for-3,2017-01,close/adj_close factor of about 0.51 (split plus Park/HGV spin-off adjustment),
 2222.SR,bonus share,1-for-10,2023,close/adj_close factor 1.24-1.67 (bonus plus large dividends; first row also see corrections.csv),
 KMI,dividends,n/a,2011-2026,close/adj_close factor of about 2.0 from 15 years of high dividends,
+9434.T,stock split,10-for-1,2024-09-27,close/adj_close factor of about 15 (split plus dividends),data/raw/yahoo/9434.T.json (Yahoo Finance chart API events.splits: splitRatio 10:1)

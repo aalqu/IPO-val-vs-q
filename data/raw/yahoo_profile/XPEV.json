@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=XPEV&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "XPeng Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "XPEV",
+  "index": "quotes",
+  "score": 21622000.0,
+  "typeDisp": "Equity",
+  "longname": "XPeng Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "industryDisp": "Auto Manufacturers",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

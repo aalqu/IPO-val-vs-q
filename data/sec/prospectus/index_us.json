@@ -1,0 +1,650 @@
+{
+ "GM": {
+  "cik": 1467858,
+  "name": "General Motors Co",
+  "form": "424B1",
+  "filed": "2010-11-18",
+  "accession": "0001193125-10-263484",
+  "url": "https://www.sec.gov/Archives/edgar/data/1467858/000119312510263484/d424b1.htm"
+ },
+ "KMI": {
+  "cik": 1506307,
+  "name": "KINDER MORGAN, INC.",
+  "form": "424B1",
+  "filed": "2011-02-11",
+  "accession": "0001047469-11-000769",
+  "url": "https://www.sec.gov/Archives/edgar/data/1506307/000104746911000769/a2201911z424b1.htm"
+ },
+ "HCA": {
+  "cik": 860730,
+  "name": "HCA Healthcare, Inc.",
+  "form": "424B4",
+  "filed": "2011-03-11",
+  "accession": "0000950123-11-024716",
+  "url": "https://www.sec.gov/Archives/edgar/data/860730/000095012311024716/y83802b4e424b4.htm"
+ },
+ "NLSN": {
+  "cik": 1492633,
+  "name": "Nielsen Holdings plc",
+  "form": "424B4",
+  "filed": "2011-01-27",
+  "accession": "0001193125-11-015866",
+  "url": "https://www.sec.gov/Archives/edgar/data/1492633/000119312511015866/d424b4.htm"
+ },
+ "GRPN": {
+  "cik": 1490281,
+  "name": "Groupon, Inc.",
+  "form": "424B4",
+  "filed": "2011-11-07",
+  "accession": "0001047469-11-009142",
+  "url": "https://www.sec.gov/Archives/edgar/data/1490281/000104746911009142/a2206165z424b4.htm"
+ },
+ "ZNGA": {
+  "cik": 1439404,
+  "name": "ZYNGA INC",
+  "form": "424B4",
+  "filed": "2011-12-16",
+  "accession": "0001193125-11-343682",
+  "url": "https://www.sec.gov/Archives/edgar/data/1439404/000119312511343682/d198836d424b4.htm"
+ },
+ "META": {
+  "cik": 1326801,
+  "name": "Meta Platforms, Inc.",
+  "form": "424B4",
+  "filed": "2012-05-18",
+  "accession": "0001193125-12-240111",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512240111/d287954d424b4.htm"
+ },
+ "ZTS": {
+  "cik": 1555280,
+  "name": "Zoetis Inc.",
+  "form": "424B4",
+  "filed": "2013-02-04",
+  "accession": "0001193125-13-035094",
+  "url": "https://www.sec.gov/Archives/edgar/data/1555280/000119312513035094/d381653d424b4.htm"
+ },
+ "TWTR": {
+  "cik": 1418091,
+  "name": "TWITTER, INC.",
+  "form": "424B4",
+  "filed": "2013-11-07",
+  "accession": "0001193125-13-431301",
+  "url": "https://www.sec.gov/Archives/edgar/data/1418091/000119312513431301/d564001d424b4.htm"
+ },
+ "HLT": {
+  "cik": 1585689,
+  "name": "Hilton Worldwide Holdings Inc.",
+  "form": "424B4",
+  "filed": "2013-12-13",
+  "accession": "0001193125-13-473211",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585689/000119312513473211/d593452d424b4.htm"
+ },
+ "SC": {
+  "cik": 1580608,
+  "name": "Santander Consumer USA Holdings Inc.",
+  "form": "424B4",
+  "filed": "2014-01-24",
+  "accession": "0001193125-14-019910",
+  "url": "https://www.sec.gov/Archives/edgar/data/1580608/000119312514019910/d629853d424b4.htm"
+ },
+ "ALLY": {
+  "cik": 40729,
+  "name": "Ally Financial Inc.",
+  "form": "424B4",
+  "filed": "2014-04-11",
+  "accession": "0001193125-14-140209",
+  "url": "https://www.sec.gov/Archives/edgar/data/40729/000119312514140209/d651440d424b4.htm"
+ },
+ "SYF": {
+  "cik": 1601712,
+  "name": "Synchrony Financial",
+  "form": "424B1",
+  "filed": "2014-07-31",
+  "accession": "0001193125-14-289938",
+  "url": "https://www.sec.gov/Archives/edgar/data/1601712/000119312514289938/d680310d424b1.htm"
+ },
+ "BABA": {
+  "cik": 1577552,
+  "name": "Alibaba Group Holding Ltd",
+  "form": "424B4",
+  "filed": "2014-09-22",
+  "accession": "0001193125-14-347620",
+  "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312514347620/d709111d424b4.htm"
+ },
+ "CFG": {
+  "cik": 759944,
+  "name": "CITIZENS FINANCIAL GROUP INC/RI",
+  "form": "424B4",
+  "filed": "2014-09-25",
+  "accession": "0001193125-14-352022",
+  "url": "https://www.sec.gov/Archives/edgar/data/759944/000119312514352022/d723158d424b4.htm"
+ },
+ "RACE": {
+  "cik": 1648416,
+  "name": "Ferrari N.V.",
+  "form": "424B1",
+  "filed": "2015-10-21",
+  "accession": "0001193125-15-349281",
+  "url": "https://www.sec.gov/Archives/edgar/data/1648416/000119312515349281/d61094d424b1.htm"
+ },
+ "SNAP": {
+  "cik": 1564408,
+  "name": "Snap Inc",
+  "form": "424B4",
+  "filed": "2017-03-03",
+  "accession": "0001193125-17-068848",
+  "url": "https://www.sec.gov/Archives/edgar/data/1564408/000119312517068848/d270216d424b4.htm"
+ },
+ "ATUS": {
+  "cik": 1702780,
+  "name": "Optimum Communications, Inc.",
+  "form": "424B4",
+  "filed": "2017-06-23",
+  "accession": "0001047469-17-004208",
+  "url": "https://www.sec.gov/Archives/edgar/data/1702780/000104746917004208/a2232514z424b4.htm"
+ },
+ "DBX": {
+  "cik": 1467623,
+  "name": "DROPBOX, INC.",
+  "form": "424B4",
+  "filed": "2018-03-23",
+  "accession": "0001193125-18-092764",
+  "url": "https://www.sec.gov/Archives/edgar/data/1467623/000119312518092764/d553522d424b4.htm"
+ },
+ "IQ": {
+  "cik": 1722608,
+  "name": "iQIYI, Inc.",
+  "form": "424B4",
+  "filed": "2018-03-29",
+  "accession": "0001193125-18-101601",
+  "url": "https://www.sec.gov/Archives/edgar/data/1722608/000119312518101601/d487167d424b4.htm"
+ },
+ "SPOT": {
+  "cik": 1639920,
+  "name": "Spotify Technology S.A.",
+  "form": "424B4",
+  "filed": "2018-04-03",
+  "accession": "0001193125-18-105231",
+  "url": "https://www.sec.gov/Archives/edgar/data/1639920/000119312518105231/d494294d424b4.htm"
+ },
+ "EQH": {
+  "cik": 1333986,
+  "name": "Equitable Holdings, Inc.",
+  "form": "424B4",
+  "filed": "2018-05-11",
+  "accession": "0001193125-18-160394",
+  "url": "https://www.sec.gov/Archives/edgar/data/1333986/000119312518160394/d334112d424b4.htm"
+ },
+ "PDD": {
+  "cik": 1737806,
+  "name": "PDD Holdings Inc.",
+  "form": "424B4",
+  "filed": "2018-07-26",
+  "accession": "0001047469-18-005204",
+  "url": "https://www.sec.gov/Archives/edgar/data/1737806/000104746918005204/a2236308z424b4.htm"
+ },
+ "NIO": {
+  "cik": 1736541,
+  "name": "NIO Inc.",
+  "form": "424B4",
+  "filed": "2018-09-12",
+  "accession": "0001193125-18-271849",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736541/000119312518271849/d560276d424b4.htm"
+ },
+ "TME": {
+  "cik": 1744676,
+  "name": "Tencent Music Entertainment Group",
+  "form": "424B4",
+  "filed": "2018-12-12",
+  "accession": "0001193125-18-347477",
+  "url": "https://www.sec.gov/Archives/edgar/data/1744676/000119312518347477/d624633d424b4.htm"
+ },
+ "LYFT": {
+  "cik": 1759509,
+  "name": "Lyft, Inc.",
+  "form": "424B4",
+  "filed": "2019-03-29",
+  "accession": "0001193125-19-091446",
+  "url": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519091446/d721841d424b4.htm"
+ },
+ "PINS": {
+  "cik": 1506293,
+  "name": "PINTEREST, INC.",
+  "form": "424B4",
+  "filed": "2019-04-18",
+  "accession": "0001193125-19-111067",
+  "url": "https://www.sec.gov/Archives/edgar/data/1506293/000119312519111067/d697629d424b4.htm"
+ },
+ "ZM": {
+  "cik": 1585521,
+  "name": "Zoom Communications, Inc.",
+  "form": "424B4",
+  "filed": "2019-04-18",
+  "accession": "0001193125-19-110919",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585521/000119312519110919/d642624d424b4.htm"
+ },
+ "UBER": {
+  "cik": 1543151,
+  "name": "Uber Technologies, Inc",
+  "form": "424B4",
+  "filed": "2019-05-13",
+  "accession": "0001193125-19-144716",
+  "url": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519144716/d647752d424b4.htm"
+ },
+ "CRWD": {
+  "cik": 1535527,
+  "name": "CrowdStrike Holdings, Inc.",
+  "form": "424B4",
+  "filed": "2019-06-13",
+  "accession": "0001047469-19-003607",
+  "url": "https://www.sec.gov/Archives/edgar/data/1535527/000104746919003607/a2239024z424b4.htm"
+ },
+ "CHWY": {
+  "cik": 1766502,
+  "name": "Chewy, Inc.",
+  "form": "424B4",
+  "filed": "2019-06-17",
+  "accession": "0001193125-19-174261",
+  "url": "https://www.sec.gov/Archives/edgar/data/1766502/000119312519174261/d665122d424b4.htm"
+ },
+ "WORK": {
+  "cik": 1764925,
+  "name": "Slack Technologies, Inc.",
+  "form": "424B4",
+  "filed": "2019-06-20",
+  "accession": "0001628280-19-008125",
+  "url": "https://www.sec.gov/Archives/edgar/data/1764925/000162828019008125/slack424.htm"
+ },
+ "DDOG": {
+  "cik": 1561550,
+  "name": "Datadog, Inc.",
+  "form": "424B4",
+  "filed": "2019-09-19",
+  "accession": "0001193125-19-249577",
+  "url": "https://www.sec.gov/Archives/edgar/data/1561550/000119312519249577/d745413d424b4.htm"
+ },
+ "PTON": {
+  "cik": 1639825,
+  "name": "PELOTON INTERACTIVE, INC.",
+  "form": "424B4",
+  "filed": "2019-09-26",
+  "accession": "0001193125-19-255124",
+  "url": "https://www.sec.gov/Archives/edgar/data/1639825/000119312519255124/d738839d424b4.htm"
+ },
+ "WMG": {
+  "cik": 1319161,
+  "name": "Warner Music Group Corp.",
+  "form": "424B4",
+  "filed": "2020-06-04",
+  "accession": "0001193125-20-160812",
+  "url": "https://www.sec.gov/Archives/edgar/data/1319161/000119312520160812/d833365d424b4.htm"
+ },
+ "RPRX": {
+  "cik": 1802768,
+  "name": "Royalty Pharma plc",
+  "form": "424B4",
+  "filed": "2020-06-17",
+  "accession": "0001193125-20-171165",
+  "url": "https://www.sec.gov/Archives/edgar/data/1802768/000119312520171165/d862976d424b4.htm"
+ },
+ "LI": {
+  "cik": 1791706,
+  "name": "Li Auto Inc.",
+  "form": "424B4",
+  "filed": "2020-07-30",
+  "accession": "0001047469-20-004324",
+  "url": "https://www.sec.gov/Archives/edgar/data/1791706/000104746920004324/a2242162z424b4.htm"
+ },
+ "BEKE": {
+  "cik": 1809587,
+  "name": "KE Holdings Inc.",
+  "form": "424B4",
+  "filed": "2020-08-13",
+  "accession": "0001047469-20-004582",
+  "url": "https://www.sec.gov/Archives/edgar/data/1809587/000104746920004582/a2242260z424b4.htm"
+ },
+ "XPEV": {
+  "cik": 1810997,
+  "name": "XPENG INC.",
+  "form": "424B4",
+  "filed": "2020-08-28",
+  "accession": "0001193125-20-233600",
+  "url": "https://www.sec.gov/Archives/edgar/data/1810997/000119312520233600/d890887d424b4.htm"
+ },
+ "SNOW": {
+  "cik": 1640147,
+  "name": "Snowflake Inc.",
+  "form": "424B4",
+  "filed": "2020-09-16",
+  "accession": "0001628280-20-013667",
+  "url": "https://www.sec.gov/Archives/edgar/data/1640147/000162828020013667/snowflake424b4.htm"
+ },
+ "U": {
+  "cik": 1810806,
+  "name": "Unity Software Inc.",
+  "form": "424B4",
+  "filed": "2020-09-18",
+  "accession": "0001193125-20-249257",
+  "url": "https://www.sec.gov/Archives/edgar/data/1810806/000119312520249257/d908875d424b4.htm"
+ },
+ "PLTR": {
+  "cik": 1321655,
+  "name": "Palantir Technologies Inc.",
+  "form": "424B4",
+  "filed": "2020-09-30",
+  "accession": "0001193125-20-258493",
+  "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520258493/d904406d424b4.htm"
+ },
+ "DASH": {
+  "cik": 1792789,
+  "name": "DoorDash, Inc.",
+  "form": "424B4",
+  "filed": "2020-12-09",
+  "accession": "0001193125-20-313884",
+  "url": "https://www.sec.gov/Archives/edgar/data/1792789/000119312520313884/d752207d424b4.htm"
+ },
+ "ABNB": {
+  "cik": 1559720,
+  "name": "Airbnb, Inc.",
+  "form": "424B4",
+  "filed": "2020-12-11",
+  "accession": "0001193125-20-315318",
+  "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520315318/d81668d424b4.htm"
+ },
+ "AFRM": {
+  "cik": 1820953,
+  "name": "Affirm Holdings, Inc.",
+  "form": "424B4",
+  "filed": "2021-01-14",
+  "accession": "0001104659-21-004276",
+  "url": "https://www.sec.gov/Archives/edgar/data/1820953/000110465921004276/tm2026663-21_s1a.htm"
+ },
+ "XM": {
+  "cik": 1747748,
+  "name": "Qualtrics International Inc.",
+  "form": "424B4",
+  "filed": "2021-01-29",
+  "accession": "0001628280-21-001181",
+  "url": "https://www.sec.gov/Archives/edgar/data/1747748/000162828021001181/qualtricss-1424b4.htm"
+ },
+ "BMBL": {
+  "cik": 1830043,
+  "name": "Bumble Inc.",
+  "form": "424B4",
+  "filed": "2021-02-12",
+  "accession": "0001193125-21-041904",
+  "url": "https://www.sec.gov/Archives/edgar/data/1830043/000119312521041904/d20761d424b4.htm"
+ },
+ "RBLX": {
+  "cik": 1315098,
+  "name": "Roblox Corp",
+  "form": "424B4",
+  "filed": "2021-03-10",
+  "accession": "0001193125-21-075435",
+  "url": "https://www.sec.gov/Archives/edgar/data/1315098/000119312521075435/d87104d424b4.htm"
+ },
+ "CPNG": {
+  "cik": 1834584,
+  "name": "Coupang, Inc.",
+  "form": "424B4",
+  "filed": "2021-03-11",
+  "accession": "0001628280-21-004565",
+  "url": "https://www.sec.gov/Archives/edgar/data/1834584/000162828021004565/coupang-424b4.htm"
+ },
+ "COIN": {
+  "cik": 1679788,
+  "name": "Coinbase Global, Inc.",
+  "form": "424B4",
+  "filed": "2021-04-14",
+  "accession": "0001628280-21-006850",
+  "url": "https://www.sec.gov/Archives/edgar/data/1679788/000162828021006850/coinbaseglobalinc424b.htm"
+ },
+ "APP": {
+  "cik": 1751008,
+  "name": "AppLovin Corp",
+  "form": "424B4",
+  "filed": "2021-04-15",
+  "accession": "0001193125-21-117730",
+  "url": "https://www.sec.gov/Archives/edgar/data/1751008/000119312521117730/d73804d424b4.htm"
+ },
+ "PATH": {
+  "cik": 1734722,
+  "name": "UiPath, Inc.",
+  "form": "424B4",
+  "filed": "2021-04-21",
+  "accession": "0001193125-21-125014",
+  "url": "https://www.sec.gov/Archives/edgar/data/1734722/000119312521125014/d98556d424b4.htm"
+ },
+ "OTLY": {
+  "cik": 1843586,
+  "name": "Oatly Group AB",
+  "form": "424B4",
+  "filed": "2021-05-21",
+  "accession": "0001193125-21-168012",
+  "url": "https://www.sec.gov/Archives/edgar/data/1843586/000119312521168012/d123209d424b4.htm"
+ },
+ "MQ": {
+  "cik": 1522540,
+  "name": "Marqeta, Inc.",
+  "form": "424B4",
+  "filed": "2021-06-10",
+  "accession": "0001193125-21-187099",
+  "url": "https://www.sec.gov/Archives/edgar/data/1522540/000119312521187099/d64065d424b4.htm"
+ },
+ "DIDI": {
+  "cik": 1764757,
+  "name": "DiDi Global Inc.",
+  "form": "424B4",
+  "filed": "2021-06-30",
+  "accession": "0001047469-21-001227",
+  "url": "https://www.sec.gov/Archives/edgar/data/1764757/000104746921001227/a2243300z424b4.htm"
+ },
+ "HOOD": {
+  "cik": 1783879,
+  "name": "Robinhood Markets, Inc.",
+  "form": "424B4",
+  "filed": "2021-07-30",
+  "accession": "0001628280-21-015076",
+  "url": "https://www.sec.gov/Archives/edgar/data/1783879/000162828021015076/robinhood424.htm"
+ },
+ "TOST": {
+  "cik": 1650164,
+  "name": "Toast, Inc.",
+  "form": "424B4",
+  "filed": "2021-09-22",
+  "accession": "0001193125-21-279379",
+  "url": "https://www.sec.gov/Archives/edgar/data/1650164/000119312521279379/d166297d424b4.htm"
+ },
+ "FRSH": {
+  "cik": 1544522,
+  "name": "Freshworks Inc.",
+  "form": "424B4",
+  "filed": "2021-09-22",
+  "accession": "0001628280-21-019055",
+  "url": "https://www.sec.gov/Archives/edgar/data/1544522/000162828021019055/freshworks424b4.htm"
+ },
+ "GTLB": {
+  "cik": 1653482,
+  "name": "Gitlab Inc.",
+  "form": "424B4",
+  "filed": "2021-10-14",
+  "accession": "0001628280-21-020056",
+  "url": "https://www.sec.gov/Archives/edgar/data/1653482/000162828021020056/gitlab-424b4.htm"
+ },
+ "RIVN": {
+  "cik": 1874178,
+  "name": "Rivian Automotive, Inc. / DE",
+  "form": "424B4",
+  "filed": "2021-11-12",
+  "accession": "0001193125-21-328239",
+  "url": "https://www.sec.gov/Archives/edgar/data/1874178/000119312521328239/d157488d424b4.htm"
+ },
+ "NU": {
+  "cik": 1691493,
+  "name": "Nu Holdings Ltd.",
+  "form": "424B1",
+  "filed": "2021-12-09",
+  "accession": "0001193125-21-352703",
+  "url": "https://www.sec.gov/Archives/edgar/data/1691493/000119312521352703/d213207d424b1.htm"
+ },
+ "HCP": {
+  "cik": 1720671,
+  "name": "HashiCorp, Inc.",
+  "form": "424B4",
+  "filed": "2021-12-09",
+  "accession": "0001193125-21-352796",
+  "url": "https://www.sec.gov/Archives/edgar/data/1720671/000119312521352796/d205906d424b4.htm"
+ },
+ "IOT": {
+  "cik": 1642896,
+  "name": "Samsara Inc.",
+  "form": "424B4",
+  "filed": "2021-12-15",
+  "accession": "0001193125-21-358031",
+  "url": "https://www.sec.gov/Archives/edgar/data/1642896/000119312521358031/d261594d424b4.htm"
+ },
+ "TPG": {
+  "cik": 1880661,
+  "name": "TPG Inc.",
+  "form": "424B4",
+  "filed": "2022-01-14",
+  "accession": "0001193125-22-009890",
+  "url": "https://www.sec.gov/Archives/edgar/data/1880661/000119312522009890/d197780d424b4.htm"
+ },
+ "CRBG": {
+  "cik": 1889539,
+  "name": "Corebridge Financial, Inc.",
+  "form": "424B4",
+  "filed": "2022-09-16",
+  "accession": "0001140361-22-033508",
+  "url": "https://www.sec.gov/Archives/edgar/data/1889539/000114036122033508/ny20001795x22_424b4.htm"
+ },
+ "MBLY": {
+  "cik": 1910139,
+  "name": "Mobileye Global Inc.",
+  "form": "424B4",
+  "filed": "2022-10-27",
+  "accession": "0001104659-22-112004",
+  "url": "https://www.sec.gov/Archives/edgar/data/1910139/000110465922112004/tm227410-23_424b4.htm"
+ },
+ "KVUE": {
+  "cik": 1944048,
+  "name": "Kenvue Inc.",
+  "form": "424B4",
+  "filed": "2023-05-04",
+  "accession": "0001628280-23-015837",
+  "url": "https://www.sec.gov/Archives/edgar/data/1944048/000162828023015837/kenvue424b4.htm"
+ },
+ "ARM": {
+  "cik": 1973239,
+  "name": "ARM HOLDINGS PLC /UK",
+  "form": "424B4",
+  "filed": "2023-09-14",
+  "accession": "0001193125-23-235320",
+  "url": "https://www.sec.gov/Archives/edgar/data/1973239/000119312523235320/d550931d424b4.htm"
+ },
+ "CART": {
+  "cik": 1579091,
+  "name": "Maplebear Inc.",
+  "form": "424B4",
+  "filed": "2023-09-20",
+  "accession": "0001193125-23-237900",
+  "url": "https://www.sec.gov/Archives/edgar/data/1579091/000119312523237900/d55348d424b4.htm"
+ },
+ "KVYO": {
+  "cik": 1835830,
+  "name": "Klaviyo, Inc.",
+  "form": "424B4",
+  "filed": "2023-09-20",
+  "accession": "0001628280-23-032570",
+  "url": "https://www.sec.gov/Archives/edgar/data/1835830/000162828023032570/klaviyoincfinalprospectus.htm"
+ },
+ "BIRK": {
+  "cik": 1977102,
+  "name": "Birkenstock Holding plc",
+  "form": "424B4",
+  "filed": "2023-10-12",
+  "accession": "0001193125-23-254724",
+  "url": "https://www.sec.gov/Archives/edgar/data/1977102/000119312523254724/d507917d424b4.htm"
+ },
+ "RDDT": {
+  "cik": 1713445,
+  "name": "Reddit, Inc.",
+  "form": "424B4",
+  "filed": "2024-03-21",
+  "accession": "0001628280-24-012380",
+  "url": "https://www.sec.gov/Archives/edgar/data/1713445/000162828024012380/reddit-final424b4.htm"
+ },
+ "VIK": {
+  "cik": 1745201,
+  "name": "Viking Holdings Ltd",
+  "form": "424B4",
+  "filed": "2024-05-02",
+  "accession": "0001193125-24-129359",
+  "url": "https://www.sec.gov/Archives/edgar/data/1745201/000119312524129359/d496227d424b4.htm"
+ },
+ "LINE": {
+  "cik": 1868159,
+  "name": "Lineage, Inc.",
+  "form": "424B4",
+  "filed": "2024-07-26",
+  "accession": "0001193125-24-185331",
+  "url": "https://www.sec.gov/Archives/edgar/data/1868159/000119312524185331/d577649d424b4.htm"
+ },
+ "CRWV": {
+  "cik": 1769628,
+  "name": "CoreWeave, Inc.",
+  "form": "424B4",
+  "filed": "2025-03-31",
+  "accession": "0001193125-25-067651",
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525067651/d899798d424b4.htm"
+ },
+ "CRCL": {
+  "cik": 1876042,
+  "name": "Circle Internet Group, Inc.",
+  "form": "424B4",
+  "filed": "2025-06-05",
+  "accession": "0001193125-25-135795",
+  "url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm"
+ },
+ "CHYM": {
+  "cik": 1795586,
+  "name": "Chime Financial, Inc.",
+  "form": "424B4",
+  "filed": "2025-06-12",
+  "accession": "0001628280-25-030855",
+  "url": "https://www.sec.gov/Archives/edgar/data/1795586/000162828025030855/chimefinancialinc-finalpro.htm"
+ },
+ "FIG": {
+  "cik": 1579878,
+  "name": "Figma, Inc.",
+  "form": "424B4",
+  "filed": "2025-07-31",
+  "accession": "0001628280-25-037014",
+  "url": "https://www.sec.gov/Archives/edgar/data/1579878/000162828025037014/figma424b4.htm"
+ },
+ "KLAR": {
+  "cik": 2003292,
+  "name": "Klarna Group plc",
+  "form": "424B4",
+  "filed": "2025-09-10",
+  "accession": "0002003292-25-000052",
+  "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329225000052/klarnagroupplc424b4.htm"
+ },
+ "VG": {
+  "cik": 2007855,
+  "name": "Venture Global, Inc.",
+  "form": "424B4",
+  "filed": "2025-01-24",
+  "accession": "0001193125-25-012218",
+  "url": "https://www.sec.gov/Archives/edgar/data/2007855/000119312525012218/d146310d424b4.htm"
+ },
+ "SAIL": {
+  "cik": 2030781,
+  "name": "SailPoint, Inc.",
+  "form": "424B4",
+  "filed": "2025-02-14",
+  "accession": "0001193125-25-026566",
+  "url": "https://www.sec.gov/Archives/edgar/data/2030781/000119312525026566/d906470d424b4.htm"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=688009.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "CHINA RAILWAY SIGNAL & COM CORP",
+  "quoteType": "EQUITY",
+  "symbol": "688009.SS",
+  "index": "quotes",
+  "score": 10002500.0,
+  "typeDisp": "Equity",
+  "longname": "China Railway Signal & Communication Corporation Limited",
+  "exchDisp": "Shanghai",
+  "sector": "Industrials",
+  "sectorDisp": "Industrials",
+  "industry": "Railroads",
+  "industryDisp": "Railroads",
+  "isYahooFinance": true
+ }
+}

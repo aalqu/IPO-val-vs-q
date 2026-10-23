@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=0772.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CHINA LIT",
+  "quoteType": "EQUITY",
+  "symbol": "0772.HK",
+  "index": "quotes",
+  "score": 10015500.0,
+  "typeDisp": "Equity",
+  "longname": "China Literature Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "isYahooFinance": true
+ }
+}

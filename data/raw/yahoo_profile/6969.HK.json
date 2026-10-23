@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6969.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "SMOORE INTL",
+  "quoteType": "EQUITY",
+  "symbol": "6969.HK",
+  "index": "quotes",
+  "score": 10020000.0,
+  "typeDisp": "Equity",
+  "longname": "Smoore International Holdings Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Defensive",
+  "industry": "Tobacco",
+  "isYahooFinance": true
+ }
+}

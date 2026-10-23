@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6936.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "SF HOLDING",
+  "quoteType": "EQUITY",
+  "symbol": "6936.HK",
+  "index": "quotes",
+  "score": 10012000.0,
+  "typeDisp": "Equity",
+  "longname": "S.F. Holding Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Industrials",
+  "sectorDisp": "Industrials",
+  "industry": "Integrated Freight & Logistics",
+  "industryDisp": "Integrated Freight & Logistics",
+  "isYahooFinance": true
+ }
+}

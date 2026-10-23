@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=2259.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "ZIJIN GOLD INTL",
+  "quoteType": "EQUITY",
+  "symbol": "2259.HK",
+  "index": "quotes",
+  "score": 10078500.0,
+  "typeDisp": "Equity",
+  "longname": "Zijin Gold International Company Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Basic Materials",
+  "sectorDisp": "Basic Materials",
+  "industry": "Gold",
+  "industryDisp": "Gold",
+  "isYahooFinance": true
+ }
+}

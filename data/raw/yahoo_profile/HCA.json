@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=HCA&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "HCA Healthcare, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "HCA",
+  "index": "quotes",
+  "score": 11486000.0,
+  "typeDisp": "Equity",
+  "longname": "HCA Healthcare, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "industryDisp": "Medical Care Facilities",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

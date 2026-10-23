@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=9863.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "LEAPMOTOR",
+  "quoteType": "EQUITY",
+  "symbol": "9863.HK",
+  "index": "quotes",
+  "score": 10037000.0,
+  "typeDisp": "Equity",
+  "longname": "Zhejiang Leapmotor Technology Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
+  "isYahooFinance": true
+ }
+}

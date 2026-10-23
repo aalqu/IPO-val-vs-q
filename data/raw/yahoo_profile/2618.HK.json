@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=2618.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "JD LOGISTICS",
+  "quoteType": "EQUITY",
+  "symbol": "2618.HK",
+  "index": "quotes",
+  "score": 10052500.0,
+  "typeDisp": "Equity",
+  "longname": "JD Logistics, Inc.",
+  "exchDisp": "Hong Kong",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
+  "isYahooFinance": true
+ }
+}

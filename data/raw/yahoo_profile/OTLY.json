@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=OTLY&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Oatly Group AB",
+  "quoteType": "EQUITY",
+  "symbol": "OTLY",
+  "index": "quotes",
+  "score": 10589500.0,
+  "typeDisp": "Equity",
+  "longname": "Oatly Group AB",
+  "exchDisp": "NASDAQ",
+  "sector": "Consumer Defensive",
+  "sectorDisp": "Consumer Defensive",
+  "industry": "Packaged Foods",
+  "industryDisp": "Packaged Foods",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

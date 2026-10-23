@@ -1,5 +1,38 @@
 # Changelog
 
+## 1.4.0 — 2026-10-23
+Every number is now sourced; nothing is estimated or carried over from memory.
+- New `data/deal_facts.csv`: 1,337 sourced values (offer price, shares after the offering,
+  ADS ratio, dates, exchange rates, SEC revenue and operating profit, sector), each with the
+  document URL, the document name and the exact words in it. `data/deals*.csv` are generated
+  from these facts (`make facts`); `data/candidates*.csv` hold identifiers only.
+- New tests (`tests/test_provenance.py`): every quote appears in its saved document, every
+  offer price and share count is printed in its quote, the deal tables equal what the facts
+  give, every deal is $5bn+ on sourced numbers, and every valuation input is printed in its
+  source, reported in SEC XBRL or derived from printed numbers (`data/fundamentals_derivations.csv`,
+  `tools/check_fundamentals.py`, evidence in `data/fundamentals_check.tsv`).
+- `tools/fetch_sources.py` (`make sources`) downloads the ~670 cited documents;
+  `tools/build_sources.py` maps each to its saved text (`data/sources.csv`).
+- Market value at the offer = offer price × all shares after the offering (before
+  over-allotment); exchange rates from the Federal Reserve H.10 (FRED) on the listing date.
+- Corrections found by sourcing, among others: Facebook $81bn at the offer (was $104bn),
+  Palantir, Coinbase, DoorDash and Airbnb smaller; SWS H-share price HK$3.63; Guosen A-share
+  price RMB5.83; Galaxy A-share price RMB6.81; CGN A-share price RMB2.49.
+- Universe: core 96 deals (Venture Global and SailPoint added, Glencore excluded: offering
+  documents not retrieved); Asia 119 (Korea removed by scope decision; ICICI Prudential Life
+  excluded, documents not retrieved; ZJLD excluded, US$4.5bn at the offer).
+- Revenue and profitability come from SEC XBRL only; non-US deals are left out of the P/S and
+  profitability screens instead of using approximate figures (none run for Asia).
+- Valuation pilot: share counts equal the sourced facts (Kenvue 1,889m, HAL 334m); Hong Kong
+  net proceeds are the amounts in the allotment-results announcements (no scaling from the
+  mid-point price); Xiaomi as reported (no adjustments, no assumed tax); dividends only where
+  the prospectus states an amount (payout-ratio policies no longer turned into forecasts);
+  derived inputs recomputed exactly from printed numbers.
+- Prices: pre-listing Yahoo bars dropped; SoftBank Corp price units fixed (Yahoo unadjusted
+  close, divisor 1); the SoftBank 10-for-1 split documented.
+- Headline changes (core): 6-month median excess −21 pts (was −19), 1-year −30 (was −28);
+  3-year −49 unchanged. Asia: 3-year median −22 pts (was −25), 34% beat the index.
+
 ## 1.3.0 — 2026-10-22
 - Asian comps/DCF pilot extended from 5 Hong Kong deals to 15: five China A-share IPOs from
   CNINFO prospectuses and five Indian IPOs from prospectuses filed with SEBI.

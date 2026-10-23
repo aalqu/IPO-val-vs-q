@@ -1,4 +1,4 @@
-"""The Asia extension (v1.2): Korea, India, Hong Kong and China A-shares."""
+"""The Asia extension: India, Hong Kong and China A-shares."""
 import csv
 import json
 import math
@@ -18,7 +18,7 @@ def test_universe_definition():
     ids = [d.id for d in DEALS]
     assert len(ids) == len(set(ids))
     for d in DEALS:
-        assert d.region in ("Korea", "India", "HK", "ChinaA"), d.id
+        assert d.region in ("India", "HK", "ChinaA"), d.id
         assert d.mcap_usd_bn >= 5 and 2010 <= d.year <= 2025 and d.offer_price > 0, d.id
 
 
@@ -62,7 +62,7 @@ def test_prices_rebuild_from_raw_yahoo_files():
 
 
 def test_benchmarks_cover_2010_to_snapshot_without_gaps():
-    for k in ("Korea", "India", "HK", "ChinaA"):
+    for k in ("India", "HK", "ChinaA"):
         ms = sorted(BENCH[k])
         assert ms == list(range(ms[0], ms[-1] + 1)), k
         assert ms[0] <= 2010 * 12 and ms[-1] >= 2026 * 12 + 8, k
@@ -80,11 +80,11 @@ def test_headline_numbers_unchanged():
 
 def test_report_figures():
     h = headline(run(Config(universe="asia")))
-    assert h["n_deals"] == 131
+    assert h["n_deals"] == 119
     assert round(h["entry_premium_median"] * 100) == 15
-    assert round(h["after_median_36m"] * 100) == -25
-    assert round(h["after_hit_36m"] * 100) == 32
-    assert round(h["short_hot_hit_36m"] * 100) == 74
+    assert round(h["after_median_36m"] * 100) == -22
+    assert round(h["after_hit_36m"] * 100) == 34
+    assert round(h["short_hot_hit_36m"] * 100) == 70
 
 
 def test_core_study_is_untouched_by_the_asia_files():
@@ -122,13 +122,15 @@ def test_pilot_offer_size_matches_deal_list():
 
 def test_thin_country_industry_falls_back_to_emerging_file():
     from ipo_study.valuation_study import industry_for
-    table = {("China", 2019, "beverage (soft)"): {"industry": "Beverage (Soft)", "n_firms": "2", "pe": "4.3", "wacc": "0.035"},
-             ("Emerging", 2019, "beverage (soft)"): {"industry": "Beverage (Soft)", "n_firms": "31", "pe": "32.6", "wacc": "0.043"}}
+    full = {"op_margin": "0.2", "sales_to_capital": "1.5"}
+    table = {("China", 2019, "beverage (soft)"): {"industry": "Beverage (Soft)", "n_firms": "2", "pe": "4.3", "wacc": "0.035", **full},
+             ("Emerging", 2019, "beverage (soft)"): {"industry": "Beverage (Soft)", "n_firms": "31", "pe": "32.6", "wacc": "0.043", **full},
+             ("China", 2019, "total market"): {"wacc": "0.05"}, ("Emerging", 2019, "total market"): {"wacc": "0.05"}}
     imap = {"X": {"benchmark_region": "China", "benchmark_file_year": "2019", "industry": "Beverage (Soft)", "alternative_industry": ""}}
-    ind, used = industry_for("X", imap, table, {})
+    ind, used = industry_for("X", imap, table, {2020: 0.02})
     assert ind.pe == 32.6 and "Emerging" in used
     table[("China", 2019, "beverage (soft)")]["n_firms"] = "40"
-    ind, used = industry_for("X", imap, table, {})
+    ind, used = industry_for("X", imap, table, {2020: 0.02})
     assert ind.pe == 4.3 and used == "Beverage (Soft)"
 
 

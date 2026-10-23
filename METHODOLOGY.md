@@ -3,16 +3,37 @@
 All definitions below are implemented in `src/ipo_study/study.py`; where this file and the
 code disagree, the code is what produced the numbers, and that is a bug to report.
 
-## Universe
+## Universe and sourcing
 
 - Listings from 1 January 2010 to 31 December 2025 with market value of at least
   **$5bn at the offer price** (`mcap_usd_bn_at_offer`).
+- **Candidates** (`data/candidates*.csv`) hold identifiers only: id, name, ticker, region,
+  listing currency, listing type, A+H flag. Every number comes from `data/deal_facts.csv`.
+- **Sourced facts** (`data/deal_facts.csv`, one row per value): the value, its unit, the
+  document URL, the document name and the exact words in it.
+  - Offer price: final prospectus (SEC 424B4/424B1), exchange allotment-results or offer-price
+    announcement (HKEXnews), A-share listing announcement (CNINFO), final Indian prospectus, or
+    the issuer's or exchange's pricing announcement. Direct listings: the exchange reference
+    price as reported (news reports; marked in the source column).
+  - Shares outstanding after the offering, before over-allotment, all share classes (A+H
+    companies: A plus H; ADS deals divide by the ADS ratio). Where an offer-size adjustment
+    option was exercised, the total after it.
+  - Listing date, in order of preference: a first-dealing date stated by the exchange or the
+    issuer; Yahoo Finance's first trade date when it is 0–10 days after the final prospectus
+    or pricing date; the commencement of trading scheduled in the final prospectus; the final
+    prospectus date.
+  - Exchange rate: Federal Reserve H.10 noon buying rate (FRED) on the listing date, or the
+    last rate published before it; the prospectus peg for SAR and AED.
+  - Revenue and operating profit, last full fiscal year before the listing: SEC XBRL company
+    facts (earliest filing reporting that year). Not yet extracted for non-US deals (blank).
+  - Sector: Yahoo Finance; financial = Yahoo sector "Financial Services" (SEC SIC 6000–6411
+    when Yahoo has no profile).
+- `facts.build` turns facts into `data/deals*.csv`. A deal whose market value cannot be
+  computed from facts, or is under $5bn, goes to `data/excluded*.csv` with the reason.
 - **US:** NYSE and Nasdaq, including five direct listings (Spotify, Slack, Palantir, Roblox,
   Coinbase), which use the reference price in place of an offer price and are excluded from
   every "bought at offer" statistic.
-- **Global:** 17 mega-listings in Hong Kong, Tokyo, London, Frankfurt, Riyadh, Dubai, Mumbai
-  and Seoul.
-- Excluded for lack of monthly prices: see `data/excluded.csv`.
+- **Global:** 15 mega-listings in Hong Kong, Tokyo, Frankfurt, Riyadh, Dubai and Mumbai.
 
 ## Prices and returns
 
@@ -30,8 +51,10 @@ code disagree, the code is what produced the numbers, and that is a bug to repor
 ## Traditional valuation screens (buy at the offer)
 
 - **Profitable / loss-making:** operating profit positive in the last fiscal year before IPO.
-- **Price-to-sales (P/S):** market value at offer ÷ last-twelve-month revenue. Not defined
-  for banks, insurers and asset managers (`financial = 1`).
+- **Price-to-sales (P/S):** market value at offer ÷ last full fiscal year's revenue (SEC XBRL).
+  Not defined for financials (`financial = 1`) or where revenue is not sourced.
+- Deals without sourced revenue or operating profit are left out of these screens (not
+  counted as loss-making).
 - **Cheap / expensive:** P/S at or below / above the sample median.
 - **Signal test:** Spearman rank correlation of P/S with later excess return.
 
@@ -59,8 +82,8 @@ intervals are optimistic.
 ## Known limitations
 
 In-sample; small groups (26–32 deals per tercile); 2020–21 dominates; month-end rather than
-first-day prices; one price source; valuation inputs not yet sourced. See
-`data/known_issues.md`.
+first-day prices; one price source; revenue and profitability not yet sourced for non-US deals.
+See `data/known_issues.md`.
 
 ## Traditional valuation at the offer (v1.1, pilot of 19 deals)
 
@@ -70,7 +93,11 @@ deal; `tests/test_valuation.py` checks each formula on hand-worked numbers.
 **Inputs** (`data/fundamentals.csv`, one row per deal, millions of reporting currency):
 last fiscal year before the IPO — revenue (and the year before), EBITDA, operating income,
 net income, dividends, cash, debt; net primary proceeds; post-IPO shares; ADS ratio and FX
-where the listing currency differs. Every row cites its prospectus.
+where the listing currency differs. Every row cites its prospectus. Every non-zero input is
+printed in the source document, reported in SEC XBRL, or derived from printed numbers listed in
+`data/fundamentals_derivations.csv`; `make audit` (tools/check_fundamentals.py) checks each one
+and writes the evidence to `data/fundamentals_check.tsv`. Post-IPO shares equal the sourced
+share count in `data/deal_facts.csv` (tested).
 
 **Offer value:** equity = offer price × post-IPO shares; EV = equity + debt − cash − primary proceeds.
 
@@ -116,66 +143,70 @@ and at the first month-end, held 6, 12 and 36 months.
 **Input conventions:** last full fiscal year before the IPO, as first reported; cash and debt
 from the prospectus capitalization table "as adjusted" for the offering (so primary proceeds are
 already included); post-IPO shares from "The Offering" section (basic, excluding options and
-RSUs); dividends = the policy stated in the prospectus, annualised; currency rates as stated in
-the prospectus. Marginal tax: US 40% before 2018 and 25% after (federal + state), China 25%,
-Italy 28%, UK 25%, Saudi Arabia 50%.
+RSUs); dividends = a per-share amount stated in the prospectus × 4 quarters × post-IPO shares
+(blank when the prospectus states only a payout ratio, which would need a profit forecast);
+currency rates as stated in the prospectus. Marginal tax: the statutory corporate income tax rate for the company's country and the IPO year
+(Tax Foundation, combined central and sub-national rate; `data/raw/taxfoundation/`).
 
-## Asia extension (v1.2)
+## Asia extension
 
 Run with `ipo-study run --universe asia` (`Config(universe="asia")`); every definition above
-applies unchanged. Implemented through `data/deals_asia.csv`, `data/prices_asia.csv` and
-`data/benchmarks_asia.csv`.
+applies unchanged. Implemented through `data/candidates_asia.csv` → `data/deals_asia.csv`,
+`data/prices_asia.csv` and `data/benchmarks_asia.csv`.
 
-- **Universe:** 131 listings worth **$5bn+ at the offer**, 2010–2025: Korea (KRX, 10),
-  India (NSE/BSE, 28), Hong Kong (60, including H-shares of mainland companies) and mainland
-  China A-shares (Shanghai/Shenzhen, 33). `dual_ah` tags companies that list both A- and
-  H-shares. Excluded for lack of prices: `data/excluded_asia.csv`.
+- **Universe:** 119 listings worth **$5bn+ at the offer**, 2010–2025: India (NSE/BSE, 27),
+  Hong Kong (59, including H-shares of mainland companies) and mainland China A-shares
+  (Shanghai/Shenzhen, 33). `dual_ah` tags companies that list both A- and H-shares. Korean
+  listings were removed on 22 Oct 2026. Exclusions with reasons: `data/excluded_asia.csv`.
+- **Sources:** Hong Kong offer prices from the allotment-results or offer-price announcement
+  and share counts from the prospectus (market-capitalisation note or share-capital table) or,
+  since 2023, the allotment announcement's "number of issued shares upon listing"; China A
+  offer prices, share counts and listing dates from the CNINFO listing announcement (上市公告书);
+  India from the final prospectus filed with the Registrar of Companies.
 - **Prices:** Yahoo Finance monthly bars (raw responses saved in `data/raw/yahoo/`).
   Yahoo's monthly close is split-adjusted, so the unadjusted close is rebuilt by undoing
   later splits and bonus issues; a test rebuilds every row of `prices_asia.csv` from the raw files.
-- **Benchmarks (total return, local currency):** Korea — KODEX 200 ETF (KOSPI 200);
-  India — Nippon Nifty BeES (Nifty 50); Hong Kong — Tracker Fund of Hong Kong (Hang Seng);
-  China A — Huatai-PineBridge CSI 300 ETF from May 2012, chained to the CSI 300 price
-  index before that. ETF returns are after their small fees.
+- **Benchmarks (total return, local currency):** India — Nippon Nifty BeES (Nifty 50);
+  Hong Kong — Tracker Fund of Hong Kong (Hang Seng); China A — Huatai-PineBridge CSI 300 ETF
+  from May 2012, chained to the CSI 300 price index before that. ETF returns are after their
+  small fees.
 - **Late first bars:** where Yahoo's history starts the month after listing (HAL, Midea H),
   the entry month is the first available month (`entry_month`, logged in `corrections.csv`).
 - **Market splits:** per-market rows re-rank the "hottest third" within that market.
+- **Not yet sourced:** revenue and operating profit, so the price-to-sales and profitability
+  screens are not run for Asia.
 
 ### Asian valuation pilot (15 deals)
 
 Same comps and DCF rules as the US pilot, applied to five deals in each of Hong Kong (Xiaomi,
-China Tower, Haidilao, Smoore, Nongfu Spring; HKEX prospectuses), China A (CNNP, Foxconn
-Industrial Internet, CATL, Mindray, Beijing–Shanghai High-Speed Railway; CNINFO prospectuses)
-and India (Coal India, HAL, Zomato, Nykaa, Paytm; prospectuses filed with SEBI)
-(`data/fundamentals_asia.csv`, `data/industry_map_asia.csv`). Differences from the US
-convention, forced by what these prospectuses report:
+China Tower, Haidilao, Smoore, Nongfu Spring; HKEX prospectuses and allotment announcements),
+China A (CNNP, Foxconn Industrial Internet, CATL, Mindray, Beijing–Shanghai High-Speed Railway;
+CNINFO prospectuses) and India (Coal India, HAL, Zomato, Nykaa, Paytm; final prospectuses)
+(`data/fundamentals_asia.csv`, `data/industry_map_asia.csv`). Figures are as reported, with no
+analyst adjustments. Differences from the US convention, forced by what these prospectuses report:
 
 - Cash and debt are the latest **pre-IPO** balance (indebtedness statement), so net primary
-  proceeds are entered and added, scaled pro rata from the prospectus's mid-point price to the
-  final offer price where needed.
-- Fair-value changes on preferred shares and investments are removed from profit (Xiaomi).
-- Pre-IPO special dividends are counted as debt (Nongfu); dividends are the stated payout
-  policy, or blank where none is stated.
-- **EBIT** = profit before tax + interest expense (China A, Hong Kong), or operating profit
-  excluding other income (India, where other income is mostly interest on cash). **EBITDA**
-  is the prospectus's own figure where stated (China A prospectuses report 息税折旧摊销前利润),
-  else EBIT + depreciation and amortisation.
+  proceeds are added: the net proceeds at the final offer price stated in the allotment-results
+  announcement (Hong Kong) or listing announcement (China A), translated at the prospectus rate.
+- Pre-IPO special dividends declared before listing are counted as debt (Nongfu).
+- **EBIT** = profit before tax + interest expense (China A, Hong Kong), or profit before tax −
+  other income + finance costs (India, where other income is mostly interest on cash).
+  **EBITDA** = the prospectus's own figure where stated (China A prospectuses report
+  息税折旧摊销前利润; China Tower), else EBIT + depreciation and amortisation.
 - **Minority interests** are added to debt (material for CNNP and CATL), because EBITDA
   and EV/Sales cover the whole group while the offer value is the parent's equity.
-- **India:** cash includes bank deposits and liquid investments; debt is borrowings from
-  the capitalisation statement (lease liabilities excluded). Coal India and HAL were
-  all-secondary government sales, so no proceeds are added.
-- **Dividends** = the stated minimum payout policy: China A prospectuses state one (10–50%);
-  Indian state companies follow the CPSE guideline (Coal India 20% of profit in 2010; HAL the
-  higher of 30% of profit or 5% of net worth).
+- **India:** cash includes bank deposits and liquid investments; debt is borrowings
+  (lease liabilities excluded). Coal India and HAL were all-secondary government sales, so
+  no proceeds are added.
+- **Dividends:** none of these prospectuses states a dividend amount (only payout ratios), so
+  the dividend-yield comparison is not computed for the Asian pilot.
 - Mindray's prospectus PDF is a scanned image, so its FY2017 figures come from the
-  comparatives in its 2018 annual report, and shares and proceeds from its listing announcement.
+  comparatives in its 2018 annual report.
 - Industry benchmarks come from Damodaran's **China** and **India** files; where China has fewer than
   10 firms in the industry, the **Emerging-markets** file for that industry is used
   (`industry.MIN_FIRMS`, `FALLBACK_REGION`); the same industry in the wider file is tried
   before the alternative industry. CNNP uses the 2014 Emerging-markets file (no China file
   that year); Coal India uses the US January 2010 file (no India or Emerging-markets file
-  before the 2011 edition, which post-dates the IPO). Korea has no country file and would use
-  the Emerging-markets file. Discount rates are Damodaran's (US-dollar based)
+  before the 2011 edition, which post-dates the IPO). Discount rates are Damodaran's (US-dollar based)
   and the terminal growth rate is the US 10-year yield, applied to RMB cash flows; a
   reviewer may prefer an RMB risk-free rate.

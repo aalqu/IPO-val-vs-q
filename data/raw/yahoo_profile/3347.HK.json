@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=3347.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "TIGERMED",
+  "quoteType": "EQUITY",
+  "symbol": "3347.HK",
+  "index": "quotes",
+  "score": 10004000.0,
+  "typeDisp": "Equity",
+  "longname": "Hangzhou Tigermed Consulting Co., Ltd",
+  "exchDisp": "Hong Kong",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "industryDisp": "Diagnostics & Research",
+  "isYahooFinance": true,
+  "prevName": "Hangzhou Tigermed Consulting Co., Ltd.",
+  "nameChangeDate": "2026-10-21"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=U&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Unity Software Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "U",
+  "index": "quotes",
+  "score": 14573000.0,
+  "typeDisp": "Equity",
+  "longname": "Unity Software Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Technology",
+  "sectorDisp": "Technology",
+  "industry": "Software\u2014Application",
+  "industryDisp": "Software\u2014Application",
+  "dispSecIndFlag": false,
+  "isYahooFinance": true
+ }
+}

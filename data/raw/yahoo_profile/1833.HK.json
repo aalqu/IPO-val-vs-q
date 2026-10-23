@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1833.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "PA GOODDOCTOR",
+  "quoteType": "EQUITY",
+  "symbol": "1833.HK",
+  "index": "quotes",
+  "score": 10027500.0,
+  "typeDisp": "Equity",
+  "longname": "Ping An Healthcare and Technology Company Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "isYahooFinance": true
+ }
+}

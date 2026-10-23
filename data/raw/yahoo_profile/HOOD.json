@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=HOOD&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Robinhood Markets, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "HOOD",
+  "index": "quotes",
+  "score": 49655500.0,
+  "typeDisp": "Equity",
+  "longname": "Robinhood Markets, Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Capital Markets",
+  "industryDisp": "Capital Markets",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

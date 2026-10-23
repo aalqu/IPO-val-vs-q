@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=SWIGGY.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "SWIGGY LIMITED",
+  "quoteType": "EQUITY",
+  "symbol": "SWIGGY.NS",
+  "index": "quotes",
+  "score": 10121500.0,
+  "typeDisp": "Equity",
+  "longname": "Swiggy Limited",
+  "exchDisp": "NSE",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "isYahooFinance": true
+ }
+}

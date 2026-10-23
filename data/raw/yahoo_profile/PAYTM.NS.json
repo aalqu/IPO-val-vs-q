@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=PAYTM.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "ONE 97 COMMUNICATIONS LTD",
+  "quoteType": "EQUITY",
+  "symbol": "PAYTM.NS",
+  "index": "quotes",
+  "score": 10215500.0,
+  "typeDisp": "Equity",
+  "longname": "One97 Communications Limited",
+  "exchDisp": "NSE",
+  "sector": "Technology",
+  "sectorDisp": "Technology",
+  "industry": "Software\u2014Infrastructure",
+  "industryDisp": "Software\u2014Infrastructure",
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=KMI&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Kinder Morgan, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "KMI",
+  "index": "quotes",
+  "score": 21867000.0,
+  "typeDisp": "Equity",
+  "longname": "Kinder Morgan, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Energy",
+  "sectorDisp": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "industryDisp": "Oil & Gas Midstream",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

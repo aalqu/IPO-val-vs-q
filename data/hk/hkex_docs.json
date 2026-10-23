@@ -1,0 +1,2078 @@
+{
+ "ABC_H": {
+  "code": "01288",
+  "stockId": 49784,
+  "name": "ABC",
+  "docs": [
+   {
+    "date": "15/07/2010 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0715/01288_845080/E102.PDF",
+    "path": "data/hk/ann/ABC_H_d0_E102.PDF"
+   },
+   {
+    "date": "09/07/2010 06:09",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0709/ltn20100709005.pdf",
+    "path": "data/hk/ann/ABC_H_d1.pdf"
+   },
+   {
+    "date": "30/06/2010 12:44",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/ltn20100630147.pdf",
+    "path": "data/hk/ann/ABC_H_d2.pdf"
+   },
+   {
+    "date": "30/06/2010 07:04",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/01288_834053/E103.pdf",
+    "path": "data/hk/ann/ABC_H_d3_E103.pdf"
+   },
+   {
+    "date": "30/06/2010 07:04",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/01288_834053/E105.pdf",
+    "path": "data/hk/ann/ABC_H_d3_E105.pdf"
+   },
+   {
+    "date": "30/06/2010 07:04",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/01288_834053/E124.pdf",
+    "path": "data/hk/ann/ABC_H_d3_E124.pdf"
+   },
+   {
+    "date": "30/06/2010 07:04",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/01288_834053/E128.pdf",
+    "path": "data/hk/ann/ABC_H_d3_E128.pdf"
+   },
+   {
+    "date": "30/06/2010 06:42",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0630/ltn20100630013.pdf",
+    "path": "data/hk/ann/ABC_H_d4.pdf"
+   }
+  ]
+ },
+ "MGMCHINA": {
+  "code": "02282",
+  "stockId": 62801,
+  "name": "MGM CHINA",
+  "docs": [
+   {
+    "date": "02/06/2011 06:09",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0602/02282_1087588/E102.PDF",
+    "path": "data/hk/ann/MGMCHINA_d0_E102.PDF"
+   },
+   {
+    "date": "27/05/2011 08:07",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0527/ltn20110527025.pdf",
+    "path": "data/hk/ann/MGMCHINA_d1.pdf"
+   },
+   {
+    "date": "23/05/2011 06:05",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0523/02282_1079641/E103.pdf",
+    "path": "data/hk/ann/MGMCHINA_d2_E103.pdf"
+   },
+   {
+    "date": "23/05/2011 06:05",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0523/02282_1079641/E105.pdf",
+    "path": "data/hk/ann/MGMCHINA_d2_E105.pdf"
+   },
+   {
+    "date": "23/05/2011 06:05",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0523/02282_1079641/E123.pdf",
+    "path": "data/hk/ann/MGMCHINA_d2_E123.pdf"
+   },
+   {
+    "date": "23/05/2011 06:05",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0523/02282_1079641/E129.pdf",
+    "path": "data/hk/ann/MGMCHINA_d2_E129.pdf"
+   },
+   {
+    "date": "23/05/2011 06:03",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0523/ltn20110523003.pdf",
+    "path": "data/hk/ann/MGMCHINA_d3.pdf"
+   }
+  ]
+ },
+ "XIAOMI": {
+  "code": "01810",
+  "stockId": 190371,
+  "name": "XIAOMI-W",
+  "docs": [
+   {
+    "date": "06/07/2018 07:50",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0706/01810_3392924/E102.PDF",
+    "path": "data/hk/ann/XIAOMI_d0_E102.PDF"
+   },
+   {
+    "date": "25/06/2018 06:45",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0625/ltn20180625033.pdf",
+    "path": "data/hk/ann/XIAOMI_d1.pdf"
+   },
+   {
+    "date": "25/06/2018 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0625/01810_3375336/E103.pdf",
+    "path": "data/hk/ann/XIAOMI_d2_E103.pdf"
+   },
+   {
+    "date": "25/06/2018 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0625/01810_3375336/E106.pdf",
+    "path": "data/hk/ann/XIAOMI_d2_E106.pdf"
+   },
+   {
+    "date": "25/06/2018 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0625/01810_3375336/E123.pdf",
+    "path": "data/hk/ann/XIAOMI_d2_E123.pdf"
+   },
+   {
+    "date": "25/06/2018 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0625/01810_3375336/E129.pdf",
+    "path": "data/hk/ann/XIAOMI_d2_E129.pdf"
+   },
+   {
+    "date": "25/06/2018 06:09",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0625/ltn20180625007.pdf",
+    "path": "data/hk/ann/XIAOMI_d3.pdf"
+   }
+  ]
+ },
+ "AIA": {
+  "code": "01299",
+  "stockId": 54299,
+  "name": "AIA",
+  "docs": [
+   {
+    "date": "28/10/2010 06:50",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1028/01299_921887/E102.PDF",
+    "path": "data/hk/ann/AIA_d0_E102.PDF"
+   },
+   {
+    "date": "26/10/2010 06:08",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1026/ltn20101026003.pdf",
+    "path": "data/hk/ann/AIA_d1.pdf"
+   },
+   {
+    "date": "18/10/2010 06:34",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1018/01299_915068/E104.pdf",
+    "path": "data/hk/ann/AIA_d2_E104.pdf"
+   },
+   {
+    "date": "18/10/2010 06:34",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1018/01299_915068/E106.pdf",
+    "path": "data/hk/ann/AIA_d2_E106.pdf"
+   },
+   {
+    "date": "18/10/2010 06:34",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1018/01299_915068/E124.pdf",
+    "path": "data/hk/ann/AIA_d2_E124.pdf"
+   },
+   {
+    "date": "18/10/2010 06:34",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1018/01299_915068/E129.pdf",
+    "path": "data/hk/ann/AIA_d2_E129.pdf"
+   },
+   {
+    "date": "18/10/2010 06:11",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/1018/ltn20101018003.pdf",
+    "path": "data/hk/ann/AIA_d3.pdf"
+   }
+  ]
+ },
+ "PRADA": {
+  "code": "01913",
+  "stockId": 63444,
+  "name": "PRADA",
+  "docs": [
+   {
+    "date": "23/06/2011 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0623/01913_1101242/E102.PDF",
+    "path": "data/hk/ann/PRADA_d0_E102.PDF"
+   },
+   {
+    "date": "13/06/2011 06:12",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0613/ltn20110613009.pdf",
+    "path": "data/hk/ann/PRADA_d1.pdf"
+   },
+   {
+    "date": "13/06/2011 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0613/01913_1094735/EWP103.pdf",
+    "path": "data/hk/ann/PRADA_d2_EWP103.pdf"
+   },
+   {
+    "date": "13/06/2011 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0613/01913_1094735/EWP105.pdf",
+    "path": "data/hk/ann/PRADA_d2_EWP105.pdf"
+   },
+   {
+    "date": "13/06/2011 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0613/01913_1094735/EWP119.pdf",
+    "path": "data/hk/ann/PRADA_d2_EWP119.pdf"
+   },
+   {
+    "date": "13/06/2011 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0613/01913_1094735/EWP124.pdf",
+    "path": "data/hk/ann/PRADA_d2_EWP124.pdf"
+   },
+   {
+    "date": "13/06/2011 06:09",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0613/ltn20110613005.pdf",
+    "path": "data/hk/ann/PRADA_d3.pdf"
+   }
+  ]
+ },
+ "SUNART": {
+  "code": "06808",
+  "stockId": 64061,
+  "name": "SUNART RETAIL",
+  "docs": [
+   {
+    "date": "26/07/2011 06:10",
+    "title": "ANNOUNCEMENT OF FINAL ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0726/06808_1123723/E102.pdf",
+    "path": "data/hk/ann/SUNART_d0_E102.pdf"
+   },
+   {
+    "date": "14/07/2011 06:07",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0714/06808_1117041/E102.pdf",
+    "path": "data/hk/ann/SUNART_d1_E102.pdf"
+   },
+   {
+    "date": "04/07/2011 06:14",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0704/ltn20110704009.pdf",
+    "path": "data/hk/ann/SUNART_d2.pdf"
+   },
+   {
+    "date": "04/07/2011 06:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/0704/ltn20110704003.pdf",
+    "path": "data/hk/ann/SUNART_d3.pdf"
+   }
+  ]
+ },
+ "NCI_H": {
+  "code": "01336",
+  "stockId": 69598,
+  "name": "NCI",
+  "docs": [
+   {
+    "date": "14/12/2011 07:02",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1214/01336_1225600/E102.PDF",
+    "path": "data/hk/ann/NCI_H_d0_E102.PDF"
+   },
+   {
+    "date": "09/12/2011 08:27",
+    "title": "Announcement of Offer Price",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1209/ltn20111209030.pdf",
+    "path": "data/hk/ann/NCI_H_d1.pdf"
+   },
+   {
+    "date": "02/12/2011 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1202/01336_1217631/E103.pdf",
+    "path": "data/hk/ann/NCI_H_d2_E103.pdf"
+   },
+   {
+    "date": "02/12/2011 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1202/01336_1217631/E105.pdf",
+    "path": "data/hk/ann/NCI_H_d2_E105.pdf"
+   },
+   {
+    "date": "02/12/2011 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1202/01336_1217631/E120.pdf",
+    "path": "data/hk/ann/NCI_H_d2_E120.pdf"
+   },
+   {
+    "date": "02/12/2011 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1202/01336_1217631/E126.pdf",
+    "path": "data/hk/ann/NCI_H_d2_E126.pdf"
+   },
+   {
+    "date": "02/12/2011 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2011/1202/ltn20111202004.pdf",
+    "path": "data/hk/ann/NCI_H_d3.pdf"
+   }
+  ]
+ },
+ "PICC": {
+  "code": "01339",
+  "stockId": 80970,
+  "name": "PICC GROUP",
+  "docs": [
+   {
+    "date": "06/12/2012 07:00",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2012/1206/01339_1498950/E102.PDF",
+    "path": "data/hk/ann/PICC_d0_E102.PDF"
+   },
+   {
+    "date": "26/11/2012 07:03",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2012/1126/ltn20121126015.pdf",
+    "path": "data/hk/ann/PICC_d1.pdf"
+   },
+   {
+    "date": "26/11/2012 07:00",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2012/1126/ltn20121126011.pdf",
+    "path": "data/hk/ann/PICC_d2.pdf"
+   }
+  ]
+ },
+ "CINDA": {
+  "code": "01359",
+  "stockId": 97518,
+  "name": "CHINA CINDA",
+  "docs": [
+   {
+    "date": "11/12/2013 06:27",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1211/01359_1795642/E102.PDF",
+    "path": "data/hk/ann/CINDA_d0_E102.PDF"
+   },
+   {
+    "date": "28/11/2013 06:24",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1128/ltn20131128033.pdf",
+    "path": "data/hk/ann/CINDA_d1.pdf"
+   },
+   {
+    "date": "28/11/2013 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1128/ltn20131128015.pdf",
+    "path": "data/hk/ann/CINDA_d2.pdf"
+   }
+  ]
+ },
+ "CEB_H": {
+  "code": "06818",
+  "stockId": 76843,
+  "name": "CEB BANK",
+  "docs": [
+   {
+    "date": "19/12/2013 07:28",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1219/06818_1801543/E102.PDF",
+    "path": "data/hk/ann/CEB_H_d0_E102.PDF"
+   },
+   {
+    "date": "13/12/2013 21:06",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1213/ltn20131213746.pdf",
+    "path": "data/hk/ann/CEB_H_d1.pdf"
+   },
+   {
+    "date": "10/12/2013 06:44",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1210/06818_1794821/E103.pdf",
+    "path": "data/hk/ann/CEB_H_d2_E103.pdf"
+   },
+   {
+    "date": "10/12/2013 06:44",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1210/06818_1794821/E105.pdf",
+    "path": "data/hk/ann/CEB_H_d2_E105.pdf"
+   },
+   {
+    "date": "10/12/2013 06:44",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1210/06818_1794821/E123.pdf",
+    "path": "data/hk/ann/CEB_H_d2_E123.pdf"
+   },
+   {
+    "date": "10/12/2013 06:44",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1210/06818_1794821/E127.pdf",
+    "path": "data/hk/ann/CEB_H_d2_E127.pdf"
+   },
+   {
+    "date": "10/12/2013 06:22",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1210/ltn20131210021.pdf",
+    "path": "data/hk/ann/CEB_H_d3.pdf"
+   },
+   {
+    "date": "10/12/2013 06:18",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2013/1210/ltn20131210015.pdf",
+    "path": "data/hk/ann/CEB_H_d4.pdf"
+   }
+  ]
+ },
+ "WHGROUP": {
+  "code": "00288",
+  "stockId": 105112,
+  "name": "WH GROUP",
+  "docs": [
+   {
+    "date": "04/08/2014 06:02",
+    "title": "GLOBAL OFFERING - ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/0804/00288_2002345/E102.PDF",
+    "path": "data/hk/ann/WHGROUP_d0_E102.PDF"
+   },
+   {
+    "date": "24/07/2014 08:00",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/0724/ltn20140724039.pdf",
+    "path": "data/hk/ann/WHGROUP_d1.pdf"
+   },
+   {
+    "date": "24/07/2014 08:00",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/0724/ltn20140724037.pdf",
+    "path": "data/hk/ann/WHGROUP_d2.pdf"
+   }
+  ]
+ },
+ "CGN_H": {
+  "code": "01816",
+  "stockId": 115406,
+  "name": "CGN POWER",
+  "docs": [
+   {
+    "date": "09/12/2014 06:32",
+    "title": "GLOBAL OFFERING - ANNOUNCEMENT OF OFFER RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/01816_2116572/E102.PDF",
+    "path": "data/hk/ann/CGN_H_d0_E102.PDF"
+   },
+   {
+    "date": "27/11/2014 07:26",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1127/ltn20141127047.pdf",
+    "path": "data/hk/ann/CGN_H_d1.pdf"
+   },
+   {
+    "date": "27/11/2014 07:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1127/ltn20141127041.pdf",
+    "path": "data/hk/ann/CGN_H_d2.pdf"
+   }
+  ]
+ },
+ "BAIC": {
+  "code": "01958",
+  "stockId": 116122,
+  "name": "BAIC MOTOR",
+  "docs": [
+   {
+    "date": "18/12/2014 06:23",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1218/01958_2124190/E102.PDF",
+    "path": "data/hk/ann/BAIC_d0_E102.PDF"
+   },
+   {
+    "date": "09/12/2014 07:00",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/01958_2116584/E103.pdf",
+    "path": "data/hk/ann/BAIC_d1_E103.pdf"
+   },
+   {
+    "date": "09/12/2014 07:00",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/01958_2116584/E105.pdf",
+    "path": "data/hk/ann/BAIC_d1_E105.pdf"
+   },
+   {
+    "date": "09/12/2014 07:00",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/01958_2116584/E121.pdf",
+    "path": "data/hk/ann/BAIC_d1_E121.pdf"
+   },
+   {
+    "date": "09/12/2014 07:00",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/01958_2116584/E127.pdf",
+    "path": "data/hk/ann/BAIC_d1_E127.pdf"
+   },
+   {
+    "date": "09/12/2014 06:17",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/ltn20141209013.pdf",
+    "path": "data/hk/ann/BAIC_d2.pdf"
+   },
+   {
+    "date": "09/12/2014 06:07",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2014/1209/ltn20141209007.pdf",
+    "path": "data/hk/ann/BAIC_d3.pdf"
+   }
+  ]
+ },
+ "FUYAO_H": {
+  "code": "03606",
+  "stockId": 120895,
+  "name": "FUYAO GLASS",
+  "docs": [
+   {
+    "date": "29/03/2015 18:37",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0329/03606_2208279/E102.PDF",
+    "path": "data/hk/ann/FUYAO_H_d0_E102.PDF"
+   },
+   {
+    "date": "19/03/2015 06:22",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0319/ltn20150319019.pdf",
+    "path": "data/hk/ann/FUYAO_H_d1.pdf"
+   },
+   {
+    "date": "19/03/2015 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0319/ltn20150319013.pdf",
+    "path": "data/hk/ann/FUYAO_H_d2.pdf"
+   }
+  ]
+ },
+ "GFSEC_H": {
+  "code": "01776",
+  "stockId": 121060,
+  "name": "GF SEC",
+  "docs": [
+   {
+    "date": "09/04/2015 06:16",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0409/01776_2221256/E102.PDF",
+    "path": "data/hk/ann/GFSEC_H_d0_E102.PDF"
+   },
+   {
+    "date": "25/03/2015 06:21",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0325/ltn20150325029.pdf",
+    "path": "data/hk/ann/GFSEC_H_d1.pdf"
+   },
+   {
+    "date": "25/03/2015 06:03",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0325/ltn20150325003.pdf",
+    "path": "data/hk/ann/GFSEC_H_d2.pdf"
+   }
+  ]
+ },
+ "HUATAI_H": {
+  "code": "06886",
+  "stockId": 124855,
+  "name": "HTSC",
+  "docs": [
+   {
+    "date": "29/05/2015 08:02",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0529/06886_2278740/E102.PDF",
+    "path": "data/hk/ann/HUATAI_H_d0_E102.PDF"
+   },
+   {
+    "date": "19/05/2015 07:16",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0519/ltn20150519023.pdf",
+    "path": "data/hk/ann/HUATAI_H_d1.pdf"
+   },
+   {
+    "date": "19/05/2015 07:03",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0519/ltn20150519019.pdf",
+    "path": "data/hk/ann/HUATAI_H_d2.pdf"
+   }
+  ]
+ },
+ "LEGEND": {
+  "code": "03396",
+  "stockId": 126186,
+  "name": "LEGENDHOLDING",
+  "docs": [
+   {
+    "date": "26/06/2015 06:20",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0626/03396_2307314/E102.PDF",
+    "path": "data/hk/ann/LEGEND_d0_E102.PDF"
+   },
+   {
+    "date": "16/06/2015 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0616/ltn20150616019.pdf",
+    "path": "data/hk/ann/LEGEND_d1.pdf"
+   },
+   {
+    "date": "16/06/2015 06:29",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/0616/ltn20150616013.pdf",
+    "path": "data/hk/ann/LEGEND_d2.pdf"
+   }
+  ]
+ },
+ "CHINARE": {
+  "code": "01508",
+  "stockId": 132637,
+  "name": "CHINA RE",
+  "docs": [
+   {
+    "date": "23/10/2015 06:38",
+    "title": "GLOBAL OFFERING - ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1023/01508_2427759/E102.PDF",
+    "path": "data/hk/ann/CHINARE_d0_E102.PDF"
+   },
+   {
+    "date": "13/10/2015 06:40",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1013/ltn20151013009.pdf",
+    "path": "data/hk/ann/CHINARE_d1.pdf"
+   },
+   {
+    "date": "13/10/2015 06:31",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1013/ltn20151013007.pdf",
+    "path": "data/hk/ann/CHINARE_d2.pdf"
+   }
+  ]
+ },
+ "HUARONG": {
+  "code": "02799",
+  "stockId": 132952,
+  "name": "CITIC FAMC",
+  "docs": [
+   {
+    "date": "29/10/2015 07:25",
+    "title": "GLOBAL OFFERING - ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1029/02799_2432143/E102.PDF",
+    "path": "data/hk/ann/HUARONG_d0_E102.PDF"
+   },
+   {
+    "date": "16/10/2015 06:29",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1016/ltn20151016035.pdf",
+    "path": "data/hk/ann/HUARONG_d1.pdf"
+   },
+   {
+    "date": "16/10/2015 06:10",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2015/1016/ltn20151016019.pdf",
+    "path": "data/hk/ann/HUARONG_d2.pdf"
+   }
+  ]
+ },
+ "CZB_H": {
+  "code": "02016",
+  "stockId": 138247,
+  "name": "CZBANK",
+  "docs": [
+   {
+    "date": "29/03/2016 07:57",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0329/02016_2563896/E102.PDF",
+    "path": "data/hk/ann/CZB_H_d0_E102.PDF"
+   },
+   {
+    "date": "16/03/2016 06:32",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0316/ltn20160316033.pdf",
+    "path": "data/hk/ann/CZB_H_d1.pdf"
+   },
+   {
+    "date": "16/03/2016 06:10",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0316/ltn20160316015.pdf",
+    "path": "data/hk/ann/CZB_H_d2.pdf"
+   }
+  ]
+ },
+ "EBSEC_H": {
+  "code": "06178",
+  "stockId": 144102,
+  "name": "EB SECURITIES",
+  "docs": [
+   {
+    "date": "17/08/2016 06:13",
+    "title": "GLOBAL OFFERING - ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0817/06178_2707920/E102.PDF",
+    "path": "data/hk/ann/EBSEC_H_d0_E102.PDF"
+   },
+   {
+    "date": "08/08/2016 07:55",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0808/ltn20160808021.pdf",
+    "path": "data/hk/ann/EBSEC_H_d1.pdf"
+   },
+   {
+    "date": "08/08/2016 07:50",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0808/ltn20160808017.pdf",
+    "path": "data/hk/ann/EBSEC_H_d2.pdf"
+   }
+  ]
+ },
+ "PSBC_H": {
+  "code": "01658",
+  "stockId": 145447,
+  "name": "PSBC",
+  "docs": [
+   {
+    "date": "27/09/2016 06:32",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0927/01658_2746551/E102.PDF",
+    "path": "data/hk/ann/PSBC_H_d0_E102.PDF"
+   },
+   {
+    "date": "14/09/2016 06:26",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0914/ltn20160914029.pdf",
+    "path": "data/hk/ann/PSBC_H_d1.pdf"
+   },
+   {
+    "date": "14/09/2016 06:12",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2016/0914/ltn20160914011.pdf",
+    "path": "data/hk/ann/PSBC_H_d2.pdf"
+   }
+  ]
+ },
+ "GTJA_H": {
+  "code": "02611",
+  "stockId": 154011,
+  "name": "GTHT",
+  "docs": [
+   {
+    "date": "10/04/2017 06:03",
+    "title": "GLOBAL OFFERING - ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0410/02611_2916379/E102.PDF",
+    "path": "data/hk/ann/GTJA_H_d0_E102.PDF"
+   },
+   {
+    "date": "28/03/2017 06:24",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0328/ltn20170328033.pdf",
+    "path": "data/hk/ann/GTJA_H_d1.pdf"
+   },
+   {
+    "date": "28/03/2017 06:15",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0328/ltn20170328021.pdf",
+    "path": "data/hk/ann/GTJA_H_d2.pdf"
+   }
+  ]
+ },
+ "ZHONGAN": {
+  "code": "06060",
+  "stockId": 163544,
+  "name": "ZA ONLINE",
+  "docs": [
+   {
+    "date": "27/09/2017 06:20",
+    "title": "GLOBAL OFFERING - ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0927/06060_3090718/E102.PDF",
+    "path": "data/hk/ann/ZHONGAN_d0_E102.PDF"
+   },
+   {
+    "date": "18/09/2017 06:47",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0918/ltn20170918023.pdf",
+    "path": "data/hk/ann/ZHONGAN_d1.pdf"
+   },
+   {
+    "date": "18/09/2017 06:46",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/0918/ltn20170918021.pdf",
+    "path": "data/hk/ann/ZHONGAN_d2.pdf"
+   }
+  ]
+ },
+ "CHINALIT": {
+  "code": "00772",
+  "stockId": 165872,
+  "name": "CHINA LIT",
+  "docs": [
+   {
+    "date": "07/11/2017 20:10",
+    "title": "Clarification on Announcement of Offer Price and Allotment Results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1107/ltn20171107830.pdf",
+    "path": "data/hk/ann/CHINALIT_d0.pdf"
+   },
+   {
+    "date": "07/11/2017 06:15",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1107/00772_3131750/E102.PDF",
+    "path": "data/hk/ann/CHINALIT_d1_E102.PDF"
+   },
+   {
+    "date": "26/10/2017 06:19",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1026/ltn20171026021.pdf",
+    "path": "data/hk/ann/CHINALIT_d2.pdf"
+   },
+   {
+    "date": "26/10/2017 06:15",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1026/ltn20171026019.pdf",
+    "path": "data/hk/ann/CHINALIT_d3.pdf"
+   }
+  ]
+ },
+ "YIXIN": {
+  "code": "02858",
+  "stockId": 166831,
+  "name": "YIXIN",
+  "docs": [
+   {
+    "date": "15/11/2017 06:21",
+    "title": "Announcement of Offer Price and Allotment Results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1115/02858_3139937/E102.PDF",
+    "path": "data/hk/ann/YIXIN_d0_E102.PDF"
+   },
+   {
+    "date": "06/11/2017 07:12",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1106/ltn20171106013.pdf",
+    "path": "data/hk/ann/YIXIN_d1.pdf"
+   },
+   {
+    "date": "06/11/2017 07:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1106/02858_3129959/E103.pdf",
+    "path": "data/hk/ann/YIXIN_d2_E103.pdf"
+   },
+   {
+    "date": "06/11/2017 07:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1106/02858_3129959/E105.pdf",
+    "path": "data/hk/ann/YIXIN_d2_E105.pdf"
+   },
+   {
+    "date": "06/11/2017 07:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1106/02858_3129959/E122.pdf",
+    "path": "data/hk/ann/YIXIN_d2_E122.pdf"
+   },
+   {
+    "date": "06/11/2017 07:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1106/02858_3129959/E127.pdf",
+    "path": "data/hk/ann/YIXIN_d2_E127.pdf"
+   },
+   {
+    "date": "06/11/2017 06:24",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2017/1106/ltn20171106005.pdf",
+    "path": "data/hk/ann/YIXIN_d3.pdf"
+   }
+  ]
+ },
+ "PAGD": {
+  "code": "01833",
+  "stockId": 185016,
+  "name": "PA GOODDOCTOR",
+  "docs": [
+   {
+    "date": "03/05/2018 06:26",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0503/01833_3322359/E102.PDF",
+    "path": "data/hk/ann/PAGD_d0_E102.PDF"
+   },
+   {
+    "date": "23/04/2018 07:55",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0423/ltn20180423031.pdf",
+    "path": "data/hk/ann/PAGD_d1.pdf"
+   },
+   {
+    "date": "23/04/2018 07:45",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0423/ltn20180423027.pdf",
+    "path": "data/hk/ann/PAGD_d2.pdf"
+   }
+  ]
+ },
+ "CHINATOWER": {
+  "code": "00788",
+  "stockId": 193453,
+  "name": "CHINA TOWER",
+  "docs": [
+   {
+    "date": "07/08/2018 06:14",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0807/00788_3428080/E102.PDF",
+    "path": "data/hk/ann/CHINATOWER_d0_E102.PDF"
+   },
+   {
+    "date": "25/07/2018 07:17",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0725/00788_3409596/EWP103.pdf",
+    "path": "data/hk/ann/CHINATOWER_d1_EWP103.pdf"
+   },
+   {
+    "date": "25/07/2018 07:17",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0725/00788_3409596/EWP105.pdf",
+    "path": "data/hk/ann/CHINATOWER_d1_EWP105.pdf"
+   },
+   {
+    "date": "25/07/2018 07:17",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0725/00788_3409596/EWP119.pdf",
+    "path": "data/hk/ann/CHINATOWER_d1_EWP119.pdf"
+   },
+   {
+    "date": "25/07/2018 07:17",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0725/00788_3409596/EWP126.pdf",
+    "path": "data/hk/ann/CHINATOWER_d1_EWP126.pdf"
+   },
+   {
+    "date": "25/07/2018 06:09",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0725/ltn20180725011.pdf",
+    "path": "data/hk/ann/CHINATOWER_d2.pdf"
+   },
+   {
+    "date": "25/07/2018 06:03",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0725/ltn20180725005.pdf",
+    "path": "data/hk/ann/CHINATOWER_d3.pdf"
+   }
+  ]
+ },
+ "MEITUAN": {
+  "code": "03690",
+  "stockId": 198419,
+  "name": "MEITUAN-W",
+  "docs": [
+   {
+    "date": "19/09/2018 06:25",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0919/03690_3480351/E102.PDF",
+    "path": "data/hk/ann/MEITUAN_d0_E102.PDF"
+   },
+   {
+    "date": "07/09/2018 06:16",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0907/ltn20180907017.pdf",
+    "path": "data/hk/ann/MEITUAN_d1.pdf"
+   },
+   {
+    "date": "07/09/2018 06:12",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0907/ltn20180907011.pdf",
+    "path": "data/hk/ann/MEITUAN_d2.pdf"
+   }
+  ]
+ },
+ "HAIDILAO": {
+  "code": "06862",
+  "stockId": 199151,
+  "name": "HAIDILAO",
+  "docs": [
+   {
+    "date": "24/09/2018 06:12",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0924/06862_3484637/E102.PDF",
+    "path": "data/hk/ann/HAIDILAO_d0_E102.PDF"
+   },
+   {
+    "date": "12/09/2018 06:46",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0912/ltn20180912019.pdf",
+    "path": "data/hk/ann/HAIDILAO_d1.pdf"
+   },
+   {
+    "date": "12/09/2018 06:20",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0912/ltn20180912011.pdf",
+    "path": "data/hk/ann/HAIDILAO_d2.pdf"
+   }
+  ]
+ },
+ "SWHY_H": {
+  "code": "06806",
+  "stockId": 221848,
+  "name": "SWHY",
+  "docs": [
+   {
+    "date": "25/04/2019 06:23",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0425/06806_3719225/E102.PDF",
+    "path": "data/hk/ann/SWHY_H_d0_E102.PDF"
+   },
+   {
+    "date": "12/04/2019 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0412/06806_3706086/E103.pdf",
+    "path": "data/hk/ann/SWHY_H_d1_E103.pdf"
+   },
+   {
+    "date": "12/04/2019 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0412/06806_3706086/E105.pdf",
+    "path": "data/hk/ann/SWHY_H_d1_E105.pdf"
+   },
+   {
+    "date": "12/04/2019 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0412/06806_3706086/E121.pdf",
+    "path": "data/hk/ann/SWHY_H_d1_E121.pdf"
+   },
+   {
+    "date": "12/04/2019 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0412/06806_3706086/E128.pdf",
+    "path": "data/hk/ann/SWHY_H_d1_E128.pdf"
+   },
+   {
+    "date": "12/04/2019 06:15",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0412/ltn20190412021.pdf",
+    "path": "data/hk/ann/SWHY_H_d2.pdf"
+   },
+   {
+    "date": "12/04/2019 06:07",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0412/ltn20190412007.pdf",
+    "path": "data/hk/ann/SWHY_H_d3.pdf"
+   }
+  ]
+ },
+ "HANSOH": {
+  "code": "03692",
+  "stockId": 225787,
+  "name": "HANSOH PHARMA",
+  "docs": [
+   {
+    "date": "13/06/2019 06:35",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0613/03692_3784651/e102.pdf",
+    "path": "data/hk/ann/HANSOH_d0_e102.pdf"
+   },
+   {
+    "date": "31/05/2019 06:13",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0531/ltn20190531015.pdf",
+    "path": "data/hk/ann/HANSOH_d1.pdf"
+   },
+   {
+    "date": "31/05/2019 06:09",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0531/ltn20190531007.pdf",
+    "path": "data/hk/ann/HANSOH_d2.pdf"
+   }
+  ]
+ },
+ "BUDAPAC": {
+  "code": "01876",
+  "stockId": 1000002234,
+  "name": "BUD APAC",
+  "docs": [
+   {
+    "date": "27/09/2019 06:18",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0927/01876_3883047/e102.pdf",
+    "path": "data/hk/ann/BUDAPAC_d0_e102.pdf"
+   },
+   {
+    "date": "24/09/2019 12:42",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND PARTIAL EXERCISE OF OFFER SIZE ADJUSTMENT OPTION",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0924/ltn201909249999.pdf",
+    "path": "data/hk/ann/BUDAPAC_d1.pdf"
+   },
+   {
+    "date": "18/09/2019 07:13",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0918/ltn20190918025.pdf",
+    "path": "data/hk/ann/BUDAPAC_d2.pdf"
+   },
+   {
+    "date": "18/09/2019 07:01",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/0918/ltn20190918023.pdf",
+    "path": "data/hk/ann/BUDAPAC_d3.pdf"
+   }
+  ]
+ },
+ "FEIHE": {
+  "code": "06186",
+  "stockId": 1000013128,
+  "name": "CHINA FEIHE",
+  "docs": [
+   {
+    "date": "12/11/2019 06:15",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS (Multi-Files)",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1112/9064185/2019111200090.pdf",
+    "path": "data/hk/ann/FEIHE_d0_2019111200090.pdf"
+   },
+   {
+    "date": "30/10/2019 06:07",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1030/2019103000013.pdf",
+    "path": "data/hk/ann/FEIHE_d1.pdf"
+   },
+   {
+    "date": "30/10/2019 06:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2019/1030/2019103000003.pdf",
+    "path": "data/hk/ann/FEIHE_d2.pdf"
+   }
+  ]
+ },
+ "SMOORE": {
+  "code": "06969",
+  "stockId": 1000044670,
+  "name": "SMOORE INTL",
+  "docs": [
+   {
+    "date": "09/07/2020 06:25",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0709/9351379/2020070900086.pdf",
+    "path": "data/hk/ann/SMOORE_d0_2020070900086.pdf"
+   },
+   {
+    "date": "29/06/2020 06:10",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0629/2020062900021.pdf",
+    "path": "data/hk/ann/SMOORE_d1.pdf"
+   },
+   {
+    "date": "29/06/2020 06:05",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0629/2020062900005.pdf",
+    "path": "data/hk/ann/SMOORE_d2.pdf"
+   }
+  ]
+ },
+ "BOHAI": {
+  "code": "09668",
+  "stockId": 1000045675,
+  "name": "CBHB",
+  "docs": [
+   {
+    "date": "15/07/2020 06:18",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0715/9357079/2020071500022.pdf",
+    "path": "data/hk/ann/BOHAI_d0_2020071500022.pdf"
+   },
+   {
+    "date": "30/06/2020 06:13",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0630/2020063000079.pdf",
+    "path": "data/hk/ann/BOHAI_d1.pdf"
+   },
+   {
+    "date": "30/06/2020 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0630/2020063000027.pdf",
+    "path": "data/hk/ann/BOHAI_d2.pdf"
+   }
+  ]
+ },
+ "TIGERMED_H": {
+  "code": "03347",
+  "stockId": 1000050709,
+  "name": "TIGERMED",
+  "docs": [
+   {
+    "date": "06/08/2020 06:42",
+    "title": "Announcement of Offer Price and Allotment Results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0806/9387579/2020080600026.pdf",
+    "path": "data/hk/ann/TIGERMED_H_d0_2020080600026.pdf"
+   },
+   {
+    "date": "03/08/2020 12:07",
+    "title": "Announcement of Offer Price",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0803/2020080300673.pdf",
+    "path": "data/hk/ann/TIGERMED_H_d1.pdf"
+   },
+   {
+    "date": "28/07/2020 06:17",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0728/2020072800013.pdf",
+    "path": "data/hk/ann/TIGERMED_H_d2.pdf"
+   },
+   {
+    "date": "28/07/2020 06:12",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0728/2020072800009.pdf",
+    "path": "data/hk/ann/TIGERMED_H_d3.pdf"
+   }
+  ]
+ },
+ "NONGFU": {
+  "code": "09633",
+  "stockId": 1000054238,
+  "name": "NONGFU SPRING",
+  "docs": [
+   {
+    "date": "07/09/2020 06:43",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0907/9432499/2020090700018.pdf",
+    "path": "data/hk/ann/NONGFU_d0_2020090700018.pdf"
+   },
+   {
+    "date": "25/08/2020 06:29",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0825/2020082500025.pdf",
+    "path": "data/hk/ann/NONGFU_d1.pdf"
+   },
+   {
+    "date": "25/08/2020 06:26",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0825/2020082500023.pdf",
+    "path": "data/hk/ann/NONGFU_d2.pdf"
+   }
+  ]
+ },
+ "JDH": {
+  "code": "06618",
+  "stockId": 1000067385,
+  "name": "JD HEALTH",
+  "docs": [
+   {
+    "date": "07/12/2020 06:58",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1207/9539949/2020120700123.pdf",
+    "path": "data/hk/ann/JDH_d0_2020120700123.pdf"
+   },
+   {
+    "date": "26/11/2020 06:59",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1126/2020112600117.pdf",
+    "path": "data/hk/ann/JDH_d1.pdf"
+   },
+   {
+    "date": "26/11/2020 06:46",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1126/9524371/2020112600049.pdf",
+    "path": "data/hk/ann/JDH_d2_2020112600049.pdf"
+   },
+   {
+    "date": "26/11/2020 06:46",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1126/9524371/2020112600051.pdf",
+    "path": "data/hk/ann/JDH_d2_2020112600051.pdf"
+   },
+   {
+    "date": "26/11/2020 06:46",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1126/9524371/2020112600069.pdf",
+    "path": "data/hk/ann/JDH_d2_2020112600069.pdf"
+   },
+   {
+    "date": "26/11/2020 06:46",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1126/9524371/2020112600073.pdf",
+    "path": "data/hk/ann/JDH_d2_2020112600073.pdf"
+   },
+   {
+    "date": "26/11/2020 06:06",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1126/2020112600009.pdf",
+    "path": "data/hk/ann/JDH_d3.pdf"
+   }
+  ]
+ },
+ "MIXC": {
+  "code": "01209",
+  "stockId": 1000066369,
+  "name": "CHINA RES MIXC",
+  "docs": [
+   {
+    "date": "08/12/2020 06:39",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1208/9541656/2020120800054.pdf",
+    "path": "data/hk/ann/MIXC_d0_2020120800054.pdf"
+   },
+   {
+    "date": "25/11/2020 06:25",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1125/2020112500007.pdf",
+    "path": "data/hk/ann/MIXC_d1.pdf"
+   },
+   {
+    "date": "25/11/2020 06:13",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1125/2020112500005.pdf",
+    "path": "data/hk/ann/MIXC_d2.pdf"
+   }
+  ]
+ },
+ "POPMART": {
+  "code": "09992",
+  "stockId": 1000068054,
+  "name": "POP MART",
+  "docs": [
+   {
+    "date": "10/12/2020 06:24",
+    "title": "Announcement of Offer Price and Allotment Results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1210/9543752/2020121000022.pdf",
+    "path": "data/hk/ann/POPMART_d0_2020121000022.pdf"
+   },
+   {
+    "date": "01/12/2020 06:28",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1201/2020120100099.pdf",
+    "path": "data/hk/ann/POPMART_d1.pdf"
+   },
+   {
+    "date": "01/12/2020 06:13",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/1201/2020120100017.pdf",
+    "path": "data/hk/ann/POPMART_d2.pdf"
+   }
+  ]
+ },
+ "KUAISHOU": {
+  "code": "01024",
+  "stockId": 1000077859,
+  "name": "KUAISHOU-W",
+  "docs": [
+   {
+    "date": "04/02/2021 06:20",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0204/9614152/2021020400036.pdf",
+    "path": "data/hk/ann/KUAISHOU_d0_2021020400036.pdf"
+   },
+   {
+    "date": "26/01/2021 06:40",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/9597258/2021012600096.pdf",
+    "path": "data/hk/ann/KUAISHOU_d1_2021012600096.pdf"
+   },
+   {
+    "date": "26/01/2021 06:40",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/9597258/2021012600098.pdf",
+    "path": "data/hk/ann/KUAISHOU_d1_2021012600098.pdf"
+   },
+   {
+    "date": "26/01/2021 06:40",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/9597258/2021012600115.pdf",
+    "path": "data/hk/ann/KUAISHOU_d1_2021012600115.pdf"
+   },
+   {
+    "date": "26/01/2021 06:40",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/9597258/2021012600121.pdf",
+    "path": "data/hk/ann/KUAISHOU_d1_2021012600121.pdf"
+   },
+   {
+    "date": "26/01/2021 06:14",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/2021012600013.pdf",
+    "path": "data/hk/ann/KUAISHOU_d2.pdf"
+   },
+   {
+    "date": "26/01/2021 06:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0126/2021012600005.pdf",
+    "path": "data/hk/ann/KUAISHOU_d3.pdf"
+   }
+  ]
+ },
+ "JDLOG": {
+  "code": "02618",
+  "stockId": 1000095726,
+  "name": "JD LOGISTICS",
+  "docs": [
+   {
+    "date": "27/05/2021 06:28",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0527/9778625/2021052700016.pdf",
+    "path": "data/hk/ann/JDLOG_d0_2021052700016.pdf"
+   },
+   {
+    "date": "17/05/2021 06:38",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0517/2021051700091.pdf",
+    "path": "data/hk/ann/JDLOG_d1.pdf"
+   },
+   {
+    "date": "17/05/2021 06:31",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0517/9767971/2021051700023.pdf",
+    "path": "data/hk/ann/JDLOG_d2_2021051700023.pdf"
+   },
+   {
+    "date": "17/05/2021 06:31",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0517/9767971/2021051700025.pdf",
+    "path": "data/hk/ann/JDLOG_d2_2021051700025.pdf"
+   },
+   {
+    "date": "17/05/2021 06:31",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0517/9767971/2021051700043.pdf",
+    "path": "data/hk/ann/JDLOG_d2_2021051700043.pdf"
+   },
+   {
+    "date": "17/05/2021 06:31",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0517/9767971/2021051700047.pdf",
+    "path": "data/hk/ann/JDLOG_d2_2021051700047.pdf"
+   },
+   {
+    "date": "17/05/2021 06:06",
+    "title": "Global Offering",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/0517/2021051700011.pdf",
+    "path": "data/hk/ann/JDLOG_d3.pdf"
+   }
+  ]
+ },
+ "SENSETIME": {
+  "code": "00020",
+  "stockId": 1000127397,
+  "name": "SENSETIME-W",
+  "docs": [
+   {
+    "date": "29/12/2021 06:30",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1229/10065867/2021122900060.pdf",
+    "path": "data/hk/ann/SENSETIME_d0_2021122900060.pdf"
+   },
+   {
+    "date": "07/12/2021 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/10043013/2021120700041.pdf",
+    "path": "data/hk/ann/SENSETIME_d1_2021120700041.pdf"
+   },
+   {
+    "date": "07/12/2021 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/10043013/2021120700043.pdf",
+    "path": "data/hk/ann/SENSETIME_d1_2021120700043.pdf"
+   },
+   {
+    "date": "07/12/2021 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/10043013/2021120700061.pdf",
+    "path": "data/hk/ann/SENSETIME_d1_2021120700061.pdf"
+   },
+   {
+    "date": "07/12/2021 06:37",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/10043013/2021120700066.pdf",
+    "path": "data/hk/ann/SENSETIME_d1_2021120700066.pdf"
+   },
+   {
+    "date": "07/12/2021 06:15",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/2021120700017.pdf",
+    "path": "data/hk/ann/SENSETIME_d2.pdf"
+   },
+   {
+    "date": "07/12/2021 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1207/2021120700007.pdf",
+    "path": "data/hk/ann/SENSETIME_d3.pdf"
+   }
+  ]
+ },
+ "TIANQI_H": {
+  "code": "09696",
+  "stockId": 1000158798,
+  "name": "TIANQI LITHIUM",
+  "docs": [
+   {
+    "date": "12/07/2022 06:32",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0712/10339849/2022071200064.pdf",
+    "path": "data/hk/ann/TIANQI_H_d0_2022071200064.pdf"
+   },
+   {
+    "date": "07/07/2022 16:30",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0707/2022070700485.pdf",
+    "path": "data/hk/ann/TIANQI_H_d1.pdf"
+   },
+   {
+    "date": "30/06/2022 06:53",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0630/10322528/2022063000149.pdf",
+    "path": "data/hk/ann/TIANQI_H_d2_2022063000149.pdf"
+   },
+   {
+    "date": "30/06/2022 06:53",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0630/10322528/2022063000151.pdf",
+    "path": "data/hk/ann/TIANQI_H_d2_2022063000151.pdf"
+   },
+   {
+    "date": "30/06/2022 06:53",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0630/10322528/2022063000167.pdf",
+    "path": "data/hk/ann/TIANQI_H_d2_2022063000167.pdf"
+   },
+   {
+    "date": "30/06/2022 06:53",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0630/10322528/2022063000173.pdf",
+    "path": "data/hk/ann/TIANQI_H_d2_2022063000173.pdf"
+   },
+   {
+    "date": "30/06/2022 06:23",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0630/2022063000043.pdf",
+    "path": "data/hk/ann/TIANQI_H_d3.pdf"
+   },
+   {
+    "date": "30/06/2022 06:07",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0630/2022063000009.pdf",
+    "path": "data/hk/ann/TIANQI_H_d4.pdf"
+   }
+  ]
+ },
+ "LEAPMOTOR": {
+  "code": "09863",
+  "stockId": 1000167023,
+  "name": "LEAPMOTOR",
+  "docs": [
+   {
+    "date": "28/09/2022 06:38",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0928/10445565/2022092800022.pdf",
+    "path": "data/hk/ann/LEAPMOTOR_d0_2022092800022.pdf"
+   },
+   {
+    "date": "20/09/2022 06:14",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0920/2022092000023.pdf",
+    "path": "data/hk/ann/LEAPMOTOR_d1.pdf"
+   },
+   {
+    "date": "20/09/2022 06:13",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0920/2022092000017.pdf",
+    "path": "data/hk/ann/LEAPMOTOR_d2.pdf"
+   }
+  ]
+ },
+ "CALB": {
+  "code": "03931",
+  "stockId": 1000167851,
+  "name": "CALB",
+  "docs": [
+   {
+    "date": "05/10/2022 06:42",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/1005/10457761/2022100500030.pdf",
+    "path": "data/hk/ann/CALB_d0_2022100500030.pdf"
+   },
+   {
+    "date": "23/09/2022 06:15",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0923/2022092300035.pdf",
+    "path": "data/hk/ann/CALB_d1.pdf"
+   },
+   {
+    "date": "23/09/2022 06:08",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0923/2022092300021.pdf",
+    "path": "data/hk/ann/CALB_d2.pdf"
+   }
+  ]
+ },
+ "ZJLD": {
+  "code": "06979",
+  "stockId": 1000190525,
+  "name": "ZJLD",
+  "docs": [
+   {
+    "date": "26/04/2023 06:30",
+    "title": "ANNOUNCEMENT OF OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0426/10705031/2023042600064.pdf",
+    "path": "data/hk/ann/ZJLD_d0_2023042600064.pdf"
+   },
+   {
+    "date": "17/04/2023 06:55",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0417/10689638/2023041700047.pdf",
+    "path": "data/hk/ann/ZJLD_d1_2023041700047.pdf"
+   },
+   {
+    "date": "17/04/2023 06:55",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0417/10689638/2023041700049.pdf",
+    "path": "data/hk/ann/ZJLD_d1_2023041700049.pdf"
+   },
+   {
+    "date": "17/04/2023 06:55",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0417/10689638/2023041700065.pdf",
+    "path": "data/hk/ann/ZJLD_d1_2023041700065.pdf"
+   },
+   {
+    "date": "17/04/2023 06:55",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0417/10689638/2023041700069.pdf",
+    "path": "data/hk/ann/ZJLD_d1_2023041700069.pdf"
+   },
+   {
+    "date": "17/04/2023 06:29",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0417/2023041700013.pdf",
+    "path": "data/hk/ann/ZJLD_d2.pdf"
+   },
+   {
+    "date": "17/04/2023 06:12",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2023/0417/2023041700005.pdf",
+    "path": "data/hk/ann/ZJLD_d3.pdf"
+   }
+  ]
+ },
+ "MIDEA_H": {
+  "code": "00300",
+  "stockId": 1000231771,
+  "name": "MIDEA GROUP",
+  "docs": [
+   {
+    "date": "16/09/2024 19:48",
+    "title": "ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0916/2024091600951.pdf",
+    "path": "data/hk/ann/MIDEA_H_d0.pdf"
+   },
+   {
+    "date": "13/09/2024 18:45",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0913/2024091301212.pdf",
+    "path": "data/hk/ann/MIDEA_H_d1.pdf"
+   },
+   {
+    "date": "09/09/2024 06:38",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0909/11360251/2024090900015.pdf",
+    "path": "data/hk/ann/MIDEA_H_d2_2024090900015.pdf"
+   },
+   {
+    "date": "09/09/2024 06:38",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0909/11360251/2024090900017.pdf",
+    "path": "data/hk/ann/MIDEA_H_d2_2024090900017.pdf"
+   },
+   {
+    "date": "09/09/2024 06:38",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0909/11360251/2024090900033.pdf",
+    "path": "data/hk/ann/MIDEA_H_d2_2024090900033.pdf"
+   },
+   {
+    "date": "09/09/2024 06:38",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0909/11360251/2024090900040.pdf",
+    "path": "data/hk/ann/MIDEA_H_d2_2024090900040.pdf"
+   },
+   {
+    "date": "09/09/2024 06:14",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0909/2024090900005.pdf",
+    "path": "data/hk/ann/MIDEA_H_d3.pdf"
+   },
+   {
+    "date": "09/09/2024 06:05",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0909/2024090900003.pdf",
+    "path": "data/hk/ann/MIDEA_H_d4.pdf"
+   }
+  ]
+ },
+ "HORIZON": {
+  "code": "09660",
+  "stockId": 1000238030,
+  "name": "HORIZONROBOT-W",
+  "docs": [
+   {
+    "date": "23/10/2024 22:02",
+    "title": "ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1023/2024102300943.pdf",
+    "path": "data/hk/ann/HORIZON_d0.pdf"
+   },
+   {
+    "date": "16/10/2024 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/11405812/2024101600027.pdf",
+    "path": "data/hk/ann/HORIZON_d1_2024101600027.pdf"
+   },
+   {
+    "date": "16/10/2024 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/11405812/2024101600029.pdf",
+    "path": "data/hk/ann/HORIZON_d1_2024101600029.pdf"
+   },
+   {
+    "date": "16/10/2024 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/11405812/2024101600047.pdf",
+    "path": "data/hk/ann/HORIZON_d1_2024101600047.pdf"
+   },
+   {
+    "date": "16/10/2024 06:41",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/11405812/2024101600051.pdf",
+    "path": "data/hk/ann/HORIZON_d1_2024101600051.pdf"
+   },
+   {
+    "date": "16/10/2024 06:15",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/2024101600017.pdf",
+    "path": "data/hk/ann/HORIZON_d2.pdf"
+   },
+   {
+    "date": "16/10/2024 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1016/2024101600009.pdf",
+    "path": "data/hk/ann/HORIZON_d3.pdf"
+   }
+  ]
+ },
+ "SF_H": {
+  "code": "06936",
+  "stockId": 1000239984,
+  "name": "SF HOLDING",
+  "docs": [
+   {
+    "date": "26/11/2024 22:29",
+    "title": "ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1126/2024112601132.pdf",
+    "path": "data/hk/ann/SF_H_d0.pdf"
+   },
+   {
+    "date": "24/11/2024 18:04",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1124/2024112400007.pdf",
+    "path": "data/hk/ann/SF_H_d1.pdf"
+   },
+   {
+    "date": "19/11/2024 06:08",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1119/2024111900011.pdf",
+    "path": "data/hk/ann/SF_H_d2.pdf"
+   },
+   {
+    "date": "19/11/2024 06:03",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/1119/2024111900003.pdf",
+    "path": "data/hk/ann/SF_H_d3.pdf"
+   }
+  ]
+ },
+ "MIXUE": {
+  "code": "02097",
+  "stockId": 1000249228,
+  "name": "MIXUE GROUP",
+  "docs": [
+   {
+    "date": "28/02/2025 22:18",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0228/2025022801727.pdf",
+    "path": "data/hk/ann/MIXUE_d0.pdf"
+   },
+   {
+    "date": "21/02/2025 06:47",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0221/11543478/2025022100019.pdf",
+    "path": "data/hk/ann/MIXUE_d1_2025022100019.pdf"
+   },
+   {
+    "date": "21/02/2025 06:47",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0221/11543478/2025022100021.pdf",
+    "path": "data/hk/ann/MIXUE_d1_2025022100021.pdf"
+   },
+   {
+    "date": "21/02/2025 06:47",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0221/11543478/2025022100037.pdf",
+    "path": "data/hk/ann/MIXUE_d1_2025022100037.pdf"
+   },
+   {
+    "date": "21/02/2025 06:47",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0221/11543478/2025022100042.pdf",
+    "path": "data/hk/ann/MIXUE_d1_2025022100042.pdf"
+   },
+   {
+    "date": "21/02/2025 06:17",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0221/2025022100009.pdf",
+    "path": "data/hk/ann/MIXUE_d2.pdf"
+   },
+   {
+    "date": "21/02/2025 06:05",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0221/2025022100003.pdf",
+    "path": "data/hk/ann/MIXUE_d3.pdf"
+   }
+  ]
+ },
+ "CATL_H": {
+  "code": "03750",
+  "stockId": 1000259940,
+  "name": "CATL",
+  "docs": [
+   {
+    "date": "19/05/2025 21:40",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0519/2025051901257.pdf",
+    "path": "data/hk/ann/CATL_H_d0.pdf"
+   },
+   {
+    "date": "16/05/2025 20:06",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0516/2025051601205.pdf",
+    "path": "data/hk/ann/CATL_H_d1.pdf"
+   },
+   {
+    "date": "12/05/2025 06:19",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0512/2025051200005.pdf",
+    "path": "data/hk/ann/CATL_H_d2.pdf"
+   },
+   {
+    "date": "12/05/2025 06:07",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0512/2025051200003.pdf",
+    "path": "data/hk/ann/CATL_H_d3.pdf"
+   }
+  ]
+ },
+ "HENGRUI_H": {
+  "code": "01276",
+  "stockId": 1000260506,
+  "name": "HENGRUI PHARMA",
+  "docs": [
+   {
+    "date": "23/05/2025 20:46",
+    "title": "(Revised) Announcement of Final Offer Price and Allotment Results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0523/2025052301545.pdf",
+    "path": "data/hk/ann/HENGRUI_H_d0.pdf"
+   },
+   {
+    "date": "22/05/2025 22:34",
+    "title": "Announcement of Final Offer Price and Allotment Results",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0522/2025052201651.pdf",
+    "path": "data/hk/ann/HENGRUI_H_d1.pdf"
+   },
+   {
+    "date": "21/05/2025 17:09",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0521/2025052100520.pdf",
+    "path": "data/hk/ann/HENGRUI_H_d2.pdf"
+   },
+   {
+    "date": "15/05/2025 06:22",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0515/2025051500019.pdf",
+    "path": "data/hk/ann/HENGRUI_H_d3.pdf"
+   },
+   {
+    "date": "15/05/2025 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0515/2025051500005.pdf",
+    "path": "data/hk/ann/HENGRUI_H_d4.pdf"
+   }
+  ]
+ },
+ "HAITIAN_H": {
+  "code": "03288",
+  "stockId": 1000263243,
+  "name": "HAITIAN FLAV",
+  "docs": [
+   {
+    "date": "18/06/2025 22:56",
+    "title": "ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0618/2025061801931.pdf",
+    "path": "data/hk/ann/HAITIAN_H_d0.pdf"
+   },
+   {
+    "date": "17/06/2025 18:47",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0617/2025061700849.pdf",
+    "path": "data/hk/ann/HAITIAN_H_d1.pdf"
+   },
+   {
+    "date": "11/06/2025 06:18",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0611/2025061100017.pdf",
+    "path": "data/hk/ann/HAITIAN_H_d2.pdf"
+   },
+   {
+    "date": "11/06/2025 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0611/2025061100007.pdf",
+    "path": "data/hk/ann/HAITIAN_H_d3.pdf"
+   }
+  ]
+ },
+ "SANHUA_H": {
+  "code": "02050",
+  "stockId": 1000263114,
+  "name": "SANHUA",
+  "docs": [
+   {
+    "date": "20/06/2025 22:38",
+    "title": "ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0620/2025062002236.pdf",
+    "path": "data/hk/ann/SANHUA_H_d0.pdf"
+   },
+   {
+    "date": "19/06/2025 18:22",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0619/2025061900822.pdf",
+    "path": "data/hk/ann/SANHUA_H_d1.pdf"
+   },
+   {
+    "date": "13/06/2025 06:11",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0613/2025061300017.pdf",
+    "path": "data/hk/ann/SANHUA_H_d2.pdf"
+   },
+   {
+    "date": "13/06/2025 06:03",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0613/2025061300005.pdf",
+    "path": "data/hk/ann/SANHUA_H_d3.pdf"
+   }
+  ]
+ },
+ "CHERY": {
+  "code": "09973",
+  "stockId": 1000273974,
+  "name": "CHERY AUTO",
+  "docs": [
+   {
+    "date": "24/09/2025 22:51",
+    "title": "ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0924/2025092401262.pdf",
+    "path": "data/hk/ann/CHERY_d0.pdf"
+   },
+   {
+    "date": "17/09/2025 06:29",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0917/2025091700013.pdf",
+    "path": "data/hk/ann/CHERY_d1.pdf"
+   },
+   {
+    "date": "17/09/2025 06:12",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0917/2025091700003.pdf",
+    "path": "data/hk/ann/CHERY_d2.pdf"
+   }
+  ]
+ },
+ "ZIJINGOLD": {
+  "code": "02259",
+  "stockId": 1000274494,
+  "name": "ZIJIN GOLD INTL",
+  "docs": [
+   {
+    "date": "29/09/2025 22:55",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0929/2025092903788.pdf",
+    "path": "data/hk/ann/ZIJINGOLD_d0.pdf"
+   },
+   {
+    "date": "19/09/2025 06:21",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0919/2025091900073.pdf",
+    "path": "data/hk/ann/ZIJINGOLD_d1.pdf"
+   },
+   {
+    "date": "19/09/2025 06:06",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0919/2025091900011.pdf",
+    "path": "data/hk/ann/ZIJINGOLD_d2.pdf"
+   }
+  ]
+ },
+ "SANY_H": {
+  "code": "06031",
+  "stockId": 1000278515,
+  "name": "SANY HEAVY IND",
+  "docs": [
+   {
+    "date": "27/10/2025 22:25",
+    "title": "ANNOUNCEMENT OF FINAL OFFER PRICE AND ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1027/2025102701586.pdf",
+    "path": "data/hk/ann/SANY_H_d0.pdf"
+   },
+   {
+    "date": "24/10/2025 18:58",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1024/2025102401100.pdf",
+    "path": "data/hk/ann/SANY_H_d1.pdf"
+   },
+   {
+    "date": "20/10/2025 06:13",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1020/2025102000017.pdf",
+    "path": "data/hk/ann/SANY_H_d2.pdf"
+   },
+   {
+    "date": "20/10/2025 06:03",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1020/2025102000001.pdf",
+    "path": "data/hk/ann/SANY_H_d3.pdf"
+   }
+  ]
+ },
+ "SERES_H": {
+  "code": "09927",
+  "stockId": 1000278517,
+  "name": "SERES",
+  "docs": [
+   {
+    "date": "04/11/2025 22:49",
+    "title": "ANNOUNCEMENT OF ALLOTMENT RESULTS",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1104/2025110402282.pdf",
+    "path": "data/hk/ann/SERES_H_d0.pdf"
+   },
+   {
+    "date": "02/11/2025 18:11",
+    "title": "ANNOUNCEMENT OF OFFER PRICE",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1102/2025110200023.pdf",
+    "path": "data/hk/ann/SERES_H_d1.pdf"
+   },
+   {
+    "date": "27/10/2025 07:15",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1027/2025102700059.pdf",
+    "path": "data/hk/ann/SERES_H_d2.pdf"
+   },
+   {
+    "date": "27/10/2025 07:04",
+    "title": "GLOBAL OFFERING",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1027/2025102700057.pdf",
+    "path": "data/hk/ann/SERES_H_d3.pdf"
+   }
+  ]
+ }
+}

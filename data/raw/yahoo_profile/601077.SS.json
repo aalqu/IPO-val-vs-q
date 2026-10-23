@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=601077.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "CHONGQING RURAL COMMERCIAL BANK",
+  "quoteType": "EQUITY",
+  "symbol": "601077.SS",
+  "index": "quotes",
+  "score": 10005500.0,
+  "typeDisp": "Equity",
+  "longname": "Chongqing Rural Commercial Bank Co., Ltd.",
+  "exchDisp": "Shanghai",
+  "sector": "Financial Services",
+  "industry": "Banks\u2014Regional",
+  "isYahooFinance": true
+ }
+}

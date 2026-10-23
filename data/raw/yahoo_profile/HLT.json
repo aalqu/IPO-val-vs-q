@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=HLT&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Hilton Worldwide Holdings Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "HLT",
+  "index": "quotes",
+  "score": 11703000.0,
+  "typeDisp": "Equity",
+  "longname": "Hilton Worldwide Holdings Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

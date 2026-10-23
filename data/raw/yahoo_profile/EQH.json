@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=EQH&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Equitable Holdings, Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "EQH",
+  "index": "quotes",
+  "score": 10195000.0,
+  "typeDisp": "Equity",
+  "longname": "Equitable Holdings, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

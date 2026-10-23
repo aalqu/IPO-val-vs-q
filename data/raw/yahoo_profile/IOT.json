@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=IOT&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Samsara Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "IOT",
+  "index": "quotes",
+  "score": 12418500.0,
+  "typeDisp": "Equity",
+  "longname": "Samsara Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Technology",
+  "sectorDisp": "Technology",
+  "industry": "Software\u2014Infrastructure",
+  "industryDisp": "Software\u2014Infrastructure",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

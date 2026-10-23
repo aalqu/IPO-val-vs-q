@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=HAL.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "HINDUSTAN AERONAUTICS LTD",
+  "quoteType": "EQUITY",
+  "symbol": "HAL.NS",
+  "index": "quotes",
+  "score": 10094000.0,
+  "typeDisp": "Equity",
+  "longname": "Hindustan Aeronautics Limited",
+  "exchDisp": "NSE",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "isYahooFinance": true
+ }
+}

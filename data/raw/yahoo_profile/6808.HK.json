@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6808.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "SUNART RETAIL",
+  "quoteType": "EQUITY",
+  "symbol": "6808.HK",
+  "index": "quotes",
+  "score": 10002000.0,
+  "typeDisp": "Equity",
+  "longname": "Sun Art Retail Group Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Department Stores",
+  "industryDisp": "Department Stores",
+  "isYahooFinance": true
+ }
+}

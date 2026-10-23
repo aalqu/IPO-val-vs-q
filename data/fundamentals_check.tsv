@@ -1,0 +1,275 @@
+fundamentals.csv	HCA	revenue	30683	found	SEC XBRL SalesRevenueServicesGross (0001193125-12-075882)	
+fundamentals.csv	HCA	revenue_prior	30052	found	SEC XBRL SalesRevenueServicesGross (0001193125-12-075882)	
+fundamentals.csv	HCA	ebitda	5749	found	derived: 2,231 + 2,097 + 1,421 (EBIT + depreciation and amortization, FY2010)	
+fundamentals.csv	HCA	ebit	4328	found	derived: 2,231 + 2,097 (income before taxes + interest expense, FY2010)	
+fundamentals.csv	HCA	net_income	1207	found	SEC XBRL NetIncomeLoss (0001193125-12-075882)	
+fundamentals.csv	HCA	cash	411	found	SEC XBRL CashAndCashEquivalentsAtCarryingValue (0000950123-11-048955)	
+fundamentals.csv	HCA	debt	25907	found	25,907 (millions) |  | | | | | | | | | | Total long-term obligations | | | 28,225 | | | | 25,907 | | | | | | | 	
+fundamentals.csv	HCA	shares_post_ipo_m	515.2051	found	515,205,100 (units) | 700 shares | | Common stock to be outstanding after this offering | | 515,205,100 shares | | Use	
+fundamentals.csv	ZTS	revenue	4336	found	SEC XBRL SalesRevenueNet (0001555280-14-000164)	
+fundamentals.csv	ZTS	revenue_prior	4233	found	SEC XBRL SalesRevenueNet (0001555280-14-000164)	
+fundamentals.csv	ZTS	ebitda	941	found	EBIT + D&A from SEC XBRL (IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest + InterestExpense + DepreciationDepletionAndAmortization)	
+fundamentals.csv	ZTS	ebit	741	found	SEC XBRL IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest + InterestExpense (0001555280-14-000164)	
+fundamentals.csv	ZTS	net_income	436	found	SEC XBRL NetIncomeLoss (0001555280-14-000164)	
+fundamentals.csv	ZTS	dividends	130	found	derived: 0.065 * 4 * (86,100,000 + 413,900,000) (stated quarterly dividend of $0.065 per share x 4 x shares outstanding after the offering)	
+fundamentals.csv	ZTS	cash	300	found	derived: 300 (pro forma cash and cash equivalents (capitalization table, $ m))	
+fundamentals.csv	ZTS	debt	3640	found	3,640 (millions) | ted long-term debt(d) | | | — | | | | 580 | | Long-term debt(e) | | | 3,640 | | | | — | | 	
+fundamentals.csv	ZTS	shares_post_ipo_m	500	found	derived: 86,100,000 + 413,900,000 (Class A + Class B shares outstanding after the offering (prospectus))	
+fundamentals.csv	HLT	revenue	9276	found	SEC XBRL Revenues (0001585689-15-000032)	
+fundamentals.csv	HLT	revenue_prior	8783	found	8,783 (millions) | 7,092 | | | | 9,276 | | | | 7,092 | | | | 6,938 | | | | 9,276 | | | | 8,783 | | | | 8,068 	
+fundamentals.csv	HLT	ebitda	1650	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationAndAmortization)	
+fundamentals.csv	HLT	ebit	1100	found	SEC XBRL OperatingIncomeLoss (0001585689-15-000032)	
+fundamentals.csv	HLT	net_income	352	found	SEC XBRL NetIncomeLoss (0001585689-15-000032)	
+fundamentals.csv	HLT	cash	470	found	derived: 470 (cash and cash equivalents (summary balance sheet))	
+fundamentals.csv	HLT	debt	13017	found	13,017 (millions) | 318 | | | | 318 | | | | | | | | | | | Total debt | | | 14,985 | | | | 13,017 | | | | | Equi	
+fundamentals.csv	HLT	shares_post_ipo_m	984.615364	found	984,615,364 (units) | us. | Common stock outstanding after giving effect to this offering | 984,615,364 shares. | Use 	
+fundamentals.csv	META	revenue	3711	found	SEC XBRL Revenues (0001326801-13-000003)	
+fundamentals.csv	META	revenue_prior	1974	found	SEC XBRL Revenues (0001326801-13-000003)	
+fundamentals.csv	META	ebitda	2079	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationDepletionAndAmortization)	
+fundamentals.csv	META	ebit	1756	found	SEC XBRL OperatingIncomeLoss (0001326801-13-000003)	
+fundamentals.csv	META	net_income	1000	found	SEC XBRL NetIncomeLoss (0001326801-13-000003)	
+fundamentals.csv	META	cash	10667	found	10,667 (millions) | nts, and marketable securities | | $ | 3,910 | | | | $3,910 | | | $ | 10,667 | | Working ca	
+fundamentals.csv	META	shares_post_ipo_m	2138.085037	found	2,138,085,037 (units) |  B common stock to be outstanding after our initial public offering | 2,138,085,037 shares | Over-	
+fundamentals.csv	TWTR	revenue	316.933	found	SEC XBRL Revenues (0001564590-15-001159)	
+fundamentals.csv	TWTR	revenue_prior	106.313	found	106,313 (thousands) |  | | | | | | | | | | | | | | | | | | Revenue | | $ | 28,278 | | | $ | 106,313 | | | $ | 316,	
+fundamentals.csv	TWTR	ebitda	-4.577	found	derived: -77,083 + 72,506 (loss from operations + depreciation and amortization, FY2012 ($ thousands))	
+fundamentals.csv	TWTR	ebit	-77.083	found	derived: -77,083 (loss from operations, FY2012 ($ thousands))	
+fundamentals.csv	TWTR	net_income	-79.399	found	SEC XBRL NetIncomeLoss (0001564590-15-001159)	
+fundamentals.csv	TWTR	cash	2077.83	found	2,077,831 (thousands) | nd short-term investments | | $ | 321,075 | | | $ | 321,075 | | | $ | 2,077,831 | (2) | | | | 	
+fundamentals.csv	TWTR	shares_post_ipo_m	544.696816	found	544,696,816 (units) | 0 shares | | | Common stock to be outstanding after this offering | | 544,696,816 shares | | | O	
+fundamentals.csv	BABA	revenue	52504	found	SEC XBRL Revenues (0001047469-15-005768)	
+fundamentals.csv	BABA	revenue_prior	34517	found	SEC XBRL Revenues (0001047469-15-005768)	
+fundamentals.csv	BABA	ebitda	26215	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationDepletionAndAmortization)	
+fundamentals.csv	BABA	ebit	24920	found	SEC XBRL OperatingIncomeLoss (0001047469-15-005768)	
+fundamentals.csv	BABA	net_income	23315	found	SEC XBRL NetIncomeLoss (0001047469-15-005768)	
+fundamentals.csv	BABA	cash	109062	found	109,062 (millions) | 034 | | | | 57,882 | | | | 9,330 | | | | 57,882 | | | | 9,330 | | | | 109,062 | | | | 17,580	
+fundamentals.csv	BABA	debt	62105	found	derived: 4,241 + 49,033 + 8,831 (current bank borrowings + non-current bank borrowings + secured borrowings (RMB m))	
+fundamentals.csv	BABA	shares_post_ipo_m	2465.005966	found	2,465,005,966 (units) | time. | Ordinary shares outstanding immediately after this offering | 2,465,005,966 ordinary share	
+fundamentals.csv	SYF	net_income	1979	found	SEC XBRL NetIncomeLoss (0001601712-15-000007)	
+fundamentals.csv	SYF	shares_post_ipo_m	830.270833	found	830,270,833 (units) | k. | Common stock to be outstanding immediately after this offering | 830,270,833 shares of comm	
+fundamentals.csv	SYF	book_equity	8951	found	8,951 (millions) | | | | 48,880 | | | | | | | | | | | | | | | | | | | Total equity | | | 8,951 | | | | 6,042 	
+fundamentals.csv	RACE	revenue	2762	found	2,762 (millions) | f cars. In 2014, we shipped 7,255 cars, and recorded net revenues of €2,762 million, net p	
+fundamentals.csv	RACE	revenue_prior	2335	found	2,335 (millions) | or per share data) | | Net revenues | | | 2,762 | | | | 2,762 | | | | 2,335 | | | | 2,225 	
+fundamentals.csv	RACE	ebitda	678	found	derived: 678 (EBITDA as printed in the prospectus reconciliation, FY2014 (EUR m))	
+fundamentals.csv	RACE	ebit	389	found	389,468 (thousands) | 080 | | | | - | | | | 26,080 | | | | | | | | | | | | | | | EBIT | | | 389,468 | | | | - | | 	
+fundamentals.csv	RACE	net_income	231	found	230,694 (thousands) | | | | | | | | | | | Net profit | | | 265,015 | | | | (34,321) | | | | 230,694 | | | | | | | 	
+fundamentals.csv	RACE	cash	258	found	257,527 (thousands) | | (1,098,395) | | | | - | | | | - | | Cash and cash equivalents | | | 257,527 | | | | - | | 	
+fundamentals.csv	RACE	debt	2267	found	2,267 (millions) |  | | | 3,901 | | | | 5,001 | | | | 4,641 | | | | 3,895 | | Debt | | | 2,267 | | | | 567 | 	
+fundamentals.csv	RACE	shares_post_ipo_m	188.9216	found	188,921,600 (units) | common shares | 1,717,150 common shares | Common shares outstanding | 188,921,600 common shares 	
+fundamentals.csv	SNAP	revenue	404.482	found	SEC XBRL Revenues (0001564590-18-002721)	
+fundamentals.csv	SNAP	revenue_prior	58.663	found	SEC XBRL Revenues (0001564590-18-002721)	
+fundamentals.csv	SNAP	ebitda	-491.27	found	derived: -520,385 + 29,115 (loss from operations + depreciation and amortization, FY2016)	
+fundamentals.csv	SNAP	ebit	-520.385	found	derived: -520,385 (loss from operations, FY2016 ($ thousands))	
+fundamentals.csv	SNAP	net_income	-514.643	found	SEC XBRL NetIncomeLoss (0001564590-18-002721)	
+fundamentals.csv	SNAP	cash	3383.64	found	3,383,638 (thousands) | urities | | $ | 640,810 | | | $ | 987,368 | | | $ | 987,368 | | | $ | 3,383,638 | | Working ca	
+fundamentals.csv	SNAP	shares_post_ipo_m	1157.213232	found	1,157,213,232 (units) | k, and Class C common stock to be outstanding after this offering | | 1,157,213,232 shares | | | O	
+fundamentals.csv	ZM	revenue	330.517	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001585521-20-000095)	
+fundamentals.csv	ZM	revenue_prior	151.478	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001585521-20-000095)	
+fundamentals.csv	ZM	ebitda	13.175	found	derived: 6,167 + 7,008 (income from operations + depreciation and amortization, FY2019 ($ thousands))	
+fundamentals.csv	ZM	ebit	6.17	found	SEC XBRL OperatingIncomeLoss (0001585521-20-000095)	
+fundamentals.csv	ZM	net_income	7.584	found	SEC XBRL NetIncomeLoss (0001585521-20-000095)	
+fundamentals.csv	ZM	cash	611.982	found	611,982 (thousands) | and marketable securities | | $ | 176,401 | | | $ | 176,401 | | | $ | 611,982 | | | | | | | 	
+fundamentals.csv	ZM	shares_post_ipo_m	256.388371	found	256,388,371 (units) | standing after this offering and the concurrent private placement | | 256,388,371 shares | | | O	
+fundamentals.csv	UBER	revenue	11270	found	SEC XBRL Revenues (0001543151-20-000010)	
+fundamentals.csv	UBER	revenue_prior	7932	found	SEC XBRL Revenues (0001543151-20-000010)	
+fundamentals.csv	UBER	ebitda	-2607	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationDepletionAndAmortization)	
+fundamentals.csv	UBER	ebit	-3033	found	SEC XBRL OperatingIncomeLoss (0001543151-20-000010)	
+fundamentals.csv	UBER	net_income	997	found	SEC XBRL NetIncomeLoss (0001543151-20-000010)	
+fundamentals.csv	UBER	cash	14882	found	14,882 (millions) | | | Cash and cash equivalents | | $ | 6,406 | | | $ | 6,406 | | | $ | 14,882 | | Working ca	
+fundamentals.csv	UBER	debt	4562	found	4,562 (millions) |  | | | | | | | | | | | | Total long-term debt | | $ | 6,896 | | | $ | 4,562 | | | $ | 4,56	
+fundamentals.csv	UBER	shares_post_ipo_m	1682.521965	found	1,682,521,965 (units) | k to be outstanding after this offering and the private placement | | 1,682,521,965 shares | | | U	
+fundamentals.csv	WMG	revenue	4475	found	SEC XBRL Revenues (0001319161-19-000010)	
+fundamentals.csv	WMG	revenue_prior	4005	found	SEC XBRL Revenues (0001564590-18-031166)	
+fundamentals.csv	WMG	ebitda	625	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationDepletionAndAmortization)	
+fundamentals.csv	WMG	ebit	356	found	SEC XBRL OperatingIncomeLoss (0001319161-19-000010)	
+fundamentals.csv	WMG	net_income	256	found	SEC XBRL NetIncomeLoss (0001319161-19-000010)	
+fundamentals.csv	WMG	dividends	244.8	found	derived: 0.12 * 4 * 510,000,000 (stated quarterly dividend of $0.12 per share x 4 x shares outstanding after the offering)	
+fundamentals.csv	WMG	cash	381	found	derived: 381 (cash and equivalents as stated in the prospectus capitalization)	
+fundamentals.csv	WMG	debt	2983	found	2,983 (millions) | 18 | | Total debt (including current portion of long-term debt) | | | 2,983 | | | | 2,990 	
+fundamentals.csv	WMG	shares_post_ipo_m	510	found	derived: 510,000,000 (Class A and Class B shares outstanding after the offering (prospectus))	
+fundamentals.csv	SNOW	revenue	264.748	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001640147-21-000073)	
+fundamentals.csv	SNOW	revenue_prior	96.666	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001640147-21-000073)	
+fundamentals.csv	SNOW	ebitda	-354.566	found	derived: -358,088 + 3,522 (operating loss + depreciation and amortization, FY2020 ($ thousands))	
+fundamentals.csv	SNOW	ebit	-358.09	found	SEC XBRL OperatingIncomeLoss (0001640147-21-000073)	
+fundamentals.csv	SNOW	net_income	-348.535	found	SEC XBRL NetIncomeLoss (0001640147-21-000073)	
+fundamentals.csv	SNOW	cash	4636.82	found	4,636,816 (thousands) | m and long-term investments | $ | 886,820 | | | $ | 886,820 | | | $ | 4,636,816 | | Total asse	
+fundamentals.csv	SNOW	shares_post_ipo_m	276.694828	found	276,694,828 (units) | cements, and the secondary transaction by one of our stockholders | | 276,694,828 shares | | | |	
+fundamentals.csv	ABNB	revenue	4805.24	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001559720-22-000006)	
+fundamentals.csv	ABNB	revenue_prior	3651.99	found	3,651,985 (thousands) | | | | | | | | | | | | | | | | | | Revenue | | $ | 2,561,721 | | | $ | 3,651,985 | | | $ | 4,80	
+fundamentals.csv	ABNB	ebitda	-387.381	found	derived: -501,543 + 114,162 (loss from operations + depreciation and amortization, FY2019 ($ thousands))	
+fundamentals.csv	ABNB	ebit	-501.54	found	SEC XBRL OperatingIncomeLoss (0001559720-22-000006)	
+fundamentals.csv	ABNB	net_income	-674.339	found	SEC XBRL NetIncomeLoss (0001559720-22-000006)	
+fundamentals.csv	ABNB	cash	6279.64	found	6,279,637 (thousands) | marketable securities | | | $ 4,495,211 | | | | $ 4,495,211 | | | | $ 6,279,637 | | | | | | Re	
+fundamentals.csv	ABNB	debt	1821.3	found	1,821,302 (thousands) |  | | $ | 4,495,211 | | | $ | 6,279,637 | | Long-term debt (1) | | $ | 1,821,302 | | | $ | 1,82	
+fundamentals.csv	ABNB	shares_post_ipo_m	597.448251	found	597,448,251 (units) | s C, and Class H common stock to be outstanding after this offering | 597,448,251 shares (or 602	
+fundamentals.csv	CPNG	revenue	11967.34	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001834584-22-000015)	
+fundamentals.csv	CPNG	revenue_prior	6273.26	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001834584-22-000015)	
+fundamentals.csv	CPNG	ebitda	-388.47	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationDepletionAndAmortization)	
+fundamentals.csv	CPNG	ebit	-515.99	found	SEC XBRL OperatingIncomeLoss (0001834584-22-000015)	
+fundamentals.csv	CPNG	net_income	-463.16	found	SEC XBRL NetIncomeLoss (0001834584-22-000015)	
+fundamentals.csv	CPNG	cash	4669.23	found	4,669,233 (thousands) | sh and cash equivalents | $ | 1,251,455 | | | $ | 1,251,455 | | | $ | 4,669,233 | | Total asse	
+fundamentals.csv	CPNG	debt	353.342	found	353,342 (thousands) |  (3) | (891,996) | | | (891,996) | | | 2,525,782 | | Long-term debt | 353,342 | | | 353,342 	
+fundamentals.csv	CPNG	shares_post_ipo_m	1715.140797	found	1,715,140,797 (units) | tock and Class B common stock to be outstanding after this offering | 1,715,140,797 shares | | | V	
+fundamentals.csv	RIVN	ebitda	-992	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationDepletionAndAmortization)	
+fundamentals.csv	RIVN	ebit	-1021	found	SEC XBRL OperatingIncomeLoss (0001874178-22-000008)	
+fundamentals.csv	RIVN	net_income	-1018	found	SEC XBRL NetIncomeLoss (0001874178-22-000008)	
+fundamentals.csv	RIVN	cash	19137	found	19,137 (millions) | Cash and cash equivalents (3) | | $ | 3,658 | | | $ | 7,383 | | | $ | 19,137 | | | | | | Wo	
+fundamentals.csv	RIVN	debt	1225	found	1,225 (millions) | es | | | — | | | | — | | | | — | | | | | | 2026 Notes | | | — | | | | 1,225 | | | | 1,225 	
+fundamentals.csv	RIVN	shares_post_ipo_m	868.277142	found	868,277,142 (units) |  A and Class B common stock to be outstanding after this offering | | 868,277,142 shares (or 891	
+fundamentals.csv	KVUE	revenue	14950	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001944048-24-000057)	
+fundamentals.csv	KVUE	revenue_prior	15054	found	15,054 (millions) | January 3, 2021 | Net sales | $ | 14,950 | | | | $ | 14,950 | | | $ | 15,054 | | | $ | 14,4	
+fundamentals.csv	KVUE	ebitda	3120	found	derived: 2,476 + 644 (pro forma operating income + depreciation and amortization, FY2022)	
+fundamentals.csv	KVUE	ebit	2476	found	2,476 (millions) | | | | | (23) | | | 15 | | | 3,871 | | (1) | Operating income (loss) | 2,476 | | | | 2,675 	
+fundamentals.csv	KVUE	net_income	1455	found	1,455 (millions) | | 454 | | | | 550 | | | 894 | | | (137) | | | Net income (loss) | $ | 1,455 | | | | $ | 2,	
+fundamentals.csv	KVUE	dividends	1511.178048	found	derived: 0.20 * 4 * 1,888,972,560 (stated quarterly dividend of about $0.20 per share x 4 x shares outstanding after the offering)	
+fundamentals.csv	KVUE	cash	1170	found	1,170 (millions) | l | | Pro Forma | Cash and cash equivalents (1) | $ | 1,231 | | | $ | 1,170 | | Debt: | | 	
+fundamentals.csv	KVUE	debt	8930	found	8,930 (millions) | | | Senior notes (4) | — | | | 7,685 | | Total debt | $ | — | | | $ | 8,930 | | Shareholde	
+fundamentals.csv	KVUE	shares_post_ipo_m	1888.97256	found	1,888,972,560 (units) | | | Common stock to be outstanding upon completion of this offering | 1,888,972,560 shares (or 1,9	
+fundamentals.csv	ARM	revenue	2679	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001973239-24-000012)	
+fundamentals.csv	ARM	revenue_prior	2703	found	SEC XBRL RevenueFromContractWithCustomerExcludingAssessedTax (0001973239-24-000012)	
+fundamentals.csv	ARM	ebitda	841	found	EBIT + D&A from SEC XBRL (OperatingIncomeLoss + DepreciationDepletionAndAmortization)	
+fundamentals.csv	ARM	ebit	671	found	SEC XBRL OperatingIncomeLoss (0001973239-24-000012)	
+fundamentals.csv	ARM	net_income	524	found	SEC XBRL NetIncomeLoss (0001973239-24-000012)	
+fundamentals.csv	ARM	cash	1248	found	1,248 (millions) | xcept par value and share data) | | Cash and cash equivalents | | $ | 1,248 | | | $ | 1,24	
+fundamentals.csv	ARM	shares_post_ipo_m	1026.054856	found	1,026,054,856 (units) |  Ordinary shares to be outstanding upon completion of this offering | 1,026,054,856 ordinary share	
+fundamentals.csv	ARAMCO	revenue	1334778	found	1,334,778 (millions) | 23 Revenue and other income related to sales . . . 504,596 986,159(2) 1,334,778 355,940 628,78	
+fundamentals.csv	ARAMCO	revenue_prior	990659	found	990,659 (millions) | 0,047 Revenue and other income related to sales . . . . . . 1,334,778 990,659 355,940 264,17	
+fundamentals.csv	ARAMCO	ebitda	842189	found	derived: 797,896 + 2,959 + 41,334 (EBIT + depreciation and amortization, 2018)	
+fundamentals.csv	ARAMCO	ebit	800855	found	derived: 797,896 + 2,959 (income before income taxes + finance costs, 2018 (SAR m))	
+fundamentals.csv	ARAMCO	net_income	416518	found	416,518 (millions) |  . . . . . . . . . . . . . . . . . . . . . . . . . . . 49,721 284,619 416,518 111,071 198,82	
+fundamentals.csv	ARAMCO	dividends	281250	found	derived: 75.0 * 1000 * 3.75 (stated intention of at least $75.0 billion ordinary dividends for 2020, at the SAR 3.75 peg)	
+fundamentals.csv	ARAMCO	cash	183346	found	derived: 183,152 + 194 (cash and cash equivalents + short-term investments, 31 Dec 2018)	
+fundamentals.csv	ARAMCO	debt	101318	found	101,318 (millions) |  borrowings . . . . . . . . . . . . . . . . . . . . . . 52,459 77,598 101,318 27,018 172,879	
+fundamentals.csv	ARAMCO	shares_post_ipo_m	200000	found	derived: 200,000,000,000 (shares in issue (prospectus); the offering was a sale of existing shares)	
+fundamentals_asia.csv	XIAOMI	revenue	114624.7	found	114,624,742 (thousands) | 6 0.7 Total . . . . . . . . . . . . 66,811,258 100.0 68,434,161 100.0 114,624,742 100.0 18,531,7	
+fundamentals_asia.csv	XIAOMI	revenue_prior	68434.2	found	68,434,161 (thousands) | 47,639 0.8 244,956 0.7 Total . . . . . . . . . . . . 66,811,258 100.0 68,434,161 100.0 114,624,	
+fundamentals_asia.csv	XIAOMI	ebitda	12576.423	found	derived: (12,215,467 + 166,515 + 194,441) / 1000 (operating profit + depreciation of property and equipment + amortization of intangible assets, 2017 (RMB thousands))	
+fundamentals_asia.csv	XIAOMI	ebit	12215.5	found	12,215.5 (millions) |  an operating profit of RMB1,372.7 million, RMB3,785.1 million and RMB12,215.5 million in 201	
+fundamentals_asia.csv	XIAOMI	net_income	-43889.1	found	(43,889,115) (thousands) | / period . . . . . . . . . . . . . . . (7,627,030) (11.4) 491,606 0.7 (43,889,115) (38.3) (7,867,	
+fundamentals_asia.csv	XIAOMI	cash	14027.013	found	derived: 14,027,013 (cash and cash equivalents at 31 March 2018 (RMB thousands))	
+fundamentals_asia.csv	XIAOMI	debt	14056.9	found	14,056,850 (thousands) | . . . . . . . . . . . . . . . . 5,806,972 1,340,968 6,099,291 809,619 14,056,850 Trade payables	
+fundamentals_asia.csv	XIAOMI	primary_proceeds	19642.55364	found	derived: 23,974.8 * 0.8193 (net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$)	
+fundamentals_asia.csv	XIAOMI	shares_post_ipo_m	22376.13083	found	22,376,130,830 (units) | 0 Class B Shares are issued pursuant to the Global Offering; and (ii) 22,376,130,830 Shares are iss	
+fundamentals_asia.csv	CHINATOWER	revenue	68665	found	68,665 (millions) | 0 25 0.0 162 0.2 5 0.0 107 0.6 Operating revenue 8,802 100 55,997 100 68,665 100 16,449 100	
+fundamentals_asia.csv	CHINATOWER	revenue_prior	55997	found	55,997 (millions) | tomers 1 0.0 25 0.0 162 0.2 5 0.0 107 0.6 Operating revenue 8,802 100 55,997 100 68,665 100	
+fundamentals_asia.csv	CHINATOWER	ebitda	40357	found	40,357 (millions) | on and amortization 5,138 27,585 32,642 7,843 8,041 EBITDA 977 32,655 40,357 9,749 10,130 E	
+fundamentals_asia.csv	CHINATOWER	ebit	7715	found	7,715 (millions) | (4,728) (6,587) (1,276) (1,340) Operating (loss)/profit (4,161) 5,070 7,715 1,906 2,089 (L	
+fundamentals_asia.csv	CHINATOWER	net_income	1943	found	1,943 (millions) | 4,746) 106 2,685 646 498 (Loss)/profit for the year/period (3,596) 76 1,943 484 380 Our op	
+fundamentals_asia.csv	CHINATOWER	cash	12076	found	12,076 (millions) |  As of May 31, 2018, we had aggregate cash and cash equivalents of RMB12,076 million. For d	
+fundamentals_asia.csv	CHINATOWER	debt	147228	found	147,228 (millions) | 2,900 32,316 95,260 96,429 95,781 Total 23,884 44,596 139,053 144,624 147,228 For details of	
+fundamentals_asia.csv	CHINATOWER	primary_proceeds	45545.073912	found	derived: 53,422.8 * 0.85254 (net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$)	
+fundamentals_asia.csv	CHINATOWER	shares_post_ipo_m	172459.415024	found	172,459,415,024 (units) |  Offering, (ii) the Over-allotment Option is not exercised, and (iii) 172,459,415,024 Shares are iss	
+fundamentals_asia.csv	HAIDILAO	revenue	10637.2	found	10,637.2 (millions) | ue increased at a CAGR of 35.9% from RMB5,756.7 million in 2015 to RMB10,637.2 million in 201	
+fundamentals_asia.csv	HAIDILAO	revenue_prior	7807.7	found	7,807.7 (millions) | ue increased at a CAGR of 35.9% from RMB5,756.7 million in 2015 to RMB7,807.7 million in 201	
+fundamentals_asia.csv	HAIDILAO	ebitda	1993.503	found	derived: (1,625,050 + 8,614 + 359,839) / 1000 (EBIT + depreciation and amortisation, 2017)	
+fundamentals_asia.csv	HAIDILAO	ebit	1633.664	found	derived: (1,625,050 + 8,614) / 1000 (profit before tax + finance costs, 2017 (RMB thousands))	
+fundamentals_asia.csv	HAIDILAO	net_income	1194.3	found	1,194.3 (millions) | t for the year increased by 22.1% from RMB978.2 million in 2016 to RMB1,194.3 million in 201	
+fundamentals_asia.csv	HAIDILAO	cash	531.1	found	531.1 (millions) | ounted to RMB157.6 million, RMB406.9 million, RMB282.0 million and RMB531.1 million as of 	
+fundamentals_asia.csv	HAIDILAO	debt	1094.2	found	1,094,241 (thousands) | wings . . . . . . . . . . . . . . . . . . . . 414,391 567,451 347,764 1,094,241 1,057,939 Cont	
+fundamentals_asia.csv	HAIDILAO	primary_proceeds	6330.120826	found	derived: 7,269.4 * 0.87079 (net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$)	
+fundamentals_asia.csv	HAIDILAO	shares_post_ipo_m	5300	found	5,300,000,000 (units) | 1.39 HK$1.62 (1) The calculation of market capitalization is based on 5,300,000,000 Shares expecte	
+fundamentals_asia.csv	SMOORE	revenue	7610.6	found	7,610.6 (millions) | creased significantly by 121.6% from RMB3,433.7 million in 2018 to RMB7,610.6 million in 201	
+fundamentals_asia.csv	SMOORE	revenue_prior	3433.7	found	3,433.7 (millions) | on in 2016 to RMB1,565.2 million in 2017, and further by 119.4% to RMB3,433.7 million in 201	
+fundamentals_asia.csv	SMOORE	ebitda	2758.731	found	derived: (2,567,051 + 18,173 + 173,507) / 1000 (EBIT + depreciation and amortisation incl. right-of-use assets, 2019)	
+fundamentals_asia.csv	SMOORE	ebit	2585.224	found	derived: (2,567,051 + 18,173) / 1000 (profit before tax + finance costs, 2019 (RMB thousands))	
+fundamentals_asia.csv	SMOORE	net_income	2173.8	found	2,173,789 (thousands) | for the year . . . . . . . . . 106,200 15.0 188,980 12.1 733,952 21.4 2,173,789 28.6 Revenue T	
+fundamentals_asia.csv	SMOORE	cash	942.0	found	942.0 (millions) |  balances and cash amounted to RMB104.4 million, RMB333.2 million, RMB942.0 million and RM	
+fundamentals_asia.csv	SMOORE	debt	389.5	found	389,469 (thousands) | ,432 232,432 Lease liabilities . . . . . . . . 30,598 102,436 267,908 389,469 — 205,242 481,	
+fundamentals_asia.csv	SMOORE	primary_proceeds	6274.38375	found	derived: 6,862.5 * 0.9143 (net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$)	
+fundamentals_asia.csv	SMOORE	shares_post_ipo_m	5743.51272	found	5,743,512,720 (units) | . Notes: (1) The calculation of the market capitalization is based on 5,743,512,720 Shares expecte	
+fundamentals_asia.csv	NONGFU	revenue	24021	found	24,021 (millions) | 19 and 2020, our revenue was RMB17,491 million, RMB20,475 million, RMB24,021 million, RMB9,	
+fundamentals_asia.csv	NONGFU	revenue_prior	20475	found	20,475 (millions) | hs ended May 31, 2019 and 2020, our revenue was RMB17,491 million, RMB20,475 million, RMB24	
+fundamentals_asia.csv	NONGFU	ebitda	8129.152	found	derived: 6,499 + 16 + 1,614,152 / 1000 (EBIT + depreciation and amortisation (RMB thousands), 2019)	
+fundamentals_asia.csv	NONGFU	ebit	6515	found	derived: 6,499 + 16 (profit before tax + finance costs, 2019 (RMB m))	
+fundamentals_asia.csv	NONGFU	net_income	4954	found	4,954 (millions) | 7.2%) (628) (7.2%) Profit for the year/period 3,386 19.4% 3,612 17.6% 4,954 20.6% 2,360 23	
+fundamentals_asia.csv	NONGFU	cash	5662	found	5,662 (millions) | ed deposits 49 6 – – – Cash and bank balances 2,563 1,764 1,083 4,060 5,662 Total current 	
+fundamentals_asia.csv	NONGFU	debt	10053	found	derived: 2,253 + 7,800 (interest-bearing borrowings at 31 May 2020 + RMB7,800m dividend declared before listing (RMB m))	
+fundamentals_asia.csv	NONGFU	primary_proceeds	7297.4295	found	derived: 8,149 * 0.8955 (net proceeds HK$ m (allotment results) x prospectus rate RMB per HK$)	
+fundamentals_asia.csv	NONGFU	shares_post_ipo_m	11188.2318	found	11,188,231,800 (units) |  Offering; (ii) the Over-allotment Option is not exercised; and (iii) 11,188,231,800 Shares are iss	
+fundamentals_asia.csv	CNNP	revenue	18800.7	found	18,800,743,680.86 (units) | 次公开发行 A 股股票招股说明书 （二）合并利润表 表10.2： 单位：元 项目 2014年度 2013年度 2012年度 一、营业总收入 18,800,743,680.86 18,080,929,983	
+fundamentals_asia.csv	CNNP	revenue_prior	18080.9	found	18,080,929,983.64 (units) | 二）合并利润表 表10.2： 单位：元 项目 2014年度 2013年度 2012年度 一、营业总收入 18,800,743,680.86 18,080,929,983.64 17,750,431,901	
+fundamentals_asia.csv	CNNP	ebitda	12044.2	found	1,204,424.98 (RMB 10,000s) | 应收账款周转率（次/年） 9.21 11.63 14.28 存货周转率（次/年） 1.01 1.23 1.29 息税折旧摊销前利润（万元） 1,204,424.98 1,288,101.99 1	
+fundamentals_asia.csv	CNNP	ebit	8425.2614	found	derived: (616,148.57 + 226,377.57) / 100 (利润总额 + 利息支出, 2014 (RMB 10,000s))	
+fundamentals_asia.csv	CNNP	net_income	2471.7	found	2,471,741,965.73 (units) |  5,156,965,465.44 5,120,915,768.46 4,572,512,766.57 填列） 归属于母公司所有者的净利润 2,471,741,965.73 2,475,933,518.	
+fundamentals_asia.csv	CNNP	cash	5102.3	found	5,102,304,824.50 (units) | （一）合并资产负债表 表10.1： 单位：元 资产 2014.12.31 2013.12.31 2012.12.31 流动资产： 货币资金 5,102,304,824.50 4,177,007,122.	
+fundamentals_asia.csv	CNNP	debt	178098.113906	found	derived: (720,768.43 + 688,030.07 + 13,443,420.94 + 547,381.80) / 100 + 24,102,101,505.90 / 1000000 (短期借款 + 一年内到期的非流动负债 + 长期借款 + 应付债券 (RMB 10,000s) + 少数股东权益 (RMB), 31 Dec 2014)	
+fundamentals_asia.csv	CNNP	primary_proceeds	12991.7	found	1,299,169.79 (RMB 10,000s) |  本次发行采取由主承销商牵头组成的承销团以余额包销 的方式承销本次发行的股票 募集资金总额： 1,319,049.00万元 募集资金净额： 1,299,169.79万元 发行费用概算： 合计约1	
+fundamentals_asia.csv	CNNP	shares_post_ipo_m	15565.43	found	1,556,543.0000 (RMB 10,000s) | .1866 2.49% 其他A股投资者 - - 389,100.0000 25.00% 合计 1,167,443.0000 100.00% 1,556,543.0000 100.00% 根据《境内证	
+fundamentals_asia.csv	FII	revenue	354543.9	found	354,543,851 (thousands) |  富士康工业互联网股份有限公司 招股说明书 2、合并利润表 单位：千元 项目 2017 年度 2016 年度 2015 年度 一、营业收入 354,543,851 272,712,651 27	
+fundamentals_asia.csv	FII	revenue_prior	272712.7	found	272,712,651 (thousands) | 限公司 招股说明书 2、合并利润表 单位：千元 项目 2017 年度 2016 年度 2015 年度 一、营业收入 354,543,851 272,712,651 272,799,992 减：	
+fundamentals_asia.csv	FII	ebitda	23833.2	found	23,833,171 (thousands) | 占净资产的 0.13% 0.04% 0.04% 比例 财务指标 2017 年度 2016 年度 2015 年度 息税折旧摊销前利润（千元） 23,833,171 21,010,632 20,	
+fundamentals_asia.csv	FII	ebit	20147.15	found	derived: (20,041,268 + 105,882) / 1000 (利润总额 + 利息支出, 2017 (RMB thousands))	
+fundamentals_asia.csv	FII	net_income	15867.6	found	15,867,607 (thousands) | 98,052 终止经营净（损失以负数列 -382,665 44,260 52,057 示）/利润 按所有权归属分类 归属于母公司股东的净利 15,867,607 14,365,697 14,	
+fundamentals_asia.csv	FII	cash	15519.0	found	15,518,982 (thousands) | 元 项目 2017 年 12 月 31 日 2016 年 12 月 31 日 2015 年 12 月 31 日 资产 流动资产： 货币资金 15,518,982 4,934,544 9,60	
+fundamentals_asia.csv	FII	debt	6978.328	found	derived: (6,956,799 + 21,529) / 1000 (短期借款 + 少数股东权益, 31 Dec 2017 (RMB thousands))	
+fundamentals_asia.csv	FII	primary_proceeds	26716.4	found	2,671,643.93 (RMB 10,000s) | 包销 55 富士康工业互联网股份有限公司 招股说明书 （十五）募集资金总额：2,712,042.84 万元；扣除发行费用后，募集资金净额： 2,671,643.93 万元 （十六）发行费用概算：	
+fundamentals_asia.csv	FII	shares_post_ipo_m	19695.300222	found	19,695,300,222 (units) |  每股发行价格： 人民币 13.77 元 发行日期： 2018 年 5 月 24 日 拟上市的证券交易所： 上海证券交易所 发行后总股本： 19,695,300,222 股 本次发行前股东所持 发行	
+fundamentals_asia.csv	CATL_A	revenue	19996.9	found	19,996,860,806.33 (units) | 4.08 8,672,957,501.46 （二）合并利润表 单位：元 项目 2017 年度 2016 年度 2015 年度 一、营业收入 19,996,860,806.33 14,878,985,098	
+fundamentals_asia.csv	CATL_A	revenue_prior	14879.0	found	14,878,985,098.12 (units) | .46 （二）合并利润表 单位：元 项目 2017 年度 2016 年度 2015 年度 一、营业收入 19,996,860,806.33 14,878,985,098.12 5,702,884,874.	
+fundamentals_asia.csv	CATL_A	ebitda	6353.6	found	635,357.17 (RMB 10,000s) | 15 年度 应收账款周转率（次） 2.80 3.06 4.12 存货周转率（次） 4.92 6.36 4.95 息税折旧摊销前利润（万元） 635,357.17 429,627.03 141	
+fundamentals_asia.csv	CATL_A	ebit	4950.9292	found	derived: (484,810.02 + 10,282.90) / 100 (利润总额 + 利息支出, 2017 (RMB 10,000s))	
+fundamentals_asia.csv	CATL_A	net_income	3878.0	found	3,877,954,869.70 (units) | ,577.66 2,918,436,854.29 950,581,074.45 填列） （一）归属所有者的净利润 归属于母公司股东的净利润 3,877,954,869.70 2,851,821,419.	
+fundamentals_asia.csv	CATL_A	cash	14080.9	found	14,080,936,626.30 (units) | 年的财务报表 （一）合并资产负债表 单位：元 项目 2017-12-31 2016-12-31 2015-12-31 流动资产： 货币资金 14,080,936,626.30 2,456,530,834.	
+fundamentals_asia.csv	CATL_A	debt	6508.9354	found	derived: (224,509.60 + 36,494.46 + 212,909.53 + 176,979.95) / 100 (短期借款 + 一年内到期的非流动负债 + 长期借款 + 少数股东权益, 31 Dec 2017 (RMB 10,000s))	
+fundamentals_asia.csv	CATL_A	primary_proceeds	5352.1	found	5,352,084,455.31 (units) | 能电池研发 4,200,000,000.00 2,000,000,000.00 36 个月 项目 合计 14,060,000,000.00 5,352,084,455.31 - 在本次发行募集资金到位前	
+fundamentals_asia.csv	CATL_A	shares_post_ipo_m	2172.437	found	2,172,437,000 (units) |  每股发行价格 25.14 元/股 预计发行日期 2018 年 5 月 30 日 拟上市的证券交易所 深圳证券交易所 发行后总股本 不超过 2,172,437,000 股 保荐人 中信建投证券股份	
+fundamentals_asia.csv	MINDRAY	revenue	11173.8	found	11,173,795,364.00 (units) | 年度会计数据 □ 是 √ 否 2018 年 2017 年 本年比上年增减 2016 年 营业收入（元） 13,753,357,469.00 11,173,795,364.00 23.09% 9,031,7	
+fundamentals_asia.csv	MINDRAY	revenue_prior	9031.7	found	9,031,723,194.00 (units) | 7 年 本年比上年增减 2016 年 营业收入（元） 13,753,357,469.00 11,173,795,364.00 23.09% 9,031,723,194.00 归属于上市公司股东的净利润（	
+fundamentals_asia.csv	MINDRAY	ebitda	3330.052052	found	derived: (2,931,367,420.00 + 80,991,773.00 + 214,271,823.00 + 89,894,512.00 + 13,526,524.00) / 1000000 (EBIT + 折旧 + 无形资产摊销 + 长期待摊费用摊销, 2017 (RMB))	
+fundamentals_asia.csv	MINDRAY	ebit	3012.359193	found	derived: (2,931,367,420.00 + 80,991,773.00) / 1000000 (利润总额 + 利息支出, 2017 (RMB, 2018 annual report comparatives))	
+fundamentals_asia.csv	MINDRAY	net_income	2589.2	found	2,589,154,751.00 (units) | ,795,364.00 23.09% 9,031,723,194.00 归属于上市公司股东的净利润（元） 3,719,236,169.00 2,589,154,751.00 43.65% 1,600,4	
+fundamentals_asia.csv	MINDRAY	cash	5270.3	found	5,270,348,825.00 (units) | 产 比重增减 重大变动说明 金额 金额 比例 比例 主要系报告期内收到募集资金 货币资金 11,543,773,381.00 53.38% 5,270,348,825.00 36.50% 16.88% 	
+fundamentals_asia.csv	MINDRAY	debt	1878.101484	found	derived: (1,801,120,000.00 + 42,785,033.00 + 34,196,451.00) / 1000000 (短期借款 + 一年内到期的非流动负债 + 少数股东权益, 31 Dec 2017 (RMB))	
+fundamentals_asia.csv	MINDRAY	primary_proceeds	5751.8	found	5,751,799 (thousands) | 5 （一）综合收益总 3,618,535 35,777. 额 ,777.00 00 （二）所有者投入 121,600, 5,630,199 5,751,799 和减少资本 000.00 ,	
+fundamentals_asia.csv	MINDRAY	shares_post_ipo_m	1215.691266	found	1,215,691,266 (units) | 请投资者予以关注。 经公司 2019 年 4 月 19 日董事会审议通过的利润分配预案为：以公司 2018 年 12 月 31 日的总股本 1,215,691,266 股为基数，向全体股东每 10	
+fundamentals_asia.csv	BJSHRAIL	revenue	31158.4	found	3,115,842.16 (RMB 10,000s) | 表主要数据 单位：万元 项目 2019 年 1-9 月 2018 年度 2017 年度 2016 年度 营业收入 2,500,191.65 3,115,842.16 2,955,540.94 2	
+fundamentals_asia.csv	BJSHRAIL	revenue_prior	29555.4	found	2,955,540.94 (RMB 10,000s) | 目 2019 年 1-9 月 2018 年度 2017 年度 2016 年度 营业收入 2,500,191.65 3,115,842.16 2,955,540.94 2,625,761.72 营	
+fundamentals_asia.csv	BJSHRAIL	ebitda	18003.6	found	1,800,358.74 (RMB 10,000s) |  24.40 23.84 总资产周转率（次） 0.14 0.18 0.17 0.14 息税折旧摊销前利润（万元） 1,582,357.82 1,800,358.74 1,654,421.57 1	
+fundamentals_asia.csv	BJSHRAIL	ebit	14926.7987	found	derived: (1,366,419.72 + 126,260.15) / 100 (利润总额 + 利息支出, 2018 (RMB 10,000s))	
+fundamentals_asia.csv	BJSHRAIL	net_income	10248.0	found	1,024,797.46 (RMB 10,000s) | 利润总额 1,269,335.26 1,366,419.72 1,207,143.13 902,434.75 净利润 951,996.50 1,024,797.46 905,344.22 790	
+fundamentals_asia.csv	BJSHRAIL	cash	10257.0	found	1,025,702.21 (RMB 10,000s) | 8 年 2017 年 2016 年 项目 9 月 30 日 12 月 31 日 12 月 31 日 12 月 31 日 流动资产 货币资金 1,025,702.21 984,160.88 922	
+fundamentals_asia.csv	BJSHRAIL	debt	21807.3	found	2,180,725.24 (RMB 10,000s) |  日 2017 年 12 月 31 日 2016 年 12 月 31 日 负债 金额 比例 金额 比例 金额 比例 金额 比例 有息负债合 2,180,725.24 79.75 2,382,47	
+fundamentals_asia.csv	BJSHRAIL	primary_proceeds	30633.5	found	3,063,354.12 (RMB 10,000s) | 包销方式承销本次发行的股票 募集资金总额为 3,067,387.44 万元，扣除发行费用 （不含增值税） 后， 募集资金： 募集资金净额为 3,063,354.12 万元 本次发行费用总额：4,	
+fundamentals_asia.csv	BJSHRAIL	shares_post_ipo_m	49106.484611	found	49,106,484,611 (units) | 价格： 人民币 4.88 元 预计发行日期： 2020 年 1 月 6 日 拟上市的证券交易所： 上海证券交易所 发行后股本总额： 不超过 49,106,484,611 股 公司实际控制人国铁集团承	
+fundamentals_asia.csv	COALINDIA	revenue	446152.5	found	446,152.51 (millions) | 6.2010 2009-10 2008-09 2007-08 2006-07 2005-06 INCOME Sales 114356.36 446,152.51 387,888.30 326	
+fundamentals_asia.csv	COALINDIA	revenue_prior	387888.3	found	387,888.30 (millions) | -10 2008-09 2007-08 2006-07 2005-06 INCOME Sales 114356.36 446,152.51 387,888.30 326,338.60 296	
+fundamentals_asia.csv	COALINDIA	ebitda	102631.56	found	derived: 525,922.92 - 52,408.39 - 385,737.04 + 1,364.59 + 194.95 + 13,138.41 + 156.12 (EBIT + depreciation + impairment, FY2010)	
+fundamentals_asia.csv	COALINDIA	ebit	89337.03	found	derived: 525,922.92 - 52,408.39 - 385,737.04 + 1,364.59 + 194.95 (total income - other income - total expenditure + interest + finance charges, FY2010 (INR m))	
+fundamentals_asia.csv	COALINDIA	net_income	98337.0	found	98,336.99 (millions) | (9,582.65) (15,034.59) 2,220.76 PROFIT AFTER TAX (RESTATED) 25,217.78 98,336.99 40,626.23 42,8	
+fundamentals_asia.csv	COALINDIA	cash	390777.6	found	390,777.60 (millions) | 74.84 16,571.58 16,822.29 18,840.52 Cash and Bank Balances 380,463.35 390,777.60 296,950.09 209	
+fundamentals_asia.csv	COALINDIA	debt	21104.58	found	derived: 4,669.08 + 16,199.43 + 236.07 (secured loans + unsecured loans + minority interest, 31 Mar 2010 (INR m))	
+fundamentals_asia.csv	COALINDIA	shares_post_ipo_m	6316.3644	found	6,316,364,400 (units) | ost-Offer Equity Shares Equity Shares outstanding prior to the Offer: 6,316,364,400 Equity Shares 	
+fundamentals_asia.csv	HAL	revenue	185549	found	185,549 (millions) | perations grew from ` 156,480 million in the Financial Year 2015 to ` 185,549 million in the	
+fundamentals_asia.csv	HAL	revenue_prior	171586	found	171,586 (millions) | 2017 2016 (Proforma) I Revenue Revenue from operations 52,770 185,549 171,586 156,480 II Oth	
+fundamentals_asia.csv	HAL	ebitda	32728	found	derived: 35,917 - 10,420 + 102 + 7,129 (EBIT + depreciation, amortization and impairment, FY2017)	
+fundamentals_asia.csv	HAL	ebit	25599	found	derived: 35,917 - 10,420 + 102 (restated profit before tax - other income + finance costs, FY2017 (INR m))	
+fundamentals_asia.csv	HAL	net_income	26247	found	26,247 (millions) | Current Year Transfer 1,966 0 0 0 0 0 1,966 Profit for the year 0 0 0 26,247 0 0 26,247 Wri	
+fundamentals_asia.csv	HAL	cash	116992	found	116,992 (millions) |  8.9%. As of September 30, 2017 we had cash and cash equivalents of ` 116,992 million. Cash 	
+fundamentals_asia.csv	HAL	shares_post_ipo_m	334.3875	found	334,387,500 (units) | ck, the paid- up equity share capital was reduced from 361,500,000 to 334,387,500 Equity Shares.	
+fundamentals_asia.csv	ZOMATO	revenue	19937.9	found	19,937.89 (millions) | 0.30 Net worth# 80,961.07 20,831.08 25,972.87 Revenue from operations 19,937.89 26,047.37 13,1	
+fundamentals_asia.csv	ZOMATO	revenue_prior	26047.4	found	26,047.37 (millions) | orth# 80,961.07 20,831.08 25,972.87 Revenue from operations 19,937.89 26,047.37 13,125.86 Rest	
+fundamentals_asia.csv	ZOMATO	ebitda	-4671.67	found	derived: -4,903.58 - 1,246.35 + 100.82 + 1,377.44 (EBIT + depreciation and amortization, FY2021)	
+fundamentals_asia.csv	ZOMATO	ebit	-6049.11	found	derived: -4,903.58 - 1,246.35 + 100.82 (loss before exceptional items and tax - other income + finance costs, FY2021 (INR m))	
+fundamentals_asia.csv	ZOMATO	net_income	-8164.3	found	(8,164.28) (millions) | m operations 19,937.89 26,047.37 13,125.86 Restated loss for the year (8,164.28) (23,856.01) (1	
+fundamentals_asia.csv	ZOMATO	cash	45002.27	found	derived: 3,065.46 + 5,971.12 + 35,965.69 (cash and cash equivalents + other bank balances + deposits with maturity over 12 months, 31 Mar 2021 (INR m))	
+fundamentals_asia.csv	ZOMATO	debt	13.6	found	13.61 (millions) | 9 4.77 6.92 Non-current borrowings* - 14.68 13.14 Current borrowings* 13.61 - - # For furt	
+fundamentals_asia.csv	ZOMATO	primary_proceeds	87280	found	87,280 (millions) | purposes (1) 19,780 26 Particulars Amount (₹ in million) Net Proceeds 87,280 (1) The amount	
+fundamentals_asia.csv	ZOMATO	shares_post_ipo_m	7845.179676	found	7,845,179,676 (units) | 6,660,969,150 Equity Shares Equity Shares outstanding after the Offer 7,845,179,676* Equity Shares	
+fundamentals_asia.csv	NYKAA	revenue	24409.0	found	24,408.96 (millions) |  ₹11,113.94 million in Financial Year 2019 to ₹17,675.33 million and ₹24,408.96 million in Fin	
+fundamentals_asia.csv	NYKAA	revenue_prior	17675.3	found	17,675.33 (millions) | erations has grown from ₹11,113.94 million in Financial Year 2019 to ₹17,675.33 million and ₹2	
+fundamentals_asia.csv	NYKAA	ebitda	1614.26	found	derived: 753.38 - 117.41 + 307.01 + 671.28 (EBIT + depreciation and amortisation, FY2021)	
+fundamentals_asia.csv	NYKAA	ebit	942.98	found	derived: 753.38 - 117.41 + 307.01 (profit before tax - other income + finance costs, FY2021 (INR m))	
+fundamentals_asia.csv	NYKAA	net_income	618.5	found	618.48 (millions) | iod/year attributable to Equity shareholders of parent 34.15 (541.45) 618.48 (166.09) (245.	
+fundamentals_asia.csv	NYKAA	cash	3857.09	found	derived: 2,818.36 + 1,038.73 (cash and cash equivalents + other bank balances, 30 Jun 2021 (INR m))	
+fundamentals_asia.csv	NYKAA	debt	2681.3	found	2,681.34 (millions) | uity share – 14.92 7.73 10.58 7.13 5.44 Diluted (₹)^ Total Borrowings 2,681.34 1,978.29 1,874	
+fundamentals_asia.csv	NYKAA	primary_proceeds	6009.5	found	6,009.51 (millions) | (Less) Expenses in relation to the Fresh Issue# 290.49* Net Proceeds* 6,009.51* 149 # All cos	
+fundamentals_asia.csv	NYKAA	shares_post_ipo_m	472.927216	found	472,927,216 (units) | r 467,324,550 Equity Shares Equity Shares outstanding after the Offer 472,927,216* Equity Shares	
+fundamentals_asia.csv	PAYTM	revenue	28024	found	28,024 (millions) | s 5 75 2,635 23 1,433 Revenue from operations ₹ million 32,320 32,808 28,024 5,512 8,908 - 	
+fundamentals_asia.csv	PAYTM	revenue_prior	32808	found	32,808 (millions) | housands 5 75 2,635 23 1,433 Revenue from operations ₹ million 32,320 32,808 28,024 5,512 8	
+fundamentals_asia.csv	PAYTM	ebitda	-17673	found	(17,673) (millions) |  982 3,844 2,599 3,477 EBITDA (₹ million) (K=G+H+I-J) (3,709) (3,316) (17,673) (26,344) (43,6	
+fundamentals_asia.csv	PAYTM	ebit	-19458	found	derived: -15,962 - 3,844 + 348 (loss before share of associates, exceptional items and tax - other income + finance costs, FY2021 (INR m))	
+fundamentals_asia.csv	PAYTM	net_income	-17010	found	(17,010) (millions) | ,480 6,494 31,868 35,407 35,797 Restated loss for the (3,819) (2,844) (17,010) (29,424) (42,3	
+fundamentals_asia.csv	PAYTM	cash	31535	found	derived: 6,504 + 18,476 + 6,555 (cash and cash equivalents + other bank balances + current investments, 30 Jun 2021 (INR m))	
+fundamentals_asia.csv	PAYTM	debt	4760	found	4,760 (millions) | et value per Equity 104 130 108 135 100 Share (in ₹) Total borrowings 4,760 2,534 5,449 2,	
+fundamentals_asia.csv	PAYTM	primary_proceeds	81134	found	81,134 (millions) | h Issue 1,866 (only those apportioned to our Company)(1) Net Proceeds 81,134 (1) See “- Off	
+fundamentals_asia.csv	PAYTM	shares_post_ipo_m	648.273659	found	648,273,659 (units) | es date of this Prospectus) Equity Shares outstanding after the Offer 648,273,659* Equity Shares	

@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=COALINDIA.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "COAL INDIA LTD",
+  "quoteType": "EQUITY",
+  "symbol": "COALINDIA.NS",
+  "index": "quotes",
+  "score": 10138500.0,
+  "typeDisp": "Equity",
+  "longname": "Coal India Limited",
+  "exchDisp": "NSE",
+  "sector": "Energy",
+  "industry": "Thermal Coal",
+  "isYahooFinance": true
+ }
+}

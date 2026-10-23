@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=6178.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "EB SECURITIES",
+  "quoteType": "EQUITY",
+  "symbol": "6178.HK",
+  "index": "quotes",
+  "score": 10002000.0,
+  "typeDisp": "Equity",
+  "longname": "Everbright Securities Company Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
+  "isYahooFinance": true
+ }
+}

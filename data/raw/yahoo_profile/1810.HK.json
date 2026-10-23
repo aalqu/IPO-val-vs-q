@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1810.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKSE",
+  "shortname": "Xiaomi Corp",
+  "quoteType": "EQUITY",
+  "symbol": "1810.HK",
+  "index": "quotes",
+  "score": 10006000.0,
+  "typeDisp": "Equity",
+  "longname": "Xiaomi Corporation",
+  "exchDisp": "HKSE",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "isYahooFinance": true
+ }
+}

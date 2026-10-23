@@ -1,0 +1,19 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=CART&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NMS",
+  "shortname": "Maplebear Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "CART",
+  "index": "quotes",
+  "score": 10707500.0,
+  "typeDisp": "Equity",
+  "longname": "Maplebear Inc.",
+  "exchDisp": "NASDAQ",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

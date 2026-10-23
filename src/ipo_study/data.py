@@ -28,8 +28,8 @@ class Deal:
     listing_type: str      # "IPO" or "Direct"
     offer_price: float
     mcap_usd_bn: float
-    ltm_revenue_usd_bn: float | None
-    profitable: bool
+    revenue_usd_bn: float | None      # last full fiscal year before the listing (blank when not sourced)
+    profitable: bool | None           # operating profit > 0 in that year; None when not sourced
     sector: str
     financial: bool
     price_unit_divisor: float
@@ -61,9 +61,9 @@ class Deal:
     @property
     def ps(self) -> float | None:
         """Price-to-sales at the offer; not defined for financials."""
-        if self.financial or not self.ltm_revenue_usd_bn:
+        if self.financial or not self.revenue_usd_bn:
             return None
-        return self.mcap_usd_bn / self.ltm_revenue_usd_bn
+        return self.mcap_usd_bn / self.revenue_usd_bn
 
 
 def _f(x: str) -> float | None:
@@ -79,8 +79,8 @@ def load_deals(path: Path | None = None) -> list[Deal]:
             id=r["id"], name=r["name"], ticker=r["ticker"], region=r["region"],
             ipo_date=r["ipo_date"], listing_type=r["listing_type"],
             offer_price=float(r["offer_price"]), mcap_usd_bn=float(r["mcap_usd_bn_at_offer"]),
-            ltm_revenue_usd_bn=_f(r["ltm_revenue_usd_bn"]),
-            profitable=r["operating_profit_positive"] == "1", sector=r["sector"],
+            revenue_usd_bn=_f(r["revenue_last_fy_usd_bn"]),
+            profitable={"1": True, "0": False}.get(r["operating_profit_positive"].strip()), sector=r["sector"],
             financial=r["financial"] == "1", price_unit_divisor=float(r["price_unit_divisor"] or 1),
             entry_close_override=_f(r["entry_close_override"]),
             verified=r["verified"].strip().lower() in ("yes", "true", "1"), extra=r,
@@ -110,7 +110,7 @@ def load_benchmarks(path: Path | None = None) -> dict[str, dict[int, float]]:
     out = {"US": us, "Global": gl}
     asia = DATA_DIR / "benchmarks_asia.csv"
     if path == DATA_DIR / "benchmarks.csv" and asia.exists():
-        cols = {"Korea": "korea_adj_close", "India": "india_adj_close", "HK": "hk_adj_close", "ChinaA": "chinaa_adj_close"}
+        cols = {"India": "india_adj_close", "HK": "hk_adj_close", "ChinaA": "chinaa_adj_close"}
         for k in cols:
             out[k] = {}
         for r in csv.DictReader(open(asia, newline="", encoding="utf-8")):

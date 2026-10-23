@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=KVUE&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Kenvue Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "KVUE",
+  "index": "quotes",
+  "score": 11986000.0,
+  "typeDisp": "Equity",
+  "longname": "Kenvue Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Consumer Defensive",
+  "sectorDisp": "Consumer Defensive",
+  "industry": "Household & Personal Products",
+  "industryDisp": "Household & Personal Products",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

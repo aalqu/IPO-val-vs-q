@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=DEWA.AE&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "DFM",
+  "shortname": "DUBAI ELECTRICITY & WATER AUTHO",
+  "quoteType": "EQUITY",
+  "symbol": "DEWA.AE",
+  "index": "quotes",
+  "score": 10043500.0,
+  "typeDisp": "Equity",
+  "longname": "Dubai Electricity and Water Authority (PJSC)",
+  "exchDisp": "DFM",
+  "sector": "Utilities",
+  "sectorDisp": "Utilities",
+  "industry": "Utilities\u2014Diversified",
+  "industryDisp": "Utilities\u2014Diversified",
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=600941.SS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHH",
+  "shortname": "CHINA MOBILE LTD",
+  "quoteType": "EQUITY",
+  "symbol": "600941.SS",
+  "index": "quotes",
+  "score": 10040000.0,
+  "typeDisp": "Equity",
+  "longname": "China Mobile Limited",
+  "exchDisp": "Shanghai",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
+  "isYahooFinance": true
+ }
+}

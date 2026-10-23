@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=ICICIPRULI.NS&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NSI",
+  "shortname": "ICICI PRU LIFE INS CO LTD",
+  "quoteType": "EQUITY",
+  "symbol": "ICICIPRULI.NS",
+  "index": "quotes",
+  "score": 10033500.0,
+  "typeDisp": "Equity",
+  "longname": "ICICI Life Insurance Limited",
+  "exchDisp": "NSE",
+  "sector": "Financial Services",
+  "industry": "Insurance\u2014Life",
+  "isYahooFinance": true,
+  "prevName": "ICICI Prudential Life Insurance Company Limited",
+  "nameChangeDate": "2026-10-21"
+ }
+}

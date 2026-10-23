@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=NU&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Nu Holdings Ltd.",
+  "quoteType": "EQUITY",
+  "symbol": "NU",
+  "index": "quotes",
+  "score": 23056500.0,
+  "typeDisp": "Equity",
+  "longname": "Nu Holdings Ltd.",
+  "exchDisp": "NYSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Banks\u2014Regional",
+  "industryDisp": "Banks\u2014Regional",
+  "dispSecIndFlag": false,
+  "isYahooFinance": true
+ }
+}

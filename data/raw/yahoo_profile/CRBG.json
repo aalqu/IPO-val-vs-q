@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=CRBG&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Corebridge Financial Inc.",
+  "quoteType": "EQUITY",
+  "symbol": "CRBG",
+  "index": "quotes",
+  "score": 10321000.0,
+  "typeDisp": "Equity",
+  "longname": "Corebridge Financial, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Asset Management",
+  "industryDisp": "Asset Management",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

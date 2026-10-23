@@ -1,6 +1,6 @@
 id,name,reason
-FDC,First Data,no price history available (delisted 2019)
-VG,Venture Global,no monthly history in source
-SAIL,SailPoint,no monthly history in source
-BOROUGE,Borouge,no monthly history in source
-ADNOCGAS,ADNOC Gas,no monthly history in source
+FDC,First Data,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+BOROUGE,Borouge,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+ADNOCGAS,ADNOC Gas,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+LGES,LG Energy Solution,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+GLEN,Glencore,"offering documents not retrieved, so the offer price and share count are unsourced"

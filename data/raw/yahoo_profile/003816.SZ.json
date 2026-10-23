@@ -1,0 +1,22 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=003816.SZ&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "SHZ",
+  "shortname": "CGN POWER",
+  "quoteType": "EQUITY",
+  "symbol": "003816.SZ",
+  "index": "quotes",
+  "score": 10005000.0,
+  "typeDisp": "Equity",
+  "longname": "CGN Power Co., Ltd.",
+  "exchDisp": "Shenzhen",
+  "sector": "Utilities",
+  "sectorDisp": "Utilities",
+  "industry": "Utilities\u2014Independent Power Producers",
+  "industryDisp": "Utilities\u2014Independent Power Producers",
+  "isYahooFinance": true,
+  "prevName": "iShares Silver Trust Defichain",
+  "nameChangeDate": "2026-10-21"
+ }
+}

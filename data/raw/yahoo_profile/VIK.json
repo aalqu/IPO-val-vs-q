@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=VIK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Viking Holdings Ltd",
+  "quoteType": "EQUITY",
+  "symbol": "VIK",
+  "index": "quotes",
+  "score": 11493500.0,
+  "typeDisp": "Equity",
+  "longname": "Viking Holdings Ltd",
+  "exchDisp": "NYSE",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Travel Services",
+  "industryDisp": "Travel Services",
+  "dispSecIndFlag": false,
+  "isYahooFinance": true
+ }
+}

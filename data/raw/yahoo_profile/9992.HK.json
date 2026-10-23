@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=9992.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "POP MART",
+  "quoteType": "EQUITY",
+  "symbol": "9992.HK",
+  "index": "quotes",
+  "score": 10465000.0,
+  "typeDisp": "Equity",
+  "longname": "Pop Mart International Group Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Consumer Cyclical",
+  "sectorDisp": "Consumer Cyclical",
+  "industry": "Leisure",
+  "industryDisp": "Leisure",
+  "isYahooFinance": true
+ }
+}

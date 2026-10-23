@@ -1,4 +1,16 @@
 id,name,reason
-HAITONG_H,"Haitong Securities (H)",no price history (delisted after merger with Guotai Junan, 2025)
-ESR,"ESR Cayman",no price history (taken private 2025)
-SINOVEL,"Sinovel Wind",no price history (delisted 2020 after collapse) - survivorship bias: a large loser is missing
+HAITONG_H,Haitong Securities (H),"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+ESR,ESR Cayman,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+SINOVEL,Sinovel Wind,"no monthly price history at Yahoo Finance (checked 23 Oct 2026; Yahoo returns ""No data found"")"
+HANWHALIFE,Hanwha Life,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+SAMSUNGLIFE,Samsung Life Insurance,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+SAMSUNGSDS,Samsung SDS,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+SAMSUNGBIO,Samsung Biologics,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+NETMARBLE,Netmarble,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+SKIET,SK IE Technology,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+KAKAOBANK,KakaoBank,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+KRAFTON,Krafton,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+KAKAOPAY,Kakao Pay,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+LGES,LG Energy Solution,"Korean listings removed from the study (scope decision, 22 Oct 2026)"
+ICICIPRU,ICICI Prudential Life,"offering documents not retrieved, so the offer price and share count are unsourced"
+ZJLD,ZJLD Group,"market value at the offer US$4.51bn, under the US$5bn threshold"

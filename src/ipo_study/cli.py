@@ -32,7 +32,7 @@ def write_results(R: dict, out: Path) -> None:
             heat = "Hot" if d.id in hot else "Cold" if d.id in cold else ("Middle" if d.listing_type == "IPO" else "")
             fmt = lambda v: "" if v is None else f"{v:.4f}"
             w.writerow([d.id, d.name, d.region, d.ipo_date, d.cohort, d.listing_type, d.sector, d.mcap_usd_bn,
-                        fmt(d.ps), int(d.profitable), int(d.verified), heat, fmt(r.entry_prem),
+                        fmt(d.ps), "" if d.profitable is None else int(d.profitable), int(d.verified), heat, fmt(r.entry_prem),
                         *[fmt(r.xs("offer", h)) for h in (6, 12, 36)], *[fmt(r.xs("after", h)) for h in (6, 12, 36)],
                         fmt(r.since["years"]) if r.since else "",
                         fmt(r.since["cagr"] - r.since["bench_cagr"]) if r.since else ""])
@@ -48,7 +48,6 @@ ROBUSTNESS = [
     ("First half only: 2010-2018 listings", Config(to_year=2018)),
     ("Second half only: 2019-2025 listings", Config(from_year=2019)),
     ("Excluding the five best 3-year winners", Config(exclude_ids=("NIO", "ARM", "CRWD", "PDD", "LI"))),
-    ("Verified inputs only", Config(verified_only=True)),
 ]
 
 

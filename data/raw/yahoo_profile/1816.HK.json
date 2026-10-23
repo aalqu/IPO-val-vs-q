@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=1816.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "CGN POWER",
+  "quoteType": "EQUITY",
+  "symbol": "1816.HK",
+  "index": "quotes",
+  "score": 10016000.0,
+  "typeDisp": "Equity",
+  "longname": "CGN Power Co., Ltd.",
+  "exchDisp": "Hong Kong",
+  "sector": "Utilities",
+  "industry": "Utilities\u2014Independent Power Producers",
+  "isYahooFinance": true,
+  "prevName": "iShares Silver Trust Defichain",
+  "nameChangeDate": "2026-10-21"
+ }
+}

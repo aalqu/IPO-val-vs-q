@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=3692.HK&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "HKG",
+  "shortname": "HANSOH PHARMA",
+  "quoteType": "EQUITY",
+  "symbol": "3692.HK",
+  "index": "quotes",
+  "score": 10048500.0,
+  "typeDisp": "Equity",
+  "longname": "Hansoh Pharmaceutical Group Company Limited",
+  "exchDisp": "Hong Kong",
+  "sector": "Healthcare",
+  "sectorDisp": "Healthcare",
+  "industry": "Drug Manufacturers\u2014Specialty & Generic",
+  "industryDisp": "Drug Manufacturers\u2014Specialty & Generic",
+  "isYahooFinance": true
+ }
+}

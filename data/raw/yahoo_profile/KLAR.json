@@ -1,0 +1,20 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=KLAR&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Klarna Group plc",
+  "quoteType": "EQUITY",
+  "symbol": "KLAR",
+  "index": "quotes",
+  "score": 13466000.0,
+  "typeDisp": "Equity",
+  "exchDisp": "NYSE",
+  "sector": "Financial Services",
+  "sectorDisp": "Financial Services",
+  "industry": "Credit Services",
+  "industryDisp": "Credit Services",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "query_url": "https://query1.finance.yahoo.com/v1/finance/search?q=KVYO&quotesCount=5&newsCount=0",
+ "retrieved": "2026-10-22",
+ "quote": {
+  "exchange": "NYQ",
+  "shortname": "Klaviyo, Inc. Series A",
+  "quoteType": "EQUITY",
+  "symbol": "KVYO",
+  "index": "quotes",
+  "score": 14772500.0,
+  "typeDisp": "Equity",
+  "longname": "Klaviyo, Inc.",
+  "exchDisp": "NYSE",
+  "sector": "Technology",
+  "sectorDisp": "Technology",
+  "industry": "Software\u2014Application",
+  "industryDisp": "Software\u2014Application",
+  "dispSecIndFlag": true,
+  "isYahooFinance": true
+ }
+}
